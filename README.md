@@ -1,2 +1,2 @@
 # budgr
-budgr is a CLI budget application
+A CLI personal budget application
