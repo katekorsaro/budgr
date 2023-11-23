@@ -4,13 +4,13 @@ use std::path::Path;
 use crate::obj::Op;
 
 #[derive(PartialEq,Debug)]
-enum EngErr {
+pub enum EngErr {
     DataFileNotFound,
     DataFileNotReadable,
     WhileReadingFile,
 }
 
-fn list (filename: &str) -> Result<Vec<Op>, EngErr> {
+pub fn list (filename: &str) -> Result<Vec<Op>, EngErr> {
     let path = Path::new(filename);
 
     if path.exists() == false {
@@ -37,8 +37,6 @@ fn list (filename: &str) -> Result<Vec<Op>, EngErr> {
 }
 
 mod test {
-    use crate::eng::EngErr;
-
     #[test]
     fn list_call () {
         let _ = super::list("./testdata/db.csv");
@@ -47,7 +45,7 @@ mod test {
     #[test]
     fn list_file_not_found () {
         let result = super::list("./testdata/non_existing_db.csv");
-        assert_eq!(result, Err(EngErr::DataFileNotFound));
+        assert_eq!(result, Err(super::EngErr::DataFileNotFound));
     }
 
     #[test]

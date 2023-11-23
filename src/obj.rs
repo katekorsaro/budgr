@@ -27,17 +27,15 @@ impl Op {
 }
 
 mod tests {
-    use super::Op;
-
     #[test]
     fn op_from () {
-        let op = Op::from("20230101|Description for operation 001|+1000");
+        let op = super::Op::from("20230101|Description for operation 001|+1000");
 
         assert_eq!(op.date, 20230101);
         assert_eq!(op.desc, String::from("Description for operation 001"));
         assert_eq!(op.val, 1000);
 
-        let op = Op::from("20230101|Description for operation 001|-1000");
+        let op = super::Op::from("20230101|Description for operation 001|-1000");
 
         assert_eq!(op.date, 20230101);
         assert_eq!(op.desc, String::from("Description for operation 001"));
