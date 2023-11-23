@@ -26,9 +26,9 @@ fn list (filename: &str) -> Result<Vec<Op>, EngErr> {
     let mut ret = Vec::<Op>::new();
 
     let reader = BufReader::new(file);
-    for line in reader.lines(){
+    for line in reader.lines() {
         match line {
-            Ok(_) => ret.push(Op::from("")),
+            Ok(line) => ret.push(Op::from(&line)),
             Err(_) => return Err(EngErr::WhileReadingFile),
         }
     }
@@ -56,6 +56,23 @@ mod test {
         match result {
             Ok(ops) => assert_eq!(ops.len(), 30),
             Err(_) => assert!(false),
+        }
+    }
+
+    #[test]
+    fn list_first_row () {
+        let result = super::list("./testdata/db.csv");
+        match result {
+            Err(_) => assert!(false),
+            Ok(ops) => {
+                assert_eq!(ops[0].date, 20230101);
+                assert_eq!(ops[0].val, 1000);
+                assert_eq!(ops[0].desc, String::from("Description for operation 001"));
+
+                assert_eq!(ops[15].date, 20230116);
+                assert_eq!(ops[15].val, -1000);
+                assert_eq!(ops[15].desc, String::from("Description for operation 001"));
+            },
         }
     }
 }

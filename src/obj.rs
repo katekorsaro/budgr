@@ -1,23 +1,46 @@
 #[derive(PartialEq, Debug)]
 pub struct Op {
-    date: u16,
-    desc: String,
-    val: i32
+    pub date: u32,
+    pub desc: String,
+    pub val: i32
 }
 
 impl Op {
     pub fn new () -> Op {
         Op {
-            date: 0u16,
+            date: 0u32,
             desc: String::from(""),
             val: 0i32
         }
     }
 
     pub fn from (str_val: &str) -> Op {
+        let tokens:Vec<&str> = str_val.split('|').collect();
+
         let mut op = Op::new();
-        op.desc = String::from(str_val);
+        op.date = String::from(tokens[0]).parse().unwrap();
+        op.desc = String::from(tokens[1]);
+        op.val = String::from(tokens[2]).parse().unwrap();
 
         op
+    }
+}
+
+mod tests {
+    use super::Op;
+
+    #[test]
+    fn op_from () {
+        let op = Op::from("20230101|Description for operation 001|+1000");
+
+        assert_eq!(op.date, 20230101);
+        assert_eq!(op.desc, String::from("Description for operation 001"));
+        assert_eq!(op.val, 1000);
+
+        let op = Op::from("20230101|Description for operation 001|-1000");
+
+        assert_eq!(op.date, 20230101);
+        assert_eq!(op.desc, String::from("Description for operation 001"));
+        assert_eq!(op.val, -1000);
     }
 }
