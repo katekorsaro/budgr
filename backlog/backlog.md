@@ -1,5 +1,5 @@
 # todo
 # doing
 # done
-- **creating** an operation from a formatted string
-- **function "list"**: given a file I want the list of operations
+	- **creating** an operation from a formatted string
+	- **function "list"**: given a file I want the list of operations

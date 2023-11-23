@@ -26,6 +26,7 @@ impl Op {
     }
 }
 
+#[cfg(test)]
 mod tests {
     #[test]
     fn op_from () {

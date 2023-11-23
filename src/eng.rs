@@ -36,6 +36,7 @@ pub fn list (filename: &str) -> Result<Vec<Op>, EngErr> {
     Ok(ret)
 }
 
+#[cfg(test)]
 mod test {
     #[test]
     fn list_call () {
