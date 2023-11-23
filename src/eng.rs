@@ -36,22 +36,26 @@ fn list (filename: &str) -> Result<Vec<Op>, EngErr> {
     Ok(ret)
 }
 
-#[test]
-fn list_call () {
-    let _ = list("./testdata/db.csv");
-}
+mod test {
+    use crate::eng::EngErr;
 
-#[test]
-fn list_file_not_found () {
-    let result = list("./testdata/non_existing_db.csv");
-    assert_eq!(result, Err(EngErr::DataFileNotFound));
-}
+    #[test]
+    fn list_call () {
+        let _ = super::list("./testdata/db.csv");
+    }
 
-#[test]
-fn list_row_number () {
-    let result = list("./testdata/db.csv");
-    match result {
-        Ok(ops) => assert_eq!(ops.len(), 30),
-        Err(_) => assert!(false),
+    #[test]
+    fn list_file_not_found () {
+        let result = super::list("./testdata/non_existing_db.csv");
+        assert_eq!(result, Err(EngErr::DataFileNotFound));
+    }
+
+    #[test]
+    fn list_row_number () {
+        let result = super::list("./testdata/db.csv");
+        match result {
+            Ok(ops) => assert_eq!(ops.len(), 30),
+            Err(_) => assert!(false),
+        }
     }
 }
