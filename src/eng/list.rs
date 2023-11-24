@@ -1,4 +1,4 @@
-use crate::obj::op::Op;
+use crate::obj::Op;
 use crate::eng::{EngErr};
 use std::path::Path;
 use std::fs::File;
@@ -7,7 +7,7 @@ use std::io::{BufReader,BufRead};
 pub fn list (filename: &str) -> Result<Vec<Op>, EngErr> {
     let path = Path::new(filename);
 
-    if path.exists() == false {
+    if !path.exists() {
         return Err(EngErr::DataFileNotFound);
     }
 
@@ -48,7 +48,7 @@ mod test {
         let result = super::list("./testdata/db.csv");
         match result {
             Ok(ops) => assert_eq!(ops.len(), 30),
-            Err(_) => assert!(false),
+            Err(_) => panic!(),
         }
     }
 
@@ -56,7 +56,7 @@ mod test {
     fn list_first_row () {
         let result = super::list("./testdata/db.csv");
         match result {
-            Err(_) => assert!(false),
+            Err(_) => panic!(),
             Ok(ops) => {
                 assert_eq!(ops[0].date, 20230101);
                 assert_eq!(ops[0].val, 1000);

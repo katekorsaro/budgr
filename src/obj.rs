@@ -1,1 +1,3 @@
-pub mod op;
+mod op;
+
+pub use op::Op;

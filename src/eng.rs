@@ -1,8 +1,5 @@
-pub mod list;
+mod list;
+mod err;
 
-#[derive(PartialEq,Debug)]
-pub enum EngErr {
-    DataFileNotFound,
-    DataFileNotReadable,
-    WhileReadingFile,
-}
+pub use list::list;
+pub use err::EngErr;
