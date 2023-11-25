@@ -1,5 +1,5 @@
-mod list;
 mod err;
+mod list;
 
-pub use list::list;
 pub use err::EngErr;
+pub use list::list;

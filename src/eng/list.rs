@@ -1,10 +1,10 @@
+use crate::eng::EngErr;
 use crate::obj::Op;
-use crate::eng::{EngErr};
-use std::path::Path;
 use std::fs::File;
-use std::io::{BufReader,BufRead};
+use std::io::{BufRead, BufReader};
+use std::path::Path;
 
-pub fn list (filename: &str) -> Result<Vec<Op>, EngErr> {
+pub fn list(filename: &str) -> Result<Vec<Op>, EngErr> {
     let path = Path::new(filename);
 
     if !path.exists() {
@@ -14,7 +14,7 @@ pub fn list (filename: &str) -> Result<Vec<Op>, EngErr> {
     let file = File::open(filename);
     let file = match file {
         Err(_) => return Err(EngErr::DataFileNotReadable),
-        Ok(f)=> f,
+        Ok(f) => f,
     };
 
     let mut ret = Vec::<Op>::new();
@@ -33,18 +33,18 @@ pub fn list (filename: &str) -> Result<Vec<Op>, EngErr> {
 #[cfg(test)]
 mod test {
     #[test]
-    fn list_call () {
+    fn list_call() {
         let _ = super::list("./testdata/db.csv");
     }
 
     #[test]
-    fn list_file_not_found () {
+    fn list_file_not_found() {
         let result = super::list("./testdata/non_existing_db.csv");
         assert_eq!(result, Err(super::EngErr::DataFileNotFound));
     }
 
     #[test]
-    fn list_row_number () {
+    fn list_row_number() {
         let result = super::list("./testdata/db.csv");
         match result {
             Ok(ops) => assert_eq!(ops.len(), 30),
@@ -53,7 +53,7 @@ mod test {
     }
 
     #[test]
-    fn list_first_row () {
+    fn list_first_row() {
         let result = super::list("./testdata/db.csv");
         match result {
             Err(_) => panic!(),
@@ -65,7 +65,7 @@ mod test {
                 assert_eq!(ops[15].date, 20230116);
                 assert_eq!(ops[15].val, -1000);
                 assert_eq!(ops[15].desc, String::from("Description for operation 001"));
-            },
+            }
         }
     }
 }
