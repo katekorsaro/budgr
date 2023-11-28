@@ -1,17 +1,11 @@
 mod eng;
 mod obj;
 
-fn main() {
+fn main () {
     let ops = eng::list("./data/db.csv");
-
-    println!("{ops:?}");
 
     match ops {
         Err(_) => panic!(),
-        Ok(ops) => {
-            for op in ops {
-                println!("{op:?}");
-            }
-        }
+        Ok(ops) => ops.iter().for_each(|op| println!("{op:?}")),
     }
 }

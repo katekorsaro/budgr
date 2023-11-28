@@ -32,20 +32,22 @@ pub fn list(filename: &str) -> Result<Vec<Op>, EngErr> {
 
 #[cfg(test)]
 mod test {
+    use super::*;
+
     #[test]
     fn list_call() {
-        let _ = super::list("./testdata/db.csv");
+        let _ = list("./testdata/db.csv");
     }
 
     #[test]
     fn list_file_not_found() {
-        let result = super::list("./testdata/non_existing_db.csv");
-        assert_eq!(result, Err(super::EngErr::DataFileNotFound));
+        let result = list("./testdata/non_existing_db.csv");
+        assert_eq!(result, Err(EngErr::DataFileNotFound));
     }
 
     #[test]
     fn list_row_number() {
-        let result = super::list("./testdata/db.csv");
+        let result = list("./testdata/db.csv");
         match result {
             Ok(ops) => assert_eq!(ops.len(), 30),
             Err(_) => panic!(),
@@ -54,7 +56,7 @@ mod test {
 
     #[test]
     fn list_first_row() {
-        let result = super::list("./testdata/db.csv");
+        let result = list("./testdata/db.csv");
         match result {
             Err(_) => panic!(),
             Ok(ops) => {
