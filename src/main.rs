@@ -6,21 +6,14 @@ fn main () {
 
     match ops {
         Err(ref msg) =>  println!("{msg:?}"),
-        Ok(ref ops) =>  print_ops(ops),
+        Ok(ref ops) =>  print_ops(ops, Some(20230110)),
     }
-
-    println!("{ops:?}");
 }
 
-fn print_ops (ops: &Vec<obj::Op>) {
-    let ops = ops.iter()
-        .filter(|x| x.date <= 20230110)
-        .map(|x| x.date);
+fn print_ops (ops: &[obj::Op], from_date:Option<u32>) {
+    let ops = ops.iter();
 
-    let ops = ops
-        .rev()
-        .take(3);
+    let ops = ops.filter(|x| x.date >= from_date.unwrap_or(0));
 
-    ops
-        .for_each(|x| println!("{x}"));
+    ops.for_each(|x| println!("{x:?}"));
 }
