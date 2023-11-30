@@ -1,4 +1,6 @@
 use budgr::*;
+use std::path::Path;
+use std::fs;
 
 pub fn show_help () {
     println!("budgr: a personal CLI budget manager");
@@ -36,5 +38,15 @@ fn list_operations (_params:&[String]) {
 }
 
 fn init_db () {
-    todo!();
+    let path = Path::new("./data/");
+
+    if !path.exists() {
+        let _ = fs::create_dir(path);
+    }
+
+    let path = Path::new("./data/db.csv");
+
+    if !path.exists() {
+        let _ = fs::File::create("./data/db.csv");
+    }
 }
