@@ -15,4 +15,6 @@ fn integration_init () {
 
     assert!(dir.exists());
     assert!(db_file.exists());
+
+    util::clean_test_env();
 }
