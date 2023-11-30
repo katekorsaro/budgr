@@ -6,6 +6,10 @@
 - list-tag
 - tag
 - report
+- backup
+- restore
+- check
+- import
 
 ## list (ls)
 List all operations in chronological order
@@ -18,9 +22,9 @@ List all operations in chronological order
 - **--outcome (-o)**: list only outgoing operations
 - **--rev-chrono (-rc)**: reverse chronological order
 - **--no-tag (-nt)**: list operations with missing tagging
-- **--account (-a) ACC**: list operations tagged with account ACC
-- **--purpose (-p) PUR**: list operations tagged with purpose PUR
-- **--goal (-g) GOAL**: list operations tagged with goal GOAL
+- **--account (-a) ACC**: list operations tagged with account ACC (can be used in conjunction with --no-tag)
+- **--purpose (-p) PUR**: list operations tagged with purpose PUR (can be used in conjunction with --no-tag)
+- **--goal (-g) GOAL**: list operations tagged with goal GOAL (can be used in conjunction with --no-tag)
 
 ## list-tag (lt)
 List all tags
@@ -39,5 +43,18 @@ Produce report ID
 ### Options
 - **--list (-l)**: list all installed reports
 
-# Examples
-...
+## backup (b)
+Create a backup db file
+
+##  restore (r) FILE
+Restore FILE as the current db
+
+## check (c)
+Performs various checks on the db
+- search for duplicates
+
+## import (i) FILE
+Imports FILE into db
+
+### Options
+- --mappings (m) FILE: apply mappings found in FILE while importing data
