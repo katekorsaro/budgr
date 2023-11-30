@@ -23,3 +23,15 @@ fn integrtion_list () {
 
     util::clean_test_env();
 }
+
+#[test]
+fn integration_list_no_db () {
+    util::clean_test_env();
+    util::create_data_dir();
+
+    let ops = budgr::list();
+
+    assert!(ops.is_err());
+
+    util::clean_test_env();
+}
