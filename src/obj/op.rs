@@ -28,6 +28,12 @@ impl Op {
     }
 }
 
+impl Default for Op {
+    fn default () -> Op {
+        Op::new()
+    }
+}
+
 #[cfg(test)]
 mod tests {
     #[test]
