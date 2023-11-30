@@ -6,7 +6,6 @@ fn main() {
     if ops.is_ok() {
         let ops = ops.unwrap();
 
-        ops.iter()
-           .for_each(|x| println!("{x:?}"));
+        ops.iter().for_each(|x| println!("{x:?}"));
     }
 }

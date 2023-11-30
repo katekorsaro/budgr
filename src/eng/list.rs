@@ -60,10 +60,12 @@ mod test {
         match result {
             Err(_) => panic!(),
             Ok(ops) => {
+                assert_eq!(ops[0].id, 1);
                 assert_eq!(ops[0].date, 20230101);
                 assert_eq!(ops[0].val, 1000);
                 assert_eq!(ops[0].desc, String::from("Description for operation 001"));
 
+                assert_eq!(ops[15].id, 16);
                 assert_eq!(ops[15].date, 20230116);
                 assert_eq!(ops[15].val, -1000);
                 assert_eq!(ops[15].desc, String::from("Description for operation 001"));
