@@ -14,9 +14,22 @@
 <li>restore</li>
 <li>tag</li>
 </ul>
-<h2 id="list-ls">list (ls)</h2>
-<p>List all operations in chronological order</p>
+<h2 id="backup-b">backup (b)</h2>
+<p>Creates a backup db file</p>
+<h2 id="check-c">check (c)</h2>
+<p>Performs various checks on the db - search for duplicates</p>
+<h2 id="import-i-file">import (i) FILE</h2>
+<p>Imports FILE into db</p>
 <h3 id="options">Options</h3>
+<ul>
+<li><strong>–mappings (m) FILE</strong>: apply mappings found in FILE
+while importing data</li>
+</ul>
+<h2 id="init">init</h2>
+<p>Initilizes a new empty db</p>
+<h2 id="list-ls">list (ls)</h2>
+<p>Lists all operations in chronological order</p>
+<h3 id="options-1">Options</h3>
 <ul>
 <li><strong>–account (-a) ACC</strong>: list operations tagged with
 account ACC (can be used in conjunction with –no-tag)</li>
@@ -37,31 +50,20 @@ operations</li>
 to N</li>
 </ul>
 <h2 id="list-tag-lt">list-tag (lt)</h2>
-<p>List all tags</p>
-<h3 id="options-1">Options</h3>
+<p>Lists all tags</p>
+<h3 id="options-2">Options</h3>
 <ul>
 <li><strong>–account (-a)</strong>: list all account tags</li>
 <li><strong>–goal (-g)</strong>: list all goal tags</li>
 <li><strong>–purpose (-p)</strong>: list all purpose tags</li>
 </ul>
-<h2 id="tag-t-id-tag">tag (t) ID TAG</h2>
-<p>Tag operation ID with tag TAG</p>
 <h2 id="report-r-id">report (r) ID</h2>
-<p>Produce report ID</p>
-<h3 id="options-2">Options</h3>
+<p>Produces report ID</p>
+<h3 id="options-3">Options</h3>
 <ul>
 <li><strong>–list (-l)</strong>: list all installed reports</li>
 </ul>
-<h2 id="backup-b">backup (b)</h2>
-<p>Create a backup db file</p>
 <h2 id="restore-r-file">restore (r) FILE</h2>
-<p>Restore FILE as the current db</p>
-<h2 id="check-c">check (c)</h2>
-<p>Performs various checks on the db - search for duplicates</p>
-<h2 id="import-i-file">import (i) FILE</h2>
-<p>Imports FILE into db</p>
-<h3 id="options-3">Options</h3>
-<ul>
-<li><strong>–mappings (m) FILE</strong>: apply mappings found in FILE
-while importing data</li>
-</ul>
+<p>Restores FILE as the current db</p>
+<h2 id="tag-t-id-tag">tag (t) ID TAG</h2>
+<p>Tags operation ID with tag TAG</p>

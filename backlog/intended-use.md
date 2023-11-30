@@ -12,8 +12,24 @@
 - restore
 - tag
 
+## backup (b)
+Creates a backup db file
+
+## check (c)
+Performs various checks on the db
+- search for duplicates
+
+## import (i) FILE
+Imports FILE into db
+
+### Options
+- **--mappings (m) FILE**: apply mappings found in FILE while importing data
+
+## init
+Initilizes a new empty db
+
 ## list (ls)
-List all operations in chronological order
+Lists all operations in chronological order
 
 ### Options
 - **--account (-a) ACC**: list operations tagged with account ACC (can be used in conjunction with --no-tag)
@@ -28,34 +44,21 @@ List all operations in chronological order
 - **--width (-w) N (default 80)**: force the output width to N
 
 ## list-tag (lt)
-List all tags
+Lists all tags
 
 ### Options
 - **--account (-a)**: list all account tags
 - **--goal (-g)**: list all goal tags
 - **--purpose (-p)**: list all purpose tags
 
-## tag (t) ID TAG
-Tag operation ID with tag TAG
-
 ## report (r) ID
-Produce report ID
+Produces report ID
 
 ### Options
 - **--list (-l)**: list all installed reports
 
-## backup (b)
-Create a backup db file
-
 ##  restore (r) FILE
-Restore FILE as the current db
+Restores FILE as the current db
 
-## check (c)
-Performs various checks on the db
-- search for duplicates
-
-## import (i) FILE
-Imports FILE into db
-
-### Options
-- **--mappings (m) FILE**: apply mappings found in FILE while importing data
+## tag (t) ID TAG
+Tags operation ID with tag TAG
