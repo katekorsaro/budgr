@@ -25,5 +25,7 @@ mod tests {
         super::clean_test_env();
         super::create_data_dir();
         super::copy_template_db_file();
+
+        super::clean_test_env();
     }
 }
