@@ -4,44 +4,45 @@
 </ul>
 <h2 id="sub-commands">sub commands</h2>
 <ul>
-<li>list</li>
-<li>list-tag</li>
-<li>tag</li>
-<li>report</li>
 <li>backup</li>
-<li>restore</li>
 <li>check</li>
 <li>import</li>
+<li>init</li>
+<li>list</li>
+<li>list-tag</li>
+<li>report</li>
+<li>restore</li>
+<li>tag</li>
 </ul>
 <h2 id="list-ls">list (ls)</h2>
 <p>List all operations in chronological order</p>
 <h3 id="options">Options</h3>
 <ul>
-<li><strong>–width (-w) N (default 80)</strong>: force the output width
-to N</li>
-<li><strong>–head (-h) N (default 10)</strong>: list only the first N
-operations</li>
-<li><strong>–tail (-t) N (default 10)</strong>: list only the last N
-operations</li>
-<li><strong>–income (-i)</strong>: list only incoming operations</li>
-<li><strong>–outcome (-o)</strong>: list only outgoing operations</li>
-<li><strong>–rev-chrono (-rc)</strong>: reverse chronological order</li>
-<li><strong>–no-tag (-nt)</strong>: list operations with missing
-tagging</li>
 <li><strong>–account (-a) ACC</strong>: list operations tagged with
 account ACC (can be used in conjunction with –no-tag)</li>
-<li><strong>–purpose (-p) PUR</strong>: list operations tagged with
-purpose PUR (can be used in conjunction with –no-tag)</li>
 <li><strong>–goal (-g) GOAL</strong>: list operations tagged with goal
 GOAL (can be used in conjunction with –no-tag)</li>
+<li><strong>–head (-h) N (default 10)</strong>: list only the first N
+operations</li>
+<li><strong>–income (-i)</strong>: list only incoming operations</li>
+<li><strong>–no-tag (-nt)</strong>: list operations with missing
+tagging</li>
+<li><strong>–outcome (-o)</strong>: list only outgoing operations</li>
+<li><strong>–purpose (-p) PUR</strong>: list operations tagged with
+purpose PUR (can be used in conjunction with –no-tag)</li>
+<li><strong>–rev-chrono (-rc)</strong>: reverse chronological order</li>
+<li><strong>–tail (-t) N (default 10)</strong>: list only the last N
+operations</li>
+<li><strong>–width (-w) N (default 80)</strong>: force the output width
+to N</li>
 </ul>
 <h2 id="list-tag-lt">list-tag (lt)</h2>
 <p>List all tags</p>
 <h3 id="options-1">Options</h3>
 <ul>
 <li><strong>–account (-a)</strong>: list all account tags</li>
-<li><strong>–purpose (-p)</strong>: list all purpose tags</li>
 <li><strong>–goal (-g)</strong>: list all goal tags</li>
+<li><strong>–purpose (-p)</strong>: list all purpose tags</li>
 </ul>
 <h2 id="tag-t-id-tag">tag (t) ID TAG</h2>
 <p>Tag operation ID with tag TAG</p>
@@ -61,6 +62,6 @@ GOAL (can be used in conjunction with –no-tag)</li>
 <p>Imports FILE into db</p>
 <h3 id="options-3">Options</h3>
 <ul>
-<li>–mappings (m) FILE: apply mappings found in FILE while importing
-data</li>
+<li><strong>–mappings (m) FILE</strong>: apply mappings found in FILE
+while importing data</li>
 </ul>
