@@ -1,6 +1,6 @@
 id	date	note	amount	account	purpose	goal
-1	20240101	This is a note for operation 1	10000	Need	UBS	-
+1	20240101	This is a note for operation 1	-10000	Need	UBS	-
 2	20240102	This is a note for operation 2	20000	YearlyNeed	UBS	-
-3	20240103	This is a note for operation 3	30000	Want	UBS	-
+3	20240103	This is a note for operation 3	-30000	Want	UBS	-
 4	20240104	This is a note for operation 4	40000	YearlyWant	UBS	-
-5	20240105	This is a note for operation 5	50000	Goal	UBS	Travel
+5	20240105	This is a note for operation 5	-50000	Goal	UBS	Travel
