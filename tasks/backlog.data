@@ -12,3 +12,5 @@
 {"description":"integrate clap to read from cli","end":"20240118T105108Z","entry":"20240118T101923Z","modified":"20240118T105108Z","status":"completed","uuid":"f58e8798-c349-4bd4-acbd-780a3aa3e05e","tags":["feat"]}
 {"description":"create a configuration file","entry":"20240118T101830Z","modified":"20240118T105218Z","start":"20240118T105218Z","status":"pending","uuid":"abc3bfdd-3a24-41c4-9f8c-a277bbb95edc","tags":["feat"]}
 {"description":"create a configuration file","end":"20240118T115345Z","entry":"20240118T101830Z","modified":"20240118T115345Z","status":"completed","uuid":"abc3bfdd-3a24-41c4-9f8c-a277bbb95edc","tags":["feat"]}
+{"description":"generate a test data file with fake value to help implement command list","entry":"20240118T115918Z","modified":"20240118T115918Z","status":"pending","uuid":"c27f3e85-1904-4797-a16e-57ea709b08e3"}
+{"description":"generate a test data file with fake value to help implement command list","entry":"20240118T115918Z","modified":"20240118T115958Z","status":"pending","uuid":"c27f3e85-1904-4797-a16e-57ea709b08e3","tags":["feat"]}
