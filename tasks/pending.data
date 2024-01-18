@@ -1,1 +1,2 @@
 [description:"start writing some documentation to state your intent" entry:"1705573222" modified:"1705573229" status:"pending" tags:"feat" tags_feat:"x" uuid:"8d90f16a-906f-4641-8673-4ea155882a7c"]
+[annotation_1705587343:"should format dates and money" description:"implement the human_readable option for list command" entry:"1705587324" modified:"1705587343" status:"pending" tags:"feat" tags_feat:"x" uuid:"79cac42e-33de-4845-a54f-669d513b29cf"]
