@@ -80,3 +80,15 @@ time 1705585141
 old [description:"read from configuration file the 'data' directory" entry:"1705573126" modified:"1705580421" start:"1705580421" status:"pending" tags:"feat" tags_feat:"x" uuid:"2d391aeb-e199-49a2-af35-09457cdf4cb2"]
 new [description:"read from configuration file the 'data' directory" end:"1705585141" entry:"1705573126" modified:"1705585141" status:"completed" tags:"feat" tags_feat:"x" uuid:"2d391aeb-e199-49a2-af35-09457cdf4cb2"]
 ---
+time 1705585206
+old [description:"implement the 'list' command" entry:"1705573057" modified:"1705573229" status:"pending" tags:"feat" tags_feat:"x" uuid:"046fb75c-8e34-48b4-b6c6-be98b494bf77"]
+new [annotation_1705585206:"simplest possible output. just value found into data file." description:"implement the 'list' command" entry:"1705573057" modified:"1705585206" status:"pending" tags:"feat" tags_feat:"x" uuid:"046fb75c-8e34-48b4-b6c6-be98b494bf77"]
+---
+time 1705585211
+old [annotation_1705585206:"simplest possible output. just value found into data file." description:"implement the 'list' command" entry:"1705573057" modified:"1705585206" status:"pending" tags:"feat" tags_feat:"x" uuid:"046fb75c-8e34-48b4-b6c6-be98b494bf77"]
+new [annotation_1705585206:"simplest possible output. just value found into data file." description:"implement the 'list' command" entry:"1705573057" modified:"1705585211" start:"1705585211" status:"pending" tags:"feat" tags_feat:"x" uuid:"046fb75c-8e34-48b4-b6c6-be98b494bf77"]
+---
+time 1705587068
+old [annotation_1705585206:"simplest possible output. just value found into data file." description:"implement the 'list' command" entry:"1705573057" modified:"1705585211" start:"1705585211" status:"pending" tags:"feat" tags_feat:"x" uuid:"046fb75c-8e34-48b4-b6c6-be98b494bf77"]
+new [annotation_1705585206:"simplest possible output. just value found into data file." description:"implement the 'list' command" end:"1705587068" entry:"1705573057" modified:"1705587068" status:"completed" tags:"feat" tags_feat:"x" uuid:"046fb75c-8e34-48b4-b6c6-be98b494bf77"]
+---
