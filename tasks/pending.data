@@ -6,4 +6,3 @@
 [description:"implement json output format for list command" entry:"1705587946" modified:"1705587946" status:"pending" tags:"feat" tags_feat:"x" uuid:"9f3cb1a7-184c-4dea-922d-03bbdda8356a"]
 [description:"implement CSV output format for list command" entry:"1705587964" modified:"1705587964" status:"pending" tags:"feat" tags_feat:"x" uuid:"3b4cc99a-1c39-4c41-8a58-edb35604df1c"]
 [annotation_1705588005:"investigate prettytable-rs" description:"implement pretty output for list command" entry:"1705587989" modified:"1705588005" status:"pending" tags:"feat" tags_feat:"x" uuid:"8d543521-af4a-43f7-b005-548dc46c2066"]
-[description:"change a little test data. include negative numbers" entry:"1705592180" modified:"1705592190" start:"1705592190" status:"pending" tags:"feat" tags_feat:"x" uuid:"2e4ab37b-ec27-459a-9c5c-8ea61178a829"]
