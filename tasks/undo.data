@@ -1,0 +1,35 @@
+time 1705573057
+new [description:"implement the 'list' command" entry:"1705573057" modified:"1705573057" status:"pending" uuid:"046fb75c-8e34-48b4-b6c6-be98b494bf77"]
+---
+time 1705573110
+new [description:"create a configuration file" entry:"1705573110" modified:"1705573110" status:"pending" uuid:"abc3bfdd-3a24-41c4-9f8c-a277bbb95edc"]
+---
+time 1705573126
+new [description:"read from configuration file the 'data' directory" entry:"1705573126" modified:"1705573126" status:"pending" uuid:"2d391aeb-e199-49a2-af35-09457cdf4cb2"]
+---
+time 1705573163
+new [description:"integrate clap to read from cli" entry:"1705573163" modified:"1705573163" status:"pending" uuid:"f58e8798-c349-4bd4-acbd-780a3aa3e05e"]
+---
+time 1705573222
+new [description:"start writing some documentation to state your intent" entry:"1705573222" modified:"1705573222" status:"pending" uuid:"8d90f16a-906f-4641-8673-4ea155882a7c"]
+---
+time 1705573229
+old [description:"implement the 'list' command" entry:"1705573057" modified:"1705573057" status:"pending" uuid:"046fb75c-8e34-48b4-b6c6-be98b494bf77"]
+new [description:"implement the 'list' command" entry:"1705573057" modified:"1705573229" status:"pending" tags:"feat" tags_feat:"x" uuid:"046fb75c-8e34-48b4-b6c6-be98b494bf77"]
+---
+time 1705573229
+old [description:"create a configuration file" entry:"1705573110" modified:"1705573110" status:"pending" uuid:"abc3bfdd-3a24-41c4-9f8c-a277bbb95edc"]
+new [description:"create a configuration file" entry:"1705573110" modified:"1705573229" status:"pending" tags:"feat" tags_feat:"x" uuid:"abc3bfdd-3a24-41c4-9f8c-a277bbb95edc"]
+---
+time 1705573229
+old [description:"read from configuration file the 'data' directory" entry:"1705573126" modified:"1705573126" status:"pending" uuid:"2d391aeb-e199-49a2-af35-09457cdf4cb2"]
+new [description:"read from configuration file the 'data' directory" entry:"1705573126" modified:"1705573229" status:"pending" tags:"feat" tags_feat:"x" uuid:"2d391aeb-e199-49a2-af35-09457cdf4cb2"]
+---
+time 1705573229
+old [description:"integrate clap to read from cli" entry:"1705573163" modified:"1705573163" status:"pending" uuid:"f58e8798-c349-4bd4-acbd-780a3aa3e05e"]
+new [description:"integrate clap to read from cli" entry:"1705573163" modified:"1705573229" status:"pending" tags:"feat" tags_feat:"x" uuid:"f58e8798-c349-4bd4-acbd-780a3aa3e05e"]
+---
+time 1705573229
+old [description:"start writing some documentation to state your intent" entry:"1705573222" modified:"1705573222" status:"pending" uuid:"8d90f16a-906f-4641-8673-4ea155882a7c"]
+new [description:"start writing some documentation to state your intent" entry:"1705573222" modified:"1705573229" status:"pending" tags:"feat" tags_feat:"x" uuid:"8d90f16a-906f-4641-8673-4ea155882a7c"]
+---
