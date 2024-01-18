@@ -56,3 +56,19 @@ time 1705579198
 old [description:"generate a test data file with fake value to help implement command list" entry:"1705579158" modified:"1705579158" status:"pending" uuid:"c27f3e85-1904-4797-a16e-57ea709b08e3"]
 new [description:"generate a test data file with fake value to help implement command list" entry:"1705579158" modified:"1705579198" status:"pending" tags:"feat" tags_feat:"x" uuid:"c27f3e85-1904-4797-a16e-57ea709b08e3"]
 ---
+time 1705579804
+old [description:"generate a test data file with fake value to help implement command list" entry:"1705579158" modified:"1705579198" status:"pending" tags:"feat" tags_feat:"x" uuid:"c27f3e85-1904-4797-a16e-57ea709b08e3"]
+new [annotation_1705579804:"fields: id, date, amount, account, purpose, goal" description:"generate a test data file with fake value to help implement command list" entry:"1705579158" modified:"1705579804" status:"pending" tags:"feat" tags_feat:"x" uuid:"c27f3e85-1904-4797-a16e-57ea709b08e3"]
+---
+time 1705579806
+old [annotation_1705579804:"fields: id, date, amount, account, purpose, goal" description:"generate a test data file with fake value to help implement command list" entry:"1705579158" modified:"1705579804" status:"pending" tags:"feat" tags_feat:"x" uuid:"c27f3e85-1904-4797-a16e-57ea709b08e3"]
+new [annotation_1705579804:"fields: id, date, amount, account, purpose, goal" description:"generate a test data file with fake value to help implement command list" entry:"1705579158" modified:"1705579806" start:"1705579806" status:"pending" tags:"feat" tags_feat:"x" uuid:"c27f3e85-1904-4797-a16e-57ea709b08e3"]
+---
+time 1705579898
+old [annotation_1705579804:"fields: id, date, amount, account, purpose, goal" description:"generate a test data file with fake value to help implement command list" entry:"1705579158" modified:"1705579806" start:"1705579806" status:"pending" tags:"feat" tags_feat:"x" uuid:"c27f3e85-1904-4797-a16e-57ea709b08e3"]
+new [annotation_1705579804:"fields: id, date, amount, account, purpose, goal" annotation_1705579898:"also add note after date" description:"generate a test data file with fake value to help implement command list" entry:"1705579158" modified:"1705579898" start:"1705579806" status:"pending" tags:"feat" tags_feat:"x" uuid:"c27f3e85-1904-4797-a16e-57ea709b08e3"]
+---
+time 1705580385
+old [annotation_1705579804:"fields: id, date, amount, account, purpose, goal" annotation_1705579898:"also add note after date" description:"generate a test data file with fake value to help implement command list" entry:"1705579158" modified:"1705579898" start:"1705579806" status:"pending" tags:"feat" tags_feat:"x" uuid:"c27f3e85-1904-4797-a16e-57ea709b08e3"]
+new [annotation_1705579804:"fields: id, date, amount, account, purpose, goal" annotation_1705579898:"also add note after date" description:"generate a test data file with fake value to help implement command list" end:"1705580385" entry:"1705579158" modified:"1705580385" status:"completed" tags:"feat" tags_feat:"x" uuid:"c27f3e85-1904-4797-a16e-57ea709b08e3"]
+---
