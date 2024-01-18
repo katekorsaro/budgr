@@ -2,7 +2,7 @@ use clap::{Parser, Subcommand};
 use std::{env, fs};
 
 #[derive(Parser, Debug)]
-#[command()]
+#[command(arg_required_else_help(true))]
 struct Budgr {
     #[command(subcommand)]
     command: Option<Command>,
