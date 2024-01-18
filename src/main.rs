@@ -1,15 +1,15 @@
 use clap::{Parser, Subcommand};
 use std::{env, fs};
 
-#[derive(Parser)]
+#[derive(Parser, Debug)]
 #[command()]
 struct Budgr {
     #[command(subcommand)]
-    command: Option<Commands>,
+    command: Option<Command>,
 }
 
-#[derive(Subcommand)]
-enum Commands {
+#[derive(Subcommand, Debug)]
+enum Command {
     /// List all operations
     List,
 }
@@ -30,9 +30,14 @@ fn main() {
     };
 
     let config = read_configuration(&budgrrc);
-    println!("{config:?}");
 
-    let _cmd = Budgr::parse();
+    let bin = Budgr::parse();
+
+    // handle commands
+    match bin.command {
+        Some(Command::List) => list_operations(&config),
+        _ => unreachable!("No other commands for now."),
+    }
 }
 
 fn read_configuration(filename: &str) -> Config {
@@ -42,14 +47,14 @@ fn read_configuration(filename: &str) -> Config {
     let config = fs::read_to_string(filename).unwrap();
     config
         .lines()
-        .map(|x| {
-            let mut parts = x.split('=');
+        .map(|line| {
+            let mut parts = line.split('=');
             (parts.next().unwrap(), parts.next())
         })
         //handling single config keys
-        .for_each(|x| match x.0 {
+        .for_each(|kv_pair| match kv_pair.0 {
             "budgr.data" => {
-                if let Some(value) = x.1 {
+                if let Some(value) = kv_pair.1 {
                     retvalue.data = String::from(value);
                 }
             }
@@ -57,4 +62,10 @@ fn read_configuration(filename: &str) -> Config {
         });
 
     retvalue
+}
+
+fn list_operations (config: &Config) {
+    let data = fs::read_to_string(format!("{}//data.tsv", config.data)).unwrap();
+    data.lines()
+        .for_each(|line| println!("{line}"));
 }
