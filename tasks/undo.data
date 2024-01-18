@@ -99,3 +99,41 @@ time 1705587343
 old [description:"implement the human_readable option for list command" entry:"1705587324" modified:"1705587324" status:"pending" tags:"feat" tags_feat:"x" uuid:"79cac42e-33de-4845-a54f-669d513b29cf"]
 new [annotation_1705587343:"should format dates and money" description:"implement the human_readable option for list command" entry:"1705587324" modified:"1705587343" status:"pending" tags:"feat" tags_feat:"x" uuid:"79cac42e-33de-4845-a54f-669d513b29cf"]
 ---
+time 1705587530
+new [description:"implement the count command" entry:"1705587530" modified:"1705587530" status:"pending" uuid:"92d501b6-6c44-401a-ae8a-8b0fb00e53f5"]
+---
+time 1705587536
+old [description:"implement the count command" entry:"1705587530" modified:"1705587530" status:"pending" uuid:"92d501b6-6c44-401a-ae8a-8b0fb00e53f5"]
+new [description:"implement the count command" entry:"1705587530" modified:"1705587536" status:"pending" tags:"feat" tags_feat:"x" uuid:"92d501b6-6c44-401a-ae8a-8b0fb00e53f5"]
+---
+time 1705587586
+new [description:"implement date filter for list command+feat" entry:"1705587586" modified:"1705587586" status:"pending" uuid:"944893f7-a672-4165-b82a-d1c9f3a9a25c"]
+---
+time 1705587594
+old [description:"implement date filter for list command+feat" entry:"1705587586" modified:"1705587586" status:"pending" uuid:"944893f7-a672-4165-b82a-d1c9f3a9a25c"]
+new [description:"implement date filter for list command" entry:"1705587586" modified:"1705587594" status:"pending" tags:"feat" tags_feat:"x" uuid:"944893f7-a672-4165-b82a-d1c9f3a9a25c"]
+---
+time 1705587613
+old [description:"implement date filter for list command" entry:"1705587586" modified:"1705587594" status:"pending" tags:"feat" tags_feat:"x" uuid:"944893f7-a672-4165-b82a-d1c9f3a9a25c"]
+new [annotation_1705587613:"syntax should be from:<value> to:<value>" description:"implement date filter for list command" entry:"1705587586" modified:"1705587613" status:"pending" tags:"feat" tags_feat:"x" uuid:"944893f7-a672-4165-b82a-d1c9f3a9a25c"]
+---
+time 1705587651
+new [dep_92d501b6-6c44-401a-ae8a-8b0fb00e53f5:"x" dep_944893f7-a672-4165-b82a-d1c9f3a9a25c:"x" depends:"92d501b6-6c44-401a-ae8a-8b0fb00e53f5,944893f7-a672-4165-b82a-d1c9f3a9a25c" description:"implement date filter for count command" entry:"1705587651" modified:"1705587651" status:"pending" uuid:"0d19ff12-f576-4ea1-9854-cce9060121ca"]
+---
+time 1705587824
+old [dep_92d501b6-6c44-401a-ae8a-8b0fb00e53f5:"x" dep_944893f7-a672-4165-b82a-d1c9f3a9a25c:"x" depends:"92d501b6-6c44-401a-ae8a-8b0fb00e53f5,944893f7-a672-4165-b82a-d1c9f3a9a25c" description:"implement date filter for count command" entry:"1705587651" modified:"1705587651" status:"pending" uuid:"0d19ff12-f576-4ea1-9854-cce9060121ca"]
+new [dep_92d501b6-6c44-401a-ae8a-8b0fb00e53f5:"x" dep_944893f7-a672-4165-b82a-d1c9f3a9a25c:"x" depends:"92d501b6-6c44-401a-ae8a-8b0fb00e53f5,944893f7-a672-4165-b82a-d1c9f3a9a25c" description:"implement date filter for count command" entry:"1705587651" modified:"1705587824" status:"pending" tags:"feat" tags_feat:"x" uuid:"0d19ff12-f576-4ea1-9854-cce9060121ca"]
+---
+time 1705587946
+new [description:"implement json output format for list command" entry:"1705587946" modified:"1705587946" status:"pending" tags:"feat" tags_feat:"x" uuid:"9f3cb1a7-184c-4dea-922d-03bbdda8356a"]
+---
+time 1705587964
+new [description:"implement CSV output format for list command" entry:"1705587964" modified:"1705587964" status:"pending" tags:"feat" tags_feat:"x" uuid:"3b4cc99a-1c39-4c41-8a58-edb35604df1c"]
+---
+time 1705587989
+new [description:"implement pretty output for list command" entry:"1705587989" modified:"1705587989" status:"pending" tags:"feat" tags_feat:"x" uuid:"8d543521-af4a-43f7-b005-548dc46c2066"]
+---
+time 1705588005
+old [description:"implement pretty output for list command" entry:"1705587989" modified:"1705587989" status:"pending" tags:"feat" tags_feat:"x" uuid:"8d543521-af4a-43f7-b005-548dc46c2066"]
+new [annotation_1705588005:"investigate prettytable-rs" description:"implement pretty output for list command" entry:"1705587989" modified:"1705588005" status:"pending" tags:"feat" tags_feat:"x" uuid:"8d543521-af4a-43f7-b005-548dc46c2066"]
+---
