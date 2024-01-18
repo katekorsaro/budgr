@@ -137,3 +137,6 @@ time 1705588005
 old [description:"implement pretty output for list command" entry:"1705587989" modified:"1705587989" status:"pending" tags:"feat" tags_feat:"x" uuid:"8d543521-af4a-43f7-b005-548dc46c2066"]
 new [annotation_1705588005:"investigate prettytable-rs" description:"implement pretty output for list command" entry:"1705587989" modified:"1705588005" status:"pending" tags:"feat" tags_feat:"x" uuid:"8d543521-af4a-43f7-b005-548dc46c2066"]
 ---
+time 1705590833
+new [description:"display help if no subcommand is supplied" entry:"1705590833" modified:"1705590833" status:"pending" tags:"feat" tags_feat:"x" uuid:"af438b68-f1e6-4b36-ab06-947c76cd6d8f"]
+---

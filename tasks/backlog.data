@@ -38,3 +38,4 @@
 {"description":"implement CSV output format for list command","entry":"20240118T142604Z","modified":"20240118T142604Z","status":"pending","uuid":"3b4cc99a-1c39-4c41-8a58-edb35604df1c","tags":["feat"]}
 {"description":"implement pretty output for list command","entry":"20240118T142629Z","modified":"20240118T142629Z","status":"pending","uuid":"8d543521-af4a-43f7-b005-548dc46c2066","tags":["feat"]}
 {"description":"implement pretty output for list command","entry":"20240118T142629Z","modified":"20240118T142645Z","status":"pending","uuid":"8d543521-af4a-43f7-b005-548dc46c2066","annotations":[{"entry":"20240118T142645Z","description":"investigate prettytable-rs"}],"tags":["feat"]}
+{"description":"display help if no subcommand is supplied","entry":"20240118T151353Z","modified":"20240118T151353Z","status":"pending","uuid":"af438b68-f1e6-4b36-ab06-947c76cd6d8f","tags":["feat"]}

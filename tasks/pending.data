@@ -6,3 +6,4 @@
 [description:"implement json output format for list command" entry:"1705587946" modified:"1705587946" status:"pending" tags:"feat" tags_feat:"x" uuid:"9f3cb1a7-184c-4dea-922d-03bbdda8356a"]
 [description:"implement CSV output format for list command" entry:"1705587964" modified:"1705587964" status:"pending" tags:"feat" tags_feat:"x" uuid:"3b4cc99a-1c39-4c41-8a58-edb35604df1c"]
 [annotation_1705588005:"investigate prettytable-rs" description:"implement pretty output for list command" entry:"1705587989" modified:"1705588005" status:"pending" tags:"feat" tags_feat:"x" uuid:"8d543521-af4a-43f7-b005-548dc46c2066"]
+[description:"display help if no subcommand is supplied" entry:"1705590833" modified:"1705590833" status:"pending" tags:"feat" tags_feat:"x" uuid:"af438b68-f1e6-4b36-ab06-947c76cd6d8f"]
