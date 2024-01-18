@@ -17,8 +17,7 @@ enum Commands {
 fn main () {
     // read env variable to get configuration
     let budgrrc = env::vars()
-        .filter(|(k, v)| k == "BUDGRRC" )
-        .next();
+        .find(|(k, _)| k == "BUDGRRC" );
 
     // store env variable into an actual variable
     let budgrrc = match budgrrc {
@@ -28,5 +27,5 @@ fn main () {
 
     println!("{budgrrc}");
 
-    let cmd = Budgr::parse();
+    let _cmd = Budgr::parse();
 }
