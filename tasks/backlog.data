@@ -10,3 +10,5 @@
 {"description":"start writing some documentation to state your intent","entry":"20240118T102022Z","modified":"20240118T102029Z","status":"pending","uuid":"8d90f16a-906f-4641-8673-4ea155882a7c","tags":["feat"]}
 {"description":"integrate clap to read from cli","entry":"20240118T101923Z","modified":"20240118T102345Z","start":"20240118T102345Z","status":"pending","uuid":"f58e8798-c349-4bd4-acbd-780a3aa3e05e","tags":["feat"]}
 {"description":"integrate clap to read from cli","end":"20240118T105108Z","entry":"20240118T101923Z","modified":"20240118T105108Z","status":"completed","uuid":"f58e8798-c349-4bd4-acbd-780a3aa3e05e","tags":["feat"]}
+{"description":"create a configuration file","entry":"20240118T101830Z","modified":"20240118T105218Z","start":"20240118T105218Z","status":"pending","uuid":"abc3bfdd-3a24-41c4-9f8c-a277bbb95edc","tags":["feat"]}
+{"description":"create a configuration file","end":"20240118T115345Z","entry":"20240118T101830Z","modified":"20240118T115345Z","status":"completed","uuid":"abc3bfdd-3a24-41c4-9f8c-a277bbb95edc","tags":["feat"]}
