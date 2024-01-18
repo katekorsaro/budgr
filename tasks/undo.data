@@ -140,3 +140,11 @@ new [annotation_1705588005:"investigate prettytable-rs" description:"implement p
 time 1705590833
 new [description:"display help if no subcommand is supplied" entry:"1705590833" modified:"1705590833" status:"pending" tags:"feat" tags_feat:"x" uuid:"af438b68-f1e6-4b36-ab06-947c76cd6d8f"]
 ---
+time 1705590920
+old [description:"display help if no subcommand is supplied" entry:"1705590833" modified:"1705590833" status:"pending" tags:"feat" tags_feat:"x" uuid:"af438b68-f1e6-4b36-ab06-947c76cd6d8f"]
+new [description:"display help if no subcommand is supplied" entry:"1705590833" modified:"1705590920" start:"1705590920" status:"pending" tags:"feat" tags_feat:"x" uuid:"af438b68-f1e6-4b36-ab06-947c76cd6d8f"]
+---
+time 1705591968
+old [description:"display help if no subcommand is supplied" entry:"1705590833" modified:"1705590920" start:"1705590920" status:"pending" tags:"feat" tags_feat:"x" uuid:"af438b68-f1e6-4b36-ab06-947c76cd6d8f"]
+new [description:"display help if no subcommand is supplied" end:"1705591968" entry:"1705590833" modified:"1705591968" status:"completed" tags:"feat" tags_feat:"x" uuid:"af438b68-f1e6-4b36-ab06-947c76cd6d8f"]
+---
