@@ -12,6 +12,9 @@ struct Budgr {
 enum Command {
     /// List all operations
     List,
+
+    /// Count all operations
+    Count,
 }
 
 #[derive(Debug, Default)]
@@ -36,6 +39,7 @@ fn main() {
     // handle commands
     match bin.command {
         Some(Command::List) => list_operations(&config),
+        Some(Command::Count) => count_operations(&config),
         _ => unreachable!("No other commands for now."),
     }
 }
@@ -68,4 +72,12 @@ fn list_operations (config: &Config) {
     let data = fs::read_to_string(format!("{}//data.tsv", config.data)).unwrap();
     data.lines()
         .for_each(|line| println!("{line}"));
+}
+
+fn count_operations (config: &Config) {
+    let data = fs::read_to_string(format!("{}//data.tsv", config.data)).unwrap();
+    let count = data.lines()
+        .count() - 1;
+
+    println!("{count}");
 }
