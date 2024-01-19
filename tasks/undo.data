@@ -163,3 +163,84 @@ time 1705592315
 old [description:"change a little test data. include negative numbers" entry:"1705592180" modified:"1705592190" start:"1705592190" status:"pending" tags:"feat" tags_feat:"x" uuid:"2e4ab37b-ec27-459a-9c5c-8ea61178a829"]
 new [description:"change a little test data. include negative numbers" end:"1705592315" entry:"1705592180" modified:"1705592315" status:"completed" tags:"feat" tags_feat:"x" uuid:"2e4ab37b-ec27-459a-9c5c-8ea61178a829"]
 ---
+time 1705592625
+new [description:"think about an initial small refactor. move list function in order to keep thinkgs tidy" entry:"1705592625" modified:"1705592625" status:"pending" tags:"feat" tags_feat:"x" uuid:"335fb043-1390-4a34-a84f-f9987ceddccf"]
+---
+time 1705592643
+old [description:"start writing some documentation to state your intent" entry:"1705573222" modified:"1705573229" status:"pending" tags:"feat" tags_feat:"x" uuid:"8d90f16a-906f-4641-8673-4ea155882a7c"]
+new [description:"start writing some documentation to state your intent" entry:"1705573222" modified:"1705592643" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"8d90f16a-906f-4641-8673-4ea155882a7c"]
+---
+time 1705592643
+old [annotation_1705587343:"should format dates and money" description:"implement the human_readable option for list command" entry:"1705587324" modified:"1705587343" status:"pending" tags:"feat" tags_feat:"x" uuid:"79cac42e-33de-4845-a54f-669d513b29cf"]
+new [annotation_1705587343:"should format dates and money" description:"implement the human_readable option for list command" entry:"1705587324" modified:"1705592643" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"79cac42e-33de-4845-a54f-669d513b29cf"]
+---
+time 1705592643
+old [description:"implement the count command" entry:"1705587530" modified:"1705587536" status:"pending" tags:"feat" tags_feat:"x" uuid:"92d501b6-6c44-401a-ae8a-8b0fb00e53f5"]
+new [description:"implement the count command" entry:"1705587530" modified:"1705592643" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"92d501b6-6c44-401a-ae8a-8b0fb00e53f5"]
+---
+time 1705592643
+old [annotation_1705587613:"syntax should be from:<value> to:<value>" description:"implement date filter for list command" entry:"1705587586" modified:"1705587613" status:"pending" tags:"feat" tags_feat:"x" uuid:"944893f7-a672-4165-b82a-d1c9f3a9a25c"]
+new [annotation_1705587613:"syntax should be from:<value> to:<value>" description:"implement date filter for list command" entry:"1705587586" modified:"1705592643" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"944893f7-a672-4165-b82a-d1c9f3a9a25c"]
+---
+time 1705592643
+old [dep_92d501b6-6c44-401a-ae8a-8b0fb00e53f5:"x" dep_944893f7-a672-4165-b82a-d1c9f3a9a25c:"x" depends:"92d501b6-6c44-401a-ae8a-8b0fb00e53f5,944893f7-a672-4165-b82a-d1c9f3a9a25c" description:"implement date filter for count command" entry:"1705587651" modified:"1705587824" status:"pending" tags:"feat" tags_feat:"x" uuid:"0d19ff12-f576-4ea1-9854-cce9060121ca"]
+new [dep_92d501b6-6c44-401a-ae8a-8b0fb00e53f5:"x" dep_944893f7-a672-4165-b82a-d1c9f3a9a25c:"x" depends:"92d501b6-6c44-401a-ae8a-8b0fb00e53f5,944893f7-a672-4165-b82a-d1c9f3a9a25c" description:"implement date filter for count command" entry:"1705587651" modified:"1705592643" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"0d19ff12-f576-4ea1-9854-cce9060121ca"]
+---
+time 1705592643
+old [description:"implement json output format for list command" entry:"1705587946" modified:"1705587946" status:"pending" tags:"feat" tags_feat:"x" uuid:"9f3cb1a7-184c-4dea-922d-03bbdda8356a"]
+new [description:"implement json output format for list command" entry:"1705587946" modified:"1705592643" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"9f3cb1a7-184c-4dea-922d-03bbdda8356a"]
+---
+time 1705592643
+old [description:"implement CSV output format for list command" entry:"1705587964" modified:"1705587964" status:"pending" tags:"feat" tags_feat:"x" uuid:"3b4cc99a-1c39-4c41-8a58-edb35604df1c"]
+new [description:"implement CSV output format for list command" entry:"1705587964" modified:"1705592643" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"3b4cc99a-1c39-4c41-8a58-edb35604df1c"]
+---
+time 1705592643
+old [annotation_1705588005:"investigate prettytable-rs" description:"implement pretty output for list command" entry:"1705587989" modified:"1705588005" status:"pending" tags:"feat" tags_feat:"x" uuid:"8d543521-af4a-43f7-b005-548dc46c2066"]
+new [annotation_1705588005:"investigate prettytable-rs" description:"implement pretty output for list command" entry:"1705587989" modified:"1705592643" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"8d543521-af4a-43f7-b005-548dc46c2066"]
+---
+time 1705592643
+old [description:"think about an initial small refactor. move list function in order to keep thinkgs tidy" entry:"1705592625" modified:"1705592625" status:"pending" tags:"feat" tags_feat:"x" uuid:"335fb043-1390-4a34-a84f-f9987ceddccf"]
+new [description:"think about an initial small refactor. move list function in order to keep thinkgs tidy" entry:"1705592625" modified:"1705592643" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"335fb043-1390-4a34-a84f-f9987ceddccf"]
+---
+time 1705592660
+old [description:"think about an initial small refactor. move list function in order to keep thinkgs tidy" entry:"1705592625" modified:"1705592643" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"335fb043-1390-4a34-a84f-f9987ceddccf"]
+new [description:"think about an initial small refactor. move list function in order to keep thinkgs tidy" entry:"1705592625" modified:"1705592660" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"335fb043-1390-4a34-a84f-f9987ceddccf"]
+---
+time 1705592691
+old [annotation_1705587343:"should format dates and money" description:"implement the human_readable option for list command" entry:"1705587324" modified:"1705592643" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"79cac42e-33de-4845-a54f-669d513b29cf"]
+new [annotation_1705587343:"should format dates and money" description:"implement the human_readable option for list command" entry:"1705587324" modified:"1705592691" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"79cac42e-33de-4845-a54f-669d513b29cf"]
+---
+time 1705592691
+old [description:"implement json output format for list command" entry:"1705587946" modified:"1705592643" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"9f3cb1a7-184c-4dea-922d-03bbdda8356a"]
+new [description:"implement json output format for list command" entry:"1705587946" modified:"1705592691" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"9f3cb1a7-184c-4dea-922d-03bbdda8356a"]
+---
+time 1705592691
+old [description:"implement CSV output format for list command" entry:"1705587964" modified:"1705592643" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"3b4cc99a-1c39-4c41-8a58-edb35604df1c"]
+new [description:"implement CSV output format for list command" entry:"1705587964" modified:"1705592691" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"3b4cc99a-1c39-4c41-8a58-edb35604df1c"]
+---
+time 1705592691
+old [annotation_1705588005:"investigate prettytable-rs" description:"implement pretty output for list command" entry:"1705587989" modified:"1705592643" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"8d543521-af4a-43f7-b005-548dc46c2066"]
+new [annotation_1705588005:"investigate prettytable-rs" description:"implement pretty output for list command" entry:"1705587989" modified:"1705592691" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"8d543521-af4a-43f7-b005-548dc46c2066"]
+---
+time 1705592737
+old [dep_92d501b6-6c44-401a-ae8a-8b0fb00e53f5:"x" dep_944893f7-a672-4165-b82a-d1c9f3a9a25c:"x" depends:"92d501b6-6c44-401a-ae8a-8b0fb00e53f5,944893f7-a672-4165-b82a-d1c9f3a9a25c" description:"implement date filter for count command" entry:"1705587651" modified:"1705592643" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"0d19ff12-f576-4ea1-9854-cce9060121ca"]
+new [dep_92d501b6-6c44-401a-ae8a-8b0fb00e53f5:"x" dep_944893f7-a672-4165-b82a-d1c9f3a9a25c:"x" depends:"92d501b6-6c44-401a-ae8a-8b0fb00e53f5,944893f7-a672-4165-b82a-d1c9f3a9a25c" description:"implement date filter for count command" entry:"1705587651" modified:"1705592737" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"0d19ff12-f576-4ea1-9854-cce9060121ca"]
+---
+time 1705646162
+new [description:"option to get result sorted in descending order. both for single and multi throw" entry:"1705646162" modified:"1705646162" status:"pending" uuid:"0dd3fcb8-fd2f-4933-8c46-6945c67a37b4"]
+---
+time 1705646173
+old [description:"option to get result sorted in descending order. both for single and multi throw" entry:"1705646162" modified:"1705646162" status:"pending" uuid:"0dd3fcb8-fd2f-4933-8c46-6945c67a37b4"]
+new [description:"option to get result sorted in descending order. both for single and multi throw" entry:"1705646162" modified:"1705646173" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"0dd3fcb8-fd2f-4933-8c46-6945c67a37b4"]
+---
+time 1705678036
+old [description:"implement the count command" entry:"1705587530" modified:"1705592643" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"92d501b6-6c44-401a-ae8a-8b0fb00e53f5"]
+new [description:"implement the count command" entry:"1705587530" modified:"1705678036" start:"1705678036" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"92d501b6-6c44-401a-ae8a-8b0fb00e53f5"]
+---
+time 1705678496
+new [description:"refactor access to data file" entry:"1705678496" modified:"1705678496" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"e964277b-1a18-4925-9649-9122bc03c51a"]
+---
+time 1705678505
+old [description:"implement the count command" entry:"1705587530" modified:"1705678036" start:"1705678036" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"92d501b6-6c44-401a-ae8a-8b0fb00e53f5"]
+new [description:"implement the count command" end:"1705678505" entry:"1705587530" modified:"1705678505" status:"completed" tags:"newfeat" tags_newfeat:"x" uuid:"92d501b6-6c44-401a-ae8a-8b0fb00e53f5"]
+---

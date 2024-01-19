@@ -1,3 +1,4 @@
+[description:"implement the count command" end:"1705678505" entry:"1705587530" modified:"1705678505" status:"completed" tags:"newfeat" tags_newfeat:"x" uuid:"92d501b6-6c44-401a-ae8a-8b0fb00e53f5"]
 [description:"change a little test data. include negative numbers" end:"1705592315" entry:"1705592180" modified:"1705592315" status:"completed" tags:"feat" tags_feat:"x" uuid:"2e4ab37b-ec27-459a-9c5c-8ea61178a829"]
 [description:"display help if no subcommand is supplied" end:"1705591968" entry:"1705590833" modified:"1705591968" status:"completed" tags:"feat" tags_feat:"x" uuid:"af438b68-f1e6-4b36-ab06-947c76cd6d8f"]
 [annotation_1705585206:"simplest possible output. just value found into data file." description:"implement the 'list' command" end:"1705587068" entry:"1705573057" modified:"1705587068" status:"completed" tags:"feat" tags_feat:"x" uuid:"046fb75c-8e34-48b4-b6c6-be98b494bf77"]
