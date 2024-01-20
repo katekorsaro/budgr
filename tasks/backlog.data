@@ -66,3 +66,4 @@
 {"description":"implement the count command","entry":"20240118T141850Z","modified":"20240119T152716Z","start":"20240119T152716Z","status":"pending","uuid":"92d501b6-6c44-401a-ae8a-8b0fb00e53f5","tags":["newfeat"]}
 {"description":"refactor access to data file","entry":"20240119T153456Z","modified":"20240119T153456Z","status":"pending","uuid":"e964277b-1a18-4925-9649-9122bc03c51a","tags":["improvement"]}
 {"description":"implement the count command","end":"20240119T153505Z","entry":"20240118T141850Z","modified":"20240119T153505Z","status":"completed","uuid":"92d501b6-6c44-401a-ae8a-8b0fb00e53f5","tags":["newfeat"]}
+{"description":"integrate serde as reading\/writing tool","entry":"20240120T063205Z","modified":"20240120T063205Z","status":"pending","uuid":"32869c41-5d86-4fcb-8308-bcb39505dbbb","tags":["newfeat"]}

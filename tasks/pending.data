@@ -8,3 +8,4 @@
 [description:"think about an initial small refactor. move list function in order to keep thinkgs tidy" entry:"1705592625" modified:"1705592660" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"335fb043-1390-4a34-a84f-f9987ceddccf"]
 [description:"option to get result sorted in descending order. both for single and multi throw" entry:"1705646162" modified:"1705646173" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"0dd3fcb8-fd2f-4933-8c46-6945c67a37b4"]
 [description:"refactor access to data file" entry:"1705678496" modified:"1705678496" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"e964277b-1a18-4925-9649-9122bc03c51a"]
+[description:"integrate serde as reading\/writing tool" entry:"1705732325" modified:"1705732325" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"32869c41-5d86-4fcb-8308-bcb39505dbbb"]

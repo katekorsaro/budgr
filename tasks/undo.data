@@ -244,3 +244,6 @@ time 1705678505
 old [description:"implement the count command" entry:"1705587530" modified:"1705678036" start:"1705678036" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"92d501b6-6c44-401a-ae8a-8b0fb00e53f5"]
 new [description:"implement the count command" end:"1705678505" entry:"1705587530" modified:"1705678505" status:"completed" tags:"newfeat" tags_newfeat:"x" uuid:"92d501b6-6c44-401a-ae8a-8b0fb00e53f5"]
 ---
+time 1705732325
+new [description:"integrate serde as reading\/writing tool" entry:"1705732325" modified:"1705732325" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"32869c41-5d86-4fcb-8308-bcb39505dbbb"]
+---
