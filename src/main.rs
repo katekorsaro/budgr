@@ -1,5 +1,9 @@
+mod commands;
+
 use clap::{Parser, Subcommand};
 use std::{env, fs};
+
+use crate::commands::*;
 
 #[derive(Parser, Debug)]
 #[command(arg_required_else_help(true))]
@@ -68,14 +72,3 @@ fn read_configuration(filename: &str) -> Config {
   retvalue
 }
 
-fn list_operations(config: &Config) {
-  let data = fs::read_to_string(format!("{}//data.tsv", config.data)).unwrap();
-  data.lines().for_each(|line| println!("{line}"));
-}
-
-fn count_operations(config: &Config) {
-  let data = fs::read_to_string(format!("{}//data.tsv", config.data)).unwrap();
-  let count = data.lines().count() - 1;
-
-  println!("{count}");
-}
