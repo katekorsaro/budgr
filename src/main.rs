@@ -71,4 +71,3 @@ fn read_configuration(filename: &str) -> Config {
 
   retvalue
 }
-

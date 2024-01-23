@@ -1,5 +1,5 @@
-use std::fs;
 use crate::Config;
+use std::fs;
 
 pub fn list_operations(config: &Config) {
   let data = fs::read_to_string(format!("{}//data.tsv", config.data)).unwrap();
@@ -12,4 +12,3 @@ pub fn count_operations(config: &Config) {
 
   println!("{count}");
 }
-
