@@ -1,3 +1,4 @@
+[description:"refactor commands into submodules" end:"1705998331" entry:"1705942142" modified:"1705998331" priority:"H" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"f11c6d06-5244-491d-be52-45739838167f"]
 [description:"think about an initial small refactor. move list function in order to keep thinkgs tidy" end:"1705942218" entry:"1705592625" modified:"1705942218" priority:"M" status:"deleted" tags:"improvement" tags_improvement:"x" uuid:"335fb043-1390-4a34-a84f-f9987ceddccf"]
 [description:"option to get result sorted in descending order. both for single and multi throw" end:"1705942210" entry:"1705646162" modified:"1705942210" priority:"M" status:"deleted" tags:"improvement" tags_improvement:"x" uuid:"0dd3fcb8-fd2f-4933-8c46-6945c67a37b4"]
 [description:"implement the count command" end:"1705678505" entry:"1705587530" modified:"1705678505" status:"completed" tags:"newfeat" tags_newfeat:"x" uuid:"92d501b6-6c44-401a-ae8a-8b0fb00e53f5"]
