@@ -1,3 +1,4 @@
+[description:"refactor access to data file" end:"1706080879" entry:"1705678496" modified:"1706080879" priority:"H" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"e964277b-1a18-4925-9649-9122bc03c51a"]
 [description:"avoid folders for modules, try to keep structure flat" end:"1706079456" entry:"1706079337" modified:"1706079456" priority:"H" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"548dead1-a698-4043-bc45-2029c62fcbaf"]
 [description:"refactor clap command structures" end:"1706077297" entry:"1706076934" modified:"1706077297" priority:"H" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"c2339008-8cb8-4f9a-8cfe-9f91ec63bb35"]
 [description:"refactor commands into submodules" end:"1705998331" entry:"1705942142" modified:"1705998331" priority:"H" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"f11c6d06-5244-491d-be52-45739838167f"]

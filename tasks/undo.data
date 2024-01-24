@@ -356,3 +356,25 @@ time 1706079456
 old [description:"avoid folders for modules, try to keep structure flat" entry:"1706079337" modified:"1706079346" priority:"H" start:"1706079346" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"548dead1-a698-4043-bc45-2029c62fcbaf"]
 new [description:"avoid folders for modules, try to keep structure flat" end:"1706079456" entry:"1706079337" modified:"1706079456" priority:"H" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"548dead1-a698-4043-bc45-2029c62fcbaf"]
 ---
+time 1706079511
+new [description:"refactor config into module" entry:"1706079511" modified:"1706079511" priority:"L" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"63100739-7866-41d1-89ed-6638a27001e6"]
+---
+time 1706079661
+new [description:"rethink input format. csv is fine, but with a separator other than \t" entry:"1706079661" modified:"1706079661" priority:"M" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"37f0e015-0f6a-4b0f-833d-fdac5b2b6d7f"]
+---
+time 1706079682
+old [description:"rethink input format. csv is fine, but with a separator other than \t" entry:"1706079661" modified:"1706079661" priority:"M" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"37f0e015-0f6a-4b0f-833d-fdac5b2b6d7f"]
+new [description:"rethink input format. csv is fine, but with a separator other than \t" entry:"1706079661" modified:"1706079682" priority:"H" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"37f0e015-0f6a-4b0f-833d-fdac5b2b6d7f"]
+---
+time 1706080876
+old [description:"refactor access to data file" entry:"1705678496" modified:"1706077354" priority:"H" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"e964277b-1a18-4925-9649-9122bc03c51a"]
+new [description:"refactor access to data file" entry:"1705678496" modified:"1706080876" priority:"H" start:"1706080876" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"e964277b-1a18-4925-9649-9122bc03c51a"]
+---
+time 1706080879
+old [description:"refactor access to data file" entry:"1705678496" modified:"1706080876" priority:"H" start:"1706080876" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"e964277b-1a18-4925-9649-9122bc03c51a"]
+new [description:"refactor access to data file" end:"1706080879" entry:"1705678496" modified:"1706080879" priority:"H" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"e964277b-1a18-4925-9649-9122bc03c51a"]
+---
+time 1706080908
+old [description:"rethink input format. csv is fine, but with a separator other than \t" entry:"1706079661" modified:"1706079682" priority:"H" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"37f0e015-0f6a-4b0f-833d-fdac5b2b6d7f"]
+new [description:"rethink input format. csv is fine, but with a separator other than \ttab" entry:"1706079661" modified:"1706080908" priority:"H" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"37f0e015-0f6a-4b0f-833d-fdac5b2b6d7f"]
+---
