@@ -5,5 +5,4 @@
 [description:"change data file extension" entry:"1706082407" modified:"1706082407" priority:"L" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"7e38bb30-256c-4562-ac97-8245e7f145d8"]
 [description:"handling .budgrrc not found and create it empty or better with default options" entry:"1706097284" modified:"1706097284" priority:"L" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"8649d98d-5d62-41b1-b6a2-3ba39b78b640"]
 [description:"consider date format for pretty formatting" entry:"1706102465" modified:"1706102501" priority:"M" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"61d6a62f-f703-4130-835d-d765ae7e4527"]
-[description:"consider money format for pretty formatting" entry:"1706102486" modified:"1706102508" priority:"M" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"c3c1450d-d791-4508-bce6-afb65a6a7c20"]
 [description:"defaulting to pretty formatting for output" entry:"1706103323" modified:"1706103323" priority:"L" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"9594fcab-abc5-4d8c-bf26-c6c77529267f"]

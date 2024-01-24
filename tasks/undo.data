@@ -545,3 +545,11 @@ time 1706103946
 old [description:"correct failing automatic test" entry:"1706103832" modified:"1706103832" priority:"H" status:"pending" tags:"bug" tags_bug:"x" uuid:"228a1d7d-9c97-4d47-95c4-9170eda01ad8"]
 new [description:"correct failing automatic test" end:"1706103946" entry:"1706103832" modified:"1706103946" priority:"H" status:"completed" tags:"bug" tags_bug:"x" uuid:"228a1d7d-9c97-4d47-95c4-9170eda01ad8"]
 ---
+time 1706103977
+old [description:"consider money format for pretty formatting" entry:"1706102486" modified:"1706102508" priority:"M" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"c3c1450d-d791-4508-bce6-afb65a6a7c20"]
+new [description:"consider money format for pretty formatting" entry:"1706102486" modified:"1706103977" priority:"M" start:"1706103977" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"c3c1450d-d791-4508-bce6-afb65a6a7c20"]
+---
+time 1706105068
+old [description:"consider money format for pretty formatting" entry:"1706102486" modified:"1706103977" priority:"M" start:"1706103977" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"c3c1450d-d791-4508-bce6-afb65a6a7c20"]
+new [description:"consider money format for pretty formatting" end:"1706105068" entry:"1706102486" modified:"1706105068" priority:"M" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"c3c1450d-d791-4508-bce6-afb65a6a7c20"]
+---
