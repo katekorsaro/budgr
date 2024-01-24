@@ -1,6 +1,7 @@
 use crate::cli::{Budgr, Format};
 use crate::data::{read_data, Data};
 use crate::Config;
+use prettytable::{row, Table};
 
 fn filter_data(data: Vec<Data>, args: &Budgr) -> Vec<Data> {
   data
@@ -24,25 +25,44 @@ fn filter_data(data: Vec<Data>, args: &Budgr) -> Vec<Data> {
 pub fn list_operations(config: &Config, args: &Budgr) {
   let data = read_data(config);
   let data = filter_data(data, args);
-  data
-    .into_iter()
-    .for_each(|operation| match args.output_format {
-      Some(Format::Raw) => print_raw(operation),
-      _ => unreachable!("There are no other options..."),
-    });
+  match args.output_format {
+    Some(Format::Raw) => print_raw(data),
+    Some(Format::Pretty) => print_pretty(data),
+    _ => unreachable!(),
+  }
 }
 
-fn print_raw(operation: Data) {
-  println!(
-    "{}|{}|{}|{}|{}|{}|{}",
-    operation.id,
-    operation.date,
-    operation.note,
-    operation.amount,
-    operation.account.unwrap_or("-".to_string()),
-    operation.purpose.unwrap_or("-".to_string()),
-    operation.goal.unwrap_or("-".to_string())
-  );
+fn print_pretty(data: Vec<Data>) {
+  let mut table = Table::new();
+  table.add_row(row![
+    "Id", "Date", "Note", "Amount", "Account", "Purpose", "Goal"
+  ]);
+  data.into_iter().for_each(|operation| {
+    table.add_row(row![
+      operation.id.to_string(),
+      operation.date.to_string(),
+      operation.note,
+      operation.amount.to_string(),
+      operation.account.unwrap_or("-".to_string()),
+      operation.purpose.unwrap_or("-".to_string()),
+      operation.goal.unwrap_or("-".to_string()),
+    ]);
+  });
+  table.printstd();
+}
+fn print_raw(data: Vec<Data>) {
+  data.into_iter().for_each(|operation| {
+    println!(
+      "{}|{}|{}|{}|{}|{}|{}",
+      operation.id,
+      operation.date,
+      operation.note,
+      operation.amount,
+      operation.account.unwrap_or("-".to_string()),
+      operation.purpose.unwrap_or("-".to_string()),
+      operation.goal.unwrap_or("-".to_string())
+    );
+  });
 }
 pub fn count_operations(config: &Config, args: &Budgr) {
   let data = read_data(config);

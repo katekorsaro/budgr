@@ -31,4 +31,5 @@ pub enum Command {
 pub enum Format {
   /// machine readable format, pipe ('|') separated
   Raw,
+  Pretty,
 }
