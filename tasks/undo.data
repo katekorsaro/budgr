@@ -449,3 +449,11 @@ time 1706093443
 old [description:"implement raw output format with relative option --raw" entry:"1706090386" modified:"1706093420" priority:"H" start:"1706093420" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"9a6d9683-d91e-467c-a3d7-712933203e22"]
 new [description:"implement raw output format with relative option --raw" end:"1706093443" entry:"1706090386" modified:"1706093443" priority:"H" status:"completed" tags:"newfeat" tags_newfeat:"x" uuid:"9a6d9683-d91e-467c-a3d7-712933203e22"]
 ---
+time 1706093657
+old [annotation_1705588005:"investigate prettytable-rs" description:"implement pretty output for list command" entry:"1705587989" modified:"1705942073" priority:"M" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"8d543521-af4a-43f7-b005-548dc46c2066"]
+new [annotation_1705588005:"investigate prettytable-rs" annotation_1706093657:"or assume a 80 character width screen" description:"implement pretty output for list command" entry:"1705587989" modified:"1706093657" priority:"M" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"8d543521-af4a-43f7-b005-548dc46c2066"]
+---
+time 1706093666
+old [annotation_1705588005:"investigate prettytable-rs" annotation_1706093657:"or assume a 80 character width screen" description:"implement pretty output for list command" entry:"1705587989" modified:"1706093657" priority:"M" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"8d543521-af4a-43f7-b005-548dc46c2066"]
+new [annotation_1705588005:"investigate prettytable-rs" annotation_1706093657:"or assume a 80 character width screen" annotation_1706093666:"or assume a flag to set the width" description:"implement pretty output for list command" entry:"1705587989" modified:"1706093666" priority:"M" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"8d543521-af4a-43f7-b005-548dc46c2066"]
+---
