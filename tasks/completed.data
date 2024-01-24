@@ -1,3 +1,4 @@
+[description:"rethink input format. csv is fine, but with a separator other than \ttab" end:"1706081845" entry:"1706079661" modified:"1706081845" priority:"H" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"37f0e015-0f6a-4b0f-833d-fdac5b2b6d7f"]
 [description:"refactor access to data file" end:"1706080879" entry:"1705678496" modified:"1706080879" priority:"H" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"e964277b-1a18-4925-9649-9122bc03c51a"]
 [description:"avoid folders for modules, try to keep structure flat" end:"1706079456" entry:"1706079337" modified:"1706079456" priority:"H" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"548dead1-a698-4043-bc45-2029c62fcbaf"]
 [description:"refactor clap command structures" end:"1706077297" entry:"1706076934" modified:"1706077297" priority:"H" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"c2339008-8cb8-4f9a-8cfe-9f91ec63bb35"]
