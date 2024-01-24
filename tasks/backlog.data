@@ -153,3 +153,34 @@
 {"description":"consider passing as a configuration date format to be used","entry":"20240124T140528Z","modified":"20240124T140528Z","priority":"L","status":"pending","uuid":"f546b1f9-00d0-4689-abe3-a835be8f9a99","tags":["improvement"]}
 {"description":"consider date format for pretty formatting","entry":"20240124T132105Z","modified":"20240124T140532Z","priority":"M","start":"20240124T140532Z","status":"pending","uuid":"61d6a62f-f703-4130-835d-d765ae7e4527","tags":["improvement"]}
 {"description":"consider date format for pretty formatting","end":"20240124T142213Z","entry":"20240124T132105Z","modified":"20240124T142213Z","priority":"M","status":"completed","uuid":"61d6a62f-f703-4130-835d-d765ae7e4527","tags":["improvement"]}
+{"description":"implement filter by id","entry":"20240124T142447Z","modified":"20240124T142447Z","priority":"H","status":"pending","uuid":"ca5985b6-6c46-4ace-997f-96ca941cfe49","tags":["newfeat"]}
+{"description":"implement filter by id","entry":"20240124T142447Z","modified":"20240124T142452Z","priority":"M","status":"pending","uuid":"ca5985b6-6c46-4ace-997f-96ca941cfe49","tags":["newfeat"]}
+{"description":"implement filter by account","entry":"20240124T142528Z","modified":"20240124T142528Z","priority":"M","status":"pending","uuid":"27dfc341-37a9-4ad3-b955-2f7d2c276361","tags":["newfeat"]}
+{"description":"filter by id","entry":"20240124T142447Z","modified":"20240124T142542Z","priority":"M","status":"pending","uuid":"ca5985b6-6c46-4ace-997f-96ca941cfe49","tags":["newfeat"]}
+{"description":"filter by account","entry":"20240124T142528Z","modified":"20240124T142549Z","priority":"M","status":"pending","uuid":"27dfc341-37a9-4ad3-b955-2f7d2c276361","tags":["newfeat"]}
+{"description":"json output format for list command","entry":"20240118T142546Z","modified":"20240124T142628Z","priority":"L","status":"pending","uuid":"9f3cb1a7-184c-4dea-922d-03bbdda8356a","tags":["improvement"]}
+{"description":"CSV output format for list command","entry":"20240118T142604Z","modified":"20240124T142641Z","priority":"L","status":"pending","uuid":"3b4cc99a-1c39-4c41-8a58-edb35604df1c","tags":["improvement"]}
+{"description":"filter by amount (gt and lt)","entry":"20240124T142704Z","modified":"20240124T142704Z","status":"pending","uuid":"5fb5b253-dc09-42c6-ace2-1a3f202d213e"}
+{"description":"filter by amount (gt and lt)","entry":"20240124T142704Z","modified":"20240124T142713Z","priority":"M","status":"pending","uuid":"5fb5b253-dc09-42c6-ace2-1a3f202d213e","tags":["newfeat"]}
+{"description":"filter by purpose","entry":"20240124T142739Z","modified":"20240124T142739Z","status":"pending","uuid":"3564176c-6eb3-4bf4-aed8-f193c27b9915","tags":["new"]}
+{"description":"filter by purpose","entry":"20240124T142739Z","modified":"20240124T142748Z","status":"pending","uuid":"3564176c-6eb3-4bf4-aed8-f193c27b9915","tags":["newfeat"]}
+{"description":"filter by purpose","entry":"20240124T142739Z","modified":"20240124T142755Z","priority":"M","status":"pending","uuid":"3564176c-6eb3-4bf4-aed8-f193c27b9915","tags":["newfeat"]}
+{"description":"filter by goal","entry":"20240124T142820Z","modified":"20240124T142820Z","status":"pending","uuid":"5263f849-ec7e-48a8-b840-5c6cab653fbf","tags":["newfeat"]}
+{"description":"filter by goal","entry":"20240124T142820Z","modified":"20240124T142822Z","priority":"M","status":"pending","uuid":"5263f849-ec7e-48a8-b840-5c6cab653fbf","tags":["newfeat"]}
+{"description":"list accounts","entry":"20240124T142835Z","modified":"20240124T142835Z","status":"pending","uuid":"8ebae1f3-a6a8-47c8-bdd4-7d999393c0fe"}
+{"description":"list goals","entry":"20240124T142842Z","modified":"20240124T142842Z","status":"pending","uuid":"1177cc24-0ed2-48f6-ab8e-22d386404a39"}
+{"description":"list accounts","entry":"20240124T142835Z","modified":"20240124T142855Z","priority":"M","status":"pending","uuid":"8ebae1f3-a6a8-47c8-bdd4-7d999393c0fe"}
+{"description":"list goals","entry":"20240124T142842Z","modified":"20240124T142855Z","priority":"M","status":"pending","uuid":"1177cc24-0ed2-48f6-ab8e-22d386404a39"}
+{"description":"list accounts","entry":"20240124T142835Z","modified":"20240124T142913Z","priority":"M","status":"pending","uuid":"8ebae1f3-a6a8-47c8-bdd4-7d999393c0fe","tags":["newfeat"]}
+{"description":"list goals","entry":"20240124T142842Z","modified":"20240124T142913Z","priority":"M","status":"pending","uuid":"1177cc24-0ed2-48f6-ab8e-22d386404a39","tags":["newfeat"]}
+{"description":"filter by note (like)","entry":"20240124T142955Z","modified":"20240124T142955Z","status":"pending","uuid":"e8f235b8-428a-45a2-a8aa-4cc6dbeec218","tags":["newfeat"]}
+{"description":"filter by note (like)","entry":"20240124T142955Z","modified":"20240124T142956Z","priority":"M","status":"pending","uuid":"e8f235b8-428a-45a2-a8aa-4cc6dbeec218","tags":["newfeat"]}
+{"description":"modify command base implementation","entry":"20240124T143032Z","modified":"20240124T143032Z","status":"pending","uuid":"e4130149-a831-4ba2-909a-cebeb39e464a"}
+{"description":"modify command base implementation","entry":"20240124T143032Z","modified":"20240124T143054Z","priority":"M","status":"pending","uuid":"e4130149-a831-4ba2-909a-cebeb39e464a"}
+{"description":"modify command base implementation","entry":"20240124T143032Z","modified":"20240124T143032Z","status":"pending","uuid":"e4130149-a831-4ba2-909a-cebeb39e464a"}
+{"description":"modify subcommand purpose to edit purpose","entry":"20240124T143142Z","modified":"20240124T143142Z","status":"pending","uuid":"4d455f3d-2deb-49c7-a5b0-e1a43954480e"}
+{"description":"modify command base implementation","entry":"20240124T143032Z","modified":"20240124T143157Z","priority":"M","status":"pending","uuid":"e4130149-a831-4ba2-909a-cebeb39e464a","tags":["newfeat"]}
+{"description":"modify subcommand purpose to edit purpose","entry":"20240124T143142Z","modified":"20240124T143157Z","priority":"M","status":"pending","uuid":"4d455f3d-2deb-49c7-a5b0-e1a43954480e","tags":["newfeat"]}
+{"description":"data writing base implementation (leveraging raw output)","entry":"20240124T143501Z","modified":"20240124T143501Z","priority":"M","status":"pending","uuid":"24ee5649-2470-4573-9bdd-de8b27491692","tags":["newfeat"]}
+{"description":"modify command base implementation","entry":"20240124T143032Z","modified":"20240124T143524Z","priority":"M","status":"pending","uuid":"e4130149-a831-4ba2-909a-cebeb39e464a","tags":["newfeat"],"depends":["24ee5649-2470-4573-9bdd-de8b27491692"]}
+{"description":"modify subcommand purpose to edit purpose","entry":"20240124T143142Z","modified":"20240124T143524Z","priority":"M","status":"pending","uuid":"4d455f3d-2deb-49c7-a5b0-e1a43954480e","tags":["newfeat"],"depends":["24ee5649-2470-4573-9bdd-de8b27491692"]}
