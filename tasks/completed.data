@@ -1,3 +1,4 @@
+[description:"correct failing automatic test" end:"1706103946" entry:"1706103832" modified:"1706103946" priority:"H" status:"completed" tags:"bug" tags_bug:"x" uuid:"228a1d7d-9c97-4d47-95c4-9170eda01ad8"]
 [description:"pretty output mismatching columns" end:"1706102986" entry:"1706102783" modified:"1706102986" priority:"M" status:"completed" tags:"bug" tags_bug:"x" uuid:"fc83acec-e369-4f79-ae58-82dd4f223f9d"]
 [description:"consider cell alignment for pretty formatting" end:"1706102791" entry:"1706096736" modified:"1706102791" priority:"M" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"37379e12-651b-4c59-892f-3b2a84ca1fdf"]
 [description:"printing version" end:"1706102403" entry:"1706102091" modified:"1706102403" priority:"L" status:"completed" tags:"newfeat" tags_newfeat:"x" uuid:"01290ce5-02d0-4b53-8b9f-da6c8e155cb2"]
