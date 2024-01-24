@@ -441,3 +441,11 @@ new [dep_92d501b6-6c44-401a-ae8a-8b0fb00e53f5:"x" dep_944893f7-a672-4165-b82a-d1
 time 1706090386
 new [description:"implement raw output format with relative option --raw" entry:"1706090386" modified:"1706090386" priority:"H" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"9a6d9683-d91e-467c-a3d7-712933203e22"]
 ---
+time 1706093420
+old [description:"implement raw output format with relative option --raw" entry:"1706090386" modified:"1706090386" priority:"H" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"9a6d9683-d91e-467c-a3d7-712933203e22"]
+new [description:"implement raw output format with relative option --raw" entry:"1706090386" modified:"1706093420" priority:"H" start:"1706093420" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"9a6d9683-d91e-467c-a3d7-712933203e22"]
+---
+time 1706093443
+old [description:"implement raw output format with relative option --raw" entry:"1706090386" modified:"1706093420" priority:"H" start:"1706093420" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"9a6d9683-d91e-467c-a3d7-712933203e22"]
+new [description:"implement raw output format with relative option --raw" end:"1706093443" entry:"1706090386" modified:"1706093443" priority:"H" status:"completed" tags:"newfeat" tags_newfeat:"x" uuid:"9a6d9683-d91e-467c-a3d7-712933203e22"]
+---
