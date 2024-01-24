@@ -527,3 +527,14 @@ time 1706102791
 old [description:"consider cell alignment for pretty formatting" entry:"1706096736" modified:"1706102639" priority:"M" start:"1706102639" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"37379e12-651b-4c59-892f-3b2a84ca1fdf"]
 new [description:"consider cell alignment for pretty formatting" end:"1706102791" entry:"1706096736" modified:"1706102791" priority:"M" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"37379e12-651b-4c59-892f-3b2a84ca1fdf"]
 ---
+time 1706102823
+old [description:"pretty output mismatching columns" entry:"1706102783" modified:"1706102783" priority:"M" status:"pending" tags:"bug" tags_bug:"x" uuid:"fc83acec-e369-4f79-ae58-82dd4f223f9d"]
+new [description:"pretty output mismatching columns" entry:"1706102783" modified:"1706102823" priority:"M" start:"1706102823" status:"pending" tags:"bug" tags_bug:"x" uuid:"fc83acec-e369-4f79-ae58-82dd4f223f9d"]
+---
+time 1706102986
+old [description:"pretty output mismatching columns" entry:"1706102783" modified:"1706102823" priority:"M" start:"1706102823" status:"pending" tags:"bug" tags_bug:"x" uuid:"fc83acec-e369-4f79-ae58-82dd4f223f9d"]
+new [description:"pretty output mismatching columns" end:"1706102986" entry:"1706102783" modified:"1706102986" priority:"M" status:"completed" tags:"bug" tags_bug:"x" uuid:"fc83acec-e369-4f79-ae58-82dd4f223f9d"]
+---
+time 1706103323
+new [description:"defaulting to pretty formatting for output" entry:"1706103323" modified:"1706103323" priority:"L" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"9594fcab-abc5-4d8c-bf26-c6c77529267f"]
+---
