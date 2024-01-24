@@ -1,3 +1,4 @@
+[description:"consider cell alignment for pretty formatting" end:"1706102791" entry:"1706096736" modified:"1706102791" priority:"M" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"37379e12-651b-4c59-892f-3b2a84ca1fdf"]
 [description:"printing version" end:"1706102403" entry:"1706102091" modified:"1706102403" priority:"L" status:"completed" tags:"newfeat" tags_newfeat:"x" uuid:"01290ce5-02d0-4b53-8b9f-da6c8e155cb2"]
 [annotation_1705913132:"maybe overkill" description:"integrate serde as reading\/writing tool" end:"1706097157" entry:"1705732325" modified:"1706097157" priority:"M" status:"deleted" tags:"newfeat" tags_newfeat:"x" uuid:"32869c41-5d86-4fcb-8308-bcb39505dbbb"]
 [description:"restore output mocking raw format... right now is {x:?} so debug output" end:"1706097153" entry:"1706088252" modified:"1706097153" priority:"M" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"c2b7a758-5ce6-403d-9d74-4e8fc7452231"]
