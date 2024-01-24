@@ -677,3 +677,6 @@ time 1706109339
 old [dep_24ee5649-2470-4573-9bdd-de8b27491692:"x" depends:"24ee5649-2470-4573-9bdd-de8b27491692" description:"modify command base implementation" entry:"1706106632" modified:"1706106924" priority:"M" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"e4130149-a831-4ba2-909a-cebeb39e464a"]
 new [dep_24ee5649-2470-4573-9bdd-de8b27491692:"x" depends:"24ee5649-2470-4573-9bdd-de8b27491692" description:"modify command base implementation" entry:"1706106632" modified:"1706109339" priority:"M" start:"1706109339" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"e4130149-a831-4ba2-909a-cebeb39e464a"]
 ---
+time 1706113387
+new [description:"think of some mechanism to keep operation history" entry:"1706113387" modified:"1706113387" priority:"M" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"8b73c11b-c06b-4639-a455-216ec8029cca"]
+---
