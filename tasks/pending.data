@@ -7,3 +7,4 @@
 [annotation_1705588005:"investigate prettytable-rs" description:"implement pretty output for list command" entry:"1705587989" modified:"1705942073" priority:"M" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"8d543521-af4a-43f7-b005-548dc46c2066"]
 [description:"refactor access to data file" entry:"1705678496" modified:"1705942073" priority:"M" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"e964277b-1a18-4925-9649-9122bc03c51a"]
 [annotation_1705913132:"maybe overkill" description:"integrate serde as reading\/writing tool" entry:"1705732325" modified:"1705942073" priority:"M" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"32869c41-5d86-4fcb-8308-bcb39505dbbb"]
+[description:"refactor clap command structures" entry:"1706076934" modified:"1706076938" priority:"H" start:"1706076938" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"c2339008-8cb8-4f9a-8cfe-9f91ec63bb35"]
