@@ -329,3 +329,19 @@ time 1706076938
 old [description:"refactor clap command structures" entry:"1706076934" modified:"1706076934" priority:"H" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"c2339008-8cb8-4f9a-8cfe-9f91ec63bb35"]
 new [description:"refactor clap command structures" entry:"1706076934" modified:"1706076938" priority:"H" start:"1706076938" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"c2339008-8cb8-4f9a-8cfe-9f91ec63bb35"]
 ---
+time 1706077297
+old [description:"refactor clap command structures" entry:"1706076934" modified:"1706076938" priority:"H" start:"1706076938" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"c2339008-8cb8-4f9a-8cfe-9f91ec63bb35"]
+new [description:"refactor clap command structures" end:"1706077297" entry:"1706076934" modified:"1706077297" priority:"H" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"c2339008-8cb8-4f9a-8cfe-9f91ec63bb35"]
+---
+time 1706077354
+old [description:"refactor access to data file" entry:"1705678496" modified:"1705942073" priority:"M" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"e964277b-1a18-4925-9649-9122bc03c51a"]
+new [description:"refactor access to data file" entry:"1705678496" modified:"1706077354" priority:"H" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"e964277b-1a18-4925-9649-9122bc03c51a"]
+---
+time 1706077372
+old [dep_92d501b6-6c44-401a-ae8a-8b0fb00e53f5:"x" dep_944893f7-a672-4165-b82a-d1c9f3a9a25c:"x" depends:"92d501b6-6c44-401a-ae8a-8b0fb00e53f5,944893f7-a672-4165-b82a-d1c9f3a9a25c" description:"implement date filter for count command" entry:"1705587651" modified:"1705942073" priority:"M" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"0d19ff12-f576-4ea1-9854-cce9060121ca"]
+new [dep_92d501b6-6c44-401a-ae8a-8b0fb00e53f5:"x" dep_944893f7-a672-4165-b82a-d1c9f3a9a25c:"x" depends:"92d501b6-6c44-401a-ae8a-8b0fb00e53f5,944893f7-a672-4165-b82a-d1c9f3a9a25c" description:"implement date filter for count command" entry:"1705587651" modified:"1706077372" priority:"L" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"0d19ff12-f576-4ea1-9854-cce9060121ca"]
+---
+time 1706077381
+old [annotation_1705587613:"syntax should be from:<value> to:<value>" description:"implement date filter for list command" entry:"1705587586" modified:"1705942073" priority:"M" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"944893f7-a672-4165-b82a-d1c9f3a9a25c"]
+new [annotation_1705587613:"syntax should be from:<value> to:<value>" description:"implement date filter for list command" entry:"1705587586" modified:"1706077381" priority:"L" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"944893f7-a672-4165-b82a-d1c9f3a9a25c"]
+---
