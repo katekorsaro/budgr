@@ -42,7 +42,7 @@ fn print_pretty(data: Vec<Data>) {
       operation.id.to_string(),
       operation.date.to_string(),
       operation.note,
-      operation.amount.to_string(),
+      r->operation.amount.to_string(),
       operation.account.unwrap_or("-".to_string()),
       operation.purpose.unwrap_or("-".to_string()),
       operation.goal.unwrap_or("-".to_string()),
