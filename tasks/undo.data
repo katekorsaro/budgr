@@ -487,3 +487,14 @@ new [annotation_1705913132:"maybe overkill" description:"integrate serde as read
 time 1706097284
 new [description:"handling .budgrrc not found and create it empty or better with default options" entry:"1706097284" modified:"1706097284" priority:"L" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"8649d98d-5d62-41b1-b6a2-3ba39b78b640"]
 ---
+time 1706102091
+new [description:"printing version" entry:"1706102091" modified:"1706102091" priority:"L" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"01290ce5-02d0-4b53-8b9f-da6c8e155cb2"]
+---
+time 1706102093
+old [description:"printing version" entry:"1706102091" modified:"1706102091" priority:"L" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"01290ce5-02d0-4b53-8b9f-da6c8e155cb2"]
+new [description:"printing version" entry:"1706102091" modified:"1706102093" priority:"L" start:"1706102093" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"01290ce5-02d0-4b53-8b9f-da6c8e155cb2"]
+---
+time 1706102403
+old [description:"printing version" entry:"1706102091" modified:"1706102093" priority:"L" start:"1706102093" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"01290ce5-02d0-4b53-8b9f-da6c8e155cb2"]
+new [description:"printing version" end:"1706102403" entry:"1706102091" modified:"1706102403" priority:"L" status:"completed" tags:"newfeat" tags_newfeat:"x" uuid:"01290ce5-02d0-4b53-8b9f-da6c8e155cb2"]
+---
