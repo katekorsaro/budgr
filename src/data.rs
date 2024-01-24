@@ -37,7 +37,7 @@ pub fn read_data(config: &Config) -> Vec<Data> {
 }
 #[test]
 fn parse_data() {
-  let input: String = String::from("1|20240101|Note|10000|bank|purpose|goal");
+  let input: String = String::from("1|20240101|Note|10000|purpose|bank|goal");
   let data: Data = Data::from_string(&input).unwrap();
   assert_eq!(data.id, 1);
   assert_eq!(data.date, 20240101);
