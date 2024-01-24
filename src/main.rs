@@ -1,25 +1,11 @@
+mod cli;
 mod commands;
 
-use clap::{Parser, Subcommand};
+use clap::Parser;
 use std::{env, fs};
 
+use crate::cli::{Budgr, Command};
 use crate::commands::*;
-
-#[derive(Parser, Debug)]
-#[command(arg_required_else_help(true))]
-struct Budgr {
-  #[command(subcommand)]
-  command: Option<Command>,
-}
-
-#[derive(Subcommand, Debug)]
-enum Command {
-  /// List all operations
-  List,
-
-  /// Count all operations
-  Count,
-}
 
 #[derive(Debug, Default)]
 struct Config {
