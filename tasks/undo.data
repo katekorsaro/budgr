@@ -457,3 +457,6 @@ time 1706093666
 old [annotation_1705588005:"investigate prettytable-rs" annotation_1706093657:"or assume a 80 character width screen" description:"implement pretty output for list command" entry:"1705587989" modified:"1706093657" priority:"M" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"8d543521-af4a-43f7-b005-548dc46c2066"]
 new [annotation_1705588005:"investigate prettytable-rs" annotation_1706093657:"or assume a 80 character width screen" annotation_1706093666:"or assume a flag to set the width" description:"implement pretty output for list command" entry:"1705587989" modified:"1706093666" priority:"M" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"8d543521-af4a-43f7-b005-548dc46c2066"]
 ---
+time 1706096736
+new [description:"consider cell alignment" entry:"1706096736" modified:"1706096736" priority:"M" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"37379e12-651b-4c59-892f-3b2a84ca1fdf"]
+---
