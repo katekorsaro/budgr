@@ -1,6 +1,7 @@
 use crate::Config;
 use std::fs;
 
+#[derive(Debug)]
 pub struct Data {
   pub id: u32,
   pub date: u32,
@@ -26,8 +27,13 @@ impl Data {
     })
   }
 }
-pub fn read_data(config: &Config) -> String {
-  fs::read_to_string(format!("{}//data.tsv", config.data)).unwrap()
+pub fn read_data(config: &Config) -> Vec<Data> {
+  let data = fs::read_to_string(format!("{}//data.tsv", config.data)).unwrap();
+  data
+    .lines()
+    .skip(1)
+    .map(|line| Data::from_string(line).unwrap())
+    .collect::<Vec<Data>>()
 }
 #[test]
 fn parse_data() {
