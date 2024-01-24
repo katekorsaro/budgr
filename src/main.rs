@@ -30,7 +30,7 @@ fn main() {
   // handle commands
   match bin.command {
     Some(Command::List) => list_operations(&config, &bin),
-    Some(Command::Count) => count_operations(&config),
+    Some(Command::Count) => count_operations(&config, &bin),
     _ => unreachable!("No other commands for now."),
   }
 }

@@ -1,9 +1,8 @@
 use crate::cli::Budgr;
-use crate::data::read_data;
+use crate::data::{read_data, Data};
 use crate::Config;
 
-pub fn list_operations(config: &Config, args: &Budgr) {
-  let data = read_data(config);
+fn filter_data(data: Vec<Data>, args: &Budgr) -> Vec<Data> {
   data
     .into_iter()
     .filter(|operation| {
@@ -20,10 +19,18 @@ pub fn list_operations(config: &Config, args: &Budgr) {
         true
       }
     })
-    .for_each(|x| println!("{x:?}"));
+    .collect()
+}
+pub fn list_operations(config: &Config, args: &Budgr) {
+  let data = read_data(config);
+  let data = filter_data(data, args);
+  data
+    .into_iter()
+    .for_each(|operation| println!("{operation:?}"));
 }
 
-pub fn count_operations(config: &Config) {
+pub fn count_operations(config: &Config, args: &Budgr) {
   let data = read_data(config);
+  let data = filter_data(data, args);
   println!("{}", data.len());
 }
