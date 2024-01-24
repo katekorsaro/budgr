@@ -21,8 +21,8 @@ impl Data {
       date: parts.next().unwrap().parse::<u32>().unwrap(),
       note: String::from(parts.next().unwrap()),
       amount: parts.next().unwrap().parse::<i32>().unwrap(),
-      account: parts.next().map(|value| value.to_string()),
       purpose: parts.next().map(|value| value.to_string()),
+      account: parts.next().map(|value| value.to_string()),
       goal: parts.next().map(|value| value.to_string()),
     })
   }
