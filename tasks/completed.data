@@ -1,3 +1,4 @@
+[description:"use structure data for command list" end:"1706088109" entry:"1706085343" modified:"1706088109" priority:"H" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"c14f182e-c88d-4388-8f20-1e8c89bcd2e6"]
 [description:"parse data into machine readable struct" end:"1706085320" entry:"1706081935" modified:"1706085320" priority:"H" status:"completed" tags:"newfeat" tags_newfeat:"x" uuid:"a555816d-05ef-4f44-9795-09c65de6dac5"]
 [description:"rethink input format. csv is fine, but with a separator other than \ttab" end:"1706081845" entry:"1706079661" modified:"1706081845" priority:"H" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"37f0e015-0f6a-4b0f-833d-fdac5b2b6d7f"]
 [description:"refactor access to data file" end:"1706080879" entry:"1705678496" modified:"1706080879" priority:"H" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"e964277b-1a18-4925-9649-9122bc03c51a"]
