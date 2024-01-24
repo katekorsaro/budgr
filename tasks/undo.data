@@ -460,3 +460,30 @@ new [annotation_1705588005:"investigate prettytable-rs" annotation_1706093657:"o
 time 1706096736
 new [description:"consider cell alignment" entry:"1706096736" modified:"1706096736" priority:"M" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"37379e12-651b-4c59-892f-3b2a84ca1fdf"]
 ---
+time 1706097112
+old [annotation_1705588005:"investigate prettytable-rs" annotation_1706093657:"or assume a 80 character width screen" annotation_1706093666:"or assume a flag to set the width" description:"implement pretty output for list command" entry:"1705587989" modified:"1706093666" priority:"M" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"8d543521-af4a-43f7-b005-548dc46c2066"]
+new [annotation_1705588005:"investigate prettytable-rs" annotation_1706093657:"or assume a 80 character width screen" annotation_1706093666:"or assume a flag to set the width" description:"implement pretty output for list command" end:"1706097112" entry:"1705587989" modified:"1706097112" priority:"M" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"8d543521-af4a-43f7-b005-548dc46c2066"]
+---
+time 1706097119
+old [annotation_1705587343:"should format dates and money" description:"implement the human_readable option for list command" entry:"1705587324" modified:"1705942073" priority:"M" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"79cac42e-33de-4845-a54f-669d513b29cf"]
+new [annotation_1705587343:"should format dates and money" description:"implement the human_readable option for list command" end:"1706097119" entry:"1705587324" modified:"1706097119" priority:"M" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"79cac42e-33de-4845-a54f-669d513b29cf"]
+---
+time 1706097138
+old [description:"implement json output format for list command" entry:"1705587946" modified:"1705942073" priority:"M" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"9f3cb1a7-184c-4dea-922d-03bbdda8356a"]
+new [description:"implement json output format for list command" entry:"1705587946" modified:"1706097138" priority:"L" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"9f3cb1a7-184c-4dea-922d-03bbdda8356a"]
+---
+time 1706097144
+old [description:"implement CSV output format for list command" entry:"1705587964" modified:"1705942073" priority:"M" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"3b4cc99a-1c39-4c41-8a58-edb35604df1c"]
+new [description:"implement CSV output format for list command" entry:"1705587964" modified:"1706097144" priority:"L" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"3b4cc99a-1c39-4c41-8a58-edb35604df1c"]
+---
+time 1706097153
+old [description:"restore output mocking raw format... right now is {x:?} so debug output" entry:"1706088252" modified:"1706088252" priority:"M" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"c2b7a758-5ce6-403d-9d74-4e8fc7452231"]
+new [description:"restore output mocking raw format... right now is {x:?} so debug output" end:"1706097153" entry:"1706088252" modified:"1706097153" priority:"M" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"c2b7a758-5ce6-403d-9d74-4e8fc7452231"]
+---
+time 1706097157
+old [annotation_1705913132:"maybe overkill" description:"integrate serde as reading\/writing tool" entry:"1705732325" modified:"1705942073" priority:"M" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"32869c41-5d86-4fcb-8308-bcb39505dbbb"]
+new [annotation_1705913132:"maybe overkill" description:"integrate serde as reading\/writing tool" end:"1706097157" entry:"1705732325" modified:"1706097157" priority:"M" status:"deleted" tags:"newfeat" tags_newfeat:"x" uuid:"32869c41-5d86-4fcb-8308-bcb39505dbbb"]
+---
+time 1706097284
+new [description:"handling .budgrrc not found and create it empty or better with default options" entry:"1706097284" modified:"1706097284" priority:"L" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"8649d98d-5d62-41b1-b6a2-3ba39b78b640"]
+---
