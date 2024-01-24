@@ -553,3 +553,14 @@ time 1706105068
 old [description:"consider money format for pretty formatting" entry:"1706102486" modified:"1706103977" priority:"M" start:"1706103977" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"c3c1450d-d791-4508-bce6-afb65a6a7c20"]
 new [description:"consider money format for pretty formatting" end:"1706105068" entry:"1706102486" modified:"1706105068" priority:"M" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"c3c1450d-d791-4508-bce6-afb65a6a7c20"]
 ---
+time 1706105128
+new [description:"consider passing as a configuration date format to be used" entry:"1706105128" modified:"1706105128" priority:"L" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"f546b1f9-00d0-4689-abe3-a835be8f9a99"]
+---
+time 1706105132
+old [description:"consider date format for pretty formatting" entry:"1706102465" modified:"1706102501" priority:"M" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"61d6a62f-f703-4130-835d-d765ae7e4527"]
+new [description:"consider date format for pretty formatting" entry:"1706102465" modified:"1706105132" priority:"M" start:"1706105132" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"61d6a62f-f703-4130-835d-d765ae7e4527"]
+---
+time 1706106133
+old [description:"consider date format for pretty formatting" entry:"1706102465" modified:"1706105132" priority:"M" start:"1706105132" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"61d6a62f-f703-4130-835d-d765ae7e4527"]
+new [description:"consider date format for pretty formatting" end:"1706106133" entry:"1706102465" modified:"1706106133" priority:"M" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"61d6a62f-f703-4130-835d-d765ae7e4527"]
+---

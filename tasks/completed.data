@@ -1,3 +1,4 @@
+[description:"consider date format for pretty formatting" end:"1706106133" entry:"1706102465" modified:"1706106133" priority:"M" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"61d6a62f-f703-4130-835d-d765ae7e4527"]
 [description:"consider money format for pretty formatting" end:"1706105068" entry:"1706102486" modified:"1706105068" priority:"M" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"c3c1450d-d791-4508-bce6-afb65a6a7c20"]
 [description:"correct failing automatic test" end:"1706103946" entry:"1706103832" modified:"1706103946" priority:"H" status:"completed" tags:"bug" tags_bug:"x" uuid:"228a1d7d-9c97-4d47-95c4-9170eda01ad8"]
 [description:"pretty output mismatching columns" end:"1706102986" entry:"1706102783" modified:"1706102986" priority:"M" status:"completed" tags:"bug" tags_bug:"x" uuid:"fc83acec-e369-4f79-ae58-82dd4f223f9d"]

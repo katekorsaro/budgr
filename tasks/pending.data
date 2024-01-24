@@ -4,5 +4,5 @@
 [description:"refactor config into module" entry:"1706079511" modified:"1706079511" priority:"L" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"63100739-7866-41d1-89ed-6638a27001e6"]
 [description:"change data file extension" entry:"1706082407" modified:"1706082407" priority:"L" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"7e38bb30-256c-4562-ac97-8245e7f145d8"]
 [description:"handling .budgrrc not found and create it empty or better with default options" entry:"1706097284" modified:"1706097284" priority:"L" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"8649d98d-5d62-41b1-b6a2-3ba39b78b640"]
-[description:"consider date format for pretty formatting" entry:"1706102465" modified:"1706102501" priority:"M" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"61d6a62f-f703-4130-835d-d765ae7e4527"]
 [description:"defaulting to pretty formatting for output" entry:"1706103323" modified:"1706103323" priority:"L" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"9594fcab-abc5-4d8c-bf26-c6c77529267f"]
+[description:"consider passing as a configuration date format to be used" entry:"1706105128" modified:"1706105128" priority:"L" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"f546b1f9-00d0-4689-abe3-a835be8f9a99"]
