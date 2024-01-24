@@ -28,6 +28,21 @@ pub enum Command {
 
   /// Print current version
   Version,
+
+  /// Modify the filtered list
+  Modify {
+    #[arg(short, long)]
+    account: Option<String>,
+    #[arg(short, long)]
+    purpose: Option<String>,
+    #[arg(short, long)]
+    goal: Option<String>,
+  },
+}
+
+#[derive(Subcommand, Debug)]
+pub enum ModifyCommand {
+  Account,
 }
 
 #[derive(Clone, Debug, ValueEnum)]

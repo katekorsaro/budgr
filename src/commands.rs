@@ -1,4 +1,4 @@
-use crate::cli::{Budgr, Format};
+use crate::cli::{Budgr, Command, Format};
 use crate::data::{read_data, Data};
 use crate::Config;
 use prettytable::{row, Table};
@@ -86,4 +86,29 @@ pub fn print_version() {
   let version = env!("CARGO_PKG_VERSION");
   let name = env!("CARGO_PKG_NAME");
   println!("{name}: {version}");
+}
+
+pub fn modify_operations(config: &Config, args: &Budgr) {
+  if let Some(Command::Modify {
+    account,
+    purpose,
+    goal,
+  }) = &args.command
+  {
+    let data = read_data(config);
+    let mut data = filter_data(data, args);
+    data.iter_mut().for_each(|x| {
+      if let Some(account) = account {
+        x.account = Some(String::from(account))
+      };
+      if let Some(purpose) = purpose {
+        x.purpose = Some(String::from(purpose))
+      };
+      if let Some(goal) = goal {
+        x.goal = Some(String::from(goal))
+      };
+    });
+    // TODO: replace this with some proper writing on disk
+    print_pretty(data);
+  }
 }
