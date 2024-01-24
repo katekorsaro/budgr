@@ -1,4 +1,4 @@
-use crate::cli::Budgr;
+use crate::cli::{Budgr, Format};
 use crate::data::{read_data, Data};
 use crate::Config;
 
@@ -26,9 +26,24 @@ pub fn list_operations(config: &Config, args: &Budgr) {
   let data = filter_data(data, args);
   data
     .into_iter()
-    .for_each(|operation| println!("{operation:?}"));
+    .for_each(|operation| match args.output_format {
+      Some(Format::Raw) => print_raw(operation),
+      _ => unreachable!("There are no other options..."),
+    });
 }
 
+fn print_raw(operation: Data) {
+  println!(
+    "{}|{}|{}|{}|{}|{}|{}",
+    operation.id,
+    operation.date,
+    operation.note,
+    operation.amount,
+    operation.account.unwrap_or("-".to_string()),
+    operation.purpose.unwrap_or("-".to_string()),
+    operation.goal.unwrap_or("-".to_string())
+  );
+}
 pub fn count_operations(config: &Config, args: &Budgr) {
   let data = read_data(config);
   let data = filter_data(data, args);
