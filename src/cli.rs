@@ -25,6 +25,9 @@ pub enum Command {
 
   /// Count all operations
   Count,
+
+  /// Print current version
+  Version,
 }
 
 #[derive(Clone, Debug, ValueEnum)]

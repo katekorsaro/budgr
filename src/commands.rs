@@ -69,3 +69,9 @@ pub fn count_operations(config: &Config, args: &Budgr) {
   let data = filter_data(data, args);
   println!("{}", data.len());
 }
+
+pub fn print_version() {
+  let version = env!("CARGO_PKG_VERSION");
+  let name = env!("CARGO_PKG_NAME");
+  println!("{name}: {version}");
+}
