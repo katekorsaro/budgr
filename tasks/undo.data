@@ -419,3 +419,14 @@ time 1706088109
 old [description:"use structure data for command list" entry:"1706085343" modified:"1706087117" priority:"H" start:"1706087117" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"c14f182e-c88d-4388-8f20-1e8c89bcd2e6"]
 new [description:"use structure data for command list" end:"1706088109" entry:"1706085343" modified:"1706088109" priority:"H" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"c14f182e-c88d-4388-8f20-1e8c89bcd2e6"]
 ---
+time 1706088252
+new [description:"restore output mocking raw format... right now is {x:?} so debug output" entry:"1706088252" modified:"1706088252" priority:"M" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"c2b7a758-5ce6-403d-9d74-4e8fc7452231"]
+---
+time 1706088281
+old [annotation_1705587613:"syntax should be from:<value> to:<value>" dep_a555816d-05ef-4f44-9795-09c65de6dac5:"x" dep_c14f182e-c88d-4388-8f20-1e8c89bcd2e6:"x" depends:"a555816d-05ef-4f44-9795-09c65de6dac5,c14f182e-c88d-4388-8f20-1e8c89bcd2e6" description:"implement date filter for list command" entry:"1705587586" modified:"1706085350" priority:"L" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"944893f7-a672-4165-b82a-d1c9f3a9a25c"]
+new [annotation_1705587613:"syntax should be from:<value> to:<value>" dep_a555816d-05ef-4f44-9795-09c65de6dac5:"x" dep_c14f182e-c88d-4388-8f20-1e8c89bcd2e6:"x" depends:"a555816d-05ef-4f44-9795-09c65de6dac5,c14f182e-c88d-4388-8f20-1e8c89bcd2e6" description:"implement date filter for list command" entry:"1705587586" modified:"1706088281" priority:"L" start:"1706088281" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"944893f7-a672-4165-b82a-d1c9f3a9a25c"]
+---
+time 1706089468
+old [annotation_1705587613:"syntax should be from:<value> to:<value>" dep_a555816d-05ef-4f44-9795-09c65de6dac5:"x" dep_c14f182e-c88d-4388-8f20-1e8c89bcd2e6:"x" depends:"a555816d-05ef-4f44-9795-09c65de6dac5,c14f182e-c88d-4388-8f20-1e8c89bcd2e6" description:"implement date filter for list command" entry:"1705587586" modified:"1706088281" priority:"L" start:"1706088281" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"944893f7-a672-4165-b82a-d1c9f3a9a25c"]
+new [annotation_1705587613:"syntax should be from:<value> to:<value>" dep_a555816d-05ef-4f44-9795-09c65de6dac5:"x" dep_c14f182e-c88d-4388-8f20-1e8c89bcd2e6:"x" depends:"a555816d-05ef-4f44-9795-09c65de6dac5,c14f182e-c88d-4388-8f20-1e8c89bcd2e6" description:"implement date filter for list command" end:"1706089468" entry:"1705587586" modified:"1706089468" priority:"L" status:"completed" tags:"newfeat" tags_newfeat:"x" uuid:"944893f7-a672-4165-b82a-d1c9f3a9a25c"]
+---
