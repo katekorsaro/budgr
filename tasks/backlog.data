@@ -189,3 +189,4 @@
 {"description":"think of some mechanism to keep operation history","entry":"20240124T162307Z","modified":"20240124T162307Z","priority":"M","status":"pending","uuid":"8b73c11b-c06b-4639-a455-216ec8029cca","tags":["newfeat"]}
 {"description":"change database: one file per operation","entry":"20240125T054504Z","modified":"20240125T054504Z","priority":"H","status":"pending","uuid":"50e13efb-0c2a-4786-a4f3-73cce5fdc63a","tags":["improvement"]}
 {"description":"change database: one file per operation","entry":"20240125T054504Z","modified":"20240125T054521Z","priority":"H","start":"20240125T054521Z","status":"pending","uuid":"50e13efb-0c2a-4786-a4f3-73cce5fdc63a","tags":["improvement"]}
+{"description":"change database: one file per operation","end":"20240125T070709Z","entry":"20240125T054504Z","modified":"20240125T070709Z","priority":"H","status":"completed","uuid":"50e13efb-0c2a-4786-a4f3-73cce5fdc63a","tags":["improvement"]}
