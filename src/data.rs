@@ -11,6 +11,7 @@ pub struct Data {
   pub account: Option<String>,
   pub purpose: Option<String>,
   pub goal: Option<String>,
+  pub path: String,
 }
 
 impl Data {
@@ -25,6 +26,7 @@ impl Data {
       purpose: parts.next().map(|value| value.to_string()),
       account: parts.next().map(|value| value.to_string()),
       goal: parts.next().map(|value| value.replace("\n", "").to_string()),
+      path: String::from(""),
     })
   }
 }
@@ -34,10 +36,10 @@ pub fn read_data(config: &Config) -> Vec<Data> {
   let path = Path::new(&config.data);
   let files = fs::read_dir(path).unwrap();
   files
-    .map(|x| x.unwrap().path())
-    .filter(|x| x.extension().unwrap() == "bgr")
-    .map(|x| fs::read_to_string(x).unwrap())
-    .map(|x| Data::from_string(&x).unwrap())
+    .map(|file| file.unwrap().path())
+    .filter(|path| path.extension().unwrap() == "bgr")
+    .map(|path| fs::read_to_string(path).unwrap())
+    .map(|string_value| Data::from_string(&string_value).unwrap())
     .collect::<Vec<Data>>()
 }
 
