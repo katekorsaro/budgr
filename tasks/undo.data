@@ -794,3 +794,15 @@ time 1706182196
 old [description:"limit purposes to need, want and goal with yearly variants" entry:"1706181327" modified:"1706181333" priority:"H" start:"1706181333" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"0a1ac573-204d-4231-b23e-6c9f8f9ff4ed"]
 new [description:"limit purposes to need, want and goal with yearly variants" end:"1706182196" entry:"1706181327" modified:"1706182196" priority:"H" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"0a1ac573-204d-4231-b23e-6c9f8f9ff4ed"]
 ---
+time 1706182220
+old [description:"output formato should be only for list command" entry:"1706182093" modified:"1706182093" priority:"M" status:"pending" tags:"bug" tags_bug:"x" uuid:"dabc544a-0a9d-42e5-834f-edd73c7034cd"]
+new [description:"output format should be only for list command" entry:"1706182093" modified:"1706182220" priority:"M" status:"pending" tags:"bug" tags_bug:"x" uuid:"dabc544a-0a9d-42e5-834f-edd73c7034cd"]
+---
+time 1706182222
+old [description:"output format should be only for list command" entry:"1706182093" modified:"1706182220" priority:"M" status:"pending" tags:"bug" tags_bug:"x" uuid:"dabc544a-0a9d-42e5-834f-edd73c7034cd"]
+new [description:"output format should be only for list command" entry:"1706182093" modified:"1706182222" priority:"M" start:"1706182222" status:"pending" tags:"bug" tags_bug:"x" uuid:"dabc544a-0a9d-42e5-834f-edd73c7034cd"]
+---
+time 1706182721
+old [description:"output format should be only for list command" entry:"1706182093" modified:"1706182222" priority:"M" start:"1706182222" status:"pending" tags:"bug" tags_bug:"x" uuid:"dabc544a-0a9d-42e5-834f-edd73c7034cd"]
+new [description:"output format should be only for list command" end:"1706182721" entry:"1706182093" modified:"1706182721" priority:"M" status:"completed" tags:"bug" tags_bug:"x" uuid:"dabc544a-0a9d-42e5-834f-edd73c7034cd"]
+---

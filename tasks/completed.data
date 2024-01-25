@@ -1,3 +1,4 @@
+[description:"output format should be only for list command" end:"1706182721" entry:"1706182093" modified:"1706182721" priority:"M" status:"completed" tags:"bug" tags_bug:"x" uuid:"dabc544a-0a9d-42e5-834f-edd73c7034cd"]
 [description:"limit purposes to need, want and goal with yearly variants" end:"1706182196" entry:"1706181327" modified:"1706182196" priority:"H" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"0a1ac573-204d-4231-b23e-6c9f8f9ff4ed"]
 [description:"refactor the operation 'to_string'" end:"1706180815" entry:"1706171834" modified:"1706180815" priority:"M" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"7ec784cb-ebd2-449b-99c9-fe3c01fbe44d"]
 [description:"code cleaning" end:"1706179741" entry:"1706176979" modified:"1706179741" priority:"H" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"575f4165-dd06-44b4-8a11-f5b088f4cae2"]
