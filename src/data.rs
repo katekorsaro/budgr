@@ -1,5 +1,6 @@
 use crate::Config;
 use std::fs;
+use std::path::Path;
 
 #[derive(Debug)]
 pub struct Data {
@@ -23,17 +24,23 @@ impl Data {
       amount: parts.next().unwrap().parse::<i32>().unwrap(),
       purpose: parts.next().map(|value| value.to_string()),
       account: parts.next().map(|value| value.to_string()),
-      goal: parts.next().map(|value| value.to_string()),
+      goal: parts.next().map(|value| value.replace("\n", "").to_string()),
     })
   }
 }
+
 pub fn read_data(config: &Config) -> Vec<Data> {
-  let data = fs::read_to_string(format!("{}//data.tsv", config.data)).unwrap();
-  data
-    .lines()
-    .map(|line| Data::from_string(line).unwrap())
+  // get all files in dir
+  let path = Path::new(&config.data);
+  let files = fs::read_dir(path).unwrap();
+  files
+    .map(|x| x.unwrap().path())
+    .filter(|x| x.extension().unwrap() == "bgr")
+    .map(|x| fs::read_to_string(x).unwrap())
+    .map(|x| Data::from_string(&x).unwrap())
     .collect::<Vec<Data>>()
 }
+
 #[test]
 fn parse_data() {
   let input: String = String::from("1|20240101|Note|10000|purpose|bank|goal");

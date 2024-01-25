@@ -22,6 +22,7 @@ fn filter_data(data: Vec<Data>, args: &Budgr) -> Vec<Data> {
     })
     .collect()
 }
+
 pub fn list_operations(config: &Config, args: &Budgr) {
   let data = read_data(config);
   let data = filter_data(data, args);
@@ -56,12 +57,14 @@ fn print_pretty(data: Vec<Data>) {
   });
   table.printstd();
 }
+
 fn prettify_date(date: u32) -> String {
   let mut retvalue = date.to_string();
   retvalue.insert(6, '/');
   retvalue.insert(4, '/');
   retvalue
 }
+
 fn print_raw(data: Vec<Data>) {
   data.into_iter().for_each(|operation| {
     println!(
@@ -76,6 +79,7 @@ fn print_raw(data: Vec<Data>) {
     );
   });
 }
+
 pub fn count_operations(config: &Config, args: &Budgr) {
   let data = read_data(config);
   let data = filter_data(data, args);
