@@ -1,3 +1,7 @@
+mod list_operations;
+
+pub use list_operations::*;
+
 use crate::cli::{Budgr, Command, Format};
 use crate::data::{read_data, Data};
 use crate::Config;
@@ -24,16 +28,6 @@ fn filter_data(data: Vec<Data>, args: &Budgr) -> Vec<Data> {
       }
     })
     .collect()
-}
-
-pub fn list_operations(config: &Config, args: &Budgr) {
-  let data = read_data(config);
-  let data = filter_data(data, args);
-  match args.output_format {
-    Some(Format::Raw) => print_raw(data),
-    Some(Format::Pretty) => print_pretty(data),
-    _ => unreachable!(),
-  }
 }
 
 fn print_pretty(data: Vec<Data>) {
