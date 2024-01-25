@@ -1,3 +1,4 @@
+[description:"print_raw not printing creation_date" end:"1706195349" entry:"1706195218" modified:"1706195349" priority:"H" status:"completed" tags:"bug" tags_bug:"x" uuid:"a4f570f8-4921-4152-9d9a-edc87f95a26a"]
 [description:"add 'creation-date' system field to store creation time" end:"1706195186" entry:"1706189801" modified:"1706195186" priority:"H" status:"completed" tags:"newfeat" tags_newfeat:"x" uuid:"7aca6c66-5e7f-4220-aca3-2a8cf99cc272"]
 [description:"sort command alphabetically" end:"1706189547" entry:"1706171285" modified:"1706189547" priority:"L" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"ced120e8-620c-4a9a-b855-7af0301b4c32"]
 [description:"output format should be only for list command" end:"1706182721" entry:"1706182093" modified:"1706182721" priority:"M" status:"completed" tags:"bug" tags_bug:"x" uuid:"dabc544a-0a9d-42e5-834f-edd73c7034cd"]

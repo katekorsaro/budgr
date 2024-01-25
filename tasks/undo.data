@@ -856,3 +856,11 @@ time 1706195224
 old [description:"print_raw not printing creation_date" entry:"1706195218" modified:"1706195218" priority:"H" status:"pending" tags:"bug" tags_bug:"x" uuid:"a4f570f8-4921-4152-9d9a-edc87f95a26a"]
 new [description:"print_raw not printing creation_date" entry:"1706195218" modified:"1706195224" priority:"H" start:"1706195224" status:"pending" tags:"bug" tags_bug:"x" uuid:"a4f570f8-4921-4152-9d9a-edc87f95a26a"]
 ---
+time 1706195349
+old [description:"print_raw not printing creation_date" entry:"1706195218" modified:"1706195224" priority:"H" start:"1706195224" status:"pending" tags:"bug" tags_bug:"x" uuid:"a4f570f8-4921-4152-9d9a-edc87f95a26a"]
+new [description:"print_raw not printing creation_date" end:"1706195349" entry:"1706195218" modified:"1706195349" priority:"H" status:"completed" tags:"bug" tags_bug:"x" uuid:"a4f570f8-4921-4152-9d9a-edc87f95a26a"]
+---
+time 1706195444
+old [description:"add 'modify-date' system-field to store modification time" entry:"1706189834" modified:"1706189834" priority:"H" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"6cd37592-378c-4472-8c11-04706ae798d7"]
+new [description:"add 'modify-date' system-field to store modification time" entry:"1706189834" modified:"1706195444" priority:"H" start:"1706195444" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"6cd37592-378c-4472-8c11-04706ae798d7"]
+---
