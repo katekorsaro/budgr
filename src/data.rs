@@ -13,6 +13,7 @@ pub struct Data {
   pub goal: Option<String>,
   pub path: String,
   pub creation_date: String,
+  pub modification_date: Option<String>,
 }
 
 impl Data {
@@ -27,6 +28,7 @@ impl Data {
       goal: None,
       path: String::new(),
       creation_date: String::new(),
+      modification_date: None,
     }
   }
 
@@ -45,12 +47,13 @@ impl Data {
         .map(|value| value.replace("\n", "").to_string()),
       path: String::from(""),
       creation_date: String::from(parts.next().unwrap()),
+      modification_date: parts.next().map(|value| value.to_string()),
     })
   }
 
   pub fn to_raw_string(&self) -> String {
     format!(
-      "{}|{}|{}|{}|{}|{}|{}|{}",
+      "{}|{}|{}|{}|{}|{}|{}|{}|{}",
       self.id,
       self.date,
       self.note,
@@ -59,6 +62,7 @@ impl Data {
       self.purpose.clone().unwrap_or(String::new()),
       self.goal.clone().unwrap_or(String::new()),
       self.creation_date,
+      self.modification_date.clone().unwrap_or(String::new()),
     )
   }
 }

@@ -5,6 +5,8 @@ use crate::Command;
 use crate::Config;
 use std::fs::OpenOptions;
 use std::io::Write;
+use time::format_description;
+use time::OffsetDateTime;
 
 pub fn modify_operations(config: &Config, args: &Budgr) {
   if let Some(Command::Modify {
@@ -13,6 +15,8 @@ pub fn modify_operations(config: &Config, args: &Budgr) {
     goal,
   }) = &args.command
   {
+    let fmt = format_description::parse("[year]-[month]-[day] [hour]:[minute]:[second]").unwrap();
+    let now = OffsetDateTime::now_local().unwrap().format(&fmt).unwrap();
     let data = read_data(config);
     let mut data = filter_data(data, args);
     data.iter_mut().for_each(|operation| {
@@ -25,6 +29,7 @@ pub fn modify_operations(config: &Config, args: &Budgr) {
       if let Some(goal) = goal {
         operation.goal = Some(String::from(goal))
       };
+      operation.modification_date = Some(now.clone());
       // let's write to file!
       let string_value = operation.to_raw_string();
       let mut file = OpenOptions::new()
