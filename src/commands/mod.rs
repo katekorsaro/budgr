@@ -15,13 +15,6 @@ pub use print_version::*;
 use crate::cli::Format;
 use crate::data::Data;
 
-fn prettify_date(date: u32) -> String {
-  let mut retvalue = date.to_string();
-  retvalue.insert(6, '/');
-  retvalue.insert(4, '/');
-  retvalue
-}
-
 fn print_raw(data: Vec<Data>) {
   data.into_iter().for_each(|operation| {
     println!(

@@ -1,4 +1,3 @@
-use crate::commands::prettify_date;
 use crate::data::Data;
 use prettytable::{row, Table};
 
@@ -25,4 +24,11 @@ pub fn print_pretty(data: Vec<Data>) {
     ]);
   });
   table.printstd();
+}
+
+fn prettify_date(date: u32) -> String {
+  let mut retvalue = date.to_string();
+  retvalue.insert(6, '/');
+  retvalue.insert(4, '/');
+  retvalue
 }
