@@ -41,7 +41,7 @@ pub enum Command {
     #[arg(short, long)]
     account: Option<String>,
     #[arg(short, long)]
-    purpose: Option<String>,
+    purpose: Option<Purpose>,
     #[arg(short, long)]
     goal: Option<String>,
   },
@@ -57,4 +57,25 @@ pub enum Format {
   /// machine readable format, pipe ('|') separated
   Raw,
   Pretty,
+}
+
+#[derive(Clone,Debug,ValueEnum)]
+pub enum Purpose {
+    Need,
+    Want,
+    Goal,
+    YearlyNeed,
+    YearlyWant
+}
+
+impl From<&Purpose> for String {
+    fn from (p: &Purpose) -> Self {
+        match p {
+            Purpose::Need => String::from("Need"),
+            Purpose::Want => String::from("Want"),
+            Purpose::Goal => String::from("Goal"),
+            Purpose::YearlyNeed => String::from("Yearly Need"),
+            Purpose::YearlyWant => String::from("Yearly Want"),
+        }
+    }
 }
