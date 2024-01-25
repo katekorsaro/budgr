@@ -200,3 +200,5 @@
 {"description":"sort commad alphabetically","entry":"20240125T082805Z","modified":"20240125T082805Z","priority":"L","status":"pending","uuid":"ced120e8-620c-4a9a-b855-7af0301b4c32","tags":["improvement"]}
 {"description":"refactor the operation 'to_string'","entry":"20240125T083714Z","modified":"20240125T083714Z","priority":"M","status":"pending","uuid":"7ec784cb-ebd2-449b-99c9-fe3c01fbe44d","tags":["improvement"]}
 {"description":"add a new operation","end":"20240125T095417Z","entry":"20240125T082215Z","modified":"20240125T095417Z","priority":"H","status":"completed","uuid":"084054d0-9412-4ace-8833-4e1f3bc741dd","tags":["newfeat"]}
+{"description":"file writing doesn't truncate previous content","entry":"20240125T095721Z","modified":"20240125T095721Z","priority":"H","status":"pending","uuid":"db0c1f92-ba07-46d2-9ca9-95dad4858301","tags":["bug"]}
+{"description":"file writing doesn't truncate previous content","entry":"20240125T095721Z","modified":"20240125T095724Z","priority":"H","start":"20240125T095724Z","status":"pending","uuid":"db0c1f92-ba07-46d2-9ca9-95dad4858301","tags":["bug"]}

@@ -727,3 +727,10 @@ time 1706176457
 old [description:"add a new operation" entry:"1706170935" modified:"1706171104" priority:"H" start:"1706171104" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"084054d0-9412-4ace-8833-4e1f3bc741dd"]
 new [description:"add a new operation" end:"1706176457" entry:"1706170935" modified:"1706176457" priority:"H" status:"completed" tags:"newfeat" tags_newfeat:"x" uuid:"084054d0-9412-4ace-8833-4e1f3bc741dd"]
 ---
+time 1706176641
+new [description:"file writing doesn't truncate previous content" entry:"1706176641" modified:"1706176641" priority:"H" status:"pending" tags:"bug" tags_bug:"x" uuid:"db0c1f92-ba07-46d2-9ca9-95dad4858301"]
+---
+time 1706176644
+old [description:"file writing doesn't truncate previous content" entry:"1706176641" modified:"1706176641" priority:"H" status:"pending" tags:"bug" tags_bug:"x" uuid:"db0c1f92-ba07-46d2-9ca9-95dad4858301"]
+new [description:"file writing doesn't truncate previous content" entry:"1706176641" modified:"1706176644" priority:"H" start:"1706176644" status:"pending" tags:"bug" tags_bug:"x" uuid:"db0c1f92-ba07-46d2-9ca9-95dad4858301"]
+---

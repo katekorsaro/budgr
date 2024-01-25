@@ -18,3 +18,4 @@
 [description:"think of some mechanism to keep operation history" entry:"1706113387" modified:"1706113387" priority:"M" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"8b73c11b-c06b-4639-a455-216ec8029cca"]
 [description:"sort commad alphabetically" entry:"1706171285" modified:"1706171285" priority:"L" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"ced120e8-620c-4a9a-b855-7af0301b4c32"]
 [description:"refactor the operation 'to_string'" entry:"1706171834" modified:"1706171834" priority:"M" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"7ec784cb-ebd2-449b-99c9-fe3c01fbe44d"]
+[description:"file writing doesn't truncate previous content" entry:"1706176641" modified:"1706176644" priority:"H" start:"1706176644" status:"pending" tags:"bug" tags_bug:"x" uuid:"db0c1f92-ba07-46d2-9ca9-95dad4858301"]
