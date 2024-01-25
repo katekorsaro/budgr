@@ -6,6 +6,7 @@ pub struct Budgr {
   #[arg(short, long)]
   /// filter option: inclusive date from
   pub from: Option<u32>,
+
   #[arg(short, long)]
   /// filter option: inclusive date to
   pub to: Option<u32>,
@@ -16,24 +17,21 @@ pub struct Budgr {
 
 #[derive(Subcommand, Debug)]
 pub enum Command {
-  /// List all operations
-  List {
-    #[arg(short, long, default_value = "raw")]
-    /// output format to display
-    output_format: Option<Format>,
-  },
-
-  /// Count all operations
-  Count,
-
-  /// Print current version
-  Version,
-
   /// Add a new operation
   Add {
     date: u32,
     note: String,
     amount: i32,
+  },
+
+  /// Count all operations
+  Count,
+
+  /// List all operations
+  List {
+    #[arg(short, long, default_value = "raw")]
+    /// output format to display
+    output_format: Option<Format>,
   },
 
   /// Modify the filtered list
@@ -45,6 +43,9 @@ pub enum Command {
     #[arg(short, long)]
     goal: Option<String>,
   },
+
+  /// Print current version
+  Version,
 }
 
 #[derive(Subcommand, Debug)]
