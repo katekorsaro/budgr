@@ -1,3 +1,4 @@
+[description:"file writing doesn't truncate previous content" end:"1706176915" entry:"1706176641" modified:"1706176915" priority:"H" status:"completed" tags:"bug" tags_bug:"x" uuid:"db0c1f92-ba07-46d2-9ca9-95dad4858301"]
 [description:"add a new operation" end:"1706176457" entry:"1706170935" modified:"1706176457" priority:"H" status:"completed" tags:"newfeat" tags_newfeat:"x" uuid:"084054d0-9412-4ace-8833-4e1f3bc741dd"]
 [dep_24ee5649-2470-4573-9bdd-de8b27491692:"x" depends:"24ee5649-2470-4573-9bdd-de8b27491692" description:"modify command base implementation" end:"1706170901" entry:"1706106632" modified:"1706170901" priority:"M" status:"completed" tags:"newfeat" tags_newfeat:"x" uuid:"e4130149-a831-4ba2-909a-cebeb39e464a"]
 [description:"data writing base implementation (leveraging raw output)" end:"1706170898" entry:"1706106901" modified:"1706170898" priority:"M" status:"completed" tags:"newfeat" tags_newfeat:"x" uuid:"24ee5649-2470-4573-9bdd-de8b27491692"]
