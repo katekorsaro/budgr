@@ -23,8 +23,8 @@ impl Data {
       date: parts.next().unwrap().parse::<u32>().unwrap(),
       note: String::from(parts.next().unwrap()),
       amount: parts.next().unwrap().parse::<i32>().unwrap(),
-      purpose: parts.next().map(|value| value.to_string()),
       account: parts.next().map(|value| value.to_string()),
+      purpose: parts.next().map(|value| value.to_string()),
       goal: parts
         .next()
         .map(|value| value.replace("\n", "").to_string()),
@@ -51,7 +51,7 @@ pub fn read_data(config: &Config) -> Vec<Data> {
 
 #[test]
 fn parse_data() {
-  let input: String = String::from("1|20240101|Note|10000|purpose|bank|goal");
+  let input: String = String::from("1|20240101|Note|10000|bank|purpose|goal");
   let data: Data = Data::from_string(&input).unwrap();
   assert_eq!(data.id, 1);
   assert_eq!(data.date, 20240101);

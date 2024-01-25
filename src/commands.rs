@@ -2,6 +2,8 @@ use crate::cli::{Budgr, Command, Format};
 use crate::data::{read_data, Data};
 use crate::Config;
 use prettytable::{row, Table};
+use std::fs::OpenOptions;
+use std::io::Write;
 
 fn filter_data(data: Vec<Data>, args: &Budgr) -> Vec<Data> {
   data
@@ -102,18 +104,34 @@ pub fn modify_operations(config: &Config, args: &Budgr) {
   {
     let data = read_data(config);
     let mut data = filter_data(data, args);
-    data.iter_mut().for_each(|x| {
+    data.iter_mut().for_each(|operation| {
       if let Some(account) = account {
-        x.account = Some(String::from(account))
+        operation.account = Some(String::from(account))
       };
       if let Some(purpose) = purpose {
-        x.purpose = Some(String::from(purpose))
+        operation.purpose = Some(String::from(purpose))
       };
       if let Some(goal) = goal {
-        x.goal = Some(String::from(goal))
+        operation.goal = Some(String::from(goal))
       };
+      // let's write to file!
+      let string_value = format!(
+        "{}|{}|{}|{}|{}|{}|{}",
+        operation.id,
+        operation.date,
+        operation.note,
+        operation.amount,
+        operation.account.clone().unwrap_or("-".to_string()),
+        operation.purpose.clone().unwrap_or("-".to_string()),
+        operation.goal.clone().unwrap_or("-".to_string())
+      );
+      let mut file = OpenOptions::new()
+        .write(true)
+        .create(true)
+        .open(&operation.path)
+        .unwrap();
+
+      let _ = file.write_all(string_value.as_bytes());
     });
-    // TODO: replace this with some proper writing on disk
-    print_pretty(data);
   }
 }
