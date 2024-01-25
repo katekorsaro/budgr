@@ -18,4 +18,3 @@
 [dep_24ee5649-2470-4573-9bdd-de8b27491692:"x" depends:"24ee5649-2470-4573-9bdd-de8b27491692" description:"modify subcommand purpose to edit purpose" entry:"1706106702" modified:"1706106924" priority:"M" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"4d455f3d-2deb-49c7-a5b0-e1a43954480e"]
 [description:"data writing base implementation (leveraging raw output)" entry:"1706106901" modified:"1706109331" priority:"M" start:"1706109331" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"24ee5649-2470-4573-9bdd-de8b27491692"]
 [description:"think of some mechanism to keep operation history" entry:"1706113387" modified:"1706113387" priority:"M" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"8b73c11b-c06b-4639-a455-216ec8029cca"]
-[description:"add source file information in every operation" entry:"1706166541" modified:"1706166543" priority:"H" start:"1706166543" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"8c858159-0489-4b44-8e05-1e9cf276f6c1"]

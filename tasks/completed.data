@@ -1,3 +1,4 @@
+[description:"add source file information in every operation" end:"1706168523" entry:"1706166541" modified:"1706168523" priority:"H" status:"completed" tags:"newfeat" tags_newfeat:"x" uuid:"8c858159-0489-4b44-8e05-1e9cf276f6c1"]
 [description:"change database: one file per operation" end:"1706166429" entry:"1706161504" modified:"1706166429" priority:"H" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"50e13efb-0c2a-4786-a4f3-73cce5fdc63a"]
 [description:"consider date format for pretty formatting" end:"1706106133" entry:"1706102465" modified:"1706106133" priority:"M" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"61d6a62f-f703-4130-835d-d765ae7e4527"]
 [description:"consider money format for pretty formatting" end:"1706105068" entry:"1706102486" modified:"1706105068" priority:"M" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"c3c1450d-d791-4508-bce6-afb65a6a7c20"]
