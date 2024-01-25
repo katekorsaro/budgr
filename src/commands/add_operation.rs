@@ -25,16 +25,7 @@ pub fn add_operation(config: &Config, args: &Budgr) {
         .open(&filename);
       if let Ok(mut file) = file {
         operation.id = id;
-        let string_value = format!(
-          "{}|{}|{}|{}|{}|{}|{}",
-          operation.id,
-          operation.date,
-          operation.note,
-          operation.amount,
-          operation.account.clone().unwrap_or("".to_string()),
-          operation.purpose.clone().unwrap_or("".to_string()),
-          operation.goal.clone().unwrap_or("".to_string())
-        );
+        let string_value = operation.to_raw_string();
         let _ = file.write_all(string_value.as_bytes());
         break;
       }

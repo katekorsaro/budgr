@@ -44,6 +44,19 @@ impl Data {
       path: String::from(""),
     })
   }
+
+  pub fn to_raw_string(&self) -> String {
+    format!(
+      "{}|{}|{}|{}|{}|{}|{}",
+      self.id,
+      self.date,
+      self.note,
+      self.amount,
+      self.account.clone().unwrap_or(String::new()),
+      self.purpose.clone().unwrap_or(String::new()),
+      self.goal.clone().unwrap_or(String::new())
+    )
+  }
 }
 
 pub fn read_data(config: &Config) -> Vec<Data> {
