@@ -16,4 +16,5 @@
 [description:"filter by note (like)" entry:"1706106595" modified:"1706106596" priority:"M" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"e8f235b8-428a-45a2-a8aa-4cc6dbeec218"]
 [dep_24ee5649-2470-4573-9bdd-de8b27491692:"x" depends:"24ee5649-2470-4573-9bdd-de8b27491692" description:"modify subcommand purpose to edit purpose" entry:"1706106702" modified:"1706106924" priority:"M" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"4d455f3d-2deb-49c7-a5b0-e1a43954480e"]
 [description:"think of some mechanism to keep operation history" entry:"1706113387" modified:"1706113387" priority:"M" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"8b73c11b-c06b-4639-a455-216ec8029cca"]
-[description:"add a new operation" entry:"1706170935" modified:"1706170935" priority:"H" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"084054d0-9412-4ace-8833-4e1f3bc741dd"]
+[description:"sort commad alphabetically" entry:"1706171285" modified:"1706171285" priority:"L" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"ced120e8-620c-4a9a-b855-7af0301b4c32"]
+[description:"refactor the operation 'to_string'" entry:"1706171834" modified:"1706171834" priority:"M" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"7ec784cb-ebd2-449b-99c9-fe3c01fbe44d"]
