@@ -25,7 +25,9 @@ impl Data {
       amount: parts.next().unwrap().parse::<i32>().unwrap(),
       purpose: parts.next().map(|value| value.to_string()),
       account: parts.next().map(|value| value.to_string()),
-      goal: parts.next().map(|value| value.replace("\n", "").to_string()),
+      goal: parts
+        .next()
+        .map(|value| value.replace("\n", "").to_string()),
       path: String::from(""),
     })
   }
@@ -38,8 +40,12 @@ pub fn read_data(config: &Config) -> Vec<Data> {
   files
     .map(|file| file.unwrap().path())
     .filter(|path| path.extension().unwrap() == "bgr")
-    .map(|path| fs::read_to_string(path).unwrap())
-    .map(|string_value| Data::from_string(&string_value).unwrap())
+    .map(|path| (fs::read_to_string(path.clone()).unwrap(), path))
+    .map(|(string_value, path)| {
+      let mut data = Data::from_string(&string_value).unwrap();
+      data.path = String::from(path.to_str().unwrap());
+      data
+    })
     .collect::<Vec<Data>>()
 }
 
