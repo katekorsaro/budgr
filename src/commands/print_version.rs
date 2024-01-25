@@ -3,4 +3,3 @@ pub fn print_version() {
   let name = env!("CARGO_PKG_NAME");
   println!("{name}: {version}");
 }
-

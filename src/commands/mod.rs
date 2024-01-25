@@ -1,20 +1,18 @@
-mod list_operations;
+mod add_operation;
 mod count_operations;
-mod print_version;
+mod list_operations;
 mod modify_operations;
+mod print_version;
 
-pub use list_operations::*;
+pub use add_operation::*;
 pub use count_operations::*;
-pub use print_version::*;
+pub use list_operations::*;
 pub use modify_operations::*;
+pub use print_version::*;
 
-use crate::cli::{Budgr, Command, Format};
-use crate::data::{Data};
-use crate::Config;
+use crate::cli::{Budgr, Format};
+use crate::data::Data;
 use prettytable::{row, Table};
-use rand::{thread_rng, Rng};
-use std::fs::OpenOptions;
-use std::io::Write;
 
 fn filter_data(data: Vec<Data>, args: &Budgr) -> Vec<Data> {
   data
@@ -82,40 +80,4 @@ fn print_raw(data: Vec<Data>) {
       operation.path
     );
   });
-}
-
-pub fn add_operation(config: &Config, args: &Budgr) {
-  if let Some(Command::Add { date, note, amount }) = &args.command {
-    let mut operation = Data {
-      date: *date,
-      note: String::from(note),
-      amount: *amount,
-      ..Data::default()
-    };
-    let mut rng = thread_rng();
-    loop {
-      let id: u32 = rng.gen();
-      let filename = format!("{}{}.{:010}.bgr", config.data, date, id);
-      let file = OpenOptions::new()
-        .create_new(true)
-        .write(true)
-        .truncate(true)
-        .open(&filename);
-      if let Ok(mut file) = file {
-        operation.id = id;
-        let string_value = format!(
-          "{}|{}|{}|{}|{}|{}|{}",
-          operation.id,
-          operation.date,
-          operation.note,
-          operation.amount,
-          operation.account.clone().unwrap_or("".to_string()),
-          operation.purpose.clone().unwrap_or("".to_string()),
-          operation.goal.clone().unwrap_or("".to_string())
-        );
-        let _ = file.write_all(string_value.as_bytes());
-        break;
-      }
-    }
-  }
 }
