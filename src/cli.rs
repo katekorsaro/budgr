@@ -10,10 +10,6 @@ pub struct Budgr {
   /// filter option: inclusive date to
   pub to: Option<u32>,
 
-  #[arg(short, long, default_value = "raw")]
-  /// output format to display
-  pub output_format: Option<Format>,
-
   #[command(subcommand)]
   pub command: Option<Command>,
 }
@@ -21,7 +17,11 @@ pub struct Budgr {
 #[derive(Subcommand, Debug)]
 pub enum Command {
   /// List all operations
-  List,
+  List {
+    #[arg(short, long, default_value = "raw")]
+    /// output format to display
+    output_format: Option<Format>,
+  },
 
   /// Count all operations
   Count,
@@ -59,23 +59,23 @@ pub enum Format {
   Pretty,
 }
 
-#[derive(Clone,Debug,ValueEnum)]
+#[derive(Clone, Debug, ValueEnum)]
 pub enum Purpose {
-    Need,
-    Want,
-    Goal,
-    YearlyNeed,
-    YearlyWant
+  Need,
+  Want,
+  Goal,
+  YearlyNeed,
+  YearlyWant,
 }
 
 impl From<&Purpose> for String {
-    fn from (p: &Purpose) -> Self {
-        match p {
-            Purpose::Need => String::from("Need"),
-            Purpose::Want => String::from("Want"),
-            Purpose::Goal => String::from("Goal"),
-            Purpose::YearlyNeed => String::from("Yearly Need"),
-            Purpose::YearlyWant => String::from("Yearly Want"),
-        }
+  fn from(p: &Purpose) -> Self {
+    match p {
+      Purpose::Need => String::from("Need"),
+      Purpose::Want => String::from("Want"),
+      Purpose::Goal => String::from("Goal"),
+      Purpose::YearlyNeed => String::from("Yearly Need"),
+      Purpose::YearlyWant => String::from("Yearly Want"),
     }
+  }
 }
