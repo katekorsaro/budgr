@@ -12,6 +12,7 @@ pub struct Data {
   pub purpose: Option<String>,
   pub goal: Option<String>,
   pub path: String,
+  pub creation_date: String,
 }
 
 impl Data {
@@ -25,6 +26,7 @@ impl Data {
       purpose: None,
       goal: None,
       path: String::new(),
+      creation_date: String::new(),
     }
   }
 
@@ -42,19 +44,21 @@ impl Data {
         .next()
         .map(|value| value.replace("\n", "").to_string()),
       path: String::from(""),
+      creation_date: String::from(parts.next().unwrap()),
     })
   }
 
   pub fn to_raw_string(&self) -> String {
     format!(
-      "{}|{}|{}|{}|{}|{}|{}",
+      "{}|{}|{}|{}|{}|{}|{}|{}",
       self.id,
       self.date,
       self.note,
       self.amount,
       self.account.clone().unwrap_or(String::new()),
       self.purpose.clone().unwrap_or(String::new()),
-      self.goal.clone().unwrap_or(String::new())
+      self.goal.clone().unwrap_or(String::new()),
+      self.creation_date,
     )
   }
 }
@@ -77,7 +81,7 @@ pub fn read_data(config: &Config) -> Vec<Data> {
 
 #[test]
 fn parse_data() {
-  let input: String = String::from("1|20240101|Note|10000|bank|purpose|goal");
+  let input: String = String::from("1|20240101|Note|10000|bank|purpose|goal|2024-01-01 10:55:35");
   let data: Data = Data::from_string(&input).unwrap();
   assert_eq!(data.id, 1);
   assert_eq!(data.date, 20240101);

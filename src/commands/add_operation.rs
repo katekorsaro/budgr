@@ -5,16 +5,21 @@ use crate::Config;
 use rand::{thread_rng, Rng};
 use std::fs::OpenOptions;
 use std::io::Write;
+use time::format_description;
+use time::OffsetDateTime;
 
 pub fn add_operation(config: &Config, args: &Budgr) {
   if let Some(Command::Add { date, note, amount }) = &args.command {
+    let fmt = format_description::parse("[year]-[month]-[day] [hour]:[minute]:[second]").unwrap();
+    let now = OffsetDateTime::now_local().unwrap().format(&fmt).unwrap();
+    let mut rng = thread_rng();
     let mut operation = Data {
       date: *date,
       note: String::from(note),
       amount: *amount,
+      creation_date: now,
       ..Data::default()
     };
-    let mut rng = thread_rng();
     loop {
       let id: u32 = rng.gen();
       let filename = format!("{}{}.{:010}.bgr", config.data, date, id);
