@@ -824,3 +824,35 @@ time 1706190150
 old [description:"add 'creation-date' system field to store creation time" entry:"1706189801" modified:"1706189801" priority:"H" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"7aca6c66-5e7f-4220-aca3-2a8cf99cc272"]
 new [description:"add 'creation-date' system field to store creation time" entry:"1706189801" modified:"1706190150" priority:"H" start:"1706190150" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"7aca6c66-5e7f-4220-aca3-2a8cf99cc272"]
 ---
+time 1706190887
+new [description:"sort by id" entry:"1706190887" modified:"1706190887" status:"pending" uuid:"106d159e-7d85-4367-9ed3-ec6aa62dabf3"]
+---
+time 1706190893
+new [description:"sort by date asc and desc" entry:"1706190893" modified:"1706190893" status:"pending" uuid:"b9a2fba9-88ce-4d84-b22e-8da443f724b8"]
+---
+time 1706190901
+new [description:"sort by amount asc and desc" entry:"1706190901" modified:"1706190901" status:"pending" uuid:"32ace341-ac18-4db6-8cb0-6da059089132"]
+---
+time 1706190938
+old [description:"sort by id" entry:"1706190887" modified:"1706190887" status:"pending" uuid:"106d159e-7d85-4367-9ed3-ec6aa62dabf3"]
+new [description:"sort by id" entry:"1706190887" modified:"1706190938" priority:"M" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"106d159e-7d85-4367-9ed3-ec6aa62dabf3"]
+---
+time 1706190938
+old [description:"sort by date asc and desc" entry:"1706190893" modified:"1706190893" status:"pending" uuid:"b9a2fba9-88ce-4d84-b22e-8da443f724b8"]
+new [description:"sort by date asc and desc" entry:"1706190893" modified:"1706190938" priority:"M" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"b9a2fba9-88ce-4d84-b22e-8da443f724b8"]
+---
+time 1706190938
+old [description:"sort by amount asc and desc" entry:"1706190901" modified:"1706190901" status:"pending" uuid:"32ace341-ac18-4db6-8cb0-6da059089132"]
+new [description:"sort by amount asc and desc" entry:"1706190901" modified:"1706190938" priority:"M" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"32ace341-ac18-4db6-8cb0-6da059089132"]
+---
+time 1706195186
+old [description:"add 'creation-date' system field to store creation time" entry:"1706189801" modified:"1706190150" priority:"H" start:"1706190150" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"7aca6c66-5e7f-4220-aca3-2a8cf99cc272"]
+new [description:"add 'creation-date' system field to store creation time" end:"1706195186" entry:"1706189801" modified:"1706195186" priority:"H" status:"completed" tags:"newfeat" tags_newfeat:"x" uuid:"7aca6c66-5e7f-4220-aca3-2a8cf99cc272"]
+---
+time 1706195218
+new [description:"print_raw not printing creation_date" entry:"1706195218" modified:"1706195218" priority:"H" status:"pending" tags:"bug" tags_bug:"x" uuid:"a4f570f8-4921-4152-9d9a-edc87f95a26a"]
+---
+time 1706195224
+old [description:"print_raw not printing creation_date" entry:"1706195218" modified:"1706195218" priority:"H" status:"pending" tags:"bug" tags_bug:"x" uuid:"a4f570f8-4921-4152-9d9a-edc87f95a26a"]
+new [description:"print_raw not printing creation_date" entry:"1706195218" modified:"1706195224" priority:"H" start:"1706195224" status:"pending" tags:"bug" tags_bug:"x" uuid:"a4f570f8-4921-4152-9d9a-edc87f95a26a"]
+---

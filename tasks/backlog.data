@@ -233,3 +233,12 @@
 {"description":"add 'creation-date' system field to store creation time","entry":"20240125T133641Z","modified":"20240125T133920Z","status":"pending","uuid":"7aca6c66-5e7f-4220-aca3-2a8cf99cc272","tags":["newfeat"]}
 {"description":"add 'creation-date' system field to store creation time","entry":"20240125T133641Z","modified":"20240125T133641Z","priority":"H","status":"pending","uuid":"7aca6c66-5e7f-4220-aca3-2a8cf99cc272","tags":["newfeat"]}
 {"description":"add 'creation-date' system field to store creation time","entry":"20240125T133641Z","modified":"20240125T134230Z","priority":"H","start":"20240125T134230Z","status":"pending","uuid":"7aca6c66-5e7f-4220-aca3-2a8cf99cc272","tags":["newfeat"]}
+{"description":"sort by id","entry":"20240125T135447Z","modified":"20240125T135447Z","status":"pending","uuid":"106d159e-7d85-4367-9ed3-ec6aa62dabf3"}
+{"description":"sort by date asc and desc","entry":"20240125T135453Z","modified":"20240125T135453Z","status":"pending","uuid":"b9a2fba9-88ce-4d84-b22e-8da443f724b8"}
+{"description":"sort by amount asc and desc","entry":"20240125T135501Z","modified":"20240125T135501Z","status":"pending","uuid":"32ace341-ac18-4db6-8cb0-6da059089132"}
+{"description":"sort by id","entry":"20240125T135447Z","modified":"20240125T135538Z","priority":"M","status":"pending","uuid":"106d159e-7d85-4367-9ed3-ec6aa62dabf3","tags":["newfeat"]}
+{"description":"sort by date asc and desc","entry":"20240125T135453Z","modified":"20240125T135538Z","priority":"M","status":"pending","uuid":"b9a2fba9-88ce-4d84-b22e-8da443f724b8","tags":["newfeat"]}
+{"description":"sort by amount asc and desc","entry":"20240125T135501Z","modified":"20240125T135538Z","priority":"M","status":"pending","uuid":"32ace341-ac18-4db6-8cb0-6da059089132","tags":["newfeat"]}
+{"description":"add 'creation-date' system field to store creation time","end":"20240125T150626Z","entry":"20240125T133641Z","modified":"20240125T150626Z","priority":"H","status":"completed","uuid":"7aca6c66-5e7f-4220-aca3-2a8cf99cc272","tags":["newfeat"]}
+{"description":"print_raw not printing creation_date","entry":"20240125T150658Z","modified":"20240125T150658Z","priority":"H","status":"pending","uuid":"a4f570f8-4921-4152-9d9a-edc87f95a26a","tags":["bug"]}
+{"description":"print_raw not printing creation_date","entry":"20240125T150658Z","modified":"20240125T150704Z","priority":"H","start":"20240125T150704Z","status":"pending","uuid":"a4f570f8-4921-4152-9d9a-edc87f95a26a","tags":["bug"]}
