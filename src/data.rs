@@ -15,6 +15,19 @@ pub struct Data {
 }
 
 impl Data {
+  pub fn default() -> Self {
+    Data {
+      id: 0,
+      date: 0,
+      note: String::new(),
+      amount: 0,
+      account: None,
+      purpose: None,
+      goal: None,
+      path: String::new(),
+    }
+  }
+
   fn from_string(string_value: &str) -> Result<Self, String> {
     let mut parts = string_value.split('|');
 

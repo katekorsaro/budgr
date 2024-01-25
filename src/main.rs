@@ -29,8 +29,9 @@ fn main() {
 
   // handle commands
   match bin.command {
-    Some(Command::List) => list_operations(&config, &bin),
+    Some(Command::Add { .. }) => add_operation(&config, &bin),
     Some(Command::Count) => count_operations(&config, &bin),
+    Some(Command::List) => list_operations(&config, &bin),
     Some(Command::Modify { .. }) => modify_operations(&config, &bin),
     Some(Command::Version) => print_version(),
     _ => unreachable!("No other commands for now."),

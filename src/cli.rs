@@ -29,6 +29,13 @@ pub enum Command {
   /// Print current version
   Version,
 
+  /// Add a new operation
+  Add {
+    date: u32,
+    note: String,
+    amount: i32,
+  },
+
   /// Modify the filtered list
   Modify {
     #[arg(short, long)]
