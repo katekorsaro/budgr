@@ -3,6 +3,7 @@ mod count_operations;
 mod list_operations;
 mod modify_operations;
 mod print_version;
+mod filter_data;
 
 pub use add_operation::*;
 pub use count_operations::*;
@@ -10,29 +11,9 @@ pub use list_operations::*;
 pub use modify_operations::*;
 pub use print_version::*;
 
-use crate::cli::{Budgr, Format};
+use crate::cli::{Format};
 use crate::data::Data;
 use prettytable::{row, Table};
-
-fn filter_data(data: Vec<Data>, args: &Budgr) -> Vec<Data> {
-  data
-    .into_iter()
-    .filter(|operation| {
-      if let Some(from_date) = args.from {
-        operation.date >= from_date
-      } else {
-        true
-      }
-    })
-    .filter(|operation| {
-      if let Some(to_date) = args.to {
-        operation.date <= to_date
-      } else {
-        true
-      }
-    })
-    .collect()
-}
 
 fn print_pretty(data: Vec<Data>) {
   let mut table = Table::new();

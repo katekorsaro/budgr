@@ -1,7 +1,8 @@
-use crate::commands::filter_data;
+
 use crate::data::read_data;
 use crate::Budgr;
 use crate::Config;
+use crate::commands::filter_data::filter_data;
 
 pub fn count_operations(config: &Config, args: &Budgr) {
   let data = read_data(config);

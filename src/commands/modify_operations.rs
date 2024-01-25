@@ -1,10 +1,11 @@
-use crate::commands::filter_data;
+
 use crate::data::read_data;
 use crate::Budgr;
 use crate::Command;
 use crate::Config;
 use std::fs::OpenOptions;
 use std::io::Write;
+use crate::commands::filter_data::filter_data;
 
 pub fn modify_operations(config: &Config, args: &Budgr) {
   if let Some(Command::Modify {
