@@ -225,3 +225,4 @@
 {"description":"output format should be only for list command","entry":"20240125T112813Z","modified":"20240125T113022Z","priority":"M","start":"20240125T113022Z","status":"pending","uuid":"dabc544a-0a9d-42e5-834f-edd73c7034cd","tags":["bug"]}
 {"description":"output format should be only for list command","end":"20240125T113841Z","entry":"20240125T112813Z","modified":"20240125T113841Z","priority":"M","status":"completed","uuid":"dabc544a-0a9d-42e5-834f-edd73c7034cd","tags":["bug"]}
 {"description":"sort command alphabetically","entry":"20240125T082805Z","modified":"20240125T132848Z","priority":"L","start":"20240125T132848Z","status":"pending","uuid":"ced120e8-620c-4a9a-b855-7af0301b4c32","tags":["improvement"]}
+{"description":"sort command alphabetically","end":"20240125T133227Z","entry":"20240125T082805Z","modified":"20240125T133227Z","priority":"L","status":"completed","uuid":"ced120e8-620c-4a9a-b855-7af0301b4c32","tags":["improvement"]}
