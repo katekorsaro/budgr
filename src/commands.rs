@@ -129,6 +129,7 @@ pub fn modify_operations(config: &Config, args: &Budgr) {
       let mut file = OpenOptions::new()
         .write(true)
         .create(true)
+        .truncate(true)
         .open(&operation.path)
         .unwrap();
 
@@ -152,6 +153,7 @@ pub fn add_operation(config: &Config, args: &Budgr) {
       let file = OpenOptions::new()
         .create_new(true)
         .write(true)
+        .truncate(true)
         .open(&filename);
       if let Ok(mut file) = file {
         operation.id = id;
