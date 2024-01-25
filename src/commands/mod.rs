@@ -1,8 +1,10 @@
 mod list_operations;
 mod count_operations;
+mod print_version;
 
 pub use list_operations::*;
 pub use count_operations::*;
+pub use print_version::*;
 
 use crate::cli::{Budgr, Command, Format};
 use crate::data::{read_data, Data};
@@ -78,12 +80,6 @@ fn print_raw(data: Vec<Data>) {
       operation.path
     );
   });
-}
-
-pub fn print_version() {
-  let version = env!("CARGO_PKG_VERSION");
-  let name = env!("CARGO_PKG_NAME");
-  println!("{name}: {version}");
 }
 
 pub fn modify_operations(config: &Config, args: &Budgr) {
