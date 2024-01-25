@@ -1,6 +1,8 @@
 mod list_operations;
+mod count_operations;
 
 pub use list_operations::*;
+pub use count_operations::*;
 
 use crate::cli::{Budgr, Command, Format};
 use crate::data::{read_data, Data};
@@ -76,12 +78,6 @@ fn print_raw(data: Vec<Data>) {
       operation.path
     );
   });
-}
-
-pub fn count_operations(config: &Config, args: &Budgr) {
-  let data = read_data(config);
-  let data = filter_data(data, args);
-  println!("{}", data.len());
 }
 
 pub fn print_version() {
