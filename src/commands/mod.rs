@@ -1,9 +1,10 @@
 mod add_operation;
 mod count_operations;
+mod filter_data;
 mod list_operations;
 mod modify_operations;
+mod print_pretty;
 mod print_version;
-mod filter_data;
 
 pub use add_operation::*;
 pub use count_operations::*;
@@ -11,34 +12,8 @@ pub use list_operations::*;
 pub use modify_operations::*;
 pub use print_version::*;
 
-use crate::cli::{Format};
+use crate::cli::Format;
 use crate::data::Data;
-use prettytable::{row, Table};
-
-fn print_pretty(data: Vec<Data>) {
-  let mut table = Table::new();
-  table.add_row(row![
-    "Id",
-    "Date",
-    "Note",
-    "Amount ",
-    "Account",
-    "Purpose",
-    "Goal"
-  ]);
-  data.into_iter().for_each(|operation| {
-    table.add_row(row![
-      operation.id.to_string(),
-      format!("{}", prettify_date(operation.date)),
-      operation.note,
-      r->format!("{:.2}", (operation.amount as f32)/100_f32),
-      operation.account.unwrap_or("".to_string()),
-      operation.purpose.unwrap_or("".to_string()),
-      operation.goal.unwrap_or("".to_string()),
-    ]);
-  });
-  table.printstd();
-}
 
 fn prettify_date(date: u32) -> String {
   let mut retvalue = date.to_string();

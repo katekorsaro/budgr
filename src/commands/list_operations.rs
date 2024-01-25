@@ -1,8 +1,9 @@
-use crate::commands::{print_pretty, print_raw, Format};
+use crate::commands::filter_data::filter_data;
+use crate::commands::print_pretty::print_pretty;
+use crate::commands::{print_raw, Format};
 use crate::data::read_data;
 use crate::Budgr;
 use crate::Config;
-use crate::commands::filter_data::filter_data;
 
 pub fn list_operations(config: &Config, args: &Budgr) {
   let data = read_data(config);
