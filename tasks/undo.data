@@ -702,3 +702,14 @@ time 1706168523
 old [description:"add source file information in every operation" entry:"1706166541" modified:"1706166543" priority:"H" start:"1706166543" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"8c858159-0489-4b44-8e05-1e9cf276f6c1"]
 new [description:"add source file information in every operation" end:"1706168523" entry:"1706166541" modified:"1706168523" priority:"H" status:"completed" tags:"newfeat" tags_newfeat:"x" uuid:"8c858159-0489-4b44-8e05-1e9cf276f6c1"]
 ---
+time 1706170898
+old [description:"data writing base implementation (leveraging raw output)" entry:"1706106901" modified:"1706109331" priority:"M" start:"1706109331" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"24ee5649-2470-4573-9bdd-de8b27491692"]
+new [description:"data writing base implementation (leveraging raw output)" end:"1706170898" entry:"1706106901" modified:"1706170898" priority:"M" status:"completed" tags:"newfeat" tags_newfeat:"x" uuid:"24ee5649-2470-4573-9bdd-de8b27491692"]
+---
+time 1706170901
+old [dep_24ee5649-2470-4573-9bdd-de8b27491692:"x" depends:"24ee5649-2470-4573-9bdd-de8b27491692" description:"modify command base implementation" entry:"1706106632" modified:"1706109339" priority:"M" start:"1706109339" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"e4130149-a831-4ba2-909a-cebeb39e464a"]
+new [dep_24ee5649-2470-4573-9bdd-de8b27491692:"x" depends:"24ee5649-2470-4573-9bdd-de8b27491692" description:"modify command base implementation" end:"1706170901" entry:"1706106632" modified:"1706170901" priority:"M" status:"completed" tags:"newfeat" tags_newfeat:"x" uuid:"e4130149-a831-4ba2-909a-cebeb39e464a"]
+---
+time 1706170935
+new [description:"add a new operation" entry:"1706170935" modified:"1706170935" priority:"H" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"084054d0-9412-4ace-8833-4e1f3bc741dd"]
+---
