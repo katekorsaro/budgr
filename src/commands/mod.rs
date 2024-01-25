@@ -1,13 +1,15 @@
 mod list_operations;
 mod count_operations;
 mod print_version;
+mod modify_operations;
 
 pub use list_operations::*;
 pub use count_operations::*;
 pub use print_version::*;
+pub use modify_operations::*;
 
 use crate::cli::{Budgr, Command, Format};
-use crate::data::{read_data, Data};
+use crate::data::{Data};
 use crate::Config;
 use prettytable::{row, Table};
 use rand::{thread_rng, Rng};
@@ -80,48 +82,6 @@ fn print_raw(data: Vec<Data>) {
       operation.path
     );
   });
-}
-
-pub fn modify_operations(config: &Config, args: &Budgr) {
-  if let Some(Command::Modify {
-    account,
-    purpose,
-    goal,
-  }) = &args.command
-  {
-    let data = read_data(config);
-    let mut data = filter_data(data, args);
-    data.iter_mut().for_each(|operation| {
-      if let Some(account) = account {
-        operation.account = Some(String::from(account))
-      };
-      if let Some(purpose) = purpose {
-        operation.purpose = Some(String::from(purpose))
-      };
-      if let Some(goal) = goal {
-        operation.goal = Some(String::from(goal))
-      };
-      // let's write to file!
-      let string_value = format!(
-        "{}|{}|{}|{}|{}|{}|{}",
-        operation.id,
-        operation.date,
-        operation.note,
-        operation.amount,
-        operation.account.clone().unwrap_or("".to_string()),
-        operation.purpose.clone().unwrap_or("".to_string()),
-        operation.goal.clone().unwrap_or("".to_string())
-      );
-      let mut file = OpenOptions::new()
-        .write(true)
-        .create(true)
-        .truncate(true)
-        .open(&operation.path)
-        .unwrap();
-
-      let _ = file.write_all(string_value.as_bytes());
-    });
-  }
 }
 
 pub fn add_operation(config: &Config, args: &Budgr) {
