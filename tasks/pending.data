@@ -23,4 +23,4 @@
 [description:"refactor data module" entry:"1706256764" modified:"1706256764" priority:"M" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"1f700968-17d6-4bae-8cc0-5a8628233154"]
 [description:"refactor delete and undelete to set_status" entry:"1706258183" modified:"1706258183" priority:"M" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"7ded8898-ae3d-4b3d-9c9f-2f54449ff40e"]
 [description:"add human feedback for modify, delete, undelete operations (rows affected)" entry:"1706258450" modified:"1706258466" priority:"L" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"7f21bcb0-d4af-4c05-869d-0cdc524a2689"]
-[description:"clean code using clippy's help" entry:"1706260782" modified:"1706260785" priority:"H" start:"1706260785" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"6933f507-41ff-4b08-98e4-5a19277760d6"]
+[description:"modify command code cleaning for purpose, goal, account" entry:"1706261181" modified:"1706261185" priority:"H" start:"1706261185" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"9f36a146-5e96-46b4-97b5-60c287b88d32"]
