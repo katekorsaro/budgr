@@ -57,7 +57,7 @@ pub enum Command {
   /// List all operations
   #[command(visible_alias("l"))]
   List {
-    #[arg(short, long, default_value = "raw")]
+    #[arg(short, long, default_value = "pretty")]
     /// output format to display
     output_format: Option<Format>,
     #[arg(short, long, default_value = "desc")]
