@@ -6,13 +6,13 @@ use prettytable::{row, Table};
 pub fn print_pretty(data: Vec<Operation>) {
   let mut table = Table::new();
   table.add_row(row![
-    "Id",
-    "Date",
-    "Note",
-    "Amount ",
-    "Account",
-    "Purpose",
-    "Goal"
+    c->"Id",
+    c->"Date",
+    c->"Note",
+    c->"Amount ",
+    c->"Account",
+    c->"Purpose",
+    c->"Goal"
   ]);
   data.into_iter().for_each(|operation| {
     let purpose = colorized_purpose(&operation);
