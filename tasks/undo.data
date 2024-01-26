@@ -1197,3 +1197,15 @@ time 1706269276
 old [description:"allow to modify date of an operation" entry:"1706268644" modified:"1706268675" priority:"M" status:"pending" uuid:"e83a8aed-87c6-4f1b-b0a5-bc1a529fadb8"]
 new [description:"allow to modify date of an operation" entry:"1706268644" modified:"1706269276" priority:"H" status:"pending" uuid:"e83a8aed-87c6-4f1b-b0a5-bc1a529fadb8"]
 ---
+time 1706275191
+old [description:"allow to modify amount of one operation" entry:"1706268630" modified:"1706269271" priority:"H" status:"pending" uuid:"2727ae69-7ca7-444e-a57d-c037dcdebe8a"]
+new [description:"allow to modify amount of one operation" entry:"1706268630" modified:"1706275191" priority:"H" start:"1706275191" status:"pending" uuid:"2727ae69-7ca7-444e-a57d-c037dcdebe8a"]
+---
+time 1706275732
+old [description:"allow to modify amount of one operation" entry:"1706268630" modified:"1706275191" priority:"H" start:"1706275191" status:"pending" uuid:"2727ae69-7ca7-444e-a57d-c037dcdebe8a"]
+new [description:"allow to modify amount of one operation" end:"1706275732" entry:"1706268630" modified:"1706275732" priority:"H" status:"completed" uuid:"2727ae69-7ca7-444e-a57d-c037dcdebe8a"]
+---
+time 1706275733
+old [description:"allow to modify date of an operation" entry:"1706268644" modified:"1706269276" priority:"H" status:"pending" uuid:"e83a8aed-87c6-4f1b-b0a5-bc1a529fadb8"]
+new [description:"allow to modify date of an operation" entry:"1706268644" modified:"1706275733" priority:"H" start:"1706275733" status:"pending" uuid:"e83a8aed-87c6-4f1b-b0a5-bc1a529fadb8"]
+---
