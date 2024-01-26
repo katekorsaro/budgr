@@ -1,3 +1,4 @@
+[description:"allow to modify date of an operation" end:"1706275972" entry:"1706268644" modified:"1706275972" priority:"H" status:"completed" uuid:"e83a8aed-87c6-4f1b-b0a5-bc1a529fadb8"]
 [description:"allow to modify amount of one operation" end:"1706275732" entry:"1706268630" modified:"1706275732" priority:"H" status:"completed" uuid:"2727ae69-7ca7-444e-a57d-c037dcdebe8a"]
 [dep_7fe10fca-a0ee-4255-ba42-e751174ba118:"x" depends:"7fe10fca-a0ee-4255-ba42-e751174ba118" description:"filter by id" end:"1706268607" entry:"1706106287" modified:"1706268607" priority:"H" status:"completed" tags:"newfeat" tags_newfeat:"x" uuid:"ca5985b6-6c46-4ace-997f-96ca941cfe49"]
 [description:"add id parameter to add_operation command (can be useful for testing purpose)" end:"1706266921" entry:"1706265143" modified:"1706266921" priority:"M" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"7fe10fca-a0ee-4255-ba42-e751174ba118"]

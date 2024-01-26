@@ -340,3 +340,6 @@
 {"description":"allow to modify amount of one operation","entry":"20240126T113030Z","modified":"20240126T131951Z","priority":"H","start":"20240126T131951Z","status":"pending","uuid":"2727ae69-7ca7-444e-a57d-c037dcdebe8a"}
 {"description":"allow to modify amount of one operation","end":"20240126T132852Z","entry":"20240126T113030Z","modified":"20240126T132852Z","priority":"H","status":"completed","uuid":"2727ae69-7ca7-444e-a57d-c037dcdebe8a"}
 {"description":"allow to modify date of an operation","entry":"20240126T113044Z","modified":"20240126T132853Z","priority":"H","start":"20240126T132853Z","status":"pending","uuid":"e83a8aed-87c6-4f1b-b0a5-bc1a529fadb8"}
+{"description":"allow to modify date of an operation","end":"20240126T133252Z","entry":"20240126T113044Z","modified":"20240126T133252Z","priority":"H","status":"completed","uuid":"e83a8aed-87c6-4f1b-b0a5-bc1a529fadb8"}
+{"description":"allow to modify operation note","entry":"20240126T133347Z","modified":"20240126T133347Z","priority":"H","status":"pending","uuid":"31083d3c-69b6-4d5d-aff2-52c11f5cc766"}
+{"description":"allow to modify operation note","entry":"20240126T133347Z","modified":"20240126T133349Z","priority":"H","start":"20240126T133349Z","status":"pending","uuid":"31083d3c-69b6-4d5d-aff2-52c11f5cc766"}

@@ -23,4 +23,4 @@
 [description:"evaluate to use u32 also for amount. adding Income as purpose to differentiate positive and negative operations" entry:"1706262845" modified:"1706268675" priority:"M" status:"pending" uuid:"fa7eb58e-b654-48d2-b983-790d94b9b42f"]
 [description:"limit list output to a given number of entries (keeping order and filter)" entry:"1706263536" modified:"1706269152" priority:"L" status:"pending" tags:"new" tags_new:"x" uuid:"ad16c3d5-9e00-4675-81ed-10265b03a6a0"]
 [description:"sort by id" entry:"1706190887" modified:"1706269152" priority:"L" status:"pending" tags:"new" tags_new:"x" uuid:"106d159e-7d85-4367-9ed3-ec6aa62dabf3"]
-[description:"allow to modify date of an operation" entry:"1706268644" modified:"1706275733" priority:"H" start:"1706275733" status:"pending" uuid:"e83a8aed-87c6-4f1b-b0a5-bc1a529fadb8"]
+[description:"allow to modify operation note" entry:"1706276027" modified:"1706276029" priority:"H" start:"1706276029" status:"pending" uuid:"31083d3c-69b6-4d5d-aff2-52c11f5cc766"]
