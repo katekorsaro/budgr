@@ -1048,3 +1048,14 @@ time 1706264833
 old [annotation_1706263430:"defaulting to desc (recent first)" description:"sort by date asc and desc" entry:"1706190893" modified:"1706263448" priority:"H" start:"1706263448" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"b9a2fba9-88ce-4d84-b22e-8da443f724b8"]
 new [annotation_1706263430:"defaulting to desc (recent first)" description:"sort by date asc and desc" end:"1706264833" entry:"1706190893" modified:"1706264833" priority:"H" status:"completed" tags:"newfeat" tags_newfeat:"x" uuid:"b9a2fba9-88ce-4d84-b22e-8da443f724b8"]
 ---
+time 1706265143
+new [description:"add id parameter to add_operation command (can be useful for testing purpose)" entry:"1706265143" modified:"1706265143" priority:"M" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"7fe10fca-a0ee-4255-ba42-e751174ba118"]
+---
+time 1706265152
+old [description:"filter by id" entry:"1706106287" modified:"1706106342" priority:"M" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"ca5985b6-6c46-4ace-997f-96ca941cfe49"]
+new [dep_7fe10fca-a0ee-4255-ba42-e751174ba118:"x" depends:"7fe10fca-a0ee-4255-ba42-e751174ba118" description:"filter by id" entry:"1706106287" modified:"1706265152" priority:"M" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"ca5985b6-6c46-4ace-997f-96ca941cfe49"]
+---
+time 1706265188
+old [description:"sort by id" entry:"1706190887" modified:"1706190938" priority:"M" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"106d159e-7d85-4367-9ed3-ec6aa62dabf3"]
+new [description:"sort by id" entry:"1706190887" modified:"1706265188" priority:"L" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"106d159e-7d85-4367-9ed3-ec6aa62dabf3"]
+---
