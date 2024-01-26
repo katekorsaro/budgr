@@ -1252,3 +1252,11 @@ time 1706277312
 old [description:"add code comment for modify and add args" entry:"1706276985" modified:"1706277100" priority:"H" start:"1706277100" status:"pending" uuid:"a5fb1de1-fed8-4207-b8ab-3782d79c6b34"]
 new [description:"add code comment for modify and add args" end:"1706277312" entry:"1706276985" modified:"1706277312" priority:"H" status:"completed" uuid:"a5fb1de1-fed8-4207-b8ab-3782d79c6b34"]
 ---
+time 1706277340
+old [description:"abbreviate commands" entry:"1706277306" modified:"1706277306" priority:"H" status:"pending" uuid:"bcfd9677-aeee-4f5c-b223-27bdd2d7d5db"]
+new [description:"abbreviate commands" entry:"1706277306" modified:"1706277340" priority:"H" start:"1706277340" status:"pending" uuid:"bcfd9677-aeee-4f5c-b223-27bdd2d7d5db"]
+---
+time 1706278301
+old [description:"abbreviate commands" entry:"1706277306" modified:"1706277340" priority:"H" start:"1706277340" status:"pending" uuid:"bcfd9677-aeee-4f5c-b223-27bdd2d7d5db"]
+new [description:"abbreviate commands" end:"1706278301" entry:"1706277306" modified:"1706278301" priority:"H" status:"completed" uuid:"bcfd9677-aeee-4f5c-b223-27bdd2d7d5db"]
+---

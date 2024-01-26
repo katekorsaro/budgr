@@ -24,4 +24,3 @@
 [description:"limit list output to a given number of entries (keeping order and filter)" entry:"1706263536" modified:"1706269152" priority:"L" status:"pending" tags:"new" tags_new:"x" uuid:"ad16c3d5-9e00-4675-81ed-10265b03a6a0"]
 [description:"sort by id" entry:"1706190887" modified:"1706269152" priority:"L" status:"pending" tags:"new" tags_new:"x" uuid:"106d159e-7d85-4367-9ed3-ec6aa62dabf3"]
 [description:"change envrc to call compiled binary instead of cargo" entry:"1706276920" modified:"1706276920" priority:"H" status:"pending" uuid:"a343fe6b-cd84-44ac-9099-60b1d7b0354c"]
-[description:"abbreviate commands" entry:"1706277306" modified:"1706277306" priority:"H" status:"pending" uuid:"bcfd9677-aeee-4f5c-b223-27bdd2d7d5db"]
