@@ -21,7 +21,7 @@ pub fn print_pretty(data: Vec<Operation>) {
       operation.id.to_string(),
       format!("{}", prettify_date(operation.date)),
       operation.note,
-      amount,
+      r->amount,
       operation.account.unwrap_or(String::new()),
       purpose,
       operation.goal.unwrap_or("".to_string()),
