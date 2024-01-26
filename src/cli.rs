@@ -27,6 +27,9 @@ pub enum Command {
   /// Count all operations
   Count,
 
+  /// Delete (logically) operations
+  Delete,
+
   /// List all operations
   List {
     #[arg(short, long, default_value = "raw")]
