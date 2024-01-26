@@ -1,9 +1,37 @@
 use crate::Config;
 use std::fs;
 use std::path::Path;
+use std::str::FromStr;
+
+#[derive(Debug)]
+pub enum Status {
+  Active,
+  Deleted,
+}
+
+impl FromStr for Status {
+  type Err = String;
+  fn from_str(value: &str) -> Result<Self, String> {
+    match value {
+      "active" => Ok(Status::Active),
+      "deleted" => Ok(Status::Deleted),
+      _ => Err(format!("value '{}' not mapped", value)),
+    }
+  }
+}
+
+impl ToString for Status {
+  fn to_string(&self) -> String {
+    match self {
+      Status::Active => String::from("active"),
+      Status::Deleted => String::from("deleted"),
+    }
+  }
+}
 
 #[derive(Debug)]
 pub struct Data {
+  pub status: Status,
   pub id: u32,
   pub date: u32,
   pub note: String,
@@ -29,6 +57,7 @@ impl Data {
       path: String::new(),
       creation_date: String::new(),
       modification_date: None,
+      status: Status::Active,
     }
   }
 
@@ -37,6 +66,7 @@ impl Data {
 
     Ok(Data {
       id: parts.next().unwrap().parse::<u32>().unwrap(),
+      status: Status::from_str(parts.next().unwrap()).unwrap(),
       creation_date: String::from(parts.next().unwrap()),
       modification_date: parts.next().map(|value| value.to_string()),
       date: parts.next().unwrap().parse::<u32>().unwrap(),
@@ -53,8 +83,9 @@ impl Data {
 
   pub fn to_raw_string(&self) -> String {
     format!(
-      "{}|{}|{}|{}|{}|{}|{}|{}|{}",
+      "{}|{}|{}|{}|{}|{}|{}|{}|{}|{}",
       self.id,
+      self.status.to_string(),
       self.creation_date,
       self.modification_date.clone().unwrap_or(String::new()),
       self.date,
@@ -85,11 +116,16 @@ pub fn read_data(config: &Config) -> Vec<Data> {
 
 #[test]
 fn parse_data() {
-  let input: String = String::from("1|2024-01-01 10:55:35|2024-01-02 12:55:35|20240101|Note|10000|bank|purpose|goal");
+  let input: String = String::from(
+    "1|active|2024-01-01 10:55:35|2024-01-02 12:55:35|20240101|Note|10000|bank|purpose|goal",
+  );
   let data: Data = Data::from_string(&input).unwrap();
   assert_eq!(data.id, 1);
   assert_eq!(data.creation_date, String::from("2024-01-01 10:55:35"));
-  assert_eq!(data.modification_date, Some(String::from("2024-01-02 12:55:35")));
+  assert_eq!(
+    data.modification_date,
+    Some(String::from("2024-01-02 12:55:35"))
+  );
   assert_eq!(data.date, 20240101);
   assert_eq!(data.note, "Note".to_string());
   assert_eq!(data.amount, 10000);
