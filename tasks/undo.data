@@ -1346,3 +1346,21 @@ time 1706286229
 old [description:"command modify account not working" entry:"1706285466" modified:"1706285471" priority:"H" start:"1706285471" status:"pending" tags:"bug" tags_bug:"x" uuid:"d51a70ca-a54a-4078-a8ca-275cad2f6d67"]
 new [description:"command modify account not working" end:"1706286229" entry:"1706285466" modified:"1706286229" priority:"H" status:"completed" tags:"bug" tags_bug:"x" uuid:"d51a70ca-a54a-4078-a8ca-275cad2f6d67"]
 ---
+time 1706286591
+new [description:"amount alignment" entry:"1706286591" modified:"1706286591" priority:"H" status:"pending" tags:"bug" tags_bug:"x" uuid:"66451b38-c026-416e-b3dd-2a09818410a3"]
+---
+time 1706286594
+old [description:"amount alignment" entry:"1706286591" modified:"1706286591" priority:"H" status:"pending" tags:"bug" tags_bug:"x" uuid:"66451b38-c026-416e-b3dd-2a09818410a3"]
+new [description:"amount alignment" entry:"1706286591" modified:"1706286594" priority:"H" start:"1706286594" status:"pending" tags:"bug" tags_bug:"x" uuid:"66451b38-c026-416e-b3dd-2a09818410a3"]
+---
+time 1706288105
+old [description:"amount alignment" entry:"1706286591" modified:"1706286594" priority:"H" start:"1706286594" status:"pending" tags:"bug" tags_bug:"x" uuid:"66451b38-c026-416e-b3dd-2a09818410a3"]
+new [description:"amount alignment" end:"1706288105" entry:"1706286591" modified:"1706288105" priority:"H" status:"completed" tags:"bug" tags_bug:"x" uuid:"66451b38-c026-416e-b3dd-2a09818410a3"]
+---
+time 1706288183
+new [description:"automatic test for add command" entry:"1706288183" modified:"1706288183" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"5359d4a2-7570-4f87-b228-48ec05024073"]
+---
+time 1706288375
+old [description:"evaluate to use u32 also for amount. adding Income as purpose to differentiate positive and negative operations" entry:"1706262845" modified:"1706284416" priority:"H" status:"pending" uuid:"fa7eb58e-b654-48d2-b983-790d94b9b42f"]
+new [description:"evaluate to use u32 also for amount." entry:"1706262845" modified:"1706288375" priority:"H" status:"pending" uuid:"fa7eb58e-b654-48d2-b983-790d94b9b42f"]
+---

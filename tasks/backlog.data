@@ -376,3 +376,8 @@
 {"description":"command modify account not working","entry":"20240126T161106Z","modified":"20240126T161106Z","priority":"H","status":"pending","uuid":"d51a70ca-a54a-4078-a8ca-275cad2f6d67","tags":["bug"]}
 {"description":"command modify account not working","entry":"20240126T161106Z","modified":"20240126T161111Z","priority":"H","start":"20240126T161111Z","status":"pending","uuid":"d51a70ca-a54a-4078-a8ca-275cad2f6d67","tags":["bug"]}
 {"description":"command modify account not working","end":"20240126T162349Z","entry":"20240126T161106Z","modified":"20240126T162349Z","priority":"H","status":"completed","uuid":"d51a70ca-a54a-4078-a8ca-275cad2f6d67","tags":["bug"]}
+{"description":"amount alignment","entry":"20240126T162951Z","modified":"20240126T162951Z","priority":"H","status":"pending","uuid":"66451b38-c026-416e-b3dd-2a09818410a3","tags":["bug"]}
+{"description":"amount alignment","entry":"20240126T162951Z","modified":"20240126T162954Z","priority":"H","start":"20240126T162954Z","status":"pending","uuid":"66451b38-c026-416e-b3dd-2a09818410a3","tags":["bug"]}
+{"description":"amount alignment","end":"20240126T165505Z","entry":"20240126T162951Z","modified":"20240126T165505Z","priority":"H","status":"completed","uuid":"66451b38-c026-416e-b3dd-2a09818410a3","tags":["bug"]}
+{"description":"automatic test for add command","entry":"20240126T165623Z","modified":"20240126T165623Z","priority":"M","status":"pending","uuid":"5359d4a2-7570-4f87-b228-48ec05024073","tags":["new"]}
+{"description":"evaluate to use u32 also for amount.","entry":"20240126T095405Z","modified":"20240126T165935Z","priority":"H","status":"pending","uuid":"fa7eb58e-b654-48d2-b983-790d94b9b42f"}

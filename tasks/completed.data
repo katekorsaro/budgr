@@ -1,3 +1,4 @@
+[description:"amount alignment" end:"1706288105" entry:"1706286591" modified:"1706288105" priority:"H" status:"completed" tags:"bug" tags_bug:"x" uuid:"66451b38-c026-416e-b3dd-2a09818410a3"]
 [description:"command modify account not working" end:"1706286229" entry:"1706285466" modified:"1706286229" priority:"H" status:"completed" tags:"bug" tags_bug:"x" uuid:"d51a70ca-a54a-4078-a8ca-275cad2f6d67"]
 [description:"defaulting to pretty formatting for output" end:"1706284764" entry:"1706103323" modified:"1706284764" priority:"H" status:"completed" uuid:"9594fcab-abc5-4d8c-bf26-c6c77529267f"]
 [description:"change data file extension" end:"1706284561" entry:"1706082407" modified:"1706284561" priority:"L" status:"completed" uuid:"7e38bb30-256c-4562-ac97-8245e7f145d8"]

@@ -17,5 +17,6 @@
 [description:"refactor data module" entry:"1706256764" modified:"1706268675" priority:"M" status:"pending" uuid:"1f700968-17d6-4bae-8cc0-5a8628233154"]
 [description:"refactor delete and undelete to set_status" entry:"1706258183" modified:"1706284424" priority:"H" status:"pending" uuid:"7ded8898-ae3d-4b3d-9c9f-2f54449ff40e"]
 [description:"add human feedback for modify, delete, undelete operations (rows affected)" entry:"1706258450" modified:"1706284606" priority:"M" status:"pending" uuid:"7f21bcb0-d4af-4c05-869d-0cdc524a2689"]
-[description:"evaluate to use u32 also for amount. adding Income as purpose to differentiate positive and negative operations" entry:"1706262845" modified:"1706284416" priority:"H" status:"pending" uuid:"fa7eb58e-b654-48d2-b983-790d94b9b42f"]
+[description:"evaluate to use u32 also for amount." entry:"1706262845" modified:"1706288375" priority:"H" status:"pending" uuid:"fa7eb58e-b654-48d2-b983-790d94b9b42f"]
 [description:"limit list output to a given number of entries (keeping order and filter)" entry:"1706263536" modified:"1706284545" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"ad16c3d5-9e00-4675-81ed-10265b03a6a0"]
+[description:"automatic test for add command" entry:"1706288183" modified:"1706288183" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"5359d4a2-7570-4f87-b228-48ec05024073"]
