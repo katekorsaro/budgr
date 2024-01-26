@@ -11,6 +11,10 @@ pub struct Budgr {
   /// filter option: inclusive date to
   pub to: Option<u32>,
 
+  #[arg(short, long)]
+  /// only deleted operation
+  pub deleted: bool,
+
   #[command(subcommand)]
   pub command: Option<Command>,
 }
