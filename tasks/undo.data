@@ -1033,3 +1033,18 @@ time 1706263367
 old [description:"sort by date asc and desc" entry:"1706190893" modified:"1706190938" priority:"M" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"b9a2fba9-88ce-4d84-b22e-8da443f724b8"]
 new [description:"sort by date asc and desc" entry:"1706190893" modified:"1706263367" priority:"H" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"b9a2fba9-88ce-4d84-b22e-8da443f724b8"]
 ---
+time 1706263430
+old [description:"sort by date asc and desc" entry:"1706190893" modified:"1706263367" priority:"H" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"b9a2fba9-88ce-4d84-b22e-8da443f724b8"]
+new [annotation_1706263430:"defaulting to desc (recent first)" description:"sort by date asc and desc" entry:"1706190893" modified:"1706263430" priority:"H" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"b9a2fba9-88ce-4d84-b22e-8da443f724b8"]
+---
+time 1706263448
+old [annotation_1706263430:"defaulting to desc (recent first)" description:"sort by date asc and desc" entry:"1706190893" modified:"1706263430" priority:"H" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"b9a2fba9-88ce-4d84-b22e-8da443f724b8"]
+new [annotation_1706263430:"defaulting to desc (recent first)" description:"sort by date asc and desc" entry:"1706190893" modified:"1706263448" priority:"H" start:"1706263448" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"b9a2fba9-88ce-4d84-b22e-8da443f724b8"]
+---
+time 1706263536
+new [description:"limit list output to a given number of entries (keeping order and filter)" entry:"1706263536" modified:"1706263536" priority:"L" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"ad16c3d5-9e00-4675-81ed-10265b03a6a0"]
+---
+time 1706264833
+old [annotation_1706263430:"defaulting to desc (recent first)" description:"sort by date asc and desc" entry:"1706190893" modified:"1706263448" priority:"H" start:"1706263448" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"b9a2fba9-88ce-4d84-b22e-8da443f724b8"]
+new [annotation_1706263430:"defaulting to desc (recent first)" description:"sort by date asc and desc" end:"1706264833" entry:"1706190893" modified:"1706264833" priority:"H" status:"completed" tags:"newfeat" tags_newfeat:"x" uuid:"b9a2fba9-88ce-4d84-b22e-8da443f724b8"]
+---

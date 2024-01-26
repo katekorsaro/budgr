@@ -1,3 +1,4 @@
+[annotation_1706263430:"defaulting to desc (recent first)" description:"sort by date asc and desc" end:"1706264833" entry:"1706190893" modified:"1706264833" priority:"H" status:"completed" tags:"newfeat" tags_newfeat:"x" uuid:"b9a2fba9-88ce-4d84-b22e-8da443f724b8"]
 [description:"create mock data using some scripts" end:"1706263324" entry:"1706261928" modified:"1706263324" priority:"H" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"6a8bc42c-bc1f-4f30-b739-c4609ccd0c6e"]
 [description:"modify command code cleaning for purpose, goal, account" end:"1706261534" entry:"1706261181" modified:"1706261534" priority:"H" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"9f36a146-5e96-46b4-97b5-60c287b88d32"]
 [description:"clean code using clippy's help" end:"1706261153" entry:"1706260782" modified:"1706261153" priority:"H" status:"completed" tags:"improvement" tags_improvement:"x" uuid:"6933f507-41ff-4b08-98e4-5a19277760d6"]
