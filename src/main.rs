@@ -34,6 +34,7 @@ fn main() {
     Some(Command::Delete) => delete_operations(&config, &bin),
     Some(Command::List { .. }) => list_operations(&config, &bin),
     Some(Command::Modify { .. }) => modify_operations(&config, &bin),
+    Some(Command::Undelete) => undelete_operations(&config, &bin),
     Some(Command::Version) => print_version(),
     _ => unreachable!("No other commands for now."),
   }

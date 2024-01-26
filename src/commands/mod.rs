@@ -7,6 +7,7 @@ mod modify_operations;
 mod print_pretty;
 mod print_raw;
 mod print_version;
+mod undelete_operations;
 
 pub use add_operation::*;
 pub use count_operations::*;
@@ -14,5 +15,6 @@ pub use delete_operations::*;
 pub use list_operations::*;
 pub use modify_operations::*;
 pub use print_version::*;
+pub use undelete_operations::*;
 
 use crate::cli::Format;

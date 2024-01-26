@@ -51,6 +51,9 @@ pub enum Command {
     goal: Option<String>,
   },
 
+  /// Undelete operations
+  Undelete,
+
   /// Print current version
   Version,
 }
