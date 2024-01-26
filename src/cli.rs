@@ -26,6 +26,12 @@ pub enum Command {
     date: u32,
     note: String,
     amount: i32,
+    #[arg(short, long)]
+    account: Option<String>,
+    #[arg(short, long)]
+    purpose: Option<Purpose>,
+    #[arg(short, long)]
+    goal: Option<String>,
   },
 
   /// Count all operations

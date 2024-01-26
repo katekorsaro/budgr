@@ -9,7 +9,15 @@ use time::format_description;
 use time::OffsetDateTime;
 
 pub fn add_operation(config: &Config, args: &Budgr) {
-  if let Some(Command::Add { date, note, amount }) = &args.command {
+  if let Some(Command::Add {
+    date,
+    note,
+    amount,
+    account,
+    purpose,
+    goal,
+  }) = &args.command
+  {
     let fmt = format_description::parse("[year]-[month]-[day] [hour]:[minute]:[second]").unwrap();
     let now = OffsetDateTime::now_local().unwrap().format(&fmt).unwrap();
     let mut rng = thread_rng();
@@ -18,6 +26,9 @@ pub fn add_operation(config: &Config, args: &Budgr) {
       note: String::from(note),
       amount: *amount,
       creation_date: now,
+      account: account.clone(),
+      purpose: if let Some(purpose) = purpose {Some(String::from(purpose))} else {None},
+      goal: goal.clone(),
       ..Operation::default()
     };
     loop {
