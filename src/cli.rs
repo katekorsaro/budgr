@@ -15,6 +15,10 @@ pub struct Budgr {
   /// only deleted operation
   pub deleted: bool,
 
+  #[arg(short, long)]
+  /// filter option: id
+  pub id: Option<u32>,
+
   #[command(subcommand)]
   pub command: Option<Command>,
 }

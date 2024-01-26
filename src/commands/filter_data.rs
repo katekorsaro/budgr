@@ -4,6 +4,15 @@ use crate::Budgr;
 pub fn filter_data(data: Vec<Operation>, args: &Budgr) -> Vec<Operation> {
   data
     .into_iter()
+    // filter by id
+    .filter(|x| {
+      if let Some(id) = args.id {
+        x.id == id
+      } else {
+        true
+      }
+    })
+    // filter by delete
     .filter(|operation| {
       if args.deleted {
         operation.status == Status::Deleted
@@ -11,6 +20,7 @@ pub fn filter_data(data: Vec<Operation>, args: &Budgr) -> Vec<Operation> {
         operation.status != Status::Deleted
       }
     })
+    // filter by dates
     .filter(|operation| {
       if let Some(from_date) = args.from {
         operation.date >= from_date
