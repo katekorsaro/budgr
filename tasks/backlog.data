@@ -346,3 +346,6 @@
 {"description":"allow to modify operation note","end":"20240126T134230Z","entry":"20240126T133347Z","modified":"20240126T134230Z","priority":"H","status":"completed","uuid":"31083d3c-69b6-4d5d-aff2-52c11f5cc766"}
 {"description":"add Income as a purpose","entry":"20240126T134337Z","modified":"20240126T134337Z","priority":"H","status":"pending","uuid":"b61a7728-5a88-4c7e-acb0-1cf198719f94","tags":["new"]}
 {"description":"add Income as a purpose","entry":"20240126T134337Z","modified":"20240126T134343Z","priority":"H","start":"20240126T134343Z","status":"pending","uuid":"b61a7728-5a88-4c7e-acb0-1cf198719f94","tags":["new"]}
+{"description":"change envrc to call compiled binary instead of cargo","entry":"20240126T134840Z","modified":"20240126T134840Z","priority":"H","status":"pending","uuid":"a343fe6b-cd84-44ac-9099-60b1d7b0354c"}
+{"description":"add code comment for modify and add args","entry":"20240126T134945Z","modified":"20240126T134945Z","priority":"H","status":"pending","uuid":"a5fb1de1-fed8-4207-b8ab-3782d79c6b34"}
+{"description":"add Income as a purpose","end":"20240126T135022Z","entry":"20240126T134337Z","modified":"20240126T135022Z","priority":"H","status":"completed","uuid":"b61a7728-5a88-4c7e-acb0-1cf198719f94","tags":["new"]}

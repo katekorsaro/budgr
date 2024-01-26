@@ -1231,3 +1231,13 @@ time 1706276623
 old [description:"add Income as a purpose" entry:"1706276617" modified:"1706276617" priority:"H" status:"pending" tags:"new" tags_new:"x" uuid:"b61a7728-5a88-4c7e-acb0-1cf198719f94"]
 new [description:"add Income as a purpose" entry:"1706276617" modified:"1706276623" priority:"H" start:"1706276623" status:"pending" tags:"new" tags_new:"x" uuid:"b61a7728-5a88-4c7e-acb0-1cf198719f94"]
 ---
+time 1706276920
+new [description:"change envrc to call compiled binary instead of cargo" entry:"1706276920" modified:"1706276920" priority:"H" status:"pending" uuid:"a343fe6b-cd84-44ac-9099-60b1d7b0354c"]
+---
+time 1706276985
+new [description:"add code comment for modify and add args" entry:"1706276985" modified:"1706276985" priority:"H" status:"pending" uuid:"a5fb1de1-fed8-4207-b8ab-3782d79c6b34"]
+---
+time 1706277022
+old [description:"add Income as a purpose" entry:"1706276617" modified:"1706276623" priority:"H" start:"1706276623" status:"pending" tags:"new" tags_new:"x" uuid:"b61a7728-5a88-4c7e-acb0-1cf198719f94"]
+new [description:"add Income as a purpose" end:"1706277022" entry:"1706276617" modified:"1706277022" priority:"H" status:"completed" tags:"new" tags_new:"x" uuid:"b61a7728-5a88-4c7e-acb0-1cf198719f94"]
+---
