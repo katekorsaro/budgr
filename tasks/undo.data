@@ -963,3 +963,17 @@ time 1706258028
 old [dep_23bc32d0-cdc4-4228-9ae2-51b7ef0540a8:"x" dep_fcdf8434-606e-4a6c-b9c3-c365ba476cc7:"x" depends:"23bc32d0-cdc4-4228-9ae2-51b7ef0540a8,fcdf8434-606e-4a6c-b9c3-c365ba476cc7" description:"command to undelete an operations" entry:"1706181057" modified:"1706258012" priority:"H" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"c981bbf4-8694-4a2f-a471-8d0d47e9a1c4"]
 new [dep_23bc32d0-cdc4-4228-9ae2-51b7ef0540a8:"x" dep_fcdf8434-606e-4a6c-b9c3-c365ba476cc7:"x" depends:"23bc32d0-cdc4-4228-9ae2-51b7ef0540a8,fcdf8434-606e-4a6c-b9c3-c365ba476cc7" description:"command to undelete an operations" entry:"1706181057" modified:"1706258028" priority:"H" start:"1706258028" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"c981bbf4-8694-4a2f-a471-8d0d47e9a1c4"]
 ---
+time 1706258183
+new [description:"refactor delete and undelete to set_status" entry:"1706258183" modified:"1706258183" priority:"M" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"7ded8898-ae3d-4b3d-9c9f-2f54449ff40e"]
+---
+time 1706258450
+new [description:"add human feedback for modify, delete, undelete operations (rows affected)" entry:"1706258450" modified:"1706258450" status:"pending" uuid:"7f21bcb0-d4af-4c05-869d-0cdc524a2689"]
+---
+time 1706258466
+old [description:"add human feedback for modify, delete, undelete operations (rows affected)" entry:"1706258450" modified:"1706258450" status:"pending" uuid:"7f21bcb0-d4af-4c05-869d-0cdc524a2689"]
+new [description:"add human feedback for modify, delete, undelete operations (rows affected)" entry:"1706258450" modified:"1706258466" priority:"L" status:"pending" tags:"improvement" tags_improvement:"x" uuid:"7f21bcb0-d4af-4c05-869d-0cdc524a2689"]
+---
+time 1706258478
+old [dep_23bc32d0-cdc4-4228-9ae2-51b7ef0540a8:"x" dep_fcdf8434-606e-4a6c-b9c3-c365ba476cc7:"x" depends:"23bc32d0-cdc4-4228-9ae2-51b7ef0540a8,fcdf8434-606e-4a6c-b9c3-c365ba476cc7" description:"command to undelete an operations" entry:"1706181057" modified:"1706258028" priority:"H" start:"1706258028" status:"pending" tags:"newfeat" tags_newfeat:"x" uuid:"c981bbf4-8694-4a2f-a471-8d0d47e9a1c4"]
+new [dep_23bc32d0-cdc4-4228-9ae2-51b7ef0540a8:"x" dep_fcdf8434-606e-4a6c-b9c3-c365ba476cc7:"x" depends:"23bc32d0-cdc4-4228-9ae2-51b7ef0540a8,fcdf8434-606e-4a6c-b9c3-c365ba476cc7" description:"command to undelete an operations" end:"1706258478" entry:"1706181057" modified:"1706258478" priority:"H" status:"completed" tags:"newfeat" tags_newfeat:"x" uuid:"c981bbf4-8694-4a2f-a471-8d0d47e9a1c4"]
+---
