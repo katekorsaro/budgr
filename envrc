@@ -1,1 +1,23 @@
+#! /bin/bash
+
+# env variable
 export BUDGRRC=./.budgrrc
+
+# remove everything from testdata dir
+rm testdata/*
+
+# create some mock data
+cargo run -- add 20231213 "Test note for operation 1 to be deleted" 5000
+cargo run -- add 20231213 "Test note for operation 2 to be deleted" 5000
+cargo run -- add 20231213 "Test note for operation 3 to be deleted" 5000
+cargo run -- delete
+cargo run -- add 20240101 "Test note for operation 1" 5000
+cargo run -- add 20240102 "Test note for operation 2" 6000
+cargo run -- add 20240103 "Test note for operation 3" 7000
+cargo run -- add 20240104 "Test note for operation 4" 8000 -a "BNP Paribas"
+cargo run -- add 20240105 "Test note for operation 5" 9000 -g "Gifts"
+cargo run -- add 20240106 "Test note for operation 6" 4000 -p "need"
+
+# list deleted operations
+cargo run -- -d list -o pretty
+cargo run -- list -o pretty
