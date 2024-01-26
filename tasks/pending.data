@@ -3,7 +3,6 @@
 [description:"CSV output format for list command" entry:"1705587964" modified:"1706268675" priority:"L" status:"pending" uuid:"3b4cc99a-1c39-4c41-8a58-edb35604df1c"]
 [description:"refactor config into module" entry:"1706079511" modified:"1706268675" priority:"L" status:"pending" uuid:"63100739-7866-41d1-89ed-6638a27001e6"]
 [description:"handling .budgrrc not found and create it empty or better with default options" entry:"1706097284" modified:"1706269152" priority:"L" status:"pending" tags:"new" tags_new:"x" uuid:"8649d98d-5d62-41b1-b6a2-3ba39b78b640"]
-[description:"defaulting to pretty formatting for output" entry:"1706103323" modified:"1706284636" priority:"H" start:"1706284636" status:"pending" uuid:"9594fcab-abc5-4d8c-bf26-c6c77529267f"]
 [description:"consider passing as a configuration date format to be used" entry:"1706105128" modified:"1706268675" priority:"L" status:"pending" uuid:"f546b1f9-00d0-4689-abe3-a835be8f9a99"]
 [description:"filter by account" entry:"1706106328" modified:"1706269152" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"27dfc341-37a9-4ad3-b955-2f7d2c276361"]
 [description:"filter by amount (gt and lt)" entry:"1706106424" modified:"1706269152" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"5fb5b253-dc09-42c6-ace2-1a3f202d213e"]

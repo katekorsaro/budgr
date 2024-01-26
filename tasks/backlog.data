@@ -372,3 +372,4 @@
 {"description":"remove id from pretty printing","entry":"20240125T110643Z","modified":"20240126T155638Z","priority":"M","status":"pending","uuid":"ed7e74a8-15d1-480e-a53b-a885984ef964"}
 {"description":"add human feedback for modify, delete, undelete operations (rows affected)","entry":"20240126T084050Z","modified":"20240126T155646Z","priority":"M","status":"pending","uuid":"7f21bcb0-d4af-4c05-869d-0cdc524a2689"}
 {"description":"defaulting to pretty formatting for output","entry":"20240124T133523Z","modified":"20240126T155716Z","priority":"H","start":"20240126T155716Z","status":"pending","uuid":"9594fcab-abc5-4d8c-bf26-c6c77529267f"}
+{"description":"defaulting to pretty formatting for output","end":"20240126T155924Z","entry":"20240124T133523Z","modified":"20240126T155924Z","priority":"H","status":"completed","uuid":"9594fcab-abc5-4d8c-bf26-c6c77529267f"}

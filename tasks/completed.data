@@ -1,3 +1,4 @@
+[description:"defaulting to pretty formatting for output" end:"1706284764" entry:"1706103323" modified:"1706284764" priority:"H" status:"completed" uuid:"9594fcab-abc5-4d8c-bf26-c6c77529267f"]
 [description:"change data file extension" end:"1706284561" entry:"1706082407" modified:"1706284561" priority:"L" status:"completed" uuid:"7e38bb30-256c-4562-ac97-8245e7f145d8"]
 [annotation_1706284527:"unnecessary, id are pretty much random at this point" description:"sort by id" end:"1706284528" entry:"1706190887" modified:"1706284528" priority:"L" status:"deleted" tags:"new" tags_new:"x" uuid:"106d159e-7d85-4367-9ed3-ec6aa62dabf3"]
 [annotation_1706284488:"unnecessary: one can use git in the data folder since they are text files" description:"think of some mechanism to keep operation history" end:"1706284490" entry:"1706113387" modified:"1706284490" priority:"L" status:"deleted" tags:"new" tags_new:"x" uuid:"8b73c11b-c06b-4639-a455-216ec8029cca"]
