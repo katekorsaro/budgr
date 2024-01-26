@@ -76,7 +76,7 @@ impl Operation {
       purpose: parts.next().map(|value| value.to_string()),
       goal: parts
         .next()
-        .map(|value| value.replace("\n", "").to_string()),
+        .map(|value| value.replace('\n', "").to_string()),
       path: String::from(""),
     })
   }
@@ -87,13 +87,13 @@ impl Operation {
       self.id,
       self.status.to_string(),
       self.creation_date,
-      self.modification_date.clone().unwrap_or(String::new()),
+      self.modification_date.clone().unwrap_or_default(),
       self.date,
       self.note,
       self.amount,
-      self.account.clone().unwrap_or(String::new()),
-      self.purpose.clone().unwrap_or(String::new()),
-      self.goal.clone().unwrap_or(String::new()),
+      self.account.clone().unwrap_or_default(),
+      self.purpose.clone().unwrap_or_default(),
+      self.goal.clone().unwrap_or_default(),
     )
   }
 }

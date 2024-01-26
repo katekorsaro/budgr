@@ -27,7 +27,7 @@ pub fn add_operation(config: &Config, args: &Budgr) {
       amount: *amount,
       creation_date: now,
       account: account.clone(),
-      purpose: if let Some(purpose) = purpose {Some(String::from(purpose))} else {None},
+      purpose: purpose.as_ref().map(String::from),
       goal: goal.clone(),
       ..Operation::default()
     };
