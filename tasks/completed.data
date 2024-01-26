@@ -1,3 +1,6 @@
+[description:"change data file extension" end:"1706284561" entry:"1706082407" modified:"1706284561" priority:"L" status:"completed" uuid:"7e38bb30-256c-4562-ac97-8245e7f145d8"]
+[annotation_1706284527:"unnecessary, id are pretty much random at this point" description:"sort by id" end:"1706284528" entry:"1706190887" modified:"1706284528" priority:"L" status:"deleted" tags:"new" tags_new:"x" uuid:"106d159e-7d85-4367-9ed3-ec6aa62dabf3"]
+[annotation_1706284488:"unnecessary: one can use git in the data folder since they are text files" description:"think of some mechanism to keep operation history" end:"1706284490" entry:"1706113387" modified:"1706284490" priority:"L" status:"deleted" tags:"new" tags_new:"x" uuid:"8b73c11b-c06b-4639-a455-216ec8029cca"]
 [description:"output amount and purpose in different colors in pretty formatting" end:"1706283958" entry:"1706279913" modified:"1706283958" priority:"M" status:"completed" tags:"new" tags_new:"x" uuid:"e555006e-d04b-461b-9787-9879e92601af"]
 [description:"change envrc to call compiled binary instead of cargo" end:"1706278607" entry:"1706276920" modified:"1706278607" priority:"H" status:"completed" uuid:"a343fe6b-cd84-44ac-9099-60b1d7b0354c"]
 [description:"abbreviate commands" end:"1706278301" entry:"1706277306" modified:"1706278301" priority:"H" status:"completed" uuid:"bcfd9677-aeee-4f5c-b223-27bdd2d7d5db"]

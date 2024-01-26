@@ -1279,3 +1279,55 @@ time 1706283958
 old [description:"output amount and purpose in different colors in pretty formatting" entry:"1706279913" modified:"1706280129" priority:"M" start:"1706280129" status:"pending" tags:"new" tags_new:"x" uuid:"e555006e-d04b-461b-9787-9879e92601af"]
 new [description:"output amount and purpose in different colors in pretty formatting" end:"1706283958" entry:"1706279913" modified:"1706283958" priority:"M" status:"completed" tags:"new" tags_new:"x" uuid:"e555006e-d04b-461b-9787-9879e92601af"]
 ---
+time 1706284416
+old [description:"evaluate to use u32 also for amount. adding Income as purpose to differentiate positive and negative operations" entry:"1706262845" modified:"1706268675" priority:"M" status:"pending" uuid:"fa7eb58e-b654-48d2-b983-790d94b9b42f"]
+new [description:"evaluate to use u32 also for amount. adding Income as purpose to differentiate positive and negative operations" entry:"1706262845" modified:"1706284416" priority:"H" status:"pending" uuid:"fa7eb58e-b654-48d2-b983-790d94b9b42f"]
+---
+time 1706284424
+old [description:"refactor delete and undelete to set_status" entry:"1706258183" modified:"1706268675" priority:"M" status:"pending" uuid:"7ded8898-ae3d-4b3d-9c9f-2f54449ff40e"]
+new [description:"refactor delete and undelete to set_status" entry:"1706258183" modified:"1706284424" priority:"H" status:"pending" uuid:"7ded8898-ae3d-4b3d-9c9f-2f54449ff40e"]
+---
+time 1706284488
+old [description:"think of some mechanism to keep operation history" entry:"1706113387" modified:"1706269152" priority:"L" status:"pending" tags:"new" tags_new:"x" uuid:"8b73c11b-c06b-4639-a455-216ec8029cca"]
+new [annotation_1706284488:"unnecessary: one can use git in the data folder since they are text files" description:"think of some mechanism to keep operation history" entry:"1706113387" modified:"1706284488" priority:"L" status:"pending" tags:"new" tags_new:"x" uuid:"8b73c11b-c06b-4639-a455-216ec8029cca"]
+---
+time 1706284490
+old [annotation_1706284488:"unnecessary: one can use git in the data folder since they are text files" description:"think of some mechanism to keep operation history" entry:"1706113387" modified:"1706284488" priority:"L" status:"pending" tags:"new" tags_new:"x" uuid:"8b73c11b-c06b-4639-a455-216ec8029cca"]
+new [annotation_1706284488:"unnecessary: one can use git in the data folder since they are text files" description:"think of some mechanism to keep operation history" end:"1706284490" entry:"1706113387" modified:"1706284490" priority:"L" status:"deleted" tags:"new" tags_new:"x" uuid:"8b73c11b-c06b-4639-a455-216ec8029cca"]
+---
+time 1706284527
+old [description:"sort by id" entry:"1706190887" modified:"1706269152" priority:"L" status:"pending" tags:"new" tags_new:"x" uuid:"106d159e-7d85-4367-9ed3-ec6aa62dabf3"]
+new [annotation_1706284527:"unnecessary, id are pretty much random at this point" description:"sort by id" entry:"1706190887" modified:"1706284527" priority:"L" status:"pending" tags:"new" tags_new:"x" uuid:"106d159e-7d85-4367-9ed3-ec6aa62dabf3"]
+---
+time 1706284528
+old [annotation_1706284527:"unnecessary, id are pretty much random at this point" description:"sort by id" entry:"1706190887" modified:"1706284527" priority:"L" status:"pending" tags:"new" tags_new:"x" uuid:"106d159e-7d85-4367-9ed3-ec6aa62dabf3"]
+new [annotation_1706284527:"unnecessary, id are pretty much random at this point" description:"sort by id" end:"1706284528" entry:"1706190887" modified:"1706284528" priority:"L" status:"deleted" tags:"new" tags_new:"x" uuid:"106d159e-7d85-4367-9ed3-ec6aa62dabf3"]
+---
+time 1706284545
+old [description:"limit list output to a given number of entries (keeping order and filter)" entry:"1706263536" modified:"1706269152" priority:"L" status:"pending" tags:"new" tags_new:"x" uuid:"ad16c3d5-9e00-4675-81ed-10265b03a6a0"]
+new [description:"limit list output to a given number of entries (keeping order and filter)" entry:"1706263536" modified:"1706284545" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"ad16c3d5-9e00-4675-81ed-10265b03a6a0"]
+---
+time 1706284561
+old [description:"change data file extension" entry:"1706082407" modified:"1706268675" priority:"L" status:"pending" uuid:"7e38bb30-256c-4562-ac97-8245e7f145d8"]
+new [description:"change data file extension" end:"1706284561" entry:"1706082407" modified:"1706284561" priority:"L" status:"completed" uuid:"7e38bb30-256c-4562-ac97-8245e7f145d8"]
+---
+time 1706284568
+old [description:"defaulting to pretty formatting for output" entry:"1706103323" modified:"1706268675" priority:"L" status:"pending" uuid:"9594fcab-abc5-4d8c-bf26-c6c77529267f"]
+new [description:"defaulting to pretty formatting for output" entry:"1706103323" modified:"1706284568" priority:"H" status:"pending" uuid:"9594fcab-abc5-4d8c-bf26-c6c77529267f"]
+---
+time 1706284588
+old [description:"add icons for pretty output" entry:"1706177561" modified:"1706268675" priority:"L" status:"pending" uuid:"9766b053-c4b1-4beb-b5c2-62f6690cdd90"]
+new [description:"add icons for pretty output" entry:"1706177561" modified:"1706284588" priority:"M" status:"pending" uuid:"9766b053-c4b1-4beb-b5c2-62f6690cdd90"]
+---
+time 1706284598
+old [description:"remove id from pretty printing" entry:"1706180803" modified:"1706268675" priority:"L" status:"pending" uuid:"ed7e74a8-15d1-480e-a53b-a885984ef964"]
+new [description:"remove id from pretty printing" entry:"1706180803" modified:"1706284598" priority:"M" status:"pending" uuid:"ed7e74a8-15d1-480e-a53b-a885984ef964"]
+---
+time 1706284606
+old [description:"add human feedback for modify, delete, undelete operations (rows affected)" entry:"1706258450" modified:"1706268675" priority:"L" status:"pending" uuid:"7f21bcb0-d4af-4c05-869d-0cdc524a2689"]
+new [description:"add human feedback for modify, delete, undelete operations (rows affected)" entry:"1706258450" modified:"1706284606" priority:"M" status:"pending" uuid:"7f21bcb0-d4af-4c05-869d-0cdc524a2689"]
+---
+time 1706284636
+old [description:"defaulting to pretty formatting for output" entry:"1706103323" modified:"1706284568" priority:"H" status:"pending" uuid:"9594fcab-abc5-4d8c-bf26-c6c77529267f"]
+new [description:"defaulting to pretty formatting for output" entry:"1706103323" modified:"1706284636" priority:"H" start:"1706284636" status:"pending" uuid:"9594fcab-abc5-4d8c-bf26-c6c77529267f"]
+---
