@@ -26,6 +26,7 @@ pub struct Budgr {
 #[derive(Subcommand, Debug)]
 pub enum Command {
   /// Add a new operation
+  #[command(visible_alias("a"))]
   Add {
     date: u32,
     note: String,
@@ -45,12 +46,15 @@ pub enum Command {
   },
 
   /// Count all operations
+  #[command(visible_alias("c"))]
   Count,
 
   /// Delete (logically) operations
+  #[command(visible_alias("d"))]
   Delete,
 
   /// List all operations
+  #[command(visible_alias("l"))]
   List {
     #[arg(short, long, default_value = "raw")]
     /// output format to display
@@ -61,6 +65,7 @@ pub enum Command {
   },
 
   /// Modify the filtered list
+  #[command(visible_alias("m"))]
   Modify {
     #[arg(short, long)]
     /// new operation account
@@ -83,9 +88,11 @@ pub enum Command {
   },
 
   /// Undelete operations
+  #[command(visible_alias("u"))]
   Undelete,
 
   /// Print current version
+  #[command(visible_alias("v"))]
   Version,
 }
 
