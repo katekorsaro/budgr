@@ -31,12 +31,16 @@ pub enum Command {
     note: String,
     amount: i32,
     #[arg(short, long)]
+    /// operation account
     account: Option<String>,
     #[arg(short, long)]
+    /// operation purpose
     purpose: Option<Purpose>,
     #[arg(short, long)]
+    /// operation goal
     goal: Option<String>,
     #[arg(short, long)]
+    /// operation id (if the same id is already present for the same date, file will be overwritten)
     id: Option<u32>,
   },
 
@@ -59,16 +63,22 @@ pub enum Command {
   /// Modify the filtered list
   Modify {
     #[arg(short, long)]
+    /// new operation account
     account: Option<String>,
     #[arg(short, long)]
+    /// new operation purpose
     purpose: Option<Purpose>,
     #[arg(short, long)]
+    /// new operation goal
     goal: Option<String>,
     #[arg(short('m'), long)]
+    /// new operation purpose
     amount: Option<i32>,
-    #[arg(short,long)]
+    #[arg(short, long)]
+    /// new oepration date
     date: Option<u32>,
-    #[arg(short,long)]
+    #[arg(short, long)]
+    /// new operation note
     note: Option<String>,
   },
 
