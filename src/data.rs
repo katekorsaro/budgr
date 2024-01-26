@@ -37,6 +37,8 @@ impl Data {
 
     Ok(Data {
       id: parts.next().unwrap().parse::<u32>().unwrap(),
+      creation_date: String::from(parts.next().unwrap()),
+      modification_date: parts.next().map(|value| value.to_string()),
       date: parts.next().unwrap().parse::<u32>().unwrap(),
       note: String::from(parts.next().unwrap()),
       amount: parts.next().unwrap().parse::<i32>().unwrap(),
@@ -46,8 +48,6 @@ impl Data {
         .next()
         .map(|value| value.replace("\n", "").to_string()),
       path: String::from(""),
-      creation_date: String::from(parts.next().unwrap()),
-      modification_date: parts.next().map(|value| value.to_string()),
     })
   }
 
@@ -55,14 +55,14 @@ impl Data {
     format!(
       "{}|{}|{}|{}|{}|{}|{}|{}|{}",
       self.id,
+      self.creation_date,
+      self.modification_date.clone().unwrap_or(String::new()),
       self.date,
       self.note,
       self.amount,
       self.account.clone().unwrap_or(String::new()),
       self.purpose.clone().unwrap_or(String::new()),
       self.goal.clone().unwrap_or(String::new()),
-      self.creation_date,
-      self.modification_date.clone().unwrap_or(String::new()),
     )
   }
 }
@@ -85,9 +85,11 @@ pub fn read_data(config: &Config) -> Vec<Data> {
 
 #[test]
 fn parse_data() {
-  let input: String = String::from("1|20240101|Note|10000|bank|purpose|goal|2024-01-01 10:55:35");
+  let input: String = String::from("1|2024-01-01 10:55:35|2024-01-02 12:55:35|20240101|Note|10000|bank|purpose|goal");
   let data: Data = Data::from_string(&input).unwrap();
   assert_eq!(data.id, 1);
+  assert_eq!(data.creation_date, String::from("2024-01-01 10:55:35"));
+  assert_eq!(data.modification_date, Some(String::from("2024-01-02 12:55:35")));
   assert_eq!(data.date, 20240101);
   assert_eq!(data.note, "Note".to_string());
   assert_eq!(data.amount, 10000);
