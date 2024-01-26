@@ -16,6 +16,7 @@ pub fn add_operation(config: &Config, args: &Budgr) {
     account,
     purpose,
     goal,
+    id,
   }) = &args.command
   {
     let fmt = format_description::parse("[year]-[month]-[day] [hour]:[minute]:[second]").unwrap();
@@ -31,11 +32,18 @@ pub fn add_operation(config: &Config, args: &Budgr) {
       goal: goal.clone(),
       ..Operation::default()
     };
+    let mut force = false;
     loop {
-      let id: u32 = rng.gen();
+      let id = if let Some(id) = id {
+        force = true;
+        *id
+      } else {
+        rng.gen::<u32>()
+      };
       let filename = format!("{}{}.{:010}.bgr", config.data, date, id);
       let file = OpenOptions::new()
-        .create_new(true)
+        .create(force) // in case of fixed id
+        .create_new(!force) // in case of rnd id
         .write(true)
         .truncate(true)
         .open(&filename);

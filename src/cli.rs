@@ -32,6 +32,8 @@ pub enum Command {
     purpose: Option<Purpose>,
     #[arg(short, long)]
     goal: Option<String>,
+    #[arg(short, long)]
+    id: Option<u32>,
   },
 
   /// Count all operations
