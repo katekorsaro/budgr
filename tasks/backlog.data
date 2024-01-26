@@ -300,3 +300,4 @@
 {"description":"sort by id","end":"20240126T103257Z","entry":"20240125T135447Z","modified":"20240126T103257Z","priority":"M","status":"deleted","uuid":"106d159e-7d85-4367-9ed3-ec6aa62dabf3","tags":["newfeat"]}
 {"description":"sort by id","entry":"20240125T135447Z","modified":"20240125T135538Z","priority":"M","status":"pending","uuid":"106d159e-7d85-4367-9ed3-ec6aa62dabf3","tags":["newfeat"]}
 {"description":"sort by id","entry":"20240125T135447Z","modified":"20240126T103308Z","priority":"L","status":"pending","uuid":"106d159e-7d85-4367-9ed3-ec6aa62dabf3","tags":["newfeat"]}
+{"description":"add id parameter to add_operation command (can be useful for testing purpose)","end":"20240126T110201Z","entry":"20240126T103223Z","modified":"20240126T110201Z","priority":"M","status":"completed","uuid":"7fe10fca-a0ee-4255-ba42-e751174ba118","tags":["improvement"]}
