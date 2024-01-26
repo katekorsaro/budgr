@@ -98,6 +98,7 @@ pub enum Purpose {
   Goal,
   YearlyNeed,
   YearlyWant,
+  Income,
 }
 
 #[derive(Clone, Debug, ValueEnum)]
@@ -114,6 +115,7 @@ impl From<&Purpose> for String {
       Purpose::Goal => String::from("Goal"),
       Purpose::YearlyNeed => String::from("Yearly Need"),
       Purpose::YearlyWant => String::from("Yearly Want"),
+      Purpose::Income => String::from("Income"),
     }
   }
 }

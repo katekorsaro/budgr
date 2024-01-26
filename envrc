@@ -17,6 +17,7 @@ cargo run -- add 20240103 "Test note for operation 3" 7000 --id 6
 cargo run -- add 20240104 "Test note for operation 4" 8000 -a "BNP Paribas" --id 7
 cargo run -- add 20240105 "Test note for operation 5" 9000 -g "Gifts" --id 8
 cargo run -- add 20240106 "Test note for operation 6" 4000 -p "need" --id 9
+cargo run -- add 20240107 "Test note for operation 7" 9000 -p "income" --id 10
 
 # list deleted operations
 cargo run -- -d list -o pretty
