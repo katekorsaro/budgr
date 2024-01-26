@@ -14,6 +14,7 @@ pub fn modify_operations(config: &Config, args: &Budgr) {
     purpose,
     goal,
     amount,
+    date,
   }) = &args.command
   {
     let fmt = format_description::parse("[year]-[month]-[day] [hour]:[minute]:[second]").unwrap();
@@ -25,6 +26,7 @@ pub fn modify_operations(config: &Config, args: &Budgr) {
       operation.purpose = purpose.as_ref().map(String::from);
       operation.goal = goal.as_ref().map(String::from);
       operation.amount = amount.unwrap_or(operation.amount);
+      operation.date = date.unwrap_or(operation.date);
       operation.modification_date = Some(now.clone());
       // let's write to file!
       let string_value = operation.to_raw_string();

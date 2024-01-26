@@ -66,6 +66,8 @@ pub enum Command {
     goal: Option<String>,
     #[arg(short('m'), long)]
     amount: Option<i32>,
+    #[arg(short,long)]
+    date: Option<u32>,
   },
 
   /// Undelete operations
