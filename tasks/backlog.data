@@ -354,3 +354,5 @@
 {"description":"add code comment for modify and add args","end":"20240126T135512Z","entry":"20240126T134945Z","modified":"20240126T135512Z","priority":"H","status":"completed","uuid":"a5fb1de1-fed8-4207-b8ab-3782d79c6b34"}
 {"description":"abbreviate commands","entry":"20240126T135506Z","modified":"20240126T135540Z","priority":"H","start":"20240126T135540Z","status":"pending","uuid":"bcfd9677-aeee-4f5c-b223-27bdd2d7d5db"}
 {"description":"abbreviate commands","end":"20240126T141141Z","entry":"20240126T135506Z","modified":"20240126T141141Z","priority":"H","status":"completed","uuid":"bcfd9677-aeee-4f5c-b223-27bdd2d7d5db"}
+{"description":"change envrc to call compiled binary instead of cargo","entry":"20240126T134840Z","modified":"20240126T141158Z","priority":"H","start":"20240126T141158Z","status":"pending","uuid":"a343fe6b-cd84-44ac-9099-60b1d7b0354c"}
+{"description":"change envrc to call compiled binary instead of cargo","end":"20240126T141647Z","entry":"20240126T134840Z","modified":"20240126T141647Z","priority":"H","status":"completed","uuid":"a343fe6b-cd84-44ac-9099-60b1d7b0354c"}

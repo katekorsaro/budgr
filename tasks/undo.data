@@ -1260,3 +1260,11 @@ time 1706278301
 old [description:"abbreviate commands" entry:"1706277306" modified:"1706277340" priority:"H" start:"1706277340" status:"pending" uuid:"bcfd9677-aeee-4f5c-b223-27bdd2d7d5db"]
 new [description:"abbreviate commands" end:"1706278301" entry:"1706277306" modified:"1706278301" priority:"H" status:"completed" uuid:"bcfd9677-aeee-4f5c-b223-27bdd2d7d5db"]
 ---
+time 1706278318
+old [description:"change envrc to call compiled binary instead of cargo" entry:"1706276920" modified:"1706276920" priority:"H" status:"pending" uuid:"a343fe6b-cd84-44ac-9099-60b1d7b0354c"]
+new [description:"change envrc to call compiled binary instead of cargo" entry:"1706276920" modified:"1706278318" priority:"H" start:"1706278318" status:"pending" uuid:"a343fe6b-cd84-44ac-9099-60b1d7b0354c"]
+---
+time 1706278607
+old [description:"change envrc to call compiled binary instead of cargo" entry:"1706276920" modified:"1706278318" priority:"H" start:"1706278318" status:"pending" uuid:"a343fe6b-cd84-44ac-9099-60b1d7b0354c"]
+new [description:"change envrc to call compiled binary instead of cargo" end:"1706278607" entry:"1706276920" modified:"1706278607" priority:"H" status:"completed" uuid:"a343fe6b-cd84-44ac-9099-60b1d7b0354c"]
+---
