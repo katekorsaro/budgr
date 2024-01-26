@@ -1,4 +1,4 @@
-use crate::data::Data;
+use crate::data::Operation;
 use crate::Budgr;
 use crate::Command;
 use crate::Config;
@@ -13,12 +13,12 @@ pub fn add_operation(config: &Config, args: &Budgr) {
     let fmt = format_description::parse("[year]-[month]-[day] [hour]:[minute]:[second]").unwrap();
     let now = OffsetDateTime::now_local().unwrap().format(&fmt).unwrap();
     let mut rng = thread_rng();
-    let mut operation = Data {
+    let mut operation = Operation {
       date: *date,
       note: String::from(note),
       amount: *amount,
       creation_date: now,
-      ..Data::default()
+      ..Operation::default()
     };
     loop {
       let id: u32 = rng.gen();

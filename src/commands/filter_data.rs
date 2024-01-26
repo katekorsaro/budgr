@@ -1,7 +1,7 @@
-use crate::data::Data;
+use crate::data::Operation;
 use crate::Budgr;
 
-pub fn filter_data(data: Vec<Data>, args: &Budgr) -> Vec<Data> {
+pub fn filter_data(data: Vec<Operation>, args: &Budgr) -> Vec<Operation> {
   data
     .into_iter()
     .filter(|operation| {

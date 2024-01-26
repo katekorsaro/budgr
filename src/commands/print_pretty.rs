@@ -1,7 +1,7 @@
-use crate::data::Data;
+use crate::data::Operation;
 use prettytable::{row, Table};
 
-pub fn print_pretty(data: Vec<Data>) {
+pub fn print_pretty(data: Vec<Operation>) {
   let mut table = Table::new();
   table.add_row(row![
     "Id",

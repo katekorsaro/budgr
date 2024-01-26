@@ -30,7 +30,7 @@ impl ToString for Status {
 }
 
 #[derive(Debug)]
-pub struct Data {
+pub struct Operation {
   pub account: Option<String>,
   pub amount: i32,
   pub creation_date: String,
@@ -44,9 +44,9 @@ pub struct Data {
   pub status: Status,
 }
 
-impl Data {
+impl Operation {
   pub fn default() -> Self {
-    Data {
+    Operation {
       account: None,
       amount: 0,
       creation_date: String::new(),
@@ -64,7 +64,7 @@ impl Data {
   fn from_string(string_value: &str) -> Result<Self, String> {
     let mut parts = string_value.split('|');
 
-    Ok(Data {
+    Ok(Operation {
       id: parts.next().unwrap().parse::<u32>().unwrap(),
       status: Status::from_str(parts.next().unwrap()).unwrap(),
       creation_date: String::from(parts.next().unwrap()),
@@ -98,7 +98,7 @@ impl Data {
   }
 }
 
-pub fn read_data(config: &Config) -> Vec<Data> {
+pub fn read_data(config: &Config) -> Vec<Operation> {
   // get all files in dir
   let path = Path::new(&config.data);
   let files = fs::read_dir(path).unwrap();
@@ -107,11 +107,11 @@ pub fn read_data(config: &Config) -> Vec<Data> {
     .filter(|path| path.extension().unwrap() == "bgr")
     .map(|path| (fs::read_to_string(path.clone()).unwrap(), path))
     .map(|(string_value, path)| {
-      let mut data = Data::from_string(&string_value).unwrap();
+      let mut data = Operation::from_string(&string_value).unwrap();
       data.path = String::from(path.to_str().unwrap());
       data
     })
-    .collect::<Vec<Data>>()
+    .collect::<Vec<Operation>>()
 }
 
 #[test]
@@ -119,17 +119,17 @@ fn parse_data() {
   let input: String = String::from(
     "1|active|2024-01-01 10:55:35|2024-01-02 12:55:35|20240101|Note|10000|bank|purpose|goal",
   );
-  let data: Data = Data::from_string(&input).unwrap();
-  assert_eq!(data.id, 1);
-  assert_eq!(data.creation_date, String::from("2024-01-01 10:55:35"));
+  let operation: Operation = Operation::from_string(&input).unwrap();
+  assert_eq!(operation.id, 1);
+  assert_eq!(operation.creation_date, String::from("2024-01-01 10:55:35"));
   assert_eq!(
-    data.modification_date,
+    operation.modification_date,
     Some(String::from("2024-01-02 12:55:35"))
   );
-  assert_eq!(data.date, 20240101);
-  assert_eq!(data.note, "Note".to_string());
-  assert_eq!(data.amount, 10000);
-  assert_eq!(data.account, Some(String::from("bank")));
-  assert_eq!(data.purpose, Some(String::from("purpose")));
-  assert_eq!(data.goal, Some(String::from("goal")));
+  assert_eq!(operation.date, 20240101);
+  assert_eq!(operation.note, "Note".to_string());
+  assert_eq!(operation.amount, 10000);
+  assert_eq!(operation.account, Some(String::from("bank")));
+  assert_eq!(operation.purpose, Some(String::from("purpose")));
+  assert_eq!(operation.goal, Some(String::from("goal")));
 }
