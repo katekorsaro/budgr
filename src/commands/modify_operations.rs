@@ -20,15 +20,9 @@ pub fn modify_operations(config: &Config, args: &Budgr) {
     let data = read_data(config);
     let mut data = filter_data(data, args);
     data.iter_mut().for_each(|operation| {
-      if let Some(account) = account {
-        operation.account = Some(String::from(account))
-      };
-      if let Some(purpose) = purpose {
-        operation.purpose = Some(String::from(purpose))
-      };
-      if let Some(goal) = goal {
-        operation.goal = Some(String::from(goal))
-      };
+      operation.account = account.as_ref().map(String::from);
+      operation.purpose = purpose.as_ref().map(String::from);
+      operation.goal = goal.as_ref().map(String::from);
       operation.modification_date = Some(now.clone());
       // let's write to file!
       let string_value = operation.to_raw_string();
