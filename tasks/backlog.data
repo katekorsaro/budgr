@@ -373,3 +373,6 @@
 {"description":"add human feedback for modify, delete, undelete operations (rows affected)","entry":"20240126T084050Z","modified":"20240126T155646Z","priority":"M","status":"pending","uuid":"7f21bcb0-d4af-4c05-869d-0cdc524a2689"}
 {"description":"defaulting to pretty formatting for output","entry":"20240124T133523Z","modified":"20240126T155716Z","priority":"H","start":"20240126T155716Z","status":"pending","uuid":"9594fcab-abc5-4d8c-bf26-c6c77529267f"}
 {"description":"defaulting to pretty formatting for output","end":"20240126T155924Z","entry":"20240124T133523Z","modified":"20240126T155924Z","priority":"H","status":"completed","uuid":"9594fcab-abc5-4d8c-bf26-c6c77529267f"}
+{"description":"command modify account not working","entry":"20240126T161106Z","modified":"20240126T161106Z","priority":"H","status":"pending","uuid":"d51a70ca-a54a-4078-a8ca-275cad2f6d67","tags":["bug"]}
+{"description":"command modify account not working","entry":"20240126T161106Z","modified":"20240126T161111Z","priority":"H","start":"20240126T161111Z","status":"pending","uuid":"d51a70ca-a54a-4078-a8ca-275cad2f6d67","tags":["bug"]}
+{"description":"command modify account not working","end":"20240126T162349Z","entry":"20240126T161106Z","modified":"20240126T162349Z","priority":"H","status":"completed","uuid":"d51a70ca-a54a-4078-a8ca-275cad2f6d67","tags":["bug"]}

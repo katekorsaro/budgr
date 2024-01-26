@@ -1335,3 +1335,14 @@ time 1706284764
 old [description:"defaulting to pretty formatting for output" entry:"1706103323" modified:"1706284636" priority:"H" start:"1706284636" status:"pending" uuid:"9594fcab-abc5-4d8c-bf26-c6c77529267f"]
 new [description:"defaulting to pretty formatting for output" end:"1706284764" entry:"1706103323" modified:"1706284764" priority:"H" status:"completed" uuid:"9594fcab-abc5-4d8c-bf26-c6c77529267f"]
 ---
+time 1706285466
+new [description:"command modify account not working" entry:"1706285466" modified:"1706285466" priority:"H" status:"pending" tags:"bug" tags_bug:"x" uuid:"d51a70ca-a54a-4078-a8ca-275cad2f6d67"]
+---
+time 1706285471
+old [description:"command modify account not working" entry:"1706285466" modified:"1706285466" priority:"H" status:"pending" tags:"bug" tags_bug:"x" uuid:"d51a70ca-a54a-4078-a8ca-275cad2f6d67"]
+new [description:"command modify account not working" entry:"1706285466" modified:"1706285471" priority:"H" start:"1706285471" status:"pending" tags:"bug" tags_bug:"x" uuid:"d51a70ca-a54a-4078-a8ca-275cad2f6d67"]
+---
+time 1706286229
+old [description:"command modify account not working" entry:"1706285466" modified:"1706285471" priority:"H" start:"1706285471" status:"pending" tags:"bug" tags_bug:"x" uuid:"d51a70ca-a54a-4078-a8ca-275cad2f6d67"]
+new [description:"command modify account not working" end:"1706286229" entry:"1706285466" modified:"1706286229" priority:"H" status:"completed" tags:"bug" tags_bug:"x" uuid:"d51a70ca-a54a-4078-a8ca-275cad2f6d67"]
+---
