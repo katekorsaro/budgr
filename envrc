@@ -22,6 +22,13 @@ cargo build
 ./target/debug/budgr a 20240106 "Test note for operation 6" 4000 -p "need" --id 9
 ./target/debug/budgr a 20240107 "Test note for operation 7" 9000 -p "income" --id 10
 
+./target/debug/budgr a 20240108 "Test note for operation 8" 9000 -p "need"  --id 11
+./target/debug/budgr a 20240109 "Test note for operation 9" 9000 -p "yearly-need"  --id 12
+./target/debug/budgr a 20240110 "Test note for operation 10" 9000 -p "want" --id 13
+./target/debug/budgr a 20240111 "Test note for operation 11" 9000 -p "yearly-want" --id 14
+./target/debug/budgr a 20240112 "Test note for operation 12" 9000 -p "goal" --id 15
+./target/debug/budgr a 20240113 "Test note for operation 13" 9000 -p "income" --id 16
+
 # list deleted operations
 ./target/debug/budgr -d l -o pretty
 ./target/debug/budgr l -o pretty

@@ -1,4 +1,5 @@
 use clap::{Parser, Subcommand, ValueEnum};
+use std::str::FromStr;
 
 #[derive(Parser, Debug)]
 #[command(arg_required_else_help(true))]
@@ -110,6 +111,7 @@ pub enum Format {
 
 #[derive(Clone, Debug, ValueEnum)]
 pub enum Purpose {
+  None,
   Need,
   Want,
   Goal,
@@ -124,6 +126,20 @@ pub enum Sort {
   Desc,
 }
 
+impl FromStr for Purpose {
+  type Err = String;
+  fn from_str(str_value: &str) -> Result<Self, String> {
+    match str_value {
+      "Need" => Ok(Purpose::Need),
+      "Want" => Ok(Purpose::Want),
+      "Goal" => Ok(Purpose::Goal),
+      "Yearly Need" => Ok(Purpose::YearlyNeed),
+      "Yearly Want" => Ok(Purpose::YearlyWant),
+      "Income" => Ok(Purpose::Income),
+      _ => Ok(Purpose::None),
+    }
+  }
+}
 impl From<&Purpose> for String {
   fn from(p: &Purpose) -> Self {
     match p {
@@ -133,6 +149,7 @@ impl From<&Purpose> for String {
       Purpose::YearlyNeed => String::from("Yearly Need"),
       Purpose::YearlyWant => String::from("Yearly Want"),
       Purpose::Income => String::from("Income"),
+      Purpose::None => String::new(),
     }
   }
 }
