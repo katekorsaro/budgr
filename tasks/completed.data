@@ -1,3 +1,4 @@
+[description:"output amount and purpose in different colors in pretty formatting" end:"1706283958" entry:"1706279913" modified:"1706283958" priority:"M" status:"completed" tags:"new" tags_new:"x" uuid:"e555006e-d04b-461b-9787-9879e92601af"]
 [description:"change envrc to call compiled binary instead of cargo" end:"1706278607" entry:"1706276920" modified:"1706278607" priority:"H" status:"completed" uuid:"a343fe6b-cd84-44ac-9099-60b1d7b0354c"]
 [description:"abbreviate commands" end:"1706278301" entry:"1706277306" modified:"1706278301" priority:"H" status:"completed" uuid:"bcfd9677-aeee-4f5c-b223-27bdd2d7d5db"]
 [description:"add code comment for modify and add args" end:"1706277312" entry:"1706276985" modified:"1706277312" priority:"H" status:"completed" uuid:"a5fb1de1-fed8-4207-b8ab-3782d79c6b34"]

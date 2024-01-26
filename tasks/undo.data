@@ -1268,3 +1268,14 @@ time 1706278607
 old [description:"change envrc to call compiled binary instead of cargo" entry:"1706276920" modified:"1706278318" priority:"H" start:"1706278318" status:"pending" uuid:"a343fe6b-cd84-44ac-9099-60b1d7b0354c"]
 new [description:"change envrc to call compiled binary instead of cargo" end:"1706278607" entry:"1706276920" modified:"1706278607" priority:"H" status:"completed" uuid:"a343fe6b-cd84-44ac-9099-60b1d7b0354c"]
 ---
+time 1706279913
+new [description:"output amount and purpose in different colors in pretty formatting" entry:"1706279913" modified:"1706279913" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"e555006e-d04b-461b-9787-9879e92601af"]
+---
+time 1706280129
+old [description:"output amount and purpose in different colors in pretty formatting" entry:"1706279913" modified:"1706279913" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"e555006e-d04b-461b-9787-9879e92601af"]
+new [description:"output amount and purpose in different colors in pretty formatting" entry:"1706279913" modified:"1706280129" priority:"M" start:"1706280129" status:"pending" tags:"new" tags_new:"x" uuid:"e555006e-d04b-461b-9787-9879e92601af"]
+---
+time 1706283958
+old [description:"output amount and purpose in different colors in pretty formatting" entry:"1706279913" modified:"1706280129" priority:"M" start:"1706280129" status:"pending" tags:"new" tags_new:"x" uuid:"e555006e-d04b-461b-9787-9879e92601af"]
+new [description:"output amount and purpose in different colors in pretty formatting" end:"1706283958" entry:"1706279913" modified:"1706283958" priority:"M" status:"completed" tags:"new" tags_new:"x" uuid:"e555006e-d04b-461b-9787-9879e92601af"]
+---
