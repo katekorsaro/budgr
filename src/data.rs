@@ -31,32 +31,32 @@ impl ToString for Status {
 
 #[derive(Debug)]
 pub struct Data {
-  pub status: Status,
-  pub id: u32,
-  pub date: u32,
-  pub note: String,
-  pub amount: i32,
   pub account: Option<String>,
-  pub purpose: Option<String>,
-  pub goal: Option<String>,
-  pub path: String,
+  pub amount: i32,
   pub creation_date: String,
+  pub date: u32,
+  pub goal: Option<String>,
+  pub id: u32,
   pub modification_date: Option<String>,
+  pub note: String,
+  pub path: String,
+  pub purpose: Option<String>,
+  pub status: Status,
 }
 
 impl Data {
   pub fn default() -> Self {
     Data {
-      id: 0,
-      date: 0,
-      note: String::new(),
-      amount: 0,
       account: None,
-      purpose: None,
-      goal: None,
-      path: String::new(),
+      amount: 0,
       creation_date: String::new(),
+      date: 0,
+      goal: None,
+      id: 0,
       modification_date: None,
+      note: String::new(),
+      path: String::new(),
+      purpose: None,
       status: Status::Active,
     }
   }
