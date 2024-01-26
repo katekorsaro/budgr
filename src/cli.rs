@@ -68,6 +68,8 @@ pub enum Command {
     amount: Option<i32>,
     #[arg(short,long)]
     date: Option<u32>,
+    #[arg(short,long)]
+    note: Option<String>,
   },
 
   /// Undelete operations
