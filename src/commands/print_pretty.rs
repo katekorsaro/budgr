@@ -40,7 +40,7 @@ fn prettify_date(date: u32) -> String {
 fn colorized_purpose(operation: &Operation) -> String {
   if let Some(ref operation_purpose) = operation.purpose {
     let operation_purpose = operation_purpose.parse::<Purpose>().unwrap();
-    return match operation_purpose {
+    match operation_purpose {
       Purpose::Need => operation.purpose.clone().unwrap().b_blue(),
       Purpose::YearlyNeed => operation.purpose.clone().unwrap().blue(),
       Purpose::Want => operation.purpose.clone().unwrap().b_yellow(),
@@ -48,21 +48,21 @@ fn colorized_purpose(operation: &Operation) -> String {
       Purpose::Goal => operation.purpose.clone().unwrap().b_red(),
       Purpose::Income => operation.purpose.clone().unwrap().b_green(),
       _ => operation.purpose.clone().unwrap(),
-    };
+    }
   } else {
-    return String::new();
-  };
+    String::new()
+  }
 }
 
 fn colorized_amount(operation: &Operation) -> String {
   if let Some(ref operation_purpose) = operation.purpose {
     let operation_purpose = operation_purpose.parse::<Purpose>().unwrap();
     let amount = format!("{:.2}", (operation.amount as f32) / 100_f32);
-    return match operation_purpose {
+    match operation_purpose {
       Purpose::Income => amount.b_green(),
       _ => amount,
-    };
+    }
   } else {
-    return String::new();
-  };
+    String::new()
+  }
 }
