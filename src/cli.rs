@@ -45,6 +45,9 @@ pub enum Command {
     #[arg(short, long, default_value = "raw")]
     /// output format to display
     output_format: Option<Format>,
+    #[arg(short, long, default_value = "desc")]
+    /// sort operations by date
+    date_sort: Option<Sort>,
   },
 
   /// Modify the filtered list
@@ -83,6 +86,12 @@ pub enum Purpose {
   Goal,
   YearlyNeed,
   YearlyWant,
+}
+
+#[derive(Clone, Debug, ValueEnum)]
+pub enum Sort {
+  Asc,
+  Desc,
 }
 
 impl From<&Purpose> for String {
