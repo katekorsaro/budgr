@@ -343,3 +343,6 @@
 {"description":"allow to modify date of an operation","end":"20240126T133252Z","entry":"20240126T113044Z","modified":"20240126T133252Z","priority":"H","status":"completed","uuid":"e83a8aed-87c6-4f1b-b0a5-bc1a529fadb8"}
 {"description":"allow to modify operation note","entry":"20240126T133347Z","modified":"20240126T133347Z","priority":"H","status":"pending","uuid":"31083d3c-69b6-4d5d-aff2-52c11f5cc766"}
 {"description":"allow to modify operation note","entry":"20240126T133347Z","modified":"20240126T133349Z","priority":"H","start":"20240126T133349Z","status":"pending","uuid":"31083d3c-69b6-4d5d-aff2-52c11f5cc766"}
+{"description":"allow to modify operation note","end":"20240126T134230Z","entry":"20240126T133347Z","modified":"20240126T134230Z","priority":"H","status":"completed","uuid":"31083d3c-69b6-4d5d-aff2-52c11f5cc766"}
+{"description":"add Income as a purpose","entry":"20240126T134337Z","modified":"20240126T134337Z","priority":"H","status":"pending","uuid":"b61a7728-5a88-4c7e-acb0-1cf198719f94","tags":["new"]}
+{"description":"add Income as a purpose","entry":"20240126T134337Z","modified":"20240126T134343Z","priority":"H","start":"20240126T134343Z","status":"pending","uuid":"b61a7728-5a88-4c7e-acb0-1cf198719f94","tags":["new"]}

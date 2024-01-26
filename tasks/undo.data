@@ -1220,3 +1220,14 @@ time 1706276029
 old [description:"allow to modify operation note" entry:"1706276027" modified:"1706276027" priority:"H" status:"pending" uuid:"31083d3c-69b6-4d5d-aff2-52c11f5cc766"]
 new [description:"allow to modify operation note" entry:"1706276027" modified:"1706276029" priority:"H" start:"1706276029" status:"pending" uuid:"31083d3c-69b6-4d5d-aff2-52c11f5cc766"]
 ---
+time 1706276550
+old [description:"allow to modify operation note" entry:"1706276027" modified:"1706276029" priority:"H" start:"1706276029" status:"pending" uuid:"31083d3c-69b6-4d5d-aff2-52c11f5cc766"]
+new [description:"allow to modify operation note" end:"1706276550" entry:"1706276027" modified:"1706276550" priority:"H" status:"completed" uuid:"31083d3c-69b6-4d5d-aff2-52c11f5cc766"]
+---
+time 1706276617
+new [description:"add Income as a purpose" entry:"1706276617" modified:"1706276617" priority:"H" status:"pending" tags:"new" tags_new:"x" uuid:"b61a7728-5a88-4c7e-acb0-1cf198719f94"]
+---
+time 1706276623
+old [description:"add Income as a purpose" entry:"1706276617" modified:"1706276617" priority:"H" status:"pending" tags:"new" tags_new:"x" uuid:"b61a7728-5a88-4c7e-acb0-1cf198719f94"]
+new [description:"add Income as a purpose" entry:"1706276617" modified:"1706276623" priority:"H" start:"1706276623" status:"pending" tags:"new" tags_new:"x" uuid:"b61a7728-5a88-4c7e-acb0-1cf198719f94"]
+---
