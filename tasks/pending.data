@@ -20,3 +20,4 @@
 [description:"evaluate to use u32 also for amount." entry:"1706262845" modified:"1706288375" priority:"H" status:"pending" uuid:"fa7eb58e-b654-48d2-b983-790d94b9b42f"]
 [description:"limit list output to a given number of entries (keeping order and filter)" entry:"1706263536" modified:"1706284545" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"ad16c3d5-9e00-4675-81ed-10265b03a6a0"]
 [description:"automatic test for add command" entry:"1706288183" modified:"1706288183" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"5359d4a2-7570-4f87-b228-48ec05024073"]
+[description:"evaluate to refactor command into a library to split presentation from logic" entry:"1706337706" modified:"1706337706" priority:"M" status:"pending" uuid:"60a62a5a-c153-4d97-9f3d-675dbb05e167"]
