@@ -7,12 +7,12 @@ pub fn print_pretty(data: Vec<Operation>) {
   let mut table = Table::new();
   table.add_row(row![
     c->"Id",
-    c->"Date",
-    c->"Note",
+    c->"Date 󰃭",
+    c->"Note 󰎛",
     c->"Amount ",
-    c->"Account",
-    c->"Purpose",
-    c->"Goal"
+    c->"Account ",
+    c->"Purpose ",
+    c->"Goal "
   ]);
   data.into_iter().for_each(|operation| {
     let purpose = colorized_purpose(&operation);
