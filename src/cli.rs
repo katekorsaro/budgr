@@ -13,6 +13,10 @@ pub struct Budgr {
   pub to: Option<u32>,
 
   #[arg(short, long)]
+  /// filter option: account name
+  pub account: Option<String>,
+
+  #[arg(short, long)]
   /// only deleted operation
   pub deleted: bool,
 

@@ -20,6 +20,19 @@ pub fn filter_data(data: Vec<Operation>, args: &Budgr) -> Vec<Operation> {
         operation.status != Status::Deleted
       }
     })
+    // filter by account
+    .filter(|operation| {
+      if let Some(account) = &args.account {
+        operation
+          .account
+          .clone()
+          .unwrap_or_default()
+          .to_lowercase()
+          .contains(&account.to_lowercase())
+      } else {
+        false
+      }
+    })
     // filter by dates
     .filter(|operation| {
       if let Some(from_date) = args.from {
