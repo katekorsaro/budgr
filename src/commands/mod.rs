@@ -7,6 +7,7 @@ mod modify_operations;
 mod print_pretty;
 mod print_raw;
 mod print_version;
+mod set_operation_status;
 mod undelete_operations;
 
 pub use add_operation::*;

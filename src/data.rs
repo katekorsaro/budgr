@@ -3,7 +3,7 @@ use std::fs;
 use std::path::Path;
 use std::str::FromStr;
 
-#[derive(Debug, PartialEq)]
+#[derive(Debug, PartialEq, Copy, Clone)]
 pub enum Status {
   Active,
   Deleted,
