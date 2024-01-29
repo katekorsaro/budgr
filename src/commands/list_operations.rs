@@ -12,6 +12,7 @@ pub fn list_operations(config: &Config, args: &Budgr) {
   if let Some(List {
     output_format,
     date_sort,
+    include_id,
     ..
   }) = &args.command
   {
@@ -24,7 +25,7 @@ pub fn list_operations(config: &Config, args: &Budgr) {
     }
     match output_format {
       Some(Format::Raw) => print_raw(data),
-      Some(Format::Pretty) => print_pretty(data),
+      Some(Format::Pretty) => print_pretty(data, *include_id),
       _ => unreachable!(),
     }
   }

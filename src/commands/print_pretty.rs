@@ -1,12 +1,11 @@
 use crate::cli::Purpose;
 use crate::data::Operation;
 use colorize::AnsiColor;
-use prettytable::{row, Table};
+use prettytable::{cell, row, Table};
 
-pub fn print_pretty(data: Vec<Operation>) {
+pub fn print_pretty(data: Vec<Operation>, include_id: bool) {
   let mut table = Table::new();
-  table.add_row(row![
-    c->"Id",
+  let header = table.add_row(row![
     c->"Date 󰃭",
     c->"Note 󰎛",
     c->"Amount ",
@@ -14,11 +13,13 @@ pub fn print_pretty(data: Vec<Operation>) {
     c->"Purpose ",
     c->"Goal "
   ]);
+  if include_id {
+    header.insert_cell(0, cell!(c->"id"));
+  }
   data.into_iter().for_each(|operation| {
     let purpose = colorized_purpose(&operation);
     let amount = colorized_amount(&operation);
-    table.add_row(row![
-      operation.id.to_string(),
+    let row = table.add_row(row![
       format!("{}", prettify_date(operation.date)),
       operation.note,
       r->amount,
@@ -26,6 +27,9 @@ pub fn print_pretty(data: Vec<Operation>) {
       purpose,
       operation.goal.unwrap_or("".to_string()),
     ]);
+    if include_id {
+      row.insert_cell(0, cell!(operation.id));
+    }
   });
   table.printstd();
 }

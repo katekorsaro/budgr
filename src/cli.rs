@@ -64,6 +64,9 @@ pub enum Command {
     #[arg(short, long, default_value = "pretty")]
     /// output format to display
     output_format: Option<Format>,
+    #[arg(short, long)]
+    /// include id field (only for pretty printing)
+    include_id: bool,
     #[arg(short, long, default_value = "desc")]
     /// sort operations by date
     date_sort: Option<Sort>,
