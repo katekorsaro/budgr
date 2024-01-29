@@ -382,3 +382,5 @@
 {"description":"automatic test for add command","entry":"20240126T165623Z","modified":"20240126T165623Z","priority":"M","status":"pending","uuid":"5359d4a2-7570-4f87-b228-48ec05024073","tags":["new"]}
 {"description":"evaluate to use u32 also for amount.","entry":"20240126T095405Z","modified":"20240126T165935Z","priority":"H","status":"pending","uuid":"fa7eb58e-b654-48d2-b983-790d94b9b42f"}
 {"description":"evaluate to refactor command into a library to split presentation from logic","entry":"20240127T064146Z","modified":"20240127T064146Z","priority":"M","status":"pending","uuid":"60a62a5a-c153-4d97-9f3d-675dbb05e167"}
+{"description":"refactor delete and undelete to set_status","entry":"20240126T083623Z","modified":"20240129T102734Z","priority":"H","start":"20240129T102734Z","status":"pending","uuid":"7ded8898-ae3d-4b3d-9c9f-2f54449ff40e"}
+{"description":"refactor delete and undelete to set_status","end":"20240129T104735Z","entry":"20240126T083623Z","modified":"20240129T104735Z","priority":"H","status":"completed","uuid":"7ded8898-ae3d-4b3d-9c9f-2f54449ff40e"}
