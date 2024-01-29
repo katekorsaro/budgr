@@ -1415,3 +1415,11 @@ time 1706537941
 old [description:"list accounts" entry:"1706106515" modified:"1706536183" priority:"H" start:"1706536183" status:"pending" tags:"new" tags_new:"x" uuid:"8ebae1f3-a6a8-47c8-bdd4-7d999393c0fe"]
 new [description:"list accounts" end:"1706537941" entry:"1706106515" modified:"1706537941" priority:"H" status:"completed" tags:"new" tags_new:"x" uuid:"8ebae1f3-a6a8-47c8-bdd4-7d999393c0fe"]
 ---
+time 1706538324
+old [description:"add icons for pretty output" entry:"1706177561" modified:"1706284588" priority:"M" status:"pending" uuid:"9766b053-c4b1-4beb-b5c2-62f6690cdd90"]
+new [description:"add icons for pretty output" entry:"1706177561" modified:"1706538324" priority:"M" start:"1706538324" status:"pending" uuid:"9766b053-c4b1-4beb-b5c2-62f6690cdd90"]
+---
+time 1706538624
+old [description:"add icons for pretty output" entry:"1706177561" modified:"1706538324" priority:"M" start:"1706538324" status:"pending" uuid:"9766b053-c4b1-4beb-b5c2-62f6690cdd90"]
+new [description:"add icons for pretty output" end:"1706538624" entry:"1706177561" modified:"1706538624" priority:"M" status:"completed" uuid:"9766b053-c4b1-4beb-b5c2-62f6690cdd90"]
+---

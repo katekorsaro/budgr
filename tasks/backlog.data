@@ -394,3 +394,5 @@
 {"description":"list accounts","entry":"20240124T142835Z","modified":"20240129T134535Z","priority":"H","status":"pending","uuid":"8ebae1f3-a6a8-47c8-bdd4-7d999393c0fe","tags":["new"]}
 {"description":"list accounts","entry":"20240124T142835Z","modified":"20240129T134943Z","priority":"H","start":"20240129T134943Z","status":"pending","uuid":"8ebae1f3-a6a8-47c8-bdd4-7d999393c0fe","tags":["new"]}
 {"description":"list accounts","end":"20240129T141901Z","entry":"20240124T142835Z","modified":"20240129T141901Z","priority":"H","status":"completed","uuid":"8ebae1f3-a6a8-47c8-bdd4-7d999393c0fe","tags":["new"]}
+{"description":"add icons for pretty output","entry":"20240125T101241Z","modified":"20240129T142524Z","priority":"M","start":"20240129T142524Z","status":"pending","uuid":"9766b053-c4b1-4beb-b5c2-62f6690cdd90"}
+{"description":"add icons for pretty output","end":"20240129T143024Z","entry":"20240125T101241Z","modified":"20240129T143024Z","priority":"M","status":"completed","uuid":"9766b053-c4b1-4beb-b5c2-62f6690cdd90"}
