@@ -1403,3 +1403,15 @@ time 1706535523
 old [description:"filter by account" entry:"1706106328" modified:"1706533940" priority:"H" start:"1706533940" status:"pending" tags:"new" tags_new:"x" uuid:"27dfc341-37a9-4ad3-b955-2f7d2c276361"]
 new [description:"filter by account" end:"1706535523" entry:"1706106328" modified:"1706535523" priority:"H" status:"completed" tags:"new" tags_new:"x" uuid:"27dfc341-37a9-4ad3-b955-2f7d2c276361"]
 ---
+time 1706535935
+old [description:"list accounts" entry:"1706106515" modified:"1706269152" priority:"L" status:"pending" tags:"new" tags_new:"x" uuid:"8ebae1f3-a6a8-47c8-bdd4-7d999393c0fe"]
+new [description:"list accounts" entry:"1706106515" modified:"1706535935" priority:"H" status:"pending" tags:"new" tags_new:"x" uuid:"8ebae1f3-a6a8-47c8-bdd4-7d999393c0fe"]
+---
+time 1706536183
+old [description:"list accounts" entry:"1706106515" modified:"1706535935" priority:"H" status:"pending" tags:"new" tags_new:"x" uuid:"8ebae1f3-a6a8-47c8-bdd4-7d999393c0fe"]
+new [description:"list accounts" entry:"1706106515" modified:"1706536183" priority:"H" start:"1706536183" status:"pending" tags:"new" tags_new:"x" uuid:"8ebae1f3-a6a8-47c8-bdd4-7d999393c0fe"]
+---
+time 1706537941
+old [description:"list accounts" entry:"1706106515" modified:"1706536183" priority:"H" start:"1706536183" status:"pending" tags:"new" tags_new:"x" uuid:"8ebae1f3-a6a8-47c8-bdd4-7d999393c0fe"]
+new [description:"list accounts" end:"1706537941" entry:"1706106515" modified:"1706537941" priority:"H" status:"completed" tags:"new" tags_new:"x" uuid:"8ebae1f3-a6a8-47c8-bdd4-7d999393c0fe"]
+---

@@ -1,3 +1,4 @@
+[description:"list accounts" end:"1706537941" entry:"1706106515" modified:"1706537941" priority:"H" status:"completed" tags:"new" tags_new:"x" uuid:"8ebae1f3-a6a8-47c8-bdd4-7d999393c0fe"]
 [description:"filter by account" end:"1706535523" entry:"1706106328" modified:"1706535523" priority:"H" status:"completed" tags:"new" tags_new:"x" uuid:"27dfc341-37a9-4ad3-b955-2f7d2c276361"]
 [description:"evaluate to use u32 also for amount." end:"1706526678" entry:"1706262845" modified:"1706526678" priority:"H" status:"completed" uuid:"fa7eb58e-b654-48d2-b983-790d94b9b42f"]
 [description:"refactor delete and undelete to set_status" end:"1706525255" entry:"1706258183" modified:"1706525255" priority:"H" status:"completed" uuid:"7ded8898-ae3d-4b3d-9c9f-2f54449ff40e"]

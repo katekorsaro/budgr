@@ -391,3 +391,6 @@
 {"description":"add human feedback for modify, delete, undelete operations (rows affected)","entry":"20240126T084050Z","modified":"20240129T112711Z","priority":"H","status":"pending","uuid":"7f21bcb0-d4af-4c05-869d-0cdc524a2689"}
 {"description":"filter by account","entry":"20240124T142528Z","modified":"20240129T131220Z","priority":"H","start":"20240129T131220Z","status":"pending","uuid":"27dfc341-37a9-4ad3-b955-2f7d2c276361","tags":["new"]}
 {"description":"filter by account","end":"20240129T133843Z","entry":"20240124T142528Z","modified":"20240129T133843Z","priority":"H","status":"completed","uuid":"27dfc341-37a9-4ad3-b955-2f7d2c276361","tags":["new"]}
+{"description":"list accounts","entry":"20240124T142835Z","modified":"20240129T134535Z","priority":"H","status":"pending","uuid":"8ebae1f3-a6a8-47c8-bdd4-7d999393c0fe","tags":["new"]}
+{"description":"list accounts","entry":"20240124T142835Z","modified":"20240129T134943Z","priority":"H","start":"20240129T134943Z","status":"pending","uuid":"8ebae1f3-a6a8-47c8-bdd4-7d999393c0fe","tags":["new"]}
+{"description":"list accounts","end":"20240129T141901Z","entry":"20240124T142835Z","modified":"20240129T141901Z","priority":"H","status":"completed","uuid":"8ebae1f3-a6a8-47c8-bdd4-7d999393c0fe","tags":["new"]}
