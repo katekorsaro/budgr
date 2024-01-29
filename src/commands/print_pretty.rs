@@ -22,7 +22,7 @@ pub fn print_pretty(data: Vec<Operation>) {
       format!("{}", prettify_date(operation.date)),
       operation.note,
       r->amount,
-      operation.account.unwrap_or(String::new()),
+      operation.account.unwrap_or_default(),
       purpose,
       operation.goal.unwrap_or("".to_string()),
     ]);
