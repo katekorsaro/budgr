@@ -30,7 +30,7 @@ pub fn filter_data(data: Vec<Operation>, args: &Budgr) -> Vec<Operation> {
           .to_lowercase()
           .contains(&account.to_lowercase())
       } else {
-        false
+        true
       }
     })
     // filter by dates
