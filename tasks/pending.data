@@ -9,7 +9,6 @@
 [description:"filter by goal" entry:"1706106500" modified:"1706269152" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"5263f849-ec7e-48a8-b840-5c6cab653fbf"]
 [description:"list goals" entry:"1706106522" modified:"1706269152" priority:"L" status:"pending" tags:"new" tags_new:"x" uuid:"1177cc24-0ed2-48f6-ab8e-22d386404a39"]
 [description:"filter by note (like)" entry:"1706106595" modified:"1706269152" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"e8f235b8-428a-45a2-a8aa-4cc6dbeec218"]
-[description:"remove id from pretty printing" entry:"1706180803" modified:"1706284598" priority:"M" status:"pending" uuid:"ed7e74a8-15d1-480e-a53b-a885984ef964"]
 [description:"sort by amount asc and desc" entry:"1706190901" modified:"1706269152" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"32ace341-ac18-4db6-8cb0-6da059089132"]
 [description:"refactor data module" entry:"1706256764" modified:"1706268675" priority:"M" status:"pending" uuid:"1f700968-17d6-4bae-8cc0-5a8628233154"]
 [description:"add human feedback for modify, delete, undelete operations (rows affected)" entry:"1706258450" modified:"1706527631" priority:"H" status:"pending" uuid:"7f21bcb0-d4af-4c05-869d-0cdc524a2689"]
