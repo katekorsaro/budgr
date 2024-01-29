@@ -25,7 +25,7 @@ pub fn print_pretty(data: Vec<Operation>, include_id: bool) {
       r->amount,
       operation.account.unwrap_or_default(),
       purpose,
-      operation.goal.unwrap_or("".to_string()),
+      operation.goal.unwrap_or_default(),
     ]);
     if include_id {
       row.insert_cell(0, cell!(operation.id));
