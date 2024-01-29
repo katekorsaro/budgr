@@ -18,11 +18,11 @@ cargo build
 ./target/debug/budgr a 20240102 "Test note for operation 2" 6000 --id 5
 ./target/debug/budgr a 20240103 "Test note for operation 3" 7000 --id 6
 ./target/debug/budgr a 20240104 "Test note for operation 4" 8000 -a "BNP Paribas" --id 7
-./target/debug/budgr a 20240105 "Test note for operation 5" 9000 -g "Gifts" --id 8
+./target/debug/budgr a 20240105 "Test note for operation 5" 9000 -a "BNP Paribas" -g "Gifts" --id 8
 ./target/debug/budgr a 20240106 "Test note for operation 6" 4000 -p "need" --id 9
 ./target/debug/budgr a 20240107 "Test note for operation 7" 9000 -p "income" --id 10
 
-./target/debug/budgr a 20240108 "Test note for operation 8" 9000 -p "need"  --id 11
+./target/debug/budgr a 20240108 "Test note for operation 8" 9000 -a "UBS" -p "need"  --id 11
 ./target/debug/budgr a 20240109 "Test note for operation 9" 9000 -p "yearly-need"  --id 12
 ./target/debug/budgr a 20240110 "Test note for operation 10" 9000 -p "want" --id 13
 ./target/debug/budgr a 20240111 "Test note for operation 11" 9000 -p "yearly-want" --id 14

@@ -69,6 +69,10 @@ pub enum Command {
     date_sort: Option<Sort>,
   },
 
+  /// List all accounts
+  #[command(visible_alias("i"))]
+  ListAccount,
+
   /// Modify the filtered list
   #[command(visible_alias("m"))]
   Modify {

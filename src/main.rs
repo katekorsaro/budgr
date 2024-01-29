@@ -33,6 +33,7 @@ fn main() {
     Some(Command::Count) => count_operations(&config, &bin),
     Some(Command::Delete) => delete_operations(&config, &bin),
     Some(Command::List { .. }) => list_operations(&config, &bin),
+    Some(Command::ListAccount) => list_accounts(&config, &bin),
     Some(Command::Modify { .. }) => modify_operations(&config, &bin),
     Some(Command::Undelete) => undelete_operations(&config, &bin),
     Some(Command::Version) => print_version(),
