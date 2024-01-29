@@ -22,6 +22,7 @@ pub fn modify_operations(config: &Config, args: &Budgr) {
     let now = OffsetDateTime::now_local().unwrap().format(&fmt).unwrap();
     let data = read_data(config);
     let mut data = filter_data(data, args);
+    let mut count = 0;
     data.iter_mut().for_each(|operation| {
       if let Some(account) = account {
         operation.account = Some(String::from(account));
@@ -46,6 +47,8 @@ pub fn modify_operations(config: &Config, args: &Budgr) {
         .unwrap();
 
       let _ = file.write_all(string_value.as_bytes());
+      count += 1;
     });
+    println!("{count} operation(s) affected");
   }
 }
