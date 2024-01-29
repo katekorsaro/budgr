@@ -1375,3 +1375,23 @@ time 1706525255
 old [description:"refactor delete and undelete to set_status" entry:"1706258183" modified:"1706524054" priority:"H" start:"1706524054" status:"pending" uuid:"7ded8898-ae3d-4b3d-9c9f-2f54449ff40e"]
 new [description:"refactor delete and undelete to set_status" end:"1706525255" entry:"1706258183" modified:"1706525255" priority:"H" status:"completed" uuid:"7ded8898-ae3d-4b3d-9c9f-2f54449ff40e"]
 ---
+time 1706525605
+old [description:"evaluate to use u32 also for amount." entry:"1706262845" modified:"1706288375" priority:"H" status:"pending" uuid:"fa7eb58e-b654-48d2-b983-790d94b9b42f"]
+new [description:"evaluate to use u32 also for amount." entry:"1706262845" modified:"1706525605" priority:"H" start:"1706525605" status:"pending" uuid:"fa7eb58e-b654-48d2-b983-790d94b9b42f"]
+---
+time 1706526678
+old [description:"evaluate to use u32 also for amount." entry:"1706262845" modified:"1706525605" priority:"H" start:"1706525605" status:"pending" uuid:"fa7eb58e-b654-48d2-b983-790d94b9b42f"]
+new [description:"evaluate to use u32 also for amount." end:"1706526678" entry:"1706262845" modified:"1706526678" priority:"H" status:"completed" uuid:"fa7eb58e-b654-48d2-b983-790d94b9b42f"]
+---
+time 1706527593
+old [description:"filter by purpose" entry:"1706106459" modified:"1706269152" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"3564176c-6eb3-4bf4-aed8-f193c27b9915"]
+new [description:"filter by purpose" entry:"1706106459" modified:"1706527593" priority:"H" status:"pending" tags:"new" tags_new:"x" uuid:"3564176c-6eb3-4bf4-aed8-f193c27b9915"]
+---
+time 1706527601
+old [description:"filter by account" entry:"1706106328" modified:"1706269152" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"27dfc341-37a9-4ad3-b955-2f7d2c276361"]
+new [description:"filter by account" entry:"1706106328" modified:"1706527601" priority:"H" status:"pending" tags:"new" tags_new:"x" uuid:"27dfc341-37a9-4ad3-b955-2f7d2c276361"]
+---
+time 1706527631
+old [description:"add human feedback for modify, delete, undelete operations (rows affected)" entry:"1706258450" modified:"1706284606" priority:"M" status:"pending" uuid:"7f21bcb0-d4af-4c05-869d-0cdc524a2689"]
+new [description:"add human feedback for modify, delete, undelete operations (rows affected)" entry:"1706258450" modified:"1706527631" priority:"H" status:"pending" uuid:"7f21bcb0-d4af-4c05-869d-0cdc524a2689"]
+---
