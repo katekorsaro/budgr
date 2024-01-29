@@ -389,3 +389,5 @@
 {"description":"filter by purpose","entry":"20240124T142739Z","modified":"20240129T112633Z","priority":"H","status":"pending","uuid":"3564176c-6eb3-4bf4-aed8-f193c27b9915","tags":["new"]}
 {"description":"filter by account","entry":"20240124T142528Z","modified":"20240129T112641Z","priority":"H","status":"pending","uuid":"27dfc341-37a9-4ad3-b955-2f7d2c276361","tags":["new"]}
 {"description":"add human feedback for modify, delete, undelete operations (rows affected)","entry":"20240126T084050Z","modified":"20240129T112711Z","priority":"H","status":"pending","uuid":"7f21bcb0-d4af-4c05-869d-0cdc524a2689"}
+{"description":"filter by account","entry":"20240124T142528Z","modified":"20240129T131220Z","priority":"H","start":"20240129T131220Z","status":"pending","uuid":"27dfc341-37a9-4ad3-b955-2f7d2c276361","tags":["new"]}
+{"description":"filter by account","end":"20240129T133843Z","entry":"20240124T142528Z","modified":"20240129T133843Z","priority":"H","status":"completed","uuid":"27dfc341-37a9-4ad3-b955-2f7d2c276361","tags":["new"]}
