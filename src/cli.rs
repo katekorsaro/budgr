@@ -31,7 +31,7 @@ pub enum Command {
   Add {
     date: u32,
     note: String,
-    amount: i32,
+    amount: u32,
     #[arg(short, long)]
     /// operation account
     account: Option<String>,
@@ -79,7 +79,7 @@ pub enum Command {
     goal: Option<String>,
     #[arg(short('m'), long)]
     /// new operation purpose
-    amount: Option<i32>,
+    amount: Option<u32>,
     #[arg(short, long)]
     /// new oepration date
     date: Option<u32>,

@@ -32,7 +32,7 @@ impl ToString for Status {
 #[derive(Debug)]
 pub struct Operation {
   pub account: Option<String>,
-  pub amount: i32,
+  pub amount: u32,
   pub creation_date: String,
   pub date: u32,
   pub goal: Option<String>,
@@ -71,7 +71,7 @@ impl Operation {
       modification_date: parts.next().map(|value| value.to_string()),
       date: parts.next().unwrap().parse::<u32>().unwrap(),
       note: String::from(parts.next().unwrap()),
-      amount: parts.next().unwrap().parse::<i32>().unwrap(),
+      amount: parts.next().unwrap().parse::<u32>().unwrap(),
       account: parts.next().map(|value| value.to_string()),
       purpose: parts.next().map(|value| value.to_string()),
       goal: parts
