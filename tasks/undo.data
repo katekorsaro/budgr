@@ -1447,3 +1447,18 @@ time 1706541157
 old [description:"add human feedback for modify, delete, undelete operations (rows affected)" entry:"1706258450" modified:"1706540834" priority:"H" start:"1706540834" status:"pending" uuid:"7f21bcb0-d4af-4c05-869d-0cdc524a2689"]
 new [description:"add human feedback for modify, delete, undelete operations (rows affected)" end:"1706541157" entry:"1706258450" modified:"1706541157" priority:"H" status:"completed" uuid:"7f21bcb0-d4af-4c05-869d-0cdc524a2689"]
 ---
+time 1706541414
+new [description:"investigate how to include a .budgrrc into built binary folder" entry:"1706541414" modified:"1706541414" priority:"H" status:"pending" tags:"new" tags_new:"x" uuid:"c83246e6-8bfb-49b9-a418-00cc0385d81f"]
+---
+time 1706541416
+old [description:"investigate how to include a .budgrrc into built binary folder" entry:"1706541414" modified:"1706541414" priority:"H" status:"pending" tags:"new" tags_new:"x" uuid:"c83246e6-8bfb-49b9-a418-00cc0385d81f"]
+new [description:"investigate how to include a .budgrrc into built binary folder" entry:"1706541414" modified:"1706541416" priority:"H" start:"1706541416" status:"pending" tags:"new" tags_new:"x" uuid:"c83246e6-8bfb-49b9-a418-00cc0385d81f"]
+---
+time 1706543083
+old [description:"investigate how to include a .budgrrc into built binary folder" entry:"1706541414" modified:"1706541416" priority:"H" start:"1706541416" status:"pending" tags:"new" tags_new:"x" uuid:"c83246e6-8bfb-49b9-a418-00cc0385d81f"]
+new [annotation_1706543083:"apparently I need to edit some build.rs file to perform such inclusion" description:"investigate how to include a .budgrrc into built binary folder" entry:"1706541414" modified:"1706543083" priority:"H" start:"1706541416" status:"pending" tags:"new" tags_new:"x" uuid:"c83246e6-8bfb-49b9-a418-00cc0385d81f"]
+---
+time 1706543084
+old [annotation_1706543083:"apparently I need to edit some build.rs file to perform such inclusion" description:"investigate how to include a .budgrrc into built binary folder" entry:"1706541414" modified:"1706543083" priority:"H" start:"1706541416" status:"pending" tags:"new" tags_new:"x" uuid:"c83246e6-8bfb-49b9-a418-00cc0385d81f"]
+new [annotation_1706543083:"apparently I need to edit some build.rs file to perform such inclusion" description:"investigate how to include a .budgrrc into built binary folder" entry:"1706541414" modified:"1706543084" priority:"H" status:"pending" tags:"new" tags_new:"x" uuid:"c83246e6-8bfb-49b9-a418-00cc0385d81f"]
+---

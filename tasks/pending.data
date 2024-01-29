@@ -14,3 +14,4 @@
 [description:"limit list output to a given number of entries (keeping order and filter)" entry:"1706263536" modified:"1706284545" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"ad16c3d5-9e00-4675-81ed-10265b03a6a0"]
 [description:"automatic test for add command" entry:"1706288183" modified:"1706288183" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"5359d4a2-7570-4f87-b228-48ec05024073"]
 [description:"evaluate to refactor command into a library to split presentation from logic" entry:"1706337706" modified:"1706337706" priority:"M" status:"pending" uuid:"60a62a5a-c153-4d97-9f3d-675dbb05e167"]
+[annotation_1706543083:"apparently I need to edit some build.rs file to perform such inclusion" description:"investigate how to include a .budgrrc into built binary folder" entry:"1706541414" modified:"1706543084" priority:"H" status:"pending" tags:"new" tags_new:"x" uuid:"c83246e6-8bfb-49b9-a418-00cc0385d81f"]
