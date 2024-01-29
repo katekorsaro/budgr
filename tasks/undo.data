@@ -1439,3 +1439,11 @@ time 1706540650
 old [annotation_1706538678:"let's make it optional with a flag" description:"remove id from pretty printing" entry:"1706180803" modified:"1706538679" priority:"H" start:"1706538679" status:"pending" uuid:"ed7e74a8-15d1-480e-a53b-a885984ef964"]
 new [annotation_1706538678:"let's make it optional with a flag" description:"remove id from pretty printing" end:"1706540650" entry:"1706180803" modified:"1706540650" priority:"H" status:"completed" uuid:"ed7e74a8-15d1-480e-a53b-a885984ef964"]
 ---
+time 1706540834
+old [description:"add human feedback for modify, delete, undelete operations (rows affected)" entry:"1706258450" modified:"1706527631" priority:"H" status:"pending" uuid:"7f21bcb0-d4af-4c05-869d-0cdc524a2689"]
+new [description:"add human feedback for modify, delete, undelete operations (rows affected)" entry:"1706258450" modified:"1706540834" priority:"H" start:"1706540834" status:"pending" uuid:"7f21bcb0-d4af-4c05-869d-0cdc524a2689"]
+---
+time 1706541157
+old [description:"add human feedback for modify, delete, undelete operations (rows affected)" entry:"1706258450" modified:"1706540834" priority:"H" start:"1706540834" status:"pending" uuid:"7f21bcb0-d4af-4c05-869d-0cdc524a2689"]
+new [description:"add human feedback for modify, delete, undelete operations (rows affected)" end:"1706541157" entry:"1706258450" modified:"1706541157" priority:"H" status:"completed" uuid:"7f21bcb0-d4af-4c05-869d-0cdc524a2689"]
+---
