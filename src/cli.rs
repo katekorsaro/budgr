@@ -29,7 +29,7 @@ pub struct Budgr {
   pub amount_less_than: Option<u32>,
 
   #[arg(short, long)]
-  /// only deleted operation
+  /// filter option: only deleted operation
   pub deleted: bool,
 
   #[arg(short, long)]
