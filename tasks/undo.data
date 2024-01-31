@@ -1462,3 +1462,11 @@ time 1706543084
 old [annotation_1706543083:"apparently I need to edit some build.rs file to perform such inclusion" description:"investigate how to include a .budgrrc into built binary folder" entry:"1706541414" modified:"1706543083" priority:"H" start:"1706541416" status:"pending" tags:"new" tags_new:"x" uuid:"c83246e6-8bfb-49b9-a418-00cc0385d81f"]
 new [annotation_1706543083:"apparently I need to edit some build.rs file to perform such inclusion" description:"investigate how to include a .budgrrc into built binary folder" entry:"1706541414" modified:"1706543084" priority:"H" status:"pending" tags:"new" tags_new:"x" uuid:"c83246e6-8bfb-49b9-a418-00cc0385d81f"]
 ---
+time 1706695583
+old [description:"filter by purpose" entry:"1706106459" modified:"1706527593" priority:"H" status:"pending" tags:"new" tags_new:"x" uuid:"3564176c-6eb3-4bf4-aed8-f193c27b9915"]
+new [description:"filter by purpose" entry:"1706106459" modified:"1706695583" priority:"H" start:"1706695583" status:"pending" tags:"new" tags_new:"x" uuid:"3564176c-6eb3-4bf4-aed8-f193c27b9915"]
+---
+time 1706696914
+old [description:"filter by purpose" entry:"1706106459" modified:"1706695583" priority:"H" start:"1706695583" status:"pending" tags:"new" tags_new:"x" uuid:"3564176c-6eb3-4bf4-aed8-f193c27b9915"]
+new [description:"filter by purpose" end:"1706696914" entry:"1706106459" modified:"1706696914" priority:"H" status:"completed" tags:"new" tags_new:"x" uuid:"3564176c-6eb3-4bf4-aed8-f193c27b9915"]
+---
