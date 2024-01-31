@@ -35,11 +35,11 @@ pub fn filter_data(data: Vec<Operation>, args: &Budgr) -> Vec<Operation> {
     })
     // filter by purpose
     .filter(|operation| {
-        if let Some(purpose) = &args.purpose {
-            operation.purpose.clone().unwrap() == String::from(purpose)
-        } else {
-            true
-        }
+      if let Some(purpose) = &args.purpose {
+        operation.purpose.clone().unwrap() == String::from(purpose)
+      } else {
+        true
+      }
     })
     // filter by dates
     .filter(|operation| {
@@ -58,34 +58,43 @@ pub fn filter_data(data: Vec<Operation>, args: &Budgr) -> Vec<Operation> {
     })
     // filter by amount
     .filter(|operation| {
-        if let Some(amount_gt) = args.amount_greater_than {
-            operation.amount >= amount_gt
-        } else {
-            true
-        }
+      if let Some(amount_gt) = args.amount_greater_than {
+        operation.amount >= amount_gt
+      } else {
+        true
+      }
     })
     .filter(|operation| {
-        if let Some(amount_lt) = args.amount_less_than {
-            operation.amount <= amount_lt
-        } else {
-            true
-        }
+      if let Some(amount_lt) = args.amount_less_than {
+        operation.amount <= amount_lt
+      } else {
+        true
+      }
     })
     // filter by goal
     .filter(|operation| {
-        if let Some(goal) = &args.goal {
-            operation.goal.clone().unwrap().to_lowercase().contains(&goal.to_lowercase())
-        } else {
-            true
-        }
+      if let Some(goal) = &args.goal {
+        operation
+          .goal
+          .clone()
+          .unwrap()
+          .to_lowercase()
+          .contains(&goal.to_lowercase())
+      } else {
+        true
+      }
     })
     // filter by note
     .filter(|operation| {
-        if let Some(note) = &args.note {
-            operation.note.clone().to_lowercase().contains(&note.to_lowercase())
-        } else {
-            true
-        }
+      if let Some(note) = &args.note {
+        operation
+          .note
+          .clone()
+          .to_lowercase()
+          .contains(&note.to_lowercase())
+      } else {
+        true
+      }
     })
     .collect()
 }
