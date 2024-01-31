@@ -25,6 +25,9 @@ pub struct Budgr {
   #[arg(short, long)]
   /// filter option: goal
   pub goal: Option<String>,
+  #[arg(short,long)]
+  /// filter option: note
+  pub note: Option<String>,
   #[arg(short, long)]
   /// filter option: only deleted operation
   pub deleted: bool,

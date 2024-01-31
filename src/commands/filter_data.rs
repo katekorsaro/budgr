@@ -79,5 +79,13 @@ pub fn filter_data(data: Vec<Operation>, args: &Budgr) -> Vec<Operation> {
             true
         }
     })
+    // filter by note
+    .filter(|operation| {
+        if let Some(note) = &args.note {
+            operation.note.clone().to_lowercase().contains(&note.to_lowercase())
+        } else {
+            true
+        }
+    })
     .collect()
 }
