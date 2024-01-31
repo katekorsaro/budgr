@@ -1493,3 +1493,11 @@ new [description:"filter by goal" end:"1706700382" entry:"1706106500" modified:"
 time 1706700551
 new [description:"rethink the filter priority" entry:"1706700551" modified:"1706700551" priority:"M" status:"pending" uuid:"7709753a-b903-4e04-a461-9ef3f0a60f7a"]
 ---
+time 1706707038
+old [description:"filter by note (like)" entry:"1706106595" modified:"1706269152" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"e8f235b8-428a-45a2-a8aa-4cc6dbeec218"]
+new [description:"filter by note (like)" entry:"1706106595" modified:"1706707038" priority:"M" start:"1706707038" status:"pending" tags:"new" tags_new:"x" uuid:"e8f235b8-428a-45a2-a8aa-4cc6dbeec218"]
+---
+time 1706707608
+old [description:"filter by note (like)" entry:"1706106595" modified:"1706707038" priority:"M" start:"1706707038" status:"pending" tags:"new" tags_new:"x" uuid:"e8f235b8-428a-45a2-a8aa-4cc6dbeec218"]
+new [description:"filter by note (like)" end:"1706707608" entry:"1706106595" modified:"1706707608" priority:"M" status:"completed" tags:"new" tags_new:"x" uuid:"e8f235b8-428a-45a2-a8aa-4cc6dbeec218"]
+---

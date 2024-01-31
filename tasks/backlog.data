@@ -414,3 +414,5 @@
 {"description":"filter by goal","entry":"20240124T142820Z","modified":"20240131T111733Z","priority":"M","start":"20240131T111733Z","status":"pending","uuid":"5263f849-ec7e-48a8-b840-5c6cab653fbf","tags":["new"]}
 {"description":"filter by goal","end":"20240131T112622Z","entry":"20240124T142820Z","modified":"20240131T112622Z","priority":"M","status":"completed","uuid":"5263f849-ec7e-48a8-b840-5c6cab653fbf","tags":["new"]}
 {"description":"rethink the filter priority","entry":"20240131T112911Z","modified":"20240131T112911Z","priority":"M","status":"pending","uuid":"7709753a-b903-4e04-a461-9ef3f0a60f7a"}
+{"description":"filter by note (like)","entry":"20240124T142955Z","modified":"20240131T131718Z","priority":"M","start":"20240131T131718Z","status":"pending","uuid":"e8f235b8-428a-45a2-a8aa-4cc6dbeec218","tags":["new"]}
+{"description":"filter by note (like)","end":"20240131T132648Z","entry":"20240124T142955Z","modified":"20240131T132648Z","priority":"M","status":"completed","uuid":"e8f235b8-428a-45a2-a8aa-4cc6dbeec218","tags":["new"]}
