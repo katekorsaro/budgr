@@ -1470,3 +1470,15 @@ time 1706696914
 old [description:"filter by purpose" entry:"1706106459" modified:"1706695583" priority:"H" start:"1706695583" status:"pending" tags:"new" tags_new:"x" uuid:"3564176c-6eb3-4bf4-aed8-f193c27b9915"]
 new [description:"filter by purpose" end:"1706696914" entry:"1706106459" modified:"1706696914" priority:"H" status:"completed" tags:"new" tags_new:"x" uuid:"3564176c-6eb3-4bf4-aed8-f193c27b9915"]
 ---
+time 1706697757
+old [annotation_1706543083:"apparently I need to edit some build.rs file to perform such inclusion" description:"investigate how to include a .budgrrc into built binary folder" entry:"1706541414" modified:"1706543084" priority:"H" status:"pending" tags:"new" tags_new:"x" uuid:"c83246e6-8bfb-49b9-a418-00cc0385d81f"]
+new [annotation_1706543083:"apparently I need to edit some build.rs file to perform such inclusion" description:"investigate how to include a .budgrrc into built binary folder" entry:"1706541414" modified:"1706697757" priority:"L" status:"pending" tags:"new" tags_new:"x" uuid:"c83246e6-8bfb-49b9-a418-00cc0385d81f"]
+---
+time 1706697764
+old [description:"filter by amount (gt and lt)" entry:"1706106424" modified:"1706269152" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"5fb5b253-dc09-42c6-ace2-1a3f202d213e"]
+new [description:"filter by amount (gt and lt)" entry:"1706106424" modified:"1706697764" priority:"M" start:"1706697764" status:"pending" tags:"new" tags_new:"x" uuid:"5fb5b253-dc09-42c6-ace2-1a3f202d213e"]
+---
+time 1706698564
+old [description:"filter by amount (gt and lt)" entry:"1706106424" modified:"1706697764" priority:"M" start:"1706697764" status:"pending" tags:"new" tags_new:"x" uuid:"5fb5b253-dc09-42c6-ace2-1a3f202d213e"]
+new [description:"filter by amount (gt and lt)" end:"1706698564" entry:"1706106424" modified:"1706698564" priority:"M" status:"completed" tags:"new" tags_new:"x" uuid:"5fb5b253-dc09-42c6-ace2-1a3f202d213e"]
+---
