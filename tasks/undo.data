@@ -1482,3 +1482,14 @@ time 1706698564
 old [description:"filter by amount (gt and lt)" entry:"1706106424" modified:"1706697764" priority:"M" start:"1706697764" status:"pending" tags:"new" tags_new:"x" uuid:"5fb5b253-dc09-42c6-ace2-1a3f202d213e"]
 new [description:"filter by amount (gt and lt)" end:"1706698564" entry:"1706106424" modified:"1706698564" priority:"M" status:"completed" tags:"new" tags_new:"x" uuid:"5fb5b253-dc09-42c6-ace2-1a3f202d213e"]
 ---
+time 1706699853
+old [description:"filter by goal" entry:"1706106500" modified:"1706269152" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"5263f849-ec7e-48a8-b840-5c6cab653fbf"]
+new [description:"filter by goal" entry:"1706106500" modified:"1706699853" priority:"M" start:"1706699853" status:"pending" tags:"new" tags_new:"x" uuid:"5263f849-ec7e-48a8-b840-5c6cab653fbf"]
+---
+time 1706700382
+old [description:"filter by goal" entry:"1706106500" modified:"1706699853" priority:"M" start:"1706699853" status:"pending" tags:"new" tags_new:"x" uuid:"5263f849-ec7e-48a8-b840-5c6cab653fbf"]
+new [description:"filter by goal" end:"1706700382" entry:"1706106500" modified:"1706700382" priority:"M" status:"completed" tags:"new" tags_new:"x" uuid:"5263f849-ec7e-48a8-b840-5c6cab653fbf"]
+---
+time 1706700551
+new [description:"rethink the filter priority" entry:"1706700551" modified:"1706700551" priority:"M" status:"pending" uuid:"7709753a-b903-4e04-a461-9ef3f0a60f7a"]
+---

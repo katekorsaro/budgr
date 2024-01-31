@@ -1,3 +1,4 @@
+[description:"filter by goal" end:"1706700382" entry:"1706106500" modified:"1706700382" priority:"M" status:"completed" tags:"new" tags_new:"x" uuid:"5263f849-ec7e-48a8-b840-5c6cab653fbf"]
 [description:"filter by amount (gt and lt)" end:"1706698564" entry:"1706106424" modified:"1706698564" priority:"M" status:"completed" tags:"new" tags_new:"x" uuid:"5fb5b253-dc09-42c6-ace2-1a3f202d213e"]
 [description:"filter by purpose" end:"1706696914" entry:"1706106459" modified:"1706696914" priority:"H" status:"completed" tags:"new" tags_new:"x" uuid:"3564176c-6eb3-4bf4-aed8-f193c27b9915"]
 [description:"add human feedback for modify, delete, undelete operations (rows affected)" end:"1706541157" entry:"1706258450" modified:"1706541157" priority:"H" status:"completed" uuid:"7f21bcb0-d4af-4c05-869d-0cdc524a2689"]
