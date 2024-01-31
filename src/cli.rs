@@ -20,6 +20,14 @@ pub struct Budgr {
   /// filter option: purpose
   pub purpose: Option<Purpose>,
 
+  #[arg(short('g'), long)]
+  /// filter option: inclusive amount greater than (in cents)
+  pub amount_greater_than: Option<u32>,
+
+  #[arg(short('l'), long)]
+  /// filter option: inclusive amount less than (in cents)
+  pub amount_less_than: Option<u32>,
+
   #[arg(short, long)]
   /// only deleted operation
   pub deleted: bool,
