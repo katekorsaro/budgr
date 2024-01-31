@@ -20,13 +20,17 @@ pub struct Budgr {
   /// filter option: purpose
   pub purpose: Option<Purpose>,
 
-  #[arg(short('g'), long)]
+  #[arg(short('r'), long)]
   /// filter option: inclusive amount greater than (in cents)
   pub amount_greater_than: Option<u32>,
 
   #[arg(short('l'), long)]
   /// filter option: inclusive amount less than (in cents)
   pub amount_less_than: Option<u32>,
+
+  #[arg(short, long)]
+  /// filter option: goal
+  pub goal: Option<String>,
 
   #[arg(short, long)]
   /// filter option: only deleted operation

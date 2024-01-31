@@ -56,6 +56,7 @@ pub fn filter_data(data: Vec<Operation>, args: &Budgr) -> Vec<Operation> {
         true
       }
     })
+    // filter by amount
     .filter(|operation| {
         if let Some(amount_gt) = args.amount_greater_than {
             operation.amount >= amount_gt
@@ -66,6 +67,14 @@ pub fn filter_data(data: Vec<Operation>, args: &Budgr) -> Vec<Operation> {
     .filter(|operation| {
         if let Some(amount_lt) = args.amount_less_than {
             operation.amount <= amount_lt
+        } else {
+            true
+        }
+    })
+    // filter by goal
+    .filter(|operation| {
+        if let Some(goal) = &args.goal {
+            operation.goal.clone().unwrap().to_lowercase().contains(&goal.to_lowercase())
         } else {
             true
         }
