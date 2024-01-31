@@ -17,6 +17,10 @@ pub struct Budgr {
   pub account: Option<String>,
 
   #[arg(short, long)]
+  /// filter option: purpose
+  pub purpose: Option<Purpose>,
+
+  #[arg(short, long)]
   /// only deleted operation
   pub deleted: bool,
 

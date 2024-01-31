@@ -33,6 +33,14 @@ pub fn filter_data(data: Vec<Operation>, args: &Budgr) -> Vec<Operation> {
         true
       }
     })
+    // filter by purpose
+    .filter(|operation| {
+        if let Some(purpose) = &args.purpose {
+            operation.purpose.clone().unwrap() == String::from(purpose)
+        } else {
+            true
+        }
+    })
     // filter by dates
     .filter(|operation| {
       if let Some(from_date) = args.from {
