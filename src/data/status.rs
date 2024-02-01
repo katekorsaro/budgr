@@ -25,4 +25,3 @@ impl ToString for Status {
     }
   }
 }
-
