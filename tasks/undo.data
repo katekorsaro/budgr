@@ -1521,3 +1521,6 @@ time 1706800698
 old [description:"refactor config into module" entry:"1706079511" modified:"1706799879" priority:"H" start:"1706799879" status:"pending" uuid:"63100739-7866-41d1-89ed-6638a27001e6"]
 new [description:"refactor config into module" end:"1706800698" entry:"1706079511" modified:"1706800698" priority:"H" status:"completed" uuid:"63100739-7866-41d1-89ed-6638a27001e6"]
 ---
+time 1706800871
+new [description:"import from a well formatted file" entry:"1706800871" modified:"1706800871" priority:"H" status:"pending" tags:"new" tags_new:"x" uuid:"3a7bf9c2-7580-4999-b734-55cff6c412eb"]
+---
