@@ -1,7 +1,7 @@
+use crate::config::Config;
 use crate::data::Operation;
 use crate::Budgr;
 use crate::Command;
-use crate::Config;
 use rand::{thread_rng, Rng};
 use std::fs::OpenOptions;
 use std::io::Write;

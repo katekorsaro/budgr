@@ -1,17 +1,14 @@
 mod cli;
 mod commands;
+mod config;
 mod data;
 
 use clap::Parser;
-use std::{env, fs};
+use std::env;
 
 use crate::cli::{Budgr, Command};
 use crate::commands::*;
-
-#[derive(Debug, Default)]
-struct Config {
-  pub data: String,
-}
+use crate::config::*;
 
 fn main() {
   // read env variable to get configuration
@@ -39,28 +36,4 @@ fn main() {
     Some(Command::Version) => print_version(),
     _ => unreachable!("No other commands for now."),
   }
-}
-
-fn read_configuration(filename: &str) -> Config {
-  let mut retvalue = Config::default();
-
-  // try to read configuration file
-  let config = fs::read_to_string(filename).unwrap();
-  config
-    .lines()
-    .map(|line| {
-      let mut parts = line.split('=');
-      (parts.next().unwrap(), parts.next())
-    })
-    //handling single config keys
-    .for_each(|kv_pair| match kv_pair.0 {
-      "budgr.data" => {
-        if let Some(value) = kv_pair.1 {
-          retvalue.data = String::from(value);
-        }
-      }
-      _ => unreachable!("All configurations should be covered for now."),
-    });
-
-  retvalue
 }

@@ -1,7 +1,7 @@
-use crate::Config;
+use crate::config::Config;
 use crate::data::Operation;
-use std::path::Path;
 use std::fs;
+use std::path::Path;
 
 pub fn read_data(config: &Config) -> Vec<Operation> {
   // get all files in dir
@@ -18,4 +18,3 @@ pub fn read_data(config: &Config) -> Vec<Operation> {
     })
     .collect::<Vec<Operation>>()
 }
-

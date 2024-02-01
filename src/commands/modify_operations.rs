@@ -1,8 +1,8 @@
 use crate::commands::filter_data::filter_data;
+use crate::config::Config;
 use crate::data::read_data;
 use crate::Budgr;
 use crate::Command;
-use crate::Config;
 use std::fs::OpenOptions;
 use std::io::Write;
 use time::format_description;

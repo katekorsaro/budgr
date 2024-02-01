@@ -3,10 +3,10 @@ use crate::commands::filter_data::filter_data;
 use crate::commands::print_pretty::print_pretty;
 use crate::commands::print_raw::print_raw;
 use crate::commands::Format;
+use crate::config::Config;
 use crate::data::read_data;
 use crate::Budgr;
 use crate::Command::List;
-use crate::Config;
 
 pub fn list_operations(config: &Config, args: &Budgr) {
   if let Some(List {

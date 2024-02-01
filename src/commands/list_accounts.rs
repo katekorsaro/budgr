@@ -1,7 +1,7 @@
 use crate::commands::filter_data::filter_data;
+use crate::config::Config;
 use crate::data::read_data;
 use crate::Budgr;
-use crate::Config;
 use std::collections::HashSet;
 
 pub fn list_accounts(config: &Config, args: &Budgr) {

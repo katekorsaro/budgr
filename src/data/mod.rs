@@ -1,10 +1,10 @@
 mod operation;
-mod status;
 mod read_data;
+mod status;
 
 pub use operation::*;
-pub use status::*;
 pub use read_data::*;
+pub use status::*;
 
 #[test]
 fn parse_data() {
