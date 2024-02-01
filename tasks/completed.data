@@ -1,3 +1,4 @@
+[description:"refactor data module" end:"1706778039" entry:"1706256764" modified:"1706778039" priority:"M" status:"completed" uuid:"1f700968-17d6-4bae-8cc0-5a8628233154"]
 [description:"filter by note (like)" end:"1706707608" entry:"1706106595" modified:"1706707608" priority:"M" status:"completed" tags:"new" tags_new:"x" uuid:"e8f235b8-428a-45a2-a8aa-4cc6dbeec218"]
 [description:"filter by goal" end:"1706700382" entry:"1706106500" modified:"1706700382" priority:"M" status:"completed" tags:"new" tags_new:"x" uuid:"5263f849-ec7e-48a8-b840-5c6cab653fbf"]
 [description:"filter by amount (gt and lt)" end:"1706698564" entry:"1706106424" modified:"1706698564" priority:"M" status:"completed" tags:"new" tags_new:"x" uuid:"5fb5b253-dc09-42c6-ace2-1a3f202d213e"]
