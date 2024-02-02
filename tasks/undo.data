@@ -1524,3 +1524,6 @@ new [description:"refactor config into module" end:"1706800698" entry:"170607951
 time 1706800871
 new [description:"import from a well formatted file" entry:"1706800871" modified:"1706800871" priority:"H" status:"pending" tags:"new" tags_new:"x" uuid:"3a7bf9c2-7580-4999-b734-55cff6c412eb"]
 ---
+time 1706871009
+new [description:"export operations to a csv (or other well formatted format) file" entry:"1706871009" modified:"1706871009" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"bdc64bcf-d986-4eff-9413-7d99f7a2419b"]
+---

@@ -11,3 +11,4 @@
 [annotation_1706543083:"apparently I need to edit some build.rs file to perform such inclusion" description:"investigate how to include a .budgrrc into built binary folder" entry:"1706541414" modified:"1706697757" priority:"L" status:"pending" tags:"new" tags_new:"x" uuid:"c83246e6-8bfb-49b9-a418-00cc0385d81f"]
 [description:"rethink the filter priority" entry:"1706700551" modified:"1706700551" priority:"M" status:"pending" uuid:"7709753a-b903-4e04-a461-9ef3f0a60f7a"]
 [description:"import from a well formatted file" entry:"1706800871" modified:"1706800871" priority:"H" status:"pending" tags:"new" tags_new:"x" uuid:"3a7bf9c2-7580-4999-b734-55cff6c412eb"]
+[description:"export operations to a csv (or other well formatted format) file" entry:"1706871009" modified:"1706871009" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"bdc64bcf-d986-4eff-9413-7d99f7a2419b"]

@@ -422,3 +422,4 @@
 {"description":"refactor config into module","entry":"20240124T065831Z","modified":"20240201T150439Z","priority":"H","start":"20240201T150439Z","status":"pending","uuid":"63100739-7866-41d1-89ed-6638a27001e6"}
 {"description":"refactor config into module","end":"20240201T151818Z","entry":"20240124T065831Z","modified":"20240201T151818Z","priority":"H","status":"completed","uuid":"63100739-7866-41d1-89ed-6638a27001e6"}
 {"description":"import from a well formatted file","entry":"20240201T152111Z","modified":"20240201T152111Z","priority":"H","status":"pending","uuid":"3a7bf9c2-7580-4999-b734-55cff6c412eb","tags":["new"]}
+{"description":"export operations to a csv (or other well formatted format) file","entry":"20240202T105009Z","modified":"20240202T105009Z","priority":"M","status":"pending","uuid":"bdc64bcf-d986-4eff-9413-7d99f7a2419b","tags":["new"]}
