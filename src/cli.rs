@@ -69,9 +69,7 @@ pub enum Command {
   Delete,
   #[command(visible_alias("t"))]
   /// Import a file into operation list
-  Import {
-    filename: String,
-  },
+  Import { filename: String },
 
   /// List all operations
   #[command(visible_alias("l"))]
