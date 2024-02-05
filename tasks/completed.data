@@ -1,3 +1,4 @@
+[annotation_1707132074:"file to be imported will have only date, note and amount pipe-separated" annotation_1707133737:"i should refactor some other code" description:"import from a well formatted file" end:"1707141620" entry:"1706800871" modified:"1707141620" priority:"H" status:"completed" tags:"new" tags_new:"x" uuid:"3a7bf9c2-7580-4999-b734-55cff6c412eb"]
 [description:"refactor config into module" end:"1706800698" entry:"1706079511" modified:"1706800698" priority:"H" status:"completed" uuid:"63100739-7866-41d1-89ed-6638a27001e6"]
 [description:"refactor data module" end:"1706778039" entry:"1706256764" modified:"1706778039" priority:"M" status:"completed" uuid:"1f700968-17d6-4bae-8cc0-5a8628233154"]
 [description:"filter by note (like)" end:"1706707608" entry:"1706106595" modified:"1706707608" priority:"M" status:"completed" tags:"new" tags_new:"x" uuid:"e8f235b8-428a-45a2-a8aa-4cc6dbeec218"]
