@@ -11,6 +11,7 @@ mod print_raw;
 mod print_version;
 mod set_operation_status;
 mod undelete_operations;
+mod write_operation;
 
 pub use add_operation::*;
 pub use count_operations::*;
