@@ -1535,3 +1535,7 @@ time 1707132075
 old [annotation_1707132074:"file to be imported will have only date, note and amount pipe-separated" description:"import from a well formatted file" entry:"1706800871" modified:"1707132074" priority:"H" status:"pending" tags:"new" tags_new:"x" uuid:"3a7bf9c2-7580-4999-b734-55cff6c412eb"]
 new [annotation_1707132074:"file to be imported will have only date, note and amount pipe-separated" description:"import from a well formatted file" entry:"1706800871" modified:"1707132075" priority:"H" start:"1707132075" status:"pending" tags:"new" tags_new:"x" uuid:"3a7bf9c2-7580-4999-b734-55cff6c412eb"]
 ---
+time 1707133737
+old [annotation_1707132074:"file to be imported will have only date, note and amount pipe-separated" description:"import from a well formatted file" entry:"1706800871" modified:"1707132075" priority:"H" start:"1707132075" status:"pending" tags:"new" tags_new:"x" uuid:"3a7bf9c2-7580-4999-b734-55cff6c412eb"]
+new [annotation_1707132074:"file to be imported will have only date, note and amount pipe-separated" annotation_1707133737:"i should refactor some other code" description:"import from a well formatted file" entry:"1706800871" modified:"1707133737" priority:"H" start:"1707132075" status:"pending" tags:"new" tags_new:"x" uuid:"3a7bf9c2-7580-4999-b734-55cff6c412eb"]
+---
