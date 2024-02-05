@@ -21,8 +21,7 @@ pub fn add_operation(config: &Config, args: &Budgr) {
   {
     let fmt = format_description::parse("[year]-[month]-[day] [hour]:[minute]:[second]").unwrap();
     let now = OffsetDateTime::now_local().unwrap().format(&fmt).unwrap();
-    let mut rng = thread_rng();
-    let mut operation = Operation {
+    let operation = Operation {
       date: *date,
       note: String::from(note),
       amount: *amount,
@@ -32,11 +31,17 @@ pub fn add_operation(config: &Config, args: &Budgr) {
       goal: goal.clone(),
       ..Operation::default()
     };
+    write_operation(operation, *id, *date, config);
+  }
+}
+
+fn write_operation (mut operation: Operation, id:Option<u32>, date: u32, config: &Config) {
+    let mut rng = thread_rng();
     let mut force = false;
     loop {
       let id = if let Some(id) = id {
         force = true;
-        *id
+        id
       } else {
         rng.gen::<u32>()
       };
@@ -54,5 +59,4 @@ pub fn add_operation(config: &Config, args: &Budgr) {
         break;
       }
     }
-  }
 }
