@@ -4,7 +4,7 @@ use rand::{thread_rng, Rng};
 use std::fs::OpenOptions;
 use std::io::Write;
 
-pub fn write_operation(mut operation: Operation, id: Option<u32>, date: u32, config: &Config) {
+pub fn write_operation(mut operation: Operation, id: Option<u32>, config: &Config) {
   let mut rng = thread_rng();
   let mut force = false;
   loop {
@@ -14,7 +14,7 @@ pub fn write_operation(mut operation: Operation, id: Option<u32>, date: u32, con
     } else {
       rng.gen::<u32>()
     };
-    let filename = format!("{}{}.{:010}.bgr", config.data, date, id);
+    let filename = format!("{}{}.{:010}.bgr", config.data, operation.date, id);
     let file = OpenOptions::new()
       .create(force) // in case of fixed id
       .create_new(!force) // in case of rnd id

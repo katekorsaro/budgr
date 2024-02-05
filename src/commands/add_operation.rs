@@ -30,6 +30,6 @@ pub fn add_operation(config: &Config, args: &Budgr) {
       goal: goal.clone(),
       ..Operation::default()
     };
-    write_operation(operation, *id, *date, config);
+    write_operation(operation, *id, config);
   }
 }
