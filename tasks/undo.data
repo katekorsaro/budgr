@@ -1550,3 +1550,7 @@ time 1708004853
 old [description:"output the number of operations imported after an import" entry:"1708004776" modified:"1708004776" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"e43edc4a-ed5c-4cb3-8ccd-6ebd31234617"]
 new [description:"output the number of operations imported after an import" entry:"1708004776" modified:"1708004853" priority:"M" start:"1708004853" status:"pending" tags:"new" tags_new:"x" uuid:"e43edc4a-ed5c-4cb3-8ccd-6ebd31234617"]
 ---
+time 1708005325
+old [description:"output the number of operations imported after an import" entry:"1708004776" modified:"1708004853" priority:"M" start:"1708004853" status:"pending" tags:"new" tags_new:"x" uuid:"e43edc4a-ed5c-4cb3-8ccd-6ebd31234617"]
+new [description:"output the number of operations imported after an import" end:"1708005325" entry:"1708004776" modified:"1708005325" priority:"M" status:"completed" tags:"new" tags_new:"x" uuid:"e43edc4a-ed5c-4cb3-8ccd-6ebd31234617"]
+---
