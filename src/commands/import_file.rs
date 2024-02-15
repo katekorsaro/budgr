@@ -8,6 +8,7 @@ use std::fs;
 pub fn import_file(config: &Config, args: &Budgr) {
   if let Some(Command::Import { filename }) = &args.command {
     let data = fs::read_to_string(filename).unwrap();
+    let mut count:u16 = 0;
     data
       .lines()
       .map(|line| line.split('|'))
@@ -19,6 +20,8 @@ pub fn import_file(config: &Config, args: &Budgr) {
       })
       .for_each(|operation| {
         write_operation(operation, None, &config);
+        count += 1;
       });
+    println!("{} imported operation(s)", count);
   }
 }
