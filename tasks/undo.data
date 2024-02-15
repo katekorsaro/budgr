@@ -1543,3 +1543,10 @@ time 1707141620
 old [annotation_1707132074:"file to be imported will have only date, note and amount pipe-separated" annotation_1707133737:"i should refactor some other code" description:"import from a well formatted file" entry:"1706800871" modified:"1707133737" priority:"H" start:"1707132075" status:"pending" tags:"new" tags_new:"x" uuid:"3a7bf9c2-7580-4999-b734-55cff6c412eb"]
 new [annotation_1707132074:"file to be imported will have only date, note and amount pipe-separated" annotation_1707133737:"i should refactor some other code" description:"import from a well formatted file" end:"1707141620" entry:"1706800871" modified:"1707141620" priority:"H" status:"completed" tags:"new" tags_new:"x" uuid:"3a7bf9c2-7580-4999-b734-55cff6c412eb"]
 ---
+time 1708004776
+new [description:"output the number of operations imported after an import" entry:"1708004776" modified:"1708004776" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"e43edc4a-ed5c-4cb3-8ccd-6ebd31234617"]
+---
+time 1708004853
+old [description:"output the number of operations imported after an import" entry:"1708004776" modified:"1708004776" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"e43edc4a-ed5c-4cb3-8ccd-6ebd31234617"]
+new [description:"output the number of operations imported after an import" entry:"1708004776" modified:"1708004853" priority:"M" start:"1708004853" status:"pending" tags:"new" tags_new:"x" uuid:"e43edc4a-ed5c-4cb3-8ccd-6ebd31234617"]
+---
