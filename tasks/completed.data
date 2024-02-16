@@ -1,3 +1,5 @@
+[description:"limit horizontal length to a given max" end:"1708091193" entry:"1708086386" modified:"1708091193" priority:"M" status:"completed" tags:"new" tags_new:"x" uuid:"6de1fdf7-8391-4494-8bc9-2a21c34f22a5"]
+[description:"filter on note should be case insensitive" end:"1708075577" entry:"1708073525" modified:"1708075577" priority:"L" status:"deleted" uuid:"8602b7a4-4726-4247-8f56-acd9a01b10de"]
 [description:"output the number of operations imported after an import" end:"1708005325" entry:"1708004776" modified:"1708005325" priority:"M" status:"completed" tags:"new" tags_new:"x" uuid:"e43edc4a-ed5c-4cb3-8ccd-6ebd31234617"]
 [annotation_1707132074:"file to be imported will have only date, note and amount pipe-separated" annotation_1707133737:"i should refactor some other code" description:"import from a well formatted file" end:"1707141620" entry:"1706800871" modified:"1707141620" priority:"H" status:"completed" tags:"new" tags_new:"x" uuid:"3a7bf9c2-7580-4999-b734-55cff6c412eb"]
 [description:"refactor config into module" end:"1706800698" entry:"1706079511" modified:"1706800698" priority:"H" status:"completed" uuid:"63100739-7866-41d1-89ed-6638a27001e6"]

@@ -1554,3 +1554,87 @@ time 1708005325
 old [description:"output the number of operations imported after an import" entry:"1708004776" modified:"1708004853" priority:"M" start:"1708004853" status:"pending" tags:"new" tags_new:"x" uuid:"e43edc4a-ed5c-4cb3-8ccd-6ebd31234617"]
 new [description:"output the number of operations imported after an import" end:"1708005325" entry:"1708004776" modified:"1708005325" priority:"M" status:"completed" tags:"new" tags_new:"x" uuid:"e43edc4a-ed5c-4cb3-8ccd-6ebd31234617"]
 ---
+time 1708071956
+new [description:"add account option during import" entry:"1708071956" modified:"1708071956" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"0a2f45ae-6dd4-41fb-80d2-ae20e572c5e4"]
+---
+time 1708073525
+new [description:"filter on note should be case insensitive" entry:"1708073525" modified:"1708073525" priority:"M" status:"pending" uuid:"8602b7a4-4726-4247-8f56-acd9a01b10de"]
+---
+time 1708073579
+old [description:"sort by amount asc and desc" entry:"1706190901" modified:"1706269152" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"32ace341-ac18-4db6-8cb0-6da059089132"]
+new [description:"sort by amount asc and desc" entry:"1706190901" modified:"1708073579" priority:"L" status:"pending" tags:"new" tags_new:"x" uuid:"32ace341-ac18-4db6-8cb0-6da059089132"]
+---
+time 1708073579
+old [description:"limit list output to a given number of entries (keeping order and filter)" entry:"1706263536" modified:"1706284545" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"ad16c3d5-9e00-4675-81ed-10265b03a6a0"]
+new [description:"limit list output to a given number of entries (keeping order and filter)" entry:"1706263536" modified:"1708073579" priority:"L" status:"pending" tags:"new" tags_new:"x" uuid:"ad16c3d5-9e00-4675-81ed-10265b03a6a0"]
+---
+time 1708073579
+old [description:"automatic test for add command" entry:"1706288183" modified:"1706288183" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"5359d4a2-7570-4f87-b228-48ec05024073"]
+new [description:"automatic test for add command" entry:"1706288183" modified:"1708073579" priority:"L" status:"pending" tags:"new" tags_new:"x" uuid:"5359d4a2-7570-4f87-b228-48ec05024073"]
+---
+time 1708073579
+old [description:"evaluate to refactor command into a library to split presentation from logic" entry:"1706337706" modified:"1706337706" priority:"M" status:"pending" uuid:"60a62a5a-c153-4d97-9f3d-675dbb05e167"]
+new [description:"evaluate to refactor command into a library to split presentation from logic" entry:"1706337706" modified:"1708073579" priority:"L" status:"pending" uuid:"60a62a5a-c153-4d97-9f3d-675dbb05e167"]
+---
+time 1708073579
+old [description:"rethink the filter priority" entry:"1706700551" modified:"1706700551" priority:"M" status:"pending" uuid:"7709753a-b903-4e04-a461-9ef3f0a60f7a"]
+new [description:"rethink the filter priority" entry:"1706700551" modified:"1708073579" priority:"L" status:"pending" uuid:"7709753a-b903-4e04-a461-9ef3f0a60f7a"]
+---
+time 1708073579
+old [description:"export operations to a csv (or other well formatted format) file" entry:"1706871009" modified:"1706871009" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"bdc64bcf-d986-4eff-9413-7d99f7a2419b"]
+new [description:"export operations to a csv (or other well formatted format) file" entry:"1706871009" modified:"1708073579" priority:"L" status:"pending" tags:"new" tags_new:"x" uuid:"bdc64bcf-d986-4eff-9413-7d99f7a2419b"]
+---
+time 1708073579
+old [description:"add account option during import" entry:"1708071956" modified:"1708071956" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"0a2f45ae-6dd4-41fb-80d2-ae20e572c5e4"]
+new [description:"add account option during import" entry:"1708071956" modified:"1708073579" priority:"L" status:"pending" tags:"new" tags_new:"x" uuid:"0a2f45ae-6dd4-41fb-80d2-ae20e572c5e4"]
+---
+time 1708073579
+old [description:"filter on note should be case insensitive" entry:"1708073525" modified:"1708073525" priority:"M" status:"pending" uuid:"8602b7a4-4726-4247-8f56-acd9a01b10de"]
+new [description:"filter on note should be case insensitive" entry:"1708073525" modified:"1708073579" priority:"L" status:"pending" uuid:"8602b7a4-4726-4247-8f56-acd9a01b10de"]
+---
+time 1708075577
+old [description:"filter on note should be case insensitive" entry:"1708073525" modified:"1708073579" priority:"L" status:"pending" uuid:"8602b7a4-4726-4247-8f56-acd9a01b10de"]
+new [description:"filter on note should be case insensitive" end:"1708075577" entry:"1708073525" modified:"1708075577" priority:"L" status:"deleted" uuid:"8602b7a4-4726-4247-8f56-acd9a01b10de"]
+---
+time 1708086386
+new [description:"limit horizontal length to a given max" entry:"1708086386" modified:"1708086386" priority:"L" status:"pending" tags:"new" tags_new:"x" uuid:"6de1fdf7-8391-4494-8bc9-2a21c34f22a5"]
+---
+time 1708086498
+new [description:"import crates with wildcards" entry:"1708086498" modified:"1708086498" priority:"L" status:"pending" uuid:"12c708a6-8611-475b-aff9-283cd65a30ac"]
+---
+time 1708087221
+old [description:"limit horizontal length to a given max" entry:"1708086386" modified:"1708086386" priority:"L" status:"pending" tags:"new" tags_new:"x" uuid:"6de1fdf7-8391-4494-8bc9-2a21c34f22a5"]
+new [description:"limit horizontal length to a given max" entry:"1708086386" modified:"1708087221" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"6de1fdf7-8391-4494-8bc9-2a21c34f22a5"]
+---
+time 1708087242
+old [description:"import crates with wildcards" entry:"1708086498" modified:"1708086498" priority:"L" status:"pending" uuid:"12c708a6-8611-475b-aff9-283cd65a30ac"]
+new [description:"import crates with wildcards" entry:"1708086498" modified:"1708087242" priority:"M" status:"pending" uuid:"12c708a6-8611-475b-aff9-283cd65a30ac"]
+---
+time 1708087264
+old [description:"import crates with wildcards" entry:"1708086498" modified:"1708087242" priority:"M" status:"pending" uuid:"12c708a6-8611-475b-aff9-283cd65a30ac"]
+new [description:"import crates with wildcards" entry:"1708086498" modified:"1708087264" priority:"L" status:"pending" uuid:"12c708a6-8611-475b-aff9-283cd65a30ac"]
+---
+time 1708087266
+old [description:"limit horizontal length to a given max" entry:"1708086386" modified:"1708087221" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"6de1fdf7-8391-4494-8bc9-2a21c34f22a5"]
+new [description:"limit horizontal length to a given max" entry:"1708086386" modified:"1708087266" priority:"L" status:"pending" tags:"new" tags_new:"x" uuid:"6de1fdf7-8391-4494-8bc9-2a21c34f22a5"]
+---
+time 1708087451
+old [description:"limit horizontal length to a given max" entry:"1708086386" modified:"1708087266" priority:"L" status:"pending" tags:"new" tags_new:"x" uuid:"6de1fdf7-8391-4494-8bc9-2a21c34f22a5"]
+new [description:"limit horizontal length to a given max" entry:"1708086386" modified:"1708087451" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"6de1fdf7-8391-4494-8bc9-2a21c34f22a5"]
+---
+time 1708087456
+old [description:"limit horizontal length to a given max" entry:"1708086386" modified:"1708087451" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"6de1fdf7-8391-4494-8bc9-2a21c34f22a5"]
+new [description:"limit horizontal length to a given max" entry:"1708086386" modified:"1708087456" priority:"M" start:"1708087456" status:"pending" tags:"new" tags_new:"x" uuid:"6de1fdf7-8391-4494-8bc9-2a21c34f22a5"]
+---
+time 1708090079
+old [description:"limit horizontal length to a given max" entry:"1708086386" modified:"1708087456" priority:"M" start:"1708087456" status:"pending" tags:"new" tags_new:"x" uuid:"6de1fdf7-8391-4494-8bc9-2a21c34f22a5"]
+new [description:"limit horizontal length to a given max" entry:"1708086386" modified:"1708090079" priority:"L" start:"1708087456" status:"pending" tags:"new" tags_new:"x" uuid:"6de1fdf7-8391-4494-8bc9-2a21c34f22a5"]
+---
+time 1708090087
+old [description:"limit horizontal length to a given max" entry:"1708086386" modified:"1708090079" priority:"L" start:"1708087456" status:"pending" tags:"new" tags_new:"x" uuid:"6de1fdf7-8391-4494-8bc9-2a21c34f22a5"]
+new [description:"limit horizontal length to a given max" entry:"1708086386" modified:"1708090087" priority:"M" start:"1708087456" status:"pending" tags:"new" tags_new:"x" uuid:"6de1fdf7-8391-4494-8bc9-2a21c34f22a5"]
+---
+time 1708091193
+old [description:"limit horizontal length to a given max" entry:"1708086386" modified:"1708090087" priority:"M" start:"1708087456" status:"pending" tags:"new" tags_new:"x" uuid:"6de1fdf7-8391-4494-8bc9-2a21c34f22a5"]
+new [description:"limit horizontal length to a given max" end:"1708091193" entry:"1708086386" modified:"1708091193" priority:"M" status:"completed" tags:"new" tags_new:"x" uuid:"6de1fdf7-8391-4494-8bc9-2a21c34f22a5"]
+---
