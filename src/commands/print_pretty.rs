@@ -20,14 +20,14 @@ pub fn print_pretty(data: Vec<Operation>, include_id: bool, width: Option<usize>
     let purpose = colorized_purpose(&operation);
     let amount = colorized_amount(&operation);
     let note = if let Some(width) = width {
-        let note = if operation.note.len() > width {
-            String::from(&operation.note[..width])
-        } else {
-            operation.note.clone()
-        };
-        note
-    } else {
+      let note = if operation.note.len() > width {
+        String::from(&operation.note[..width])
+      } else {
         operation.note.clone()
+      };
+      note
+    } else {
+      operation.note.clone()
     };
     let row = table.add_row(row![
       format!("{}", prettify_date(operation.date)),
