@@ -83,6 +83,9 @@ pub enum Command {
     #[arg(short, long, default_value = "desc")]
     /// sort operations by date
     date_sort: Option<Sort>,
+    #[arg(short, long)]
+    /// note field width (only for pretty output)
+    width: Option<usize>,
   },
 
   /// List all accounts

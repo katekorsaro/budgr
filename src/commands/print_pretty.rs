@@ -3,7 +3,7 @@ use crate::data::Operation;
 use colorize::AnsiColor;
 use prettytable::{cell, row, Table};
 
-pub fn print_pretty(data: Vec<Operation>, include_id: bool) {
+pub fn print_pretty(data: Vec<Operation>, include_id: bool, width: Option<usize>) {
   let mut table = Table::new();
   let header = table.add_row(row![
     c->"Date 󰃭",
@@ -19,9 +19,19 @@ pub fn print_pretty(data: Vec<Operation>, include_id: bool) {
   data.into_iter().for_each(|operation| {
     let purpose = colorized_purpose(&operation);
     let amount = colorized_amount(&operation);
+    let note = if let Some(width) = width {
+        let note = if operation.note.len() > width {
+            String::from(&operation.note[..width])
+        } else {
+            operation.note.clone()
+        };
+        note
+    } else {
+        operation.note.clone()
+    };
     let row = table.add_row(row![
       format!("{}", prettify_date(operation.date)),
-      operation.note,
+      note,
       r->amount,
       operation.account.unwrap_or_default(),
       purpose,
