@@ -2,6 +2,12 @@ use crate::data::{Operation, Status};
 use crate::Budgr;
 
 pub fn filter_data(data: Vec<Operation>, args: &Budgr) -> Vec<Operation> {
+  // considering only a subset of operations
+  let operation_count = if let Some(operation_count) = &args.operation_count {
+    *operation_count
+  } else {
+    usize::MAX
+  };
   data
     .into_iter()
     // filter by id
@@ -96,5 +102,6 @@ pub fn filter_data(data: Vec<Operation>, args: &Budgr) -> Vec<Operation> {
         true
       }
     })
+    .take(operation_count)
     .collect()
 }

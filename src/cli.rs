@@ -34,6 +34,9 @@ pub struct Budgr {
   #[arg(short, long)]
   /// filter option: id
   pub id: Option<u32>,
+  #[arg(short, long)]
+  /// max number of operation to consider
+  pub operation_count: Option<usize>,
   #[command(subcommand)]
   pub command: Option<Command>,
 }
