@@ -1638,3 +1638,22 @@ time 1708091193
 old [description:"limit horizontal length to a given max" entry:"1708086386" modified:"1708090087" priority:"M" start:"1708087456" status:"pending" tags:"new" tags_new:"x" uuid:"6de1fdf7-8391-4494-8bc9-2a21c34f22a5"]
 new [description:"limit horizontal length to a given max" end:"1708091193" entry:"1708086386" modified:"1708091193" priority:"M" status:"completed" tags:"new" tags_new:"x" uuid:"6de1fdf7-8391-4494-8bc9-2a21c34f22a5"]
 ---
+time 1708091566
+old [description:"limit list output to a given number of entries (keeping order and filter)" entry:"1706263536" modified:"1708073579" priority:"L" status:"pending" tags:"new" tags_new:"x" uuid:"ad16c3d5-9e00-4675-81ed-10265b03a6a0"]
+new [description:"limit list output to a given number of entries (keeping order and filter)" entry:"1706263536" modified:"1708091566" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"ad16c3d5-9e00-4675-81ed-10265b03a6a0"]
+---
+time 1708091567
+old [description:"limit list output to a given number of entries (keeping order and filter)" entry:"1706263536" modified:"1708091566" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"ad16c3d5-9e00-4675-81ed-10265b03a6a0"]
+new [description:"limit list output to a given number of entries (keeping order and filter)" entry:"1706263536" modified:"1708091567" priority:"M" start:"1708091567" status:"pending" tags:"new" tags_new:"x" uuid:"ad16c3d5-9e00-4675-81ed-10265b03a6a0"]
+---
+time 1708092721
+old [description:"limit list output to a given number of entries (keeping order and filter)" entry:"1706263536" modified:"1708091567" priority:"M" start:"1708091567" status:"pending" tags:"new" tags_new:"x" uuid:"ad16c3d5-9e00-4675-81ed-10265b03a6a0"]
+new [description:"limit list output to a given number of entries (keeping order and filter)" end:"1708092721" entry:"1706263536" modified:"1708092721" priority:"M" status:"completed" tags:"new" tags_new:"x" uuid:"ad16c3d5-9e00-4675-81ed-10265b03a6a0"]
+---
+time 1708092762
+new [description:"moving date sort from list command to filter section" entry:"1708092762" modified:"1708092762" priority:"M" status:"pending" uuid:"a336de55-618d-435f-ae5b-6c58b424bc28"]
+---
+time 1708092821
+old [description:"moving date sort from list command to filter section" entry:"1708092762" modified:"1708092762" priority:"M" status:"pending" uuid:"a336de55-618d-435f-ae5b-6c58b424bc28"]
+new [annotation_1708092821:"the -o option yields a random result, fix it..." description:"moving date sort from list command to filter section" entry:"1708092762" modified:"1708092821" priority:"M" status:"pending" uuid:"a336de55-618d-435f-ae5b-6c58b424bc28"]
+---
