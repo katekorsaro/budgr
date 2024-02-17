@@ -1657,3 +1657,11 @@ time 1708092821
 old [description:"moving date sort from list command to filter section" entry:"1708092762" modified:"1708092762" priority:"M" status:"pending" uuid:"a336de55-618d-435f-ae5b-6c58b424bc28"]
 new [annotation_1708092821:"the -o option yields a random result, fix it..." description:"moving date sort from list command to filter section" entry:"1708092762" modified:"1708092821" priority:"M" status:"pending" uuid:"a336de55-618d-435f-ae5b-6c58b424bc28"]
 ---
+time 1708156521
+old [annotation_1708092821:"the -o option yields a random result, fix it..." description:"moving date sort from list command to filter section" entry:"1708092762" modified:"1708092821" priority:"M" status:"pending" uuid:"a336de55-618d-435f-ae5b-6c58b424bc28"]
+new [annotation_1708092821:"the -o option yields a random result, fix it..." annotation_1708156521:"or... set a default sort into filter_data fn" description:"moving date sort from list command to filter section" entry:"1708092762" modified:"1708156521" priority:"M" status:"pending" uuid:"a336de55-618d-435f-ae5b-6c58b424bc28"]
+---
+time 1708156525
+old [annotation_1708092821:"the -o option yields a random result, fix it..." annotation_1708156521:"or... set a default sort into filter_data fn" description:"moving date sort from list command to filter section" entry:"1708092762" modified:"1708156521" priority:"M" status:"pending" uuid:"a336de55-618d-435f-ae5b-6c58b424bc28"]
+new [annotation_1708092821:"the -o option yields a random result, fix it..." annotation_1708156521:"or... set a default sort into filter_data fn" description:"moving date sort from list command to filter section" entry:"1708092762" modified:"1708156525" priority:"M" start:"1708156525" status:"pending" uuid:"a336de55-618d-435f-ae5b-6c58b424bc28"]
+---
