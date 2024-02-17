@@ -8,6 +8,8 @@ pub fn filter_data(data: Vec<Operation>, args: &Budgr) -> Vec<Operation> {
   } else {
     usize::MAX
   };
+  let mut data = data;
+  data.sort_by(|a, b| a.date.cmp(&b.date));
   data
     .into_iter()
     // filter by id
