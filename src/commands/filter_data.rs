@@ -8,9 +8,7 @@ pub fn filter_data(data: Vec<Operation>, args: &Budgr) -> Vec<Operation> {
   } else {
     usize::MAX
   };
-  let mut data = data;
-  data.sort_by(|a, b| a.date.cmp(&b.date));
-  data
+  let mut data: Vec<Operation> = data
     .into_iter()
     // filter by id
     .filter(|x| {
@@ -104,6 +102,8 @@ pub fn filter_data(data: Vec<Operation>, args: &Budgr) -> Vec<Operation> {
         true
       }
     })
-    .take(operation_count)
-    .collect()
+    .collect();
+  data.sort_by(|a, b| a.date.cmp(&b.date));
+  let data: Vec<Operation> = data.into_iter().take(operation_count).collect();
+  data
 }
