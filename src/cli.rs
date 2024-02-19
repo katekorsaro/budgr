@@ -5,10 +5,10 @@ use std::str::FromStr;
 #[command(arg_required_else_help(true))]
 pub struct Budgr {
   #[arg(short, long)]
-  /// filter option: inclusive date from
+  /// filter option: inclusive date from. Format YYYYMMDD.
   pub from: Option<u32>,
   #[arg(short, long)]
-  /// filter option: inclusive date to
+  /// filter option: inclusive date to. Format YYYYMMDD.
   pub to: Option<u32>,
   #[arg(short, long)]
   /// filter option: account name
@@ -26,7 +26,7 @@ pub struct Budgr {
   /// filter option: goal
   pub goal: Option<String>,
   #[arg(short, long)]
-  /// filter option: note
+  /// filter option: note. Case insensitive.
   pub note: Option<String>,
   #[arg(short, long)]
   /// filter option: only deleted operation
@@ -46,8 +46,11 @@ pub enum Command {
   /// Add a new operation
   #[command(visible_alias("a"))]
   Add {
+    /// operation date. Format YYYYMMDD.
     date: u32,
+    /// operation note.
     note: String,
+    /// operation amount.
     amount: u32,
     #[arg(short, long)]
     /// operation account
