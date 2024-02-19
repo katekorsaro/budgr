@@ -1,30 +1,19 @@
-use std::fs;
+use serde::*;
 
-#[derive(Debug, Default)]
+#[derive(Debug, Serialize, Deserialize, Clone)]
 pub struct Config {
   pub data: String,
 }
 
-pub fn read_configuration(filename: &str) -> Config {
-  let mut retvalue = Config::default();
-
-  // try to read configuration file
-  let config = fs::read_to_string(filename).unwrap();
-  config
-    .lines()
-    .map(|line| {
-      let mut parts = line.split('=');
-      (parts.next().unwrap(), parts.next())
-    })
-    //handling single config keys
-    .for_each(|kv_pair| match kv_pair.0 {
-      "budgr.data" => {
-        if let Some(value) = kv_pair.1 {
-          retvalue.data = String::from(value);
+impl Default for Config {
+    fn default () -> Self {
+        Config {
+            data: String::from("./data/"),
         }
-      }
-      _ => unreachable!("All configurations should be covered for now."),
-    });
+    }
+}
 
-  retvalue
+pub fn read_configuration() -> Config {
+    let config: Config = confy::load_path("./budgr.toml").unwrap();
+    config
 }

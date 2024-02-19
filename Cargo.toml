@@ -11,4 +11,5 @@ colorize = "0.1.0"
 confy = "0.6.0"
 prettytable-rs = "0.10.0"
 rand = "0.8.5"
+serde = { version = "1.0.196", features = ["serde_derive"] }
 time = { version = "0.3.31", features = ["formatting", "local-offset"] }

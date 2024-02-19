@@ -4,23 +4,13 @@ mod config;
 mod data;
 
 use clap::Parser;
-use std::env;
 
 use crate::cli::{Budgr, Command};
 use crate::commands::*;
 use crate::config::*;
 
 fn main() {
-  // read env variable to get configuration
-  let budgrrc = env::vars().find(|(k, _)| k == "BUDGRRC");
-
-  // store env variable into an actual variable
-  let budgrrc = match budgrrc {
-    Some((_, value)) => value,
-    None => String::from(".//.budgrrc"),
-  };
-
-  let config = read_configuration(&budgrrc);
+  let config = read_configuration();
 
   let bin = Budgr::parse();
 
