@@ -1751,3 +1751,10 @@ time 1708330101
 old [description:"integrate confy to load and store configuration values" entry:"1708330018" modified:"1708330018" status:"pending" tags:"new" tags_new:"x" uuid:"acf92def-8a5f-49dc-a3b6-bd45c8f0cd6b"]
 new [description:"integrate confy to load and store configuration values" entry:"1708330018" modified:"1708330101" start:"1708330101" status:"pending" tags:"new" tags_new:"x" uuid:"acf92def-8a5f-49dc-a3b6-bd45c8f0cd6b"]
 ---
+time 1708333797
+new [description:"create initial directory given a configuration file" entry:"1708333797" modified:"1708333797" status:"pending" tags:"new" tags_new:"x" uuid:"c70326a6-f718-4eb2-a456-96560ec3dcaa"]
+---
+time 1708333803
+old [description:"integrate confy to load and store configuration values" entry:"1708330018" modified:"1708330101" start:"1708330101" status:"pending" tags:"new" tags_new:"x" uuid:"acf92def-8a5f-49dc-a3b6-bd45c8f0cd6b"]
+new [description:"integrate confy to load and store configuration values" end:"1708333803" entry:"1708330018" modified:"1708333803" status:"completed" tags:"new" tags_new:"x" uuid:"acf92def-8a5f-49dc-a3b6-bd45c8f0cd6b"]
+---
