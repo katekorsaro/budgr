@@ -155,12 +155,6 @@ pub enum Purpose {
   Income,
 }
 
-#[derive(Clone, Debug, ValueEnum)]
-pub enum Sort {
-  Asc,
-  Desc,
-}
-
 impl FromStr for Purpose {
   type Err = String;
   fn from_str(str_value: &str) -> Result<Self, String> {
