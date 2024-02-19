@@ -10,6 +10,6 @@
 [annotation_1706543083:"apparently I need to edit some build.rs file to perform such inclusion" description:"investigate how to include a .budgrrc into built binary folder" entry:"1706541414" modified:"1708328809" status:"pending" tags:"new" tags_new:"x" uuid:"c83246e6-8bfb-49b9-a418-00cc0385d81f"]
 [description:"rethink the filter priority" entry:"1706700551" modified:"1708328809" status:"pending" uuid:"7709753a-b903-4e04-a461-9ef3f0a60f7a"]
 [description:"export operations to a csv or other well formatted format file" entry:"1706871009" modified:"1708328809" status:"pending" tags:"new" tags_new:"x" uuid:"bdc64bcf-d986-4eff-9413-7d99f7a2419b"]
-[description:"add account option during import" entry:"1708071956" modified:"1708328809" status:"pending" tags:"new" tags_new:"x" uuid:"0a2f45ae-6dd4-41fb-80d2-ae20e572c5e4"]
+[description:"add account option during import" entry:"1708071956" modified:"1708328831" start:"1708328831" status:"pending" tags:"new" tags_new:"x" uuid:"0a2f45ae-6dd4-41fb-80d2-ae20e572c5e4"]
 [description:"import crates with wildcards" entry:"1708086498" modified:"1708328809" status:"pending" uuid:"12c708a6-8611-475b-aff9-283cd65a30ac"]
 [description:"option to override default sorting" entry:"1708328560" modified:"1708328809" status:"pending" tags:"new" tags_new:"x" uuid:"b423de93-84ec-44c7-b49d-7ebecdc75f78"]
