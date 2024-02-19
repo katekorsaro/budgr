@@ -1758,3 +1758,11 @@ time 1708333803
 old [description:"integrate confy to load and store configuration values" entry:"1708330018" modified:"1708330101" start:"1708330101" status:"pending" tags:"new" tags_new:"x" uuid:"acf92def-8a5f-49dc-a3b6-bd45c8f0cd6b"]
 new [description:"integrate confy to load and store configuration values" end:"1708333803" entry:"1708330018" modified:"1708333803" status:"completed" tags:"new" tags_new:"x" uuid:"acf92def-8a5f-49dc-a3b6-bd45c8f0cd6b"]
 ---
+time 1708334012
+old [annotation_1706543083:"apparently I need to edit some build.rs file to perform such inclusion" description:"investigate how to include a .budgrrc into built binary folder" entry:"1706541414" modified:"1708328809" status:"pending" tags:"new" tags_new:"x" uuid:"c83246e6-8bfb-49b9-a418-00cc0385d81f"]
+new [annotation_1706543083:"apparently I need to edit some build.rs file to perform such inclusion" description:"investigate how to include a .budgrrc into built binary folder" end:"1708334012" entry:"1706541414" modified:"1708334012" status:"deleted" tags:"new" tags_new:"x" uuid:"c83246e6-8bfb-49b9-a418-00cc0385d81f"]
+---
+time 1708334020
+old [description:"handling .budgrrc not found and create it empty or better with default options" entry:"1706097284" modified:"1708328809" status:"pending" tags:"new" tags_new:"x" uuid:"8649d98d-5d62-41b1-b6a2-3ba39b78b640"]
+new [description:"handling .budgrrc not found and create it empty or better with default options" end:"1708334020" entry:"1706097284" modified:"1708334020" status:"deleted" tags:"new" tags_new:"x" uuid:"8649d98d-5d62-41b1-b6a2-3ba39b78b640"]
+---
