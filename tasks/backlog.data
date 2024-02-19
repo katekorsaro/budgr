@@ -489,3 +489,4 @@
 {"description":"handling .budgrrc not found and create it empty or better with default options","end":"20240219T091340Z","entry":"20240124T115444Z","modified":"20240219T091340Z","status":"deleted","uuid":"8649d98d-5d62-41b1-b6a2-3ba39b78b640","tags":["new"]}
 {"description":"create initial directory given a configuration file","entry":"20240219T090957Z","modified":"20240219T093505Z","start":"20240219T093505Z","status":"pending","uuid":"c70326a6-f718-4eb2-a456-96560ec3dcaa","tags":["new"]}
 {"description":"create initial directory given a configuration file","end":"20240219T100027Z","entry":"20240219T090957Z","modified":"20240219T100027Z","status":"completed","uuid":"c70326a6-f718-4eb2-a456-96560ec3dcaa","tags":["new"]}
+{"description":"consider how to handle negative movements","entry":"20240219T151402Z","modified":"20240219T151402Z","status":"pending","uuid":"357feee3-c4ae-4a29-a49e-d7e395a1571b","tags":["new"]}

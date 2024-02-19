@@ -1774,3 +1774,6 @@ time 1708336827
 old [description:"create initial directory given a configuration file" entry:"1708333797" modified:"1708335305" start:"1708335305" status:"pending" tags:"new" tags_new:"x" uuid:"c70326a6-f718-4eb2-a456-96560ec3dcaa"]
 new [description:"create initial directory given a configuration file" end:"1708336827" entry:"1708333797" modified:"1708336827" status:"completed" tags:"new" tags_new:"x" uuid:"c70326a6-f718-4eb2-a456-96560ec3dcaa"]
 ---
+time 1708355642
+new [description:"consider how to handle negative movements" entry:"1708355642" modified:"1708355642" status:"pending" tags:"new" tags_new:"x" uuid:"357feee3-c4ae-4a29-a49e-d7e395a1571b"]
+---

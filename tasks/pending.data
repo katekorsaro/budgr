@@ -10,3 +10,4 @@
 [description:"export operations to a csv or other well formatted format file" entry:"1706871009" modified:"1708328809" status:"pending" tags:"new" tags_new:"x" uuid:"bdc64bcf-d986-4eff-9413-7d99f7a2419b"]
 [description:"import crates with wildcards" entry:"1708086498" modified:"1708328809" status:"pending" uuid:"12c708a6-8611-475b-aff9-283cd65a30ac"]
 [description:"option to override default sorting" entry:"1708328560" modified:"1708328809" status:"pending" tags:"new" tags_new:"x" uuid:"b423de93-84ec-44c7-b49d-7ebecdc75f78"]
+[description:"consider how to handle negative movements" entry:"1708355642" modified:"1708355642" status:"pending" tags:"new" tags_new:"x" uuid:"357feee3-c4ae-4a29-a49e-d7e395a1571b"]
