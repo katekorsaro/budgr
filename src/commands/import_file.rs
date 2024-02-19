@@ -6,7 +6,7 @@ use crate::Config;
 use std::fs;
 
 pub fn import_file(config: &Config, args: &Budgr) {
-  if let Some(Command::Import { filename }) = &args.command {
+  if let Some(Command::Import { filename, account }) = &args.command {
     let data = fs::read_to_string(filename).unwrap();
     let mut count: u16 = 0;
     data
@@ -16,6 +16,7 @@ pub fn import_file(config: &Config, args: &Budgr) {
         date: parts.next().unwrap().parse::<u32>().unwrap(),
         note: String::from(parts.next().unwrap()),
         amount: parts.next().unwrap().parse::<u32>().unwrap(),
+        account: account.clone(),
         ..Operation::default()
       })
       .for_each(|operation| {
