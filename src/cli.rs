@@ -91,9 +91,6 @@ pub enum Command {
     #[arg(short, long)]
     /// include id field (only for pretty printing)
     include_id: bool,
-    #[arg(short, long, default_value = "desc")]
-    /// sort operations by date
-    date_sort: Option<Sort>,
     #[arg(short, long)]
     /// note field width (only for pretty output)
     width: Option<usize>,
