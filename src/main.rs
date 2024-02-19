@@ -4,13 +4,18 @@ mod config;
 mod data;
 
 use clap::Parser;
+use std::path::*;
 
 use crate::cli::{Budgr, Command};
 use crate::commands::*;
 use crate::config::*;
 
 fn main() {
+  // read config
   let config = read_configuration();
+  // create data dir
+  let path = Path::new(&config.data);
+  (!path.exists()).then(|| std::fs::create_dir(path));
 
   let bin = Budgr::parse();
 
