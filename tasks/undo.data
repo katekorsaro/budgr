@@ -1665,3 +1665,74 @@ time 1708156525
 old [annotation_1708092821:"the -o option yields a random result, fix it..." annotation_1708156521:"or... set a default sort into filter_data fn" description:"moving date sort from list command to filter section" entry:"1708092762" modified:"1708156521" priority:"M" status:"pending" uuid:"a336de55-618d-435f-ae5b-6c58b424bc28"]
 new [annotation_1708092821:"the -o option yields a random result, fix it..." annotation_1708156521:"or... set a default sort into filter_data fn" description:"moving date sort from list command to filter section" entry:"1708092762" modified:"1708156525" priority:"M" start:"1708156525" status:"pending" uuid:"a336de55-618d-435f-ae5b-6c58b424bc28"]
 ---
+time 1708328397
+old [description:"export operations to a csv (or other well formatted format) file" entry:"1706871009" modified:"1708073579" priority:"L" status:"pending" tags:"new" tags_new:"x" uuid:"bdc64bcf-d986-4eff-9413-7d99f7a2419b"]
+new [description:"export operations to a csv or other well formatted format file" entry:"1706871009" modified:"1708328397" priority:"L" status:"pending" tags:"new" tags_new:"x" uuid:"bdc64bcf-d986-4eff-9413-7d99f7a2419b"]
+---
+time 1708328560
+new [description:"option to override default sorting" entry:"1708328560" modified:"1708328560" priority:"L" status:"pending" tags:"new" tags_new:"x" uuid:"b423de93-84ec-44c7-b49d-7ebecdc75f78"]
+---
+time 1708328781
+old [annotation_1708092821:"the -o option yields a random result, fix it..." annotation_1708156521:"or... set a default sort into filter_data fn" description:"moving date sort from list command to filter section" entry:"1708092762" modified:"1708156525" priority:"M" start:"1708156525" status:"pending" uuid:"a336de55-618d-435f-ae5b-6c58b424bc28"]
+new [annotation_1708092821:"the -o option yields a random result, fix it..." annotation_1708156521:"or... set a default sort into filter_data fn" description:"moving date sort from list command to filter section" end:"1708328781" entry:"1708092762" modified:"1708328781" priority:"M" status:"completed" uuid:"a336de55-618d-435f-ae5b-6c58b424bc28"]
+---
+time 1708328809
+old [description:"start writing some documentation to state your intent" entry:"1705573222" modified:"1706269152" priority:"L" status:"pending" tags:"new" tags_new:"x" uuid:"8d90f16a-906f-4641-8673-4ea155882a7c"]
+new [description:"start writing some documentation to state your intent" entry:"1705573222" modified:"1708328809" status:"pending" tags:"new" tags_new:"x" uuid:"8d90f16a-906f-4641-8673-4ea155882a7c"]
+---
+time 1708328809
+old [description:"json output format for list command" entry:"1705587946" modified:"1706268675" priority:"L" status:"pending" uuid:"9f3cb1a7-184c-4dea-922d-03bbdda8356a"]
+new [description:"json output format for list command" entry:"1705587946" modified:"1708328809" status:"pending" uuid:"9f3cb1a7-184c-4dea-922d-03bbdda8356a"]
+---
+time 1708328809
+old [description:"CSV output format for list command" entry:"1705587964" modified:"1706268675" priority:"L" status:"pending" uuid:"3b4cc99a-1c39-4c41-8a58-edb35604df1c"]
+new [description:"CSV output format for list command" entry:"1705587964" modified:"1708328809" status:"pending" uuid:"3b4cc99a-1c39-4c41-8a58-edb35604df1c"]
+---
+time 1708328809
+old [description:"handling .budgrrc not found and create it empty or better with default options" entry:"1706097284" modified:"1706269152" priority:"L" status:"pending" tags:"new" tags_new:"x" uuid:"8649d98d-5d62-41b1-b6a2-3ba39b78b640"]
+new [description:"handling .budgrrc not found and create it empty or better with default options" entry:"1706097284" modified:"1708328809" status:"pending" tags:"new" tags_new:"x" uuid:"8649d98d-5d62-41b1-b6a2-3ba39b78b640"]
+---
+time 1708328809
+old [description:"consider passing as a configuration date format to be used" entry:"1706105128" modified:"1706268675" priority:"L" status:"pending" uuid:"f546b1f9-00d0-4689-abe3-a835be8f9a99"]
+new [description:"consider passing as a configuration date format to be used" entry:"1706105128" modified:"1708328809" status:"pending" uuid:"f546b1f9-00d0-4689-abe3-a835be8f9a99"]
+---
+time 1708328809
+old [description:"list goals" entry:"1706106522" modified:"1706269152" priority:"L" status:"pending" tags:"new" tags_new:"x" uuid:"1177cc24-0ed2-48f6-ab8e-22d386404a39"]
+new [description:"list goals" entry:"1706106522" modified:"1708328809" status:"pending" tags:"new" tags_new:"x" uuid:"1177cc24-0ed2-48f6-ab8e-22d386404a39"]
+---
+time 1708328809
+old [description:"sort by amount asc and desc" entry:"1706190901" modified:"1708073579" priority:"L" status:"pending" tags:"new" tags_new:"x" uuid:"32ace341-ac18-4db6-8cb0-6da059089132"]
+new [description:"sort by amount asc and desc" entry:"1706190901" modified:"1708328809" status:"pending" tags:"new" tags_new:"x" uuid:"32ace341-ac18-4db6-8cb0-6da059089132"]
+---
+time 1708328809
+old [description:"automatic test for add command" entry:"1706288183" modified:"1708073579" priority:"L" status:"pending" tags:"new" tags_new:"x" uuid:"5359d4a2-7570-4f87-b228-48ec05024073"]
+new [description:"automatic test for add command" entry:"1706288183" modified:"1708328809" status:"pending" tags:"new" tags_new:"x" uuid:"5359d4a2-7570-4f87-b228-48ec05024073"]
+---
+time 1708328809
+old [description:"evaluate to refactor command into a library to split presentation from logic" entry:"1706337706" modified:"1708073579" priority:"L" status:"pending" uuid:"60a62a5a-c153-4d97-9f3d-675dbb05e167"]
+new [description:"evaluate to refactor command into a library to split presentation from logic" entry:"1706337706" modified:"1708328809" status:"pending" uuid:"60a62a5a-c153-4d97-9f3d-675dbb05e167"]
+---
+time 1708328809
+old [annotation_1706543083:"apparently I need to edit some build.rs file to perform such inclusion" description:"investigate how to include a .budgrrc into built binary folder" entry:"1706541414" modified:"1706697757" priority:"L" status:"pending" tags:"new" tags_new:"x" uuid:"c83246e6-8bfb-49b9-a418-00cc0385d81f"]
+new [annotation_1706543083:"apparently I need to edit some build.rs file to perform such inclusion" description:"investigate how to include a .budgrrc into built binary folder" entry:"1706541414" modified:"1708328809" status:"pending" tags:"new" tags_new:"x" uuid:"c83246e6-8bfb-49b9-a418-00cc0385d81f"]
+---
+time 1708328809
+old [description:"rethink the filter priority" entry:"1706700551" modified:"1708073579" priority:"L" status:"pending" uuid:"7709753a-b903-4e04-a461-9ef3f0a60f7a"]
+new [description:"rethink the filter priority" entry:"1706700551" modified:"1708328809" status:"pending" uuid:"7709753a-b903-4e04-a461-9ef3f0a60f7a"]
+---
+time 1708328809
+old [description:"export operations to a csv or other well formatted format file" entry:"1706871009" modified:"1708328397" priority:"L" status:"pending" tags:"new" tags_new:"x" uuid:"bdc64bcf-d986-4eff-9413-7d99f7a2419b"]
+new [description:"export operations to a csv or other well formatted format file" entry:"1706871009" modified:"1708328809" status:"pending" tags:"new" tags_new:"x" uuid:"bdc64bcf-d986-4eff-9413-7d99f7a2419b"]
+---
+time 1708328809
+old [description:"add account option during import" entry:"1708071956" modified:"1708073579" priority:"L" status:"pending" tags:"new" tags_new:"x" uuid:"0a2f45ae-6dd4-41fb-80d2-ae20e572c5e4"]
+new [description:"add account option during import" entry:"1708071956" modified:"1708328809" status:"pending" tags:"new" tags_new:"x" uuid:"0a2f45ae-6dd4-41fb-80d2-ae20e572c5e4"]
+---
+time 1708328809
+old [description:"import crates with wildcards" entry:"1708086498" modified:"1708087264" priority:"L" status:"pending" uuid:"12c708a6-8611-475b-aff9-283cd65a30ac"]
+new [description:"import crates with wildcards" entry:"1708086498" modified:"1708328809" status:"pending" uuid:"12c708a6-8611-475b-aff9-283cd65a30ac"]
+---
+time 1708328809
+old [description:"option to override default sorting" entry:"1708328560" modified:"1708328560" priority:"L" status:"pending" tags:"new" tags_new:"x" uuid:"b423de93-84ec-44c7-b49d-7ebecdc75f78"]
+new [description:"option to override default sorting" entry:"1708328560" modified:"1708328809" status:"pending" tags:"new" tags_new:"x" uuid:"b423de93-84ec-44c7-b49d-7ebecdc75f78"]
+---
