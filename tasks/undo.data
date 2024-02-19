@@ -1766,3 +1766,11 @@ time 1708334020
 old [description:"handling .budgrrc not found and create it empty or better with default options" entry:"1706097284" modified:"1708328809" status:"pending" tags:"new" tags_new:"x" uuid:"8649d98d-5d62-41b1-b6a2-3ba39b78b640"]
 new [description:"handling .budgrrc not found and create it empty or better with default options" end:"1708334020" entry:"1706097284" modified:"1708334020" status:"deleted" tags:"new" tags_new:"x" uuid:"8649d98d-5d62-41b1-b6a2-3ba39b78b640"]
 ---
+time 1708335305
+old [description:"create initial directory given a configuration file" entry:"1708333797" modified:"1708333797" status:"pending" tags:"new" tags_new:"x" uuid:"c70326a6-f718-4eb2-a456-96560ec3dcaa"]
+new [description:"create initial directory given a configuration file" entry:"1708333797" modified:"1708335305" start:"1708335305" status:"pending" tags:"new" tags_new:"x" uuid:"c70326a6-f718-4eb2-a456-96560ec3dcaa"]
+---
+time 1708336827
+old [description:"create initial directory given a configuration file" entry:"1708333797" modified:"1708335305" start:"1708335305" status:"pending" tags:"new" tags_new:"x" uuid:"c70326a6-f718-4eb2-a456-96560ec3dcaa"]
+new [description:"create initial directory given a configuration file" end:"1708336827" entry:"1708333797" modified:"1708336827" status:"completed" tags:"new" tags_new:"x" uuid:"c70326a6-f718-4eb2-a456-96560ec3dcaa"]
+---
