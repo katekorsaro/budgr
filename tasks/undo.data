@@ -1740,3 +1740,7 @@ time 1708328831
 old [description:"add account option during import" entry:"1708071956" modified:"1708328809" status:"pending" tags:"new" tags_new:"x" uuid:"0a2f45ae-6dd4-41fb-80d2-ae20e572c5e4"]
 new [description:"add account option during import" entry:"1708071956" modified:"1708328831" start:"1708328831" status:"pending" tags:"new" tags_new:"x" uuid:"0a2f45ae-6dd4-41fb-80d2-ae20e572c5e4"]
 ---
+time 1708329192
+old [description:"add account option during import" entry:"1708071956" modified:"1708328831" start:"1708328831" status:"pending" tags:"new" tags_new:"x" uuid:"0a2f45ae-6dd4-41fb-80d2-ae20e572c5e4"]
+new [description:"add account option during import" end:"1708329192" entry:"1708071956" modified:"1708329192" status:"completed" tags:"new" tags_new:"x" uuid:"0a2f45ae-6dd4-41fb-80d2-ae20e572c5e4"]
+---

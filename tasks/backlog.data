@@ -480,3 +480,4 @@
 {"description":"import crates with wildcards","entry":"20240216T122818Z","modified":"20240219T074649Z","status":"pending","uuid":"12c708a6-8611-475b-aff9-283cd65a30ac"}
 {"description":"option to override default sorting","entry":"20240219T074240Z","modified":"20240219T074649Z","status":"pending","uuid":"b423de93-84ec-44c7-b49d-7ebecdc75f78","tags":["new"]}
 {"description":"add account option during import","entry":"20240216T082556Z","modified":"20240219T074711Z","start":"20240219T074711Z","status":"pending","uuid":"0a2f45ae-6dd4-41fb-80d2-ae20e572c5e4","tags":["new"]}
+{"description":"add account option during import","end":"20240219T075312Z","entry":"20240216T082556Z","modified":"20240219T075312Z","status":"completed","uuid":"0a2f45ae-6dd4-41fb-80d2-ae20e572c5e4","tags":["new"]}
