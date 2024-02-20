@@ -1,4 +1,5 @@
 mod add_operation;
+mod aggregate;
 mod count_operations;
 mod delete_operations;
 mod filter_data;
@@ -14,6 +15,7 @@ mod undelete_operations;
 mod write_operation;
 
 pub use add_operation::*;
+pub use aggregate::*;
 pub use count_operations::*;
 pub use delete_operations::*;
 pub use import_file::*;

@@ -22,6 +22,7 @@ fn main() {
   // handle commands
   match bin.command {
     Some(Command::Add { .. }) => add_operation(&config, &bin),
+    Some(Command::Aggregate { .. }) => aggregate(&config, &bin),
     Some(Command::Count) => count_operations(&config, &bin),
     Some(Command::Delete) => delete_operations(&config, &bin),
     Some(Command::Import { .. }) => import_file(&config, &bin),

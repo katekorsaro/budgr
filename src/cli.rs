@@ -66,6 +66,12 @@ pub enum Command {
     id: Option<u32>,
   },
 
+  /// Aggregate filtered operations
+  #[command(visible_alias("r"))]
+  Aggregate {
+      operations: Vec<AggregationOperation>,
+  },
+
   /// Count all operations
   #[command(visible_alias("c"))]
   Count,
@@ -73,6 +79,7 @@ pub enum Command {
   /// Delete (logically) operations
   #[command(visible_alias("d"))]
   Delete,
+
   #[command(visible_alias("t"))]
   /// Import a file into operation list
   Import {
@@ -142,6 +149,11 @@ pub enum Format {
   /// machine readable format, pipe ('|') separated
   Raw,
   Pretty,
+}
+
+#[derive(Clone, Debug, ValueEnum)]
+pub enum AggregationOperation {
+  Sum,
 }
 
 #[derive(Clone, Debug, ValueEnum)]
