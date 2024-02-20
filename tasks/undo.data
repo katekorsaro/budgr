@@ -1803,3 +1803,7 @@ time 1708424092
 old [description:"report: total capital value" entry:"1708422415" modified:"1708423078" start:"1708423078" status:"pending" tags:"new" tags_new:"x" uuid:"e4e52047-9ad6-4a60-8608-90c04e379106"]
 new [description:"report: total capital value" end:"1708424092" entry:"1708422415" modified:"1708424092" start:"1708423078" status:"deleted" tags:"new" tags_new:"x" uuid:"e4e52047-9ad6-4a60-8608-90c04e379106"]
 ---
+time 1708424554
+old [annotation_1708424087:"sum, group-by" description:"instead of fixed report, think of a set of basic operations to perform" entry:"1708424062" modified:"1708424087" status:"pending" tags:"new" tags_new:"x" uuid:"a05d41f2-b4ba-492a-aa12-34696864046e"]
+new [annotation_1708424087:"sum, group-by" description:"instead of fixed report, think of a set of basic operations to perform" entry:"1708424062" modified:"1708424554" start:"1708424554" status:"pending" tags:"new" tags_new:"x" uuid:"a05d41f2-b4ba-492a-aa12-34696864046e"]
+---
