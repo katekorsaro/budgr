@@ -1777,3 +1777,11 @@ new [description:"create initial directory given a configuration file" end:"1708
 time 1708355642
 new [description:"consider how to handle negative movements" entry:"1708355642" modified:"1708355642" status:"pending" tags:"new" tags_new:"x" uuid:"357feee3-c4ae-4a29-a49e-d7e395a1571b"]
 ---
+time 1708412795
+old [description:"consider how to handle negative movements" entry:"1708355642" modified:"1708355642" status:"pending" tags:"new" tags_new:"x" uuid:"357feee3-c4ae-4a29-a49e-d7e395a1571b"]
+new [description:"consider how to handle negative movements" entry:"1708355642" modified:"1708412795" start:"1708412795" status:"pending" tags:"new" tags_new:"x" uuid:"357feee3-c4ae-4a29-a49e-d7e395a1571b"]
+---
+time 1708414511
+old [description:"consider how to handle negative movements" entry:"1708355642" modified:"1708412795" start:"1708412795" status:"pending" tags:"new" tags_new:"x" uuid:"357feee3-c4ae-4a29-a49e-d7e395a1571b"]
+new [description:"consider how to handle negative movements" end:"1708414511" entry:"1708355642" modified:"1708414511" status:"completed" tags:"new" tags_new:"x" uuid:"357feee3-c4ae-4a29-a49e-d7e395a1571b"]
+---
