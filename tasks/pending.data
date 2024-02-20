@@ -11,3 +11,4 @@
 [description:"import crates with wildcards" entry:"1708086498" modified:"1708328809" status:"pending" uuid:"12c708a6-8611-475b-aff9-283cd65a30ac"]
 [description:"option to override default sorting" entry:"1708328560" modified:"1708328809" status:"pending" tags:"new" tags_new:"x" uuid:"b423de93-84ec-44c7-b49d-7ebecdc75f78"]
 [annotation_1708424087:"sum, group-by" description:"instead of fixed report, think of a set of basic operations to perform" entry:"1708424062" modified:"1708424554" start:"1708424554" status:"pending" tags:"new" tags_new:"x" uuid:"a05d41f2-b4ba-492a-aa12-34696864046e"]
+[description:"extract and refactor the function to format numerical values" entry:"1708445747" modified:"1708445747" status:"pending" tags:"new" tags_new:"x" uuid:"d3f31ed5-7562-4938-9d3c-ab3023929f51"]

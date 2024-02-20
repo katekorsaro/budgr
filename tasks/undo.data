@@ -1807,3 +1807,6 @@ time 1708424554
 old [annotation_1708424087:"sum, group-by" description:"instead of fixed report, think of a set of basic operations to perform" entry:"1708424062" modified:"1708424087" status:"pending" tags:"new" tags_new:"x" uuid:"a05d41f2-b4ba-492a-aa12-34696864046e"]
 new [annotation_1708424087:"sum, group-by" description:"instead of fixed report, think of a set of basic operations to perform" entry:"1708424062" modified:"1708424554" start:"1708424554" status:"pending" tags:"new" tags_new:"x" uuid:"a05d41f2-b4ba-492a-aa12-34696864046e"]
 ---
+time 1708445747
+new [description:"extract and refactor the function to format numerical values" entry:"1708445747" modified:"1708445747" status:"pending" tags:"new" tags_new:"x" uuid:"d3f31ed5-7562-4938-9d3c-ab3023929f51"]
+---
