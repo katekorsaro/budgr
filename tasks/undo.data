@@ -1785,3 +1785,21 @@ time 1708414511
 old [description:"consider how to handle negative movements" entry:"1708355642" modified:"1708412795" start:"1708412795" status:"pending" tags:"new" tags_new:"x" uuid:"357feee3-c4ae-4a29-a49e-d7e395a1571b"]
 new [description:"consider how to handle negative movements" end:"1708414511" entry:"1708355642" modified:"1708414511" status:"completed" tags:"new" tags_new:"x" uuid:"357feee3-c4ae-4a29-a49e-d7e395a1571b"]
 ---
+time 1708422415
+new [description:"report: total capital value" entry:"1708422415" modified:"1708422415" status:"pending" tags:"new" tags_new:"x" uuid:"e4e52047-9ad6-4a60-8608-90c04e379106"]
+---
+time 1708423078
+old [description:"report: total capital value" entry:"1708422415" modified:"1708422415" status:"pending" tags:"new" tags_new:"x" uuid:"e4e52047-9ad6-4a60-8608-90c04e379106"]
+new [description:"report: total capital value" entry:"1708422415" modified:"1708423078" start:"1708423078" status:"pending" tags:"new" tags_new:"x" uuid:"e4e52047-9ad6-4a60-8608-90c04e379106"]
+---
+time 1708424062
+new [description:"instead of fixed report, think of a set of basic operations to perform" entry:"1708424062" modified:"1708424062" status:"pending" tags:"new" tags_new:"x" uuid:"a05d41f2-b4ba-492a-aa12-34696864046e"]
+---
+time 1708424087
+old [description:"instead of fixed report, think of a set of basic operations to perform" entry:"1708424062" modified:"1708424062" status:"pending" tags:"new" tags_new:"x" uuid:"a05d41f2-b4ba-492a-aa12-34696864046e"]
+new [annotation_1708424087:"sum, group-by" description:"instead of fixed report, think of a set of basic operations to perform" entry:"1708424062" modified:"1708424087" status:"pending" tags:"new" tags_new:"x" uuid:"a05d41f2-b4ba-492a-aa12-34696864046e"]
+---
+time 1708424092
+old [description:"report: total capital value" entry:"1708422415" modified:"1708423078" start:"1708423078" status:"pending" tags:"new" tags_new:"x" uuid:"e4e52047-9ad6-4a60-8608-90c04e379106"]
+new [description:"report: total capital value" end:"1708424092" entry:"1708422415" modified:"1708424092" start:"1708423078" status:"deleted" tags:"new" tags_new:"x" uuid:"e4e52047-9ad6-4a60-8608-90c04e379106"]
+---

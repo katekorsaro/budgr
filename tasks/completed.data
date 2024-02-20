@@ -1,3 +1,4 @@
+[description:"report: total capital value" end:"1708424092" entry:"1708422415" modified:"1708424092" start:"1708423078" status:"deleted" tags:"new" tags_new:"x" uuid:"e4e52047-9ad6-4a60-8608-90c04e379106"]
 [description:"consider how to handle negative movements" end:"1708414511" entry:"1708355642" modified:"1708414511" status:"completed" tags:"new" tags_new:"x" uuid:"357feee3-c4ae-4a29-a49e-d7e395a1571b"]
 [description:"create initial directory given a configuration file" end:"1708336827" entry:"1708333797" modified:"1708336827" status:"completed" tags:"new" tags_new:"x" uuid:"c70326a6-f718-4eb2-a456-96560ec3dcaa"]
 [description:"handling .budgrrc not found and create it empty or better with default options" end:"1708334020" entry:"1706097284" modified:"1708334020" status:"deleted" tags:"new" tags_new:"x" uuid:"8649d98d-5d62-41b1-b6a2-3ba39b78b640"]
