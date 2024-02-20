@@ -18,10 +18,10 @@ pub struct Budgr {
   pub purpose: Option<Purpose>,
   #[arg(short('r'), long)]
   /// filter option: inclusive amount greater than (in cents)
-  pub amount_greater_than: Option<u32>,
+  pub amount_greater_than: Option<i32>,
   #[arg(short('l'), long)]
   /// filter option: inclusive amount less than (in cents)
-  pub amount_less_than: Option<u32>,
+  pub amount_less_than: Option<i32>,
   #[arg(short, long)]
   /// filter option: goal
   pub goal: Option<String>,
@@ -51,7 +51,7 @@ pub enum Command {
     /// operation note.
     note: String,
     /// operation amount.
-    amount: u32,
+    amount: i32,
     #[arg(short, long)]
     /// operation account
     account: Option<String>,
@@ -114,7 +114,7 @@ pub enum Command {
     goal: Option<String>,
     #[arg(short('m'), long)]
     /// new operation purpose
-    amount: Option<u32>,
+    amount: Option<i32>,
     #[arg(short, long)]
     /// new oepration date
     date: Option<u32>,

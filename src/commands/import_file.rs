@@ -15,7 +15,7 @@ pub fn import_file(config: &Config, args: &Budgr) {
       .map(|mut parts| Operation {
         date: parts.next().unwrap().parse::<u32>().unwrap(),
         note: String::from(parts.next().unwrap()),
-        amount: parts.next().unwrap().parse::<u32>().unwrap(),
+        amount: parts.next().unwrap().parse::<i32>().unwrap(),
         account: account.clone(),
         ..Operation::default()
       })
