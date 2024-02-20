@@ -69,7 +69,7 @@ pub enum Command {
   /// Aggregate filtered operations
   #[command(visible_alias("r"))]
   Aggregate {
-      operations: Vec<AggregationOperation>,
+    operations: Vec<AggregationOperation>,
   },
 
   /// Count all operations
