@@ -1810,3 +1810,9 @@ new [annotation_1708424087:"sum, group-by" description:"instead of fixed report,
 time 1708445747
 new [description:"extract and refactor the function to format numerical values" entry:"1708445747" modified:"1708445747" status:"pending" tags:"new" tags_new:"x" uuid:"d3f31ed5-7562-4938-9d3c-ab3023929f51"]
 ---
+time 1709131561
+new [description:"let's do some test: list and test basic scenarios" entry:"1709131561" modified:"1709131561" status:"pending" tags:"new" tags_new:"x" uuid:"220fa9ae-5cb7-41b8-bd57-34030bd316d3"]
+---
+time 1709131697
+new [description:"consider handling some errors" entry:"1709131697" modified:"1709131697" status:"pending" tags:"new" tags_new:"x" uuid:"cbb8ff8c-1762-46cc-987e-fee4b923da71"]
+---

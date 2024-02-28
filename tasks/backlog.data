@@ -499,3 +499,5 @@
 {"description":"report: total capital value","end":"20240220T101452Z","entry":"20240220T094655Z","modified":"20240220T101452Z","start":"20240220T095758Z","status":"deleted","uuid":"e4e52047-9ad6-4a60-8608-90c04e379106","tags":["new"]}
 {"description":"instead of fixed report, think of a set of basic operations to perform","entry":"20240220T101422Z","modified":"20240220T102234Z","start":"20240220T102234Z","status":"pending","uuid":"a05d41f2-b4ba-492a-aa12-34696864046e","annotations":[{"entry":"20240220T101447Z","description":"sum, group-by"}],"tags":["new"]}
 {"description":"extract and refactor the function to format numerical values","entry":"20240220T161547Z","modified":"20240220T161547Z","status":"pending","uuid":"d3f31ed5-7562-4938-9d3c-ab3023929f51","tags":["new"]}
+{"description":"let's do some test: list and test basic scenarios","entry":"20240228T144601Z","modified":"20240228T144601Z","status":"pending","uuid":"220fa9ae-5cb7-41b8-bd57-34030bd316d3","tags":["new"]}
+{"description":"consider handling some errors","entry":"20240228T144817Z","modified":"20240228T144817Z","status":"pending","uuid":"cbb8ff8c-1762-46cc-987e-fee4b923da71","tags":["new"]}
