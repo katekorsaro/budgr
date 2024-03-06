@@ -31,6 +31,7 @@ pub fn add_operation(config: &Config, args: &Budgr) {
             goal: goal.clone(),
             ..Operation::default()
         };
-        write_operation(operation, *id, config);
+        let id = write_operation(operation, *id, config);
+        println!("{id}");
     }
 }

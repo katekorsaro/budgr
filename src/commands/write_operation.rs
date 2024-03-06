@@ -4,7 +4,7 @@ use rand::{thread_rng, Rng};
 use std::fs::OpenOptions;
 use std::io::Write;
 
-pub fn write_operation(mut operation: Operation, id: Option<u32>, config: &Config) {
+pub fn write_operation(mut operation: Operation, id: Option<u32>, config: &Config) -> u32 {
     let mut rng = thread_rng();
     let mut force = false;
     loop {
@@ -25,7 +25,7 @@ pub fn write_operation(mut operation: Operation, id: Option<u32>, config: &Confi
             operation.id = id;
             let string_value = operation.to_raw_string();
             let _ = file.write_all(string_value.as_bytes());
-            break;
+            return id;
         }
     }
 }
