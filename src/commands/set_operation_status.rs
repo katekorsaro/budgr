@@ -25,5 +25,5 @@ pub fn set_operation_status(config: &Config, args: &Budgr, status: Status) {
         let _ = file.write_all(string_value.as_bytes());
         count += 1;
     });
-    println!("{count} operation(s) affected");
+    println!("{count}");
 }
