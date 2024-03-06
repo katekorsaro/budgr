@@ -48,9 +48,9 @@ pub enum Command {
     Add {
         /// operation date. Format YYYYMMDD.
         date: u32,
-        /// operation note.
+        /// operation note. Enclosed in double quotes
         note: String,
-        /// operation amount.
+        /// operation amount. Integer, expressed in cents (50.00 --> 5000)
         amount: i32,
         #[arg(short, long)]
         /// operation account
