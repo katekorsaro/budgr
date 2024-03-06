@@ -1816,3 +1816,14 @@ new [description:"let's do some test: list and test basic scenarios" entry:"1709
 time 1709131697
 new [description:"consider handling some errors" entry:"1709131697" modified:"1709131697" status:"pending" tags:"new" tags_new:"x" uuid:"cbb8ff8c-1762-46cc-987e-fee4b923da71"]
 ---
+time 1709731288
+new [description:"perform an overall test session" entry:"1709731288" modified:"1709731288" status:"pending" uuid:"b3142fc4-f983-439b-8c37-2d71bfdde868"]
+---
+time 1709731291
+old [description:"perform an overall test session" entry:"1709731288" modified:"1709731288" status:"pending" uuid:"b3142fc4-f983-439b-8c37-2d71bfdde868"]
+new [description:"perform an overall test session" entry:"1709731288" modified:"1709731291" start:"1709731291" status:"pending" uuid:"b3142fc4-f983-439b-8c37-2d71bfdde868"]
+---
+time 1709731292
+old [annotation_1708424087:"sum, group-by" description:"instead of fixed report, think of a set of basic operations to perform" entry:"1708424062" modified:"1708424554" start:"1708424554" status:"pending" tags:"new" tags_new:"x" uuid:"a05d41f2-b4ba-492a-aa12-34696864046e"]
+new [annotation_1708424087:"sum, group-by" description:"instead of fixed report, think of a set of basic operations to perform" entry:"1708424062" modified:"1709731292" status:"pending" tags:"new" tags_new:"x" uuid:"a05d41f2-b4ba-492a-aa12-34696864046e"]
+---
