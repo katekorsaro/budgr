@@ -1,3 +1,4 @@
+[description:"delete command should return only the number of operations deleted" end:"1709732210" entry:"1709731985" modified:"1709732210" status:"completed" tags:"new" tags_new:"x" uuid:"5c7665d5-ec1f-4d48-95c6-7b874b7e8b6a"]
 [description:"add an operation should return its id" end:"1709731930" entry:"1709731622" modified:"1709731930" status:"completed" tags:"new" tags_new:"x" uuid:"9221ef57-7fca-4d4d-a286-c1f7a52e3ddb"]
 [description:"report: total capital value" end:"1708424092" entry:"1708422415" modified:"1708424092" start:"1708423078" status:"deleted" tags:"new" tags_new:"x" uuid:"e4e52047-9ad6-4a60-8608-90c04e379106"]
 [description:"consider how to handle negative movements" end:"1708414511" entry:"1708355642" modified:"1708414511" status:"completed" tags:"new" tags_new:"x" uuid:"357feee3-c4ae-4a29-a49e-d7e395a1571b"]

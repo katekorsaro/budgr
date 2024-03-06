@@ -507,3 +507,6 @@
 {"description":"add an operation should return its id","entry":"20240306T132702Z","modified":"20240306T132702Z","status":"pending","uuid":"9221ef57-7fca-4d4d-a286-c1f7a52e3ddb","tags":["new"]}
 {"description":"add an operation should return its id","entry":"20240306T132702Z","modified":"20240306T132709Z","start":"20240306T132709Z","status":"pending","uuid":"9221ef57-7fca-4d4d-a286-c1f7a52e3ddb","tags":["new"]}
 {"description":"add an operation should return its id","end":"20240306T133210Z","entry":"20240306T132702Z","modified":"20240306T133210Z","status":"completed","uuid":"9221ef57-7fca-4d4d-a286-c1f7a52e3ddb","tags":["new"]}
+{"description":"delete command should return only the number of operations deleted","entry":"20240306T133305Z","modified":"20240306T133305Z","status":"pending","uuid":"5c7665d5-ec1f-4d48-95c6-7b874b7e8b6a","tags":["new"]}
+{"description":"delete command should return only the number of operations deleted","entry":"20240306T133305Z","modified":"20240306T133307Z","start":"20240306T133307Z","status":"pending","uuid":"5c7665d5-ec1f-4d48-95c6-7b874b7e8b6a","tags":["new"]}
+{"description":"delete command should return only the number of operations deleted","end":"20240306T133650Z","entry":"20240306T133305Z","modified":"20240306T133650Z","status":"completed","uuid":"5c7665d5-ec1f-4d48-95c6-7b874b7e8b6a","tags":["new"]}
