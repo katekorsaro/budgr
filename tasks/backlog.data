@@ -504,3 +504,6 @@
 {"description":"perform an overall test session","entry":"20240306T132128Z","modified":"20240306T132128Z","status":"pending","uuid":"b3142fc4-f983-439b-8c37-2d71bfdde868"}
 {"description":"perform an overall test session","entry":"20240306T132128Z","modified":"20240306T132131Z","start":"20240306T132131Z","status":"pending","uuid":"b3142fc4-f983-439b-8c37-2d71bfdde868"}
 {"description":"instead of fixed report, think of a set of basic operations to perform","entry":"20240220T101422Z","modified":"20240306T132132Z","status":"pending","uuid":"a05d41f2-b4ba-492a-aa12-34696864046e","annotations":[{"entry":"20240220T101447Z","description":"sum, group-by"}],"tags":["new"]}
+{"description":"add an operation should return its id","entry":"20240306T132702Z","modified":"20240306T132702Z","status":"pending","uuid":"9221ef57-7fca-4d4d-a286-c1f7a52e3ddb","tags":["new"]}
+{"description":"add an operation should return its id","entry":"20240306T132702Z","modified":"20240306T132709Z","start":"20240306T132709Z","status":"pending","uuid":"9221ef57-7fca-4d4d-a286-c1f7a52e3ddb","tags":["new"]}
+{"description":"add an operation should return its id","end":"20240306T133210Z","entry":"20240306T132702Z","modified":"20240306T133210Z","status":"completed","uuid":"9221ef57-7fca-4d4d-a286-c1f7a52e3ddb","tags":["new"]}

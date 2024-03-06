@@ -1827,3 +1827,14 @@ time 1709731292
 old [annotation_1708424087:"sum, group-by" description:"instead of fixed report, think of a set of basic operations to perform" entry:"1708424062" modified:"1708424554" start:"1708424554" status:"pending" tags:"new" tags_new:"x" uuid:"a05d41f2-b4ba-492a-aa12-34696864046e"]
 new [annotation_1708424087:"sum, group-by" description:"instead of fixed report, think of a set of basic operations to perform" entry:"1708424062" modified:"1709731292" status:"pending" tags:"new" tags_new:"x" uuid:"a05d41f2-b4ba-492a-aa12-34696864046e"]
 ---
+time 1709731622
+new [description:"add an operation should return its id" entry:"1709731622" modified:"1709731622" status:"pending" tags:"new" tags_new:"x" uuid:"9221ef57-7fca-4d4d-a286-c1f7a52e3ddb"]
+---
+time 1709731629
+old [description:"add an operation should return its id" entry:"1709731622" modified:"1709731622" status:"pending" tags:"new" tags_new:"x" uuid:"9221ef57-7fca-4d4d-a286-c1f7a52e3ddb"]
+new [description:"add an operation should return its id" entry:"1709731622" modified:"1709731629" start:"1709731629" status:"pending" tags:"new" tags_new:"x" uuid:"9221ef57-7fca-4d4d-a286-c1f7a52e3ddb"]
+---
+time 1709731930
+old [description:"add an operation should return its id" entry:"1709731622" modified:"1709731629" start:"1709731629" status:"pending" tags:"new" tags_new:"x" uuid:"9221ef57-7fca-4d4d-a286-c1f7a52e3ddb"]
+new [description:"add an operation should return its id" end:"1709731930" entry:"1709731622" modified:"1709731930" status:"completed" tags:"new" tags_new:"x" uuid:"9221ef57-7fca-4d4d-a286-c1f7a52e3ddb"]
+---
