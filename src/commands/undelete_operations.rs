@@ -4,5 +4,5 @@ use crate::data::Status;
 use crate::Budgr;
 
 pub fn undelete_operations(config: &Config, args: &Budgr) {
-  set_operation_status(config, args, Status::Active);
+    set_operation_status(config, args, Status::Active);
 }
