@@ -1849,3 +1849,59 @@ time 1709732210
 old [description:"delete command should return only the number of operations deleted" entry:"1709731985" modified:"1709731987" start:"1709731987" status:"pending" tags:"new" tags_new:"x" uuid:"5c7665d5-ec1f-4d48-95c6-7b874b7e8b6a"]
 new [description:"delete command should return only the number of operations deleted" end:"1709732210" entry:"1709731985" modified:"1709732210" status:"completed" tags:"new" tags_new:"x" uuid:"5c7665d5-ec1f-4d48-95c6-7b874b7e8b6a"]
 ---
+time 1710253408
+old [description:"import crates with wildcards" entry:"1708086498" modified:"1708328809" status:"pending" uuid:"12c708a6-8611-475b-aff9-283cd65a30ac"]
+new [description:"import crates with wildcards" end:"1710253408" entry:"1708086498" modified:"1710253408" status:"completed" uuid:"12c708a6-8611-475b-aff9-283cd65a30ac"]
+---
+time 1710253409
+old [description:"rethink the filter priority" entry:"1706700551" modified:"1708328809" status:"pending" uuid:"7709753a-b903-4e04-a461-9ef3f0a60f7a"]
+new [description:"rethink the filter priority" end:"1710253409" entry:"1706700551" modified:"1710253409" status:"completed" uuid:"7709753a-b903-4e04-a461-9ef3f0a60f7a"]
+---
+time 1710253416
+old [description:"evaluate to refactor command into a library to split presentation from logic" entry:"1706337706" modified:"1708328809" status:"pending" uuid:"60a62a5a-c153-4d97-9f3d-675dbb05e167"]
+new [description:"evaluate to refactor command into a library to split presentation from logic" end:"1710253416" entry:"1706337706" modified:"1710253416" status:"completed" uuid:"60a62a5a-c153-4d97-9f3d-675dbb05e167"]
+---
+time 1710253417
+old [description:"consider passing as a configuration date format to be used" entry:"1706105128" modified:"1708328809" status:"pending" uuid:"f546b1f9-00d0-4689-abe3-a835be8f9a99"]
+new [description:"consider passing as a configuration date format to be used" end:"1710253417" entry:"1706105128" modified:"1710253417" status:"completed" uuid:"f546b1f9-00d0-4689-abe3-a835be8f9a99"]
+---
+time 1710253418
+old [description:"CSV output format for list command" entry:"1705587964" modified:"1708328809" status:"pending" uuid:"3b4cc99a-1c39-4c41-8a58-edb35604df1c"]
+new [description:"CSV output format for list command" end:"1710253418" entry:"1705587964" modified:"1710253418" status:"completed" uuid:"3b4cc99a-1c39-4c41-8a58-edb35604df1c"]
+---
+time 1710253418
+old [description:"json output format for list command" entry:"1705587946" modified:"1708328809" status:"pending" uuid:"9f3cb1a7-184c-4dea-922d-03bbdda8356a"]
+new [description:"json output format for list command" end:"1710253418" entry:"1705587946" modified:"1710253418" status:"completed" uuid:"9f3cb1a7-184c-4dea-922d-03bbdda8356a"]
+---
+time 1710253423
+old [description:"consider handling some errors" entry:"1709131697" modified:"1709131697" status:"pending" tags:"new" tags_new:"x" uuid:"cbb8ff8c-1762-46cc-987e-fee4b923da71"]
+new [description:"consider handling some errors" end:"1710253423" entry:"1709131697" modified:"1710253423" status:"completed" tags:"new" tags_new:"x" uuid:"cbb8ff8c-1762-46cc-987e-fee4b923da71"]
+---
+time 1710253434
+old [description:"extract and refactor the function to format numerical values" entry:"1708445747" modified:"1708445747" status:"pending" tags:"new" tags_new:"x" uuid:"d3f31ed5-7562-4938-9d3c-ab3023929f51"]
+new [description:"extract and refactor the function to format numerical values" end:"1710253434" entry:"1708445747" modified:"1710253434" status:"completed" tags:"new" tags_new:"x" uuid:"d3f31ed5-7562-4938-9d3c-ab3023929f51"]
+---
+time 1710253438
+old [description:"option to override default sorting" entry:"1708328560" modified:"1708328809" status:"pending" tags:"new" tags_new:"x" uuid:"b423de93-84ec-44c7-b49d-7ebecdc75f78"]
+new [description:"option to override default sorting" end:"1710253438" entry:"1708328560" modified:"1710253438" status:"completed" tags:"new" tags_new:"x" uuid:"b423de93-84ec-44c7-b49d-7ebecdc75f78"]
+---
+time 1710253443
+old [description:"export operations to a csv or other well formatted format file" entry:"1706871009" modified:"1708328809" status:"pending" tags:"new" tags_new:"x" uuid:"bdc64bcf-d986-4eff-9413-7d99f7a2419b"]
+new [description:"export operations to a csv or other well formatted format file" end:"1710253443" entry:"1706871009" modified:"1710253443" status:"completed" tags:"new" tags_new:"x" uuid:"bdc64bcf-d986-4eff-9413-7d99f7a2419b"]
+---
+time 1710253445
+old [description:"automatic test for add command" entry:"1706288183" modified:"1708328809" status:"pending" tags:"new" tags_new:"x" uuid:"5359d4a2-7570-4f87-b228-48ec05024073"]
+new [description:"automatic test for add command" end:"1710253445" entry:"1706288183" modified:"1710253445" status:"completed" tags:"new" tags_new:"x" uuid:"5359d4a2-7570-4f87-b228-48ec05024073"]
+---
+time 1710253449
+old [description:"sort by amount asc and desc" entry:"1706190901" modified:"1708328809" status:"pending" tags:"new" tags_new:"x" uuid:"32ace341-ac18-4db6-8cb0-6da059089132"]
+new [description:"sort by amount asc and desc" end:"1710253449" entry:"1706190901" modified:"1710253449" status:"completed" tags:"new" tags_new:"x" uuid:"32ace341-ac18-4db6-8cb0-6da059089132"]
+---
+time 1710253456
+old [annotation_1708424087:"sum, group-by" description:"instead of fixed report, think of a set of basic operations to perform" entry:"1708424062" modified:"1709731292" status:"pending" tags:"new" tags_new:"x" uuid:"a05d41f2-b4ba-492a-aa12-34696864046e"]
+new [annotation_1708424087:"sum, group-by" description:"instead of fixed report, think of a set of basic operations to perform" end:"1710253456" entry:"1708424062" modified:"1710253456" status:"completed" tags:"new" tags_new:"x" uuid:"a05d41f2-b4ba-492a-aa12-34696864046e"]
+---
+time 1710253478
+old [description:"perform an overall test session" entry:"1709731288" modified:"1709731291" start:"1709731291" status:"pending" uuid:"b3142fc4-f983-439b-8c37-2d71bfdde868"]
+new [description:"perform an overall test session" entry:"1709731288" modified:"1710253478" status:"pending" uuid:"b3142fc4-f983-439b-8c37-2d71bfdde868"]
+---
