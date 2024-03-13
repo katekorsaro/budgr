@@ -67,20 +67,20 @@ pub enum Command {
     },
 
     /// Aggregate filtered operations
-    #[command(visible_alias("r"))]
+    #[command(visible_alias("ag"))]
     Aggregate {
         operations: Vec<AggregationOperation>,
     },
 
     /// Count all operations
-    #[command(visible_alias("c"))]
+    #[command(visible_alias("cn"))]
     Count,
 
     /// Delete (logically) operations
-    #[command(visible_alias("d"))]
+    #[command(visible_alias("dl"))]
     Delete,
 
-    #[command(visible_alias("t"))]
+    #[command(visible_alias("im"))]
     /// Import a file into operation list
     Import {
         /// file to be imported
@@ -90,7 +90,7 @@ pub enum Command {
     },
 
     /// List all operations
-    #[command(visible_alias("l"))]
+    #[command(visible_alias("ls"))]
     List {
         #[arg(short, long, default_value = "pretty")]
         /// output format to display
@@ -104,11 +104,11 @@ pub enum Command {
     },
 
     /// List all accounts
-    #[command(visible_alias("i"))]
+    #[command(visible_alias("la"))]
     ListAccount,
 
     /// Modify the filtered list
-    #[command(visible_alias("m"))]
+    #[command(visible_alias("md"))]
     Modify {
         #[arg(short, long)]
         /// new operation account
@@ -131,11 +131,11 @@ pub enum Command {
     },
 
     /// Undelete operations
-    #[command(visible_alias("u"))]
+    #[command(visible_alias("ud"))]
     Undelete,
 
     /// Print current version
-    #[command(visible_alias("v"))]
+    #[command(visible_alias("ve"))]
     Version,
 }
 
