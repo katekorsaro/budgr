@@ -533,3 +533,6 @@
 {"description":"understand if command aliases can be more than 1 letter","end":"20240313T130353Z","entry":"20240313T130124Z","modified":"20240313T130353Z","priority":"M","status":"completed","uuid":"209625c0-1c8c-4628-b5be-7883d4473172","tags":["new"]}
 {"description":"change every alias with a two-letter notation","entry":"20240313T130339Z","modified":"20240313T130354Z","priority":"M","start":"20240313T130354Z","status":"pending","uuid":"d61158f0-b0e2-493e-8b17-ef50fa91a7d0","tags":["new"]}
 {"description":"change every alias with a two-letter notation","end":"20240313T130820Z","entry":"20240313T130339Z","modified":"20240313T130820Z","priority":"M","status":"completed","uuid":"d61158f0-b0e2-493e-8b17-ef50fa91a7d0","tags":["new"]}
+{"description":"change executable name to bgr","entry":"20240313T130900Z","modified":"20240313T130900Z","status":"pending","uuid":"46878dba-f104-47b8-bafb-5cc73eba372a"}
+{"description":"change executable name to bgr","entry":"20240313T130900Z","modified":"20240313T130907Z","priority":"M","status":"pending","uuid":"46878dba-f104-47b8-bafb-5cc73eba372a","tags":["new"]}
+{"description":"change executable name to bgr","entry":"20240313T130900Z","modified":"20240313T130908Z","priority":"M","start":"20240313T130908Z","status":"pending","uuid":"46878dba-f104-47b8-bafb-5cc73eba372a","tags":["new"]}

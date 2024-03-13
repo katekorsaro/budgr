@@ -1939,3 +1939,14 @@ time 1710335300
 old [description:"change every alias with a two-letter notation" entry:"1710335019" modified:"1710335034" priority:"M" start:"1710335034" status:"pending" tags:"new" tags_new:"x" uuid:"d61158f0-b0e2-493e-8b17-ef50fa91a7d0"]
 new [description:"change every alias with a two-letter notation" end:"1710335300" entry:"1710335019" modified:"1710335300" priority:"M" status:"completed" tags:"new" tags_new:"x" uuid:"d61158f0-b0e2-493e-8b17-ef50fa91a7d0"]
 ---
+time 1710335340
+new [description:"change executable name to bgr" entry:"1710335340" modified:"1710335340" status:"pending" uuid:"46878dba-f104-47b8-bafb-5cc73eba372a"]
+---
+time 1710335347
+old [description:"change executable name to bgr" entry:"1710335340" modified:"1710335340" status:"pending" uuid:"46878dba-f104-47b8-bafb-5cc73eba372a"]
+new [description:"change executable name to bgr" entry:"1710335340" modified:"1710335347" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"46878dba-f104-47b8-bafb-5cc73eba372a"]
+---
+time 1710335348
+old [description:"change executable name to bgr" entry:"1710335340" modified:"1710335347" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"46878dba-f104-47b8-bafb-5cc73eba372a"]
+new [description:"change executable name to bgr" entry:"1710335340" modified:"1710335348" priority:"M" start:"1710335348" status:"pending" tags:"new" tags_new:"x" uuid:"46878dba-f104-47b8-bafb-5cc73eba372a"]
+---
