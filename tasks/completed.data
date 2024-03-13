@@ -1,3 +1,4 @@
+[description:"change executable name to bgr" end:"1710335684" entry:"1710335340" modified:"1710335684" priority:"M" status:"completed" tags:"new" tags_new:"x" uuid:"46878dba-f104-47b8-bafb-5cc73eba372a"]
 [description:"change every alias with a two-letter notation" end:"1710335300" entry:"1710335019" modified:"1710335300" priority:"M" status:"completed" tags:"new" tags_new:"x" uuid:"d61158f0-b0e2-493e-8b17-ef50fa91a7d0"]
 [description:"understand if command aliases can be more than 1 letter" end:"1710335033" entry:"1710334884" modified:"1710335033" priority:"M" status:"completed" tags:"new" tags_new:"x" uuid:"209625c0-1c8c-4628-b5be-7883d4473172"]
 [annotation_1708424087:"sum, group-by" description:"instead of fixed report, think of a set of basic operations to perform" end:"1710253456" entry:"1708424062" modified:"1710253456" status:"completed" tags:"new" tags_new:"x" uuid:"a05d41f2-b4ba-492a-aa12-34696864046e"]
