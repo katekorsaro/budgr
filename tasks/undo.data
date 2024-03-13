@@ -1905,3 +1905,18 @@ time 1710253478
 old [description:"perform an overall test session" entry:"1709731288" modified:"1709731291" start:"1709731291" status:"pending" uuid:"b3142fc4-f983-439b-8c37-2d71bfdde868"]
 new [description:"perform an overall test session" entry:"1709731288" modified:"1710253478" status:"pending" uuid:"b3142fc4-f983-439b-8c37-2d71bfdde868"]
 ---
+time 1710334884
+new [description:"understand if command aliases can be more than 1 letter" entry:"1710334884" modified:"1710334884" status:"pending" uuid:"209625c0-1c8c-4628-b5be-7883d4473172"]
+---
+time 1710334889
+old [description:"understand if command aliases can be more than 1 letter" entry:"1710334884" modified:"1710334884" status:"pending" uuid:"209625c0-1c8c-4628-b5be-7883d4473172"]
+new [description:"understand if command aliases can be more than 1 letter" entry:"1710334884" modified:"1710334889" status:"pending" tags:"new" tags_new:"x" uuid:"209625c0-1c8c-4628-b5be-7883d4473172"]
+---
+time 1710334895
+old [description:"understand if command aliases can be more than 1 letter" entry:"1710334884" modified:"1710334889" status:"pending" tags:"new" tags_new:"x" uuid:"209625c0-1c8c-4628-b5be-7883d4473172"]
+new [description:"understand if command aliases can be more than 1 letter" entry:"1710334884" modified:"1710334895" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"209625c0-1c8c-4628-b5be-7883d4473172"]
+---
+time 1710334896
+old [description:"understand if command aliases can be more than 1 letter" entry:"1710334884" modified:"1710334895" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"209625c0-1c8c-4628-b5be-7883d4473172"]
+new [description:"understand if command aliases can be more than 1 letter" entry:"1710334884" modified:"1710334896" priority:"M" start:"1710334896" status:"pending" tags:"new" tags_new:"x" uuid:"209625c0-1c8c-4628-b5be-7883d4473172"]
+---
