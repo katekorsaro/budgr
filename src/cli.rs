@@ -44,7 +44,7 @@ pub struct Budgr {
 #[derive(Subcommand, Debug)]
 pub enum Command {
     /// Add a new operation
-    #[command(visible_alias("a"))]
+    #[command(visible_alias("ad"))]
     Add {
         /// operation date. Format YYYYMMDD.
         date: u32,
