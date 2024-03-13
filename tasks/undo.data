@@ -1935,3 +1935,7 @@ time 1710335034
 old [description:"change every alias with a two-letter notation" entry:"1710335019" modified:"1710335030" priority:"M" status:"pending" tags:"new" tags_new:"x" uuid:"d61158f0-b0e2-493e-8b17-ef50fa91a7d0"]
 new [description:"change every alias with a two-letter notation" entry:"1710335019" modified:"1710335034" priority:"M" start:"1710335034" status:"pending" tags:"new" tags_new:"x" uuid:"d61158f0-b0e2-493e-8b17-ef50fa91a7d0"]
 ---
+time 1710335300
+old [description:"change every alias with a two-letter notation" entry:"1710335019" modified:"1710335034" priority:"M" start:"1710335034" status:"pending" tags:"new" tags_new:"x" uuid:"d61158f0-b0e2-493e-8b17-ef50fa91a7d0"]
+new [description:"change every alias with a two-letter notation" end:"1710335300" entry:"1710335019" modified:"1710335300" priority:"M" status:"completed" tags:"new" tags_new:"x" uuid:"d61158f0-b0e2-493e-8b17-ef50fa91a7d0"]
+---
