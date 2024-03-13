@@ -1,3 +1,4 @@
+[description:"understand if command aliases can be more than 1 letter" end:"1710335033" entry:"1710334884" modified:"1710335033" priority:"M" status:"completed" tags:"new" tags_new:"x" uuid:"209625c0-1c8c-4628-b5be-7883d4473172"]
 [annotation_1708424087:"sum, group-by" description:"instead of fixed report, think of a set of basic operations to perform" end:"1710253456" entry:"1708424062" modified:"1710253456" status:"completed" tags:"new" tags_new:"x" uuid:"a05d41f2-b4ba-492a-aa12-34696864046e"]
 [description:"sort by amount asc and desc" end:"1710253449" entry:"1706190901" modified:"1710253449" status:"completed" tags:"new" tags_new:"x" uuid:"32ace341-ac18-4db6-8cb0-6da059089132"]
 [description:"automatic test for add command" end:"1710253445" entry:"1706288183" modified:"1710253445" status:"completed" tags:"new" tags_new:"x" uuid:"5359d4a2-7570-4f87-b228-48ec05024073"]

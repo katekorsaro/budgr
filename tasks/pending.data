@@ -2,4 +2,4 @@
 [description:"list goals" entry:"1706106522" modified:"1708328809" status:"pending" tags:"new" tags_new:"x" uuid:"1177cc24-0ed2-48f6-ab8e-22d386404a39"]
 [description:"let's do some test: list and test basic scenarios" entry:"1709131561" modified:"1709131561" status:"pending" tags:"new" tags_new:"x" uuid:"220fa9ae-5cb7-41b8-bd57-34030bd316d3"]
 [description:"perform an overall test session" entry:"1709731288" modified:"1710253478" status:"pending" uuid:"b3142fc4-f983-439b-8c37-2d71bfdde868"]
-[description:"understand if command aliases can be more than 1 letter" entry:"1710334884" modified:"1710334896" priority:"M" start:"1710334896" status:"pending" tags:"new" tags_new:"x" uuid:"209625c0-1c8c-4628-b5be-7883d4473172"]
+[description:"change every alias with a two-letter notation" entry:"1710335019" modified:"1710335034" priority:"M" start:"1710335034" status:"pending" tags:"new" tags_new:"x" uuid:"d61158f0-b0e2-493e-8b17-ef50fa91a7d0"]
