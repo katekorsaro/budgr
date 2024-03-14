@@ -79,11 +79,11 @@ Type in you terminal:
 `bgr add 20240101 "Note for my very first operation" 5000`
 
 Let's see what's going on:
-- add is the subcommand
-- 20240101 is the operation date in a very specific format: YYYYMMDD to avoid
+- **add** is the subcommand
+- **20240101** is the operation date in a very specific format: YYYYMMDD to avoid
   confusion
 - everything that is surrounded by quotes is a generic note you can put in
-- 5000 is the amount of the operation expressed in **cents**. budgr (at this
+- **5000** is the amount of the operation expressed in **cents**. budgr (at this
   time) is not handling multiple currencies. In fact it handles exactly none.
   Why? Because it's really hard and because it can be boiled down to an
   abstraction. In Europe there is Euro, in USA dollars, but at the end of the
