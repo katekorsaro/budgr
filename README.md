@@ -1,12 +1,12 @@
 # budgr - your personal finance friend!
 
-budgr is a quite simple personal finance application. It offers basic actions
+budgr is a **quite simple personal finance application**. It offers basic actions
 over operation entity and some aggregation capabilities.
 
-budgr is a command line application where you can type in one command at a time
+budgr is a **command line application** where you can type in one command at a time
 and get a result.
 
-budgr is quite open. Its source code is freely available on line. It also
+budgr is quite **open**. Its source code is freely available on line. It also
 doesn't rely on any proprietary format. Files are saved in a self-explanatory
 format (pipe-seaprated value) in order to be human and machine readable.
 
@@ -26,19 +26,19 @@ one purpose and one goal tag (as well as one account tag, but that's obvious, so
 yes, it can manage multiple accounts).
 
 Purposes are hardcoded. They are:
-- None
-- Need: for those operations related to survival (your bills, family expenses,
+- **None**
+- **Need**: for those operations related to survival (your bills, family expenses,
   insurance and so on)
-- Yearly Need: for those operations related to survival that happens just once.
+- **Yearly** Need: for those operations related to survival that happens just once.
   Insurance is recurrent, while an unexpected expenses is not (hopefully)
-- Want: for those operations related to amusement, entertainment and that are in
+- **Want**: for those operations related to amusement, entertainment and that are in
   general avoidable but still necessary to give life a meaningful fullness. Such
   expenses can be dinners, movies, some fancy gadget you fell in love with
   (though, try to love people and to like objects and not the other way around).
-- Yearly want: same as before, but related to entertainment and such.
-- Goal: for those operations related to a some long term goal. Mortage, savings,
+- **Yearly** want: same as before, but related to entertainment and such.
+- **Goal**: for those operations related to a some long term goal. Mortage, savings,
   a travel, the new car are all example of significant goal.
-- Income: for those operations that brings money home and not viceversa. Salary,
+- **Income**: for those operations that brings money home and not viceversa. Salary,
   lottery win, tax reimbursement are all examples of income operations.
 
 Goal tag, on the other hand is not hardcoded. It's common sense that every
@@ -48,7 +48,7 @@ about.
 
 # How to use budgr
 
-budgr has a series of basic command that grant you access to underlying data.
+budgr has a series of basic commands that grant you access to underlying data.
 It provides basic CRUD operations as well as some more advanced bulk operations.
 
 ## First execution
@@ -61,7 +61,7 @@ Some commands such as Modify, Delete, List and Aggregate, work on all the
 operations included in the filter expression. So, in general term budgr works
 like this:
 
-`budgr [filter] [command] [options]`
+`bgr [filter] [command] [options]`
 
 Be aware that if you're not specifying any filter condition, you are acting on
 the whole data set. My advice would be to put the data folder under some version
