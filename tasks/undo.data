@@ -1954,3 +1954,7 @@ time 1710335684
 old [description:"change executable name to bgr" entry:"1710335340" modified:"1710335348" priority:"M" start:"1710335348" status:"pending" tags:"new" tags_new:"x" uuid:"46878dba-f104-47b8-bafb-5cc73eba372a"]
 new [description:"change executable name to bgr" end:"1710335684" entry:"1710335340" modified:"1710335684" priority:"M" status:"completed" tags:"new" tags_new:"x" uuid:"46878dba-f104-47b8-bafb-5cc73eba372a"]
 ---
+time 1710417356
+old [description:"start writing some documentation to state your intent" entry:"1705573222" modified:"1708328809" status:"pending" tags:"new" tags_new:"x" uuid:"8d90f16a-906f-4641-8673-4ea155882a7c"]
+new [description:"start writing some documentation to state your intent" entry:"1705573222" modified:"1710417356" start:"1710417356" status:"pending" tags:"new" tags_new:"x" uuid:"8d90f16a-906f-4641-8673-4ea155882a7c"]
+---

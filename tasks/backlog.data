@@ -537,3 +537,4 @@
 {"description":"change executable name to bgr","entry":"20240313T130900Z","modified":"20240313T130907Z","priority":"M","status":"pending","uuid":"46878dba-f104-47b8-bafb-5cc73eba372a","tags":["new"]}
 {"description":"change executable name to bgr","entry":"20240313T130900Z","modified":"20240313T130908Z","priority":"M","start":"20240313T130908Z","status":"pending","uuid":"46878dba-f104-47b8-bafb-5cc73eba372a","tags":["new"]}
 {"description":"change executable name to bgr","end":"20240313T131444Z","entry":"20240313T130900Z","modified":"20240313T131444Z","priority":"M","status":"completed","uuid":"46878dba-f104-47b8-bafb-5cc73eba372a","tags":["new"]}
+{"description":"start writing some documentation to state your intent","entry":"20240118T102022Z","modified":"20240314T115556Z","start":"20240314T115556Z","status":"pending","uuid":"8d90f16a-906f-4641-8673-4ea155882a7c","tags":["new"]}
